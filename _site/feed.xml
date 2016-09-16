@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>张韬 Lab</title>
+    <description>&quot;生物信息学，基因组学，表观遗传学&quot;
+</description>
+    <link>http://zhangtaolab.github.io/</link>
+    <atom:link href="http://zhangtaolab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 16 Sep 2016 16:04:46 +0800</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2016 16:04:46 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+  </channel>
+</rss>
