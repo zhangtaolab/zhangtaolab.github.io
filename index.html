@@ -49,7 +49,7 @@ layout: landing
 									{% endfor %}
 								</div>
 								<div class="6u 12u$(medium)">
-									<h1>组会安排</h1>
+									<h1>会议/组会安排</h1>
 									{% for post in site.categories.labmeeting limit:1 %}
 										<p><a href="{{ site.baseurl }}{{ post.url }}"> 报告题目: {{ post.title }} </a> </br> 报告人: {{ post.person }} 时间: {{ post.rtime }} 地点： {{ post.rlocation }}</p>
 										<p>
