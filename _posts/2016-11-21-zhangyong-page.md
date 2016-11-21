@@ -6,6 +6,7 @@ rtime: 2016年11月25日下午3点
 rlocation: 农学院N127
 categories:
   - labmeeting
+  - news
 ---
 
 报告人简介:
