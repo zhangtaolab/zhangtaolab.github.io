@@ -4,10 +4,11 @@ permalink: /publication
 title: 发表论文
 ---
 † 同等贡献
+### 2017
+- Marand, A, **Zhang, T**, Zhu, B, and Jiang, JM [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _BBA - Gene Regulatory Mechanisms_ 2017, 1860(1): 131-139.
 
 ### 2016
 - **Zhang T**, Marand A, Jiang JM: [PlantDHS: A Database for DNase I Hypertensive Sites in Plants.](/pdf/2016/NAR_2016.pdf) _Nucleic Acids Research_ 2016, 44(D1): D1148-D1153.
-- Marand, A, **Zhang, T**, Zhu, B, and Jiang, JM (2016) [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _BBA - Gene Regulatory Mechanisms_ doi: 10.1016/j.bbagrm.2016.06.006
 
 ### 2015
 - **Zhang T**†, Zhang WL†, and Jiang JM: [Genome-wide nucleosome occupancy and positioning and their impact on gene expression and evolution in plants.](/pdf/2015/Plant_Physiol_2015.pdf) _Plant Physiology_ 2015, 168(4): 1406-1416.
