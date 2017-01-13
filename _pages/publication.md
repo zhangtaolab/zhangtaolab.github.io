@@ -4,6 +4,7 @@ permalink: /publication
 title: 发表论文
 ---
 † 同等贡献
+
 ### 2017
 - Marand, A, **Zhang, T**, Zhu, B, and Jiang, JM [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _BBA - Gene Regulatory Mechanisms_ 2017, 1860(1): 131-139.
 
