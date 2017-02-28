@@ -6,7 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2017
-- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y, and Qi YP. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _Nature Plants_ 2017, DOI: 10.1038/nplants.2017.18. 
+- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y, and Qi YP. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _Nature Plants_ 2017, 3: 17018
 - Marand AP, Zhang T, Zhu B, and Jiang JM: [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _BBA - Gene Regulatory Mechanisms_ 2017, 1860(1): 131-139.
 
 ### 2016
