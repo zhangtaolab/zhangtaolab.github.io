@@ -36,7 +36,7 @@ title: 发表论文
 ### 2011
 - Yang ZJ, Zhang T, Li GR, Nevo E: Adaptive microclimatic evolution of the dehydrin 6 gene in wild barley at "Evolution Canyon", Israel. _Genetica_ 2011, 139(11-12):1429-1438.
 - Wang XH, Zhang T, Wen ZN, Xiao H, Yang ZJ, Chen GX, Zhao X: The chromosome number, karyotype and genome size of the desert plant diploid Reaumuria soongorica (Pall.) Maxim. _Plant Cell Reports_ 2011, 30(6):955-964.
-- Tang ZX, Fu SL, Ren ZL, Zhang T, Zou YT, Yang ZJ, Li GR, Zhou JP, Zhang HQ, Yan BJ: Diversity and evolution of four dispersed repetitive DNA sequences in the genus Secale. _Genome_ 2011, 54(4):285-300.
+- Tang ZX, Fu SL, Ren ZL, Zhang T, Zou YT, Yang ZJ, Li GR, Zhou JP, Zhang HQ, Yan BJ, Zhang HY, Tan FQ: Diversity and evolution of four dispersed repetitive DNA sequences in the genus Secale. _Genome_ 2011, 54(4):285-300.
 
 ### 2010
 - Li GR, Zhang T, Wei P, Jia J, Yang ZJ: Sequence analysis of alpha-gliadin genes from Aegilops tauschii native to China. _Asian Journal of Agricultural Sciences_ 2010, 2(4):128-135.
