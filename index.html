@@ -52,7 +52,7 @@ layout: landing
 									<h1>会议/组会安排</h1>
 									{% for post in site.categories.labmeeting limit:1 %}
 										<p><a href="{{ site.baseurl }}{{ post.url }}"> 报告题目: {{ post.title }} </a> </br> 报告人: {{ post.person }} </br> 时间: {{ post.rtime }} </br> 地点： {{ post.rlocation }}</p>
-										<p>
+										<p style="FONT-SIZE:80%; LINE-HEIGHT:125%">
 											{{ post.content }} 
 										<p>
 									{% endfor %}
