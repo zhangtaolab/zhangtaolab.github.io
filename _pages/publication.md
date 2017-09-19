@@ -7,8 +7,9 @@ title: 发表论文
 
 ### 2017
 - Zhang R, Xue C, Liu GQ, Liu XY, Zhang ML, Wang X, Zhang T\*, and Gong ZY\*. Segmental Duplication of Chromosome 11 and its Implications for Cell Division and Genome-wide Expression in Rice. _Scientific Reports_ 2017, 1(7): 2689.
-- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y, and Qi YP. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _Nature Plants_ 2017, 3: 17018
+- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y, and Qi YP. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _Nature Plants_ 2017, 3: 17018.
 - Marand AP, Zhang T, Zhu B, and Jiang JM: [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _BBA - Gene Regulatory Mechanisms_ 2017, 1860(1): 131-139.
+- Zhou J, Deng K, Cheng Y, Zhong Z, Tian L, Tang X, Tang A, Zheng X, Zhang T, Qi Y, and Zhang Y: CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. _Frontiers in Plant Science_ 2017, 8:1598.
 
 ### 2016
 - Zhang T, Marand A, Jiang JM: [PlantDHS: A Database for DNase I Hypertensive Sites in Plants.](/pdf/2016/NAR_2016.pdf) _Nucleic Acids Research_ 2016, 44(D1): D1148-D1153.
