@@ -6,7 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2018
-- Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/genetics/early/2017/12/12/genetics.117.300344.full.pdf) _Genetics_ DOI:10.1534/genetics.117.300344
+- Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/208/2/513.full.pdf) _Genetics_ 2018, 208(2), 513-523.
 
 ### 2017
 - Zhang R, Xue C, Liu GQ, Liu XY, Zhang ML, Wang X, Zhang T\*, and Gong ZY\*. Segmental Duplication of Chromosome 11 and its Implications for Cell Division and Genome-wide Expression in Rice. _Scientific Reports_ 2017, 1(7): 2689.
