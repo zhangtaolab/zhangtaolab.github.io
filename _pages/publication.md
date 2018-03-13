@@ -6,6 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2018
+Xin H, Zhang T, Han Y, Wu YF, Shi JS, Xi ML, and Jiang JM. (2018). Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides. Chromosoma.  [doi.org/10.1007/s00412-018-0664-y](https://link.springer.com/article/10.1007/s00412-018-0664-y)
 - Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/208/2/513.full.pdf) _Genetics_ 2018, 208(2), 513-523.
 
 ### 2017
