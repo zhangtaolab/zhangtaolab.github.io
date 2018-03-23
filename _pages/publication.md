@@ -6,7 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2018
-- Dong ZB, Yu J, Li H, Huang W, Xu L, Zhao Y, Zhang T, Xu W, Jiang JM, Su Z, and Jin WW. (2018). Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. _**Nucleic Acids Research**_ [doi.org/10.1093/nar/gky209](https://doi.org/10.1093/nar/gky209)
+- Dong ZB†, Yu J†, Li H, Huang W, Xu L, Zhao Y, Zhang T, Xu W, Jiang JM, Su Z, and Jin WW. (2018). Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. _**Nucleic Acids Research**_ [doi.org/10.1093/nar/gky209](https://doi.org/10.1093/nar/gky209)
 - Zhong ZH†, Zhang YX†, You Q†, Tang X, Ren QR, Liu SS, Yang LJ, Wang Y, Liu XP, Liu BL, Zhang T, Zheng XL, Le Y, Zhang Y, and Qi YP. (2018) Plant genome editing using FnCpf1 and LbCpf1 nucleases at redefined and altered PAM sites. _**Molecular Plant**_ [doi.org/10.1016/j.molp.2018.03.008](http://www.cell.com/molecular-plant/fulltext/S1674-2052(18)30094-7)
 - Xin H†, Zhang T†, Han Y, Wu YF, Shi JS, Xi ML, and Jiang JM. (2018)  Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides. _**Chromosoma**_  [doi.org/10.1007/s00412-018-0664-y](https://link.springer.com/article/10.1007/s00412-018-0664-y)
 - Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/208/2/513.full.pdf) _**Genetics**_ 2018, 208(2), 513-523.
