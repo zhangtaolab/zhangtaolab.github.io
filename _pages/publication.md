@@ -26,7 +26,7 @@ title: 发表论文
 - Zhu B†, Zhang WL†, Zhang T†, Liu B, Jiang JM: [Genome-wide prediction and validation of intergenic enhancers in Arabidopsis thaliana using open chromatin signature.](/pdf/2015/Plant_Cell_2015.pdf) _**The Plant Cell**_ 2015, 27(9):2415-2426.
 
 ### 2014
-- Zhang T, Li GR, Yang ZJ, Nevo E: Adaptive evolution of duplicated hsp17 genes in wild barley from microclimatically divergent sites of Israel. _Genetics and Molecular Research_ 2014, 13(1): 1220-1232.
+- Zhang T, Li GR, Yang ZJ, Nevo E: Adaptive evolution of duplicated hsp17 genes in wild barley from microclimatically divergent sites of Israel. _**Genetics and Molecular Research**_ 2014, 13(1): 1220-1232.
 - Zhang WL, Zhang T, Wu YF, Jiang JM: Open Chromatin in Plant Genomes. _**Cytogenetic and Genome Research**_ 2014(1-3), 143:18-27.
 - Yang LM, Koo, DH, Li D, Zhang T, Jiang JM, Luan FS, Renner SS, Henaff E, Sanseverino W, Garcia-Mas J, Casacuberta J, Senalik DA, Simon PW, Chen JF, and Weng YQ: Next-generation sequencing, FISH mapping and synteny-based modeling reveal mechanisms of decreasing dysploidy in Cucumis. _**The Plant Journal**_ 2014, 77(1): 16-30.
 
