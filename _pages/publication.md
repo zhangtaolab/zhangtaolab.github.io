@@ -6,25 +6,25 @@ title: 发表论文
 † 同等贡献
 
 ### 2018
-- Yang XM†, Zhao HN†, Zhang T, Zeng ZX, Zhang PD, Zhu B, Han YH, Braz GT, Casler MD, Schmutz J, and Jiang JM. (2018) Amplification and adaptation of centromeric repeats in polyploid switchgrass species. _**New Phytologist**_ [doi.org/10.1111/nph.15098](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15098)
-- Dong ZB†, Yu J†, Li H, Huang W, Xu L, Zhao Y, Zhang T, Xu W, Jiang JM, Su Z, and Jin WW. (2018). Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. _**Nucleic Acids Research**_ [doi.org/10.1093/nar/gky209](https://doi.org/10.1093/nar/gky209)
-- Zhong ZH†, Zhang YX†, You Q†, Tang X, Ren QR, Liu SS, Yang LJ, Wang Y, Liu XP, Liu BL, Zhang T, Zheng XL, Le Y, Zhang Y, and Qi YP. (2018) Plant genome editing using FnCpf1 and LbCpf1 nucleases at redefined and altered PAM sites. _**Molecular Plant**_ [doi.org/10.1016/j.molp.2018.03.008](http://www.cell.com/molecular-plant/fulltext/S1674-2052(18)30094-7)
-- Xin H†, Zhang T†, Han Y, Wu YF, Shi JS, Xi ML, and Jiang JM. (2018)  Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides. _**Chromosoma**_  [doi.org/10.1007/s00412-018-0664-y](https://link.springer.com/article/10.1007/s00412-018-0664-y)
-- Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/208/2/513.full.pdf) _**Genetics**_ 2018, 208(2), 513-523.
+- Yang XM†, Zhao HN†, Zhang T, Zeng ZX, Zhang PD, Zhu B, Han YH, Braz GT, Casler MD, Schmutz J, and Jiang JM\*. (2018) Amplification and adaptation of centromeric repeats in polyploid switchgrass species. _**New Phytologist**_ [doi.org/10.1111/nph.15098](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15098)
+- Dong ZB†, Yu J†, Li H, Huang W, Xu L, Zhao Y, Zhang T, Xu W, Jiang JM, Su Z\*, and Jin WW\*. (2018). Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. _**Nucleic Acids Research**_ [doi.org/10.1093/nar/gky209](https://doi.org/10.1093/nar/gky209)
+- Zhong ZH†, Zhang YX†, You Q†, Tang X, Ren QR, Liu SS, Yang LJ, Wang Y, Liu XP, Liu BL, Zhang T, Zheng XL, Le Y, Zhang Y\*, and Qi YP\*. (2018) Plant genome editing using FnCpf1 and LbCpf1 nucleases at redefined and altered PAM sites. _**Molecular Plant**_ [doi.org/10.1016/j.molp.2018.03.008](http://www.cell.com/molecular-plant/fulltext/S1674-2052(18)30094-7)
+- Xin H†, Zhang T†, Han YH, Wu YF, Shi JS, Xi ML\*, and Jiang JM. (2018)  Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides. _**Chromosoma**_  [doi.org/10.1007/s00412-018-0664-y](https://link.springer.com/article/10.1007/s00412-018-0664-y)
+- Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM\*. [Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.](http://www.genetics.org/content/208/2/513.full.pdf) _**Genetics**_ 2018, 208(2), 513-523.
 
 ### 2017
 - Zhang R, Xue C, Liu GQ, Liu XY, Zhang ML, Wang X, Zhang T\*, and Gong ZY\*. Segmental Duplication of Chromosome 11 and its Implications for Cell Division and Genome-wide Expression in Rice. _**Scientific Reports**_ 2017, 1(7): 2689.
-- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y, and Qi YP. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _**Nature Plants**_ 2017, 3: 17018.
-- Marand AP, Zhang T, Zhu B, and Jiang JM: [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _**BBA - Gene Regulatory Mechanisms**_ 2017, 1860(1): 131-139.
-- Zhou JP, Deng KJ, Cheng Y, Zhong ZH, Tian L, Tang X, Tang AT, Zheng XL, Zhang T, Qi YP, and Zhang Y: CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. _**Frontiers in Plant Science**_ 2017, 8:1598.
+- Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y\*, and Qi YP\*. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _**Nature Plants**_ 2017, 3: 17018.
+- Marand AP, Zhang T, Zhu B, and Jiang JM\*: [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _**BBA - Gene Regulatory Mechanisms**_ 2017, 1860(1): 131-139.
+- Zhou JP, Deng KJ, Cheng Y, Zhong ZH, Tian L, Tang X, Tang AT, Zheng XL, Zhang T, Qi YP, and Zhang Y\*: CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. _**Frontiers in Plant Science**_ 2017, 8:1598.
 
 ### 2016
-- Zhang T, Marand A, Jiang JM: [PlantDHS: A Database for DNase I Hypertensive Sites in Plants.](/pdf/2016/NAR_2016.pdf) _**Nucleic Acids Research**_ 2016, 44(D1): D1148-D1153.
+- Zhang T, Marand A, Jiang JM\*: [PlantDHS: A Database for DNase I Hypertensive Sites in Plants.](/pdf/2016/NAR_2016.pdf) _**Nucleic Acids Research**_ 2016, 44(D1): D1148-D1153.
 
 ### 2015
-- Zhang T†, Zhang WL†, and Jiang JM: [Genome-wide nucleosome occupancy and positioning and their impact on gene expression and evolution in plants.](/pdf/2015/Plant_Physiol_2015.pdf) _**Plant Physiology**_ 2015, 168(4): 1406-1416.
-- Han YH†, Zhang T†, Thammapichai P, Weng YQ, and Jiang JM:  [Chromosome-specific painting in Cucumis species using bulked oligonucleotides.](/pdf/2015/Genetics_2015.pdf) _**Genetics**_ 2015, 200(3):771-779.
-- Zhu B†, Zhang WL†, Zhang T†, Liu B, Jiang JM: [Genome-wide prediction and validation of intergenic enhancers in Arabidopsis thaliana using open chromatin signature.](/pdf/2015/Plant_Cell_2015.pdf) _**The Plant Cell**_ 2015, 27(9):2415-2426.
+- Zhang T†, Zhang WL†, and Jiang JM\*: [Genome-wide nucleosome occupancy and positioning and their impact on gene expression and evolution in plants.](/pdf/2015/Plant_Physiol_2015.pdf) _**Plant Physiology**_ 2015, 168(4): 1406-1416.
+- Han YH†, Zhang T†, Thammapichai P, Weng YQ, and Jiang JM\*:  [Chromosome-specific painting in Cucumis species using bulked oligonucleotides.](/pdf/2015/Genetics_2015.pdf) _**Genetics**_ 2015, 200(3):771-779.
+- Zhu B†, Zhang WL†, Zhang T†, Liu B, Jiang JM\*: [Genome-wide prediction and validation of intergenic enhancers in Arabidopsis thaliana using open chromatin signature.](/pdf/2015/Plant_Cell_2015.pdf) _**The Plant Cell**_ 2015, 27(9):2415-2426.
 
 ### 2014
 - Zhang T, Li GR, Yang ZJ, Nevo E: Adaptive evolution of duplicated hsp17 genes in wild barley from microclimatically divergent sites of Israel. _**Genetics and Molecular Research**_ 2014, 13(1): 1220-1232.
