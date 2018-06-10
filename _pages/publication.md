@@ -6,8 +6,8 @@ title: 发表论文
 † 同等贡献
 
 ### 2018
+- Tang X†, Liu GQ†, Zhou JP†, Ren QR, You Q, Tian L, Xin XH, Zhong ZH, Liu BL, Zheng XL, Zhang DW, Malzahn A, Gong ZY, Qi YP\*, Zhang, T\*, and Zhang Y\*. (2018). A large-scale whole-genome sequencing analysis reveals highly specific genome editing by both Cas9 and Cpf1 nucleases in rice. _**Genome Biology**_ [doi.org/10.1186/s13059-018-1458-5](https://doi.org/10.1186/s13059-018-1458-5)
 - You Q, Zhong ZH, Ren QR, Hassan F, Zhang Y\*, Zhang T\*. [CRISPRMatch: An Automatic Calculation And Visualization Tool For High-throughput CRISPR Genome-editing Data Analysis.](http://www.ijbs.com/v14p0858.htm) _**International Journal of Biological Sciences**_ 2018, 14(8), 858-862.
-- Tang X†, Liu GQ†, Zhou JP†, Ren QR, You Q, Tian L, Xin XH, Zhong ZH, Liu BL, Zheng XL, Zhang DW, Malzahn A, Gong ZY, Qi YP\*, Zhang, T\*, and Zhang Y\*. (2018). A large-scale whole-genome sequencing analysis reveals highly specific genome editing by both Cas9 and Cpf1 nucleases in rice. _**bioRxiv**_ [doi.org/10.1101/292086](https://doi.org/10.1101/292086)
 - Yang XM†, Zhao HN†, Zhang T, Zeng ZX, Zhang PD, Zhu B, Han YH, Braz GT, Casler MD, Schmutz J, and Jiang JM\*. (2018) Amplification and adaptation of centromeric repeats in polyploid switchgrass species. _**New Phytologist**_ [doi.org/10.1111/nph.15098](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15098)
 - Hou LL†, Xu M†, Zhang T†, Xu ZH, Wang WY, Zhang JX, Yu MM, Ji W, Zhu CW, Gong ZY, Gu MH, Jiang JM and Yu HX\*. [Chromosome painting and its applications in cultivated and wild rice.](https://rdcu.be/UyBT) _**BMC Plant Biology**_ 2018, 18: 110.
 - Dong ZB†, Yu J†, Li H, Huang W, Xu L, Zhao Y, Zhang T, Xu W, Jiang JM, Su Z\*, and Jin WW\*. (2018). Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. _**Nucleic Acids Research**_ [doi.org/10.1093/nar/gky209](https://doi.org/10.1093/nar/gky209)
