@@ -5,6 +5,9 @@ title: 发表论文
 ---
 † 同等贡献
 
+### 2019
+- Tang X†, Ren QR†, Yang LJ, Bao Y, Zhong ZH, He Y, Liu SS, Qi CY, Liu BL, Wang Y, Sretenovic S, Zhang YX, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Single transcript unit CRISPR 2.0 systems for robust Cas9 and Cas12a mediated plant genome editing.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13068) _**Plant Biotechnology Journal**_ [DOI:10.1111/pbi.13068](https://doi.org/10.1111/pbi.13068)
+
 ### 2018
 - Wu ZG†, Fang DM†, Yang R†, Gao F, An XY, Zhou XX, Li YF, Yi CD, Zhang T, Liang CZ, Cui P\*, Cheng ZK\*, Luo Q\*. [De novo genome assembly of Oryza granulata reveals rapid genome expansion and adaptive evolution.](https://www.nature.com/articles/s42003-018-0089-4) _**Communications Biology**_ 2018, 1: 84
 - Tang X†, Liu GQ†, Zhou JP†, Ren QR, You Q, Tian L, Xin XH, Zhong ZH, Liu BL, Zheng XL, Zhang DW, Malzahn A, Gong ZY, Qi YP\*, Zhang, T\*, and Zhang Y\*. (2018). [A large-scale whole-genome sequencing analysis reveals highly specific genome editing by both Cas9 and Cpf1(Cas12a) nucleases in rice.](https://doi.org/10.1186/s13059-018-1458-5) _**Genome Biology**_ 2018, 19:84
