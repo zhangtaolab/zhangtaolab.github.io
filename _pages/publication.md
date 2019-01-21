@@ -6,6 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2019
+- Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J\*. [Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships](https://www.pnas.org/content/early/2019/01/15/1813957116) _**Proceedings of the National Academy of Sciences of the United States of America**_ [DOI:10.1073/pnas.1813957116](https://doi.org/10.1073/pnas.1813957116)
 - Tang X†, Ren QR†, Yang LJ, Bao Y, Zhong ZH, He Y, Liu SS, Qi CY, Liu BL, Wang Y, Sretenovic S, Zhang YX, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Single transcript unit CRISPR 2.0 systems for robust Cas9 and Cas12a mediated plant genome editing.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13068) _**Plant Biotechnology Journal**_ [DOI:10.1111/pbi.13068](https://doi.org/10.1111/pbi.13068)
 
 ### 2018
