@@ -6,7 +6,8 @@ title: 发表论文
 † 同等贡献
 
 ### 2019
-- Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J\*. [Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships](https://www.pnas.org/content/early/2019/01/15/1813957116) _**Proceedings of the National Academy of Sciences of the United States of America**_ [DOI:10.1073/pnas.1813957116](https://doi.org/10.1073/pnas.1813957116)
+- Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J\*. [Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships](https://www.pnas.org/content/116/5/1679) _**Proceedings of the National Academy of Sciences of the United States of America**_ 2019, 16(5):1679-1685
+- Malzahn AA, Tang X, Lee K, Ren QR, Sretenovic S, Zhang YX, Chen HQ, Kang MJ, Bao Y, Zheng XL, Deng KJ, Zhang T, Salcedo V, Wang K, Zhang Y, Qi YP. [Application of CRISPR-Cas12a temperature sensitivity for improved genome editing in rice, maize, and Arabidopsis.](https://rdcu.be/bjyiQ) _**BMC Biology**_ 2019, 17(1):9
 - Tang X†, Ren QR†, Yang LJ, Bao Y, Zhong ZH, He Y, Liu SS, Qi CY, Liu BL, Wang Y, Sretenovic S, Zhang YX, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Single transcript unit CRISPR 2.0 systems for robust Cas9 and Cas12a mediated plant genome editing.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13068) _**Plant Biotechnology Journal**_ [DOI:10.1111/pbi.13068](https://doi.org/10.1111/pbi.13068)
 
 ### 2018
