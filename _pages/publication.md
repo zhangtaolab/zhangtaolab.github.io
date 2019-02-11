@@ -24,7 +24,7 @@ title: 发表论文
 - Zhang R, Xue C, Liu GQ, Liu XY, Zhang ML, Wang X, Zhang T\*, and Gong ZY\*. Segmental Duplication of Chromosome 11 and its Implications for Cell Division and Genome-wide Expression in Rice. _**Scientific Reports**_ 2017, 1(7): 2689.
 - Tang X†, Lowder LG†, Zhang T, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y\*, and Qi YP\*. [A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants.](/pdf/2017/2017_Nature_Plants.pdf) _**Nature Plants**_ 2017, 3: 17018.
 - Marand AP, Zhang T, Zhu B, and Jiang JM\*: [Towards genome-wide prediction and characterization of enhancers in plants.](/pdf/2016/BBE_2016_inpress.pdf) _**Biochimica et Biophysica Acta-Gene Regulatory Mechanisms**_ 2017, 1860(1): 131-139.
-- Zhou JP, Deng KJ, Cheng Y, Zhong ZH, Tian L, Tang X, Tang AT, Zheng XL, Zhang T, Qi YP, and Zhang Y\*: CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. _**Frontiers in Plant Science**_ 2017, 8:1598.
+- Zhou JP†, Deng KJ†, Cheng Y, Zhong ZH, Tian L, Tang X, Tang AT, Zheng XL, Zhang T, Qi YP\*, and Zhang Y\*: CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. _**Frontiers in Plant Science**_ 2017, 8:1598.
 
 ### 2016
 - Zhang T, Marand A, Jiang JM\*: [PlantDHS: A Database for DNase I Hypertensive Sites in Plants.](/pdf/2016/NAR_2016.pdf) _**Nucleic Acids Research**_ 2016, 44(D1): D1148-D1153.
@@ -37,7 +37,7 @@ title: 发表论文
 ### 2014
 - Zhang T, Li GR, Yang ZJ, Nevo E: Adaptive evolution of duplicated hsp17 genes in wild barley from microclimatically divergent sites of Israel. _**Genetics and Molecular Research**_ 2014, 13(1): 1220-1232.
 - Zhang WL, Zhang T, Wu YF, Jiang JM: Open Chromatin in Plant Genomes. _**Cytogenetic and Genome Research**_ 2014(1-3), 143:18-27.
-- Yang LM, Koo, DH, Li D, Zhang T, Jiang JM, Luan FS, Renner SS, Henaff E, Sanseverino W, Garcia-Mas J, Casacuberta J, Senalik DA, Simon PW, Chen JF, and Weng YQ: Next-generation sequencing, FISH mapping and synteny-based modeling reveal mechanisms of decreasing dysploidy in Cucumis. _**The Plant Journal**_ 2014, 77(1): 16-30.
+- Yang LM†, Koo, DH†, Li D, Zhang T, Jiang JM, Luan FS, Renner SS, Henaff E, Sanseverino W, Garcia-Mas J, Casacuberta J, Senalik DA, Simon PW, Chen JF, and Weng YQ: Next-generation sequencing, FISH mapping and synteny-based modeling reveal mechanisms of decreasing dysploidy in Cucumis. _**The Plant Journal**_ 2014, 77(1): 16-30.
 
 ### 2013
 - Zhang T†, Talbert PB†, Zhang WL†, Wu YF, Yang ZJ, Henikoff JG, Henikoff S, Jiang JM: [The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres.](/pdf/2013/PNAS_2013.pdf) _**Proceedings of the National Academy of Sciences of the United States of America**_ 2013, 110(50): E4875–E4883.
