@@ -6,6 +6,8 @@ title: 发表论文
 † 同等贡献
 
 ### 2019
+- Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Bidirectional promoter based CRISPR-Cas9 systems for
+plant genome editing](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) _**Frontiers in Plant Science**_ [DOI:10.3389/fpls.2019.01173](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) 
 - Liu XY, Sun S, Wu Y, Zhou Y, Gu SW, Yu HX, Yi CD, Gu MH, Jiang JM, Liu B, Zhang T\*, Gong ZY\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ [DOI:10.1111/tpj.14522](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522)
 - Zhong ZH†, Sretenovic S†, Ren QR†, Yang LJ, Bao Y, Qi CY, Yuan MZ, He Y, Liu SS, Wang JH, Huang L, Wang Y, Baby DB, Wang D, Zhang T, Qi YP\*, Zhang Y\*. [Improving plant genome editing with high-fidelity xCas9 and non-canonical PAM-targeting Cas9-NG](https://www.cell.com/molecular-plant/fulltext/S1674-2052(19)30124-8) _**Molecular Plant**_ [DOI:10.1016/j.molp.2019.03.011](https://doi.org/10.1016/j.molp.2019.03.011)
 - Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J\*. [Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships](https://www.pnas.org/content/116/5/1679) _**Proceedings of the National Academy of Sciences of the United States of America**_ 2019, 16(5):1679-1685
