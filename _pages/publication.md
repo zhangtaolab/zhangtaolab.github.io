@@ -6,6 +6,7 @@ title: 发表论文
 † 同等贡献
 
 ### 2019
+- Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14536) _**The Plant Journal**_ [DOI:10.1111/tpj.14536](https://doi.org/10.1111/tpj.14536)
 - Alvarez J.M, Moyano T.C, Zhang T, Gras D.E, Herrea F.J, Araus V. O'Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A\* [Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in Arabidopsis roots](https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916) _**Molecular Plant**_ [DOI:10.1016/j.molp.2019.09.002](https://doi.org/10.1016/j.molp.2019.09.002)
 - Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Bidirectional promoter based CRISPR-Cas9 systems for
 plant genome editing](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) _**Frontiers in Plant Science**_ [DOI:10.3389/fpls.2019.01173](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) 
