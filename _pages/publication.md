@@ -6,6 +6,8 @@ title: 发表论文
 † 同等贡献
 
 ### 2019
+- Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2019 [DOI:10.1016/j.csbj.2019.11.006](https://doi.org/10.1016/j.csbj.2019.11.006)
+- Liu S†, Liu G.Q†, Cheng P.F, Xue C, Zhou Y, Chen X, Ye L, Qiao Z.Y, Zhang T\*, Gong Z.Y\* [Genome-wide Profiling of Histone Lysine Butyrylation Reveals its Role in the Positive Regulation of Gene Transcription in Rice](https://thericejournal.springeropen.com/articles/10.1186/s12284-019-0342-6) _**Rice**_ 2019, 12:86 
 - Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14536) _**The Plant Journal**_ [DOI:10.1111/tpj.14536](https://doi.org/10.1111/tpj.14536)
 - Alvarez J.M, Moyano T.C, Zhang T, Gras D.E, Herrea F.J, Araus V. O'Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A\* [Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in Arabidopsis roots](https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916) _**Molecular Plant**_ [DOI:10.1016/j.molp.2019.09.002](https://doi.org/10.1016/j.molp.2019.09.002)
 - Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Bidirectional promoter based CRISPR-Cas9 systems for
