@@ -3,16 +3,18 @@ layout: single
 permalink: /publication
 title: 发表论文
 ---
-† 同等贡献
+† 同等贡献 *通讯作者
 
+### 2020 
+- Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2020, 18:35-44 
+- Liu X.Y†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang J.M, Liu B, Zhang T\*, Gong Z.Y\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
+  
 ### 2019
-- Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2019 [DOI:10.1016/j.csbj.2019.11.006](https://doi.org/10.1016/j.csbj.2019.11.006)
 - Liu S†, Liu G.Q†, Cheng P.F, Xue C, Zhou Y, Chen X, Ye L, Qiao Z.Y, Zhang T\*, Gong Z.Y\* [Genome-wide Profiling of Histone Lysine Butyrylation Reveals its Role in the Positive Regulation of Gene Transcription in Rice](https://thericejournal.springeropen.com/articles/10.1186/s12284-019-0342-6) _**Rice**_ 2019, 12:86 
 - Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14536) _**The Plant Journal**_ [DOI:10.1111/tpj.14536](https://doi.org/10.1111/tpj.14536)
-- Alvarez J.M, Moyano T.C, Zhang T, Gras D.E, Herrea F.J, Araus V. O'Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A\* [Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in Arabidopsis roots](https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916) _**Molecular Plant**_ [DOI:10.1016/j.molp.2019.09.002](https://doi.org/10.1016/j.molp.2019.09.002)
+- Alvarez J.M, Moyano T.C, Zhang T, Gras D.E, Herrea F.J, Araus V. O'Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A\* [Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in Arabidopsis roots](https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916) _**Molecular Plant**_ 2019, 12(12):1545-1560
 - Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Bidirectional promoter based CRISPR-Cas9 systems for
-plant genome editing](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) _**Frontiers in Plant Science**_ [DOI:10.3389/fpls.2019.01173](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) 
-- Liu XY†, Sun S†, Wu Y, Zhou Y, Gu SW, Yu HX, Yi CD, Gu MH, Jiang JM, Liu B, Zhang T\*, Gong ZY\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ [DOI:10.1111/tpj.14522](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522)
+plant genome editing](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) _**Frontiers in Plant Science**_ 2019, 10:1173
 - Zhong ZH†, Sretenovic S†, Ren QR†, Yang LJ, Bao Y, Qi CY, Yuan MZ, He Y, Liu SS, Wang JH, Huang L, Wang Y, Baby DB, Wang D, Zhang T, Qi YP\*, Zhang Y\*. [Improving plant genome editing with high-fidelity xCas9 and non-canonical PAM-targeting Cas9-NG](https://www.cell.com/molecular-plant/fulltext/S1674-2052(19)30124-8) _**Molecular Plant**_ 2019, 12(7):1027-1036
 - Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J\*. [Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships](https://www.pnas.org/content/116/5/1679) _**Proceedings of the National Academy of Sciences of the United States of America**_ 2019, 16(5):1679-1685
 - Malzahn AA†, Tang X†, Lee K, Ren QR, Sretenovic S, Zhang YX, Chen HQ, Kang MJ, Bao Y, Zheng XL, Deng KJ, Zhang T, Salcedo V, Wang K, Zhang Y\*, Qi YP\*. [Application of CRISPR-Cas12a temperature sensitivity for improved genome editing in rice, maize, and Arabidopsis.](https://rdcu.be/bjyiQ) _**BMC Biology**_ 2019, 17(1):9
