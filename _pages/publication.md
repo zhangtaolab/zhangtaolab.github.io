@@ -6,6 +6,10 @@ title: 发表论文
 † 同等贡献 *通讯作者
 
 ### 2020 
+- Zhao H.N†, Zhang W.L†\*, Zhang T†, Lin Y, Hu Y.D, Fang C, Jiang J.M\*. [Genome-wide MNase hypersensitivity assay
+unveils distinct classes of open chromatin
+associated with H3K27me3 and DNA
+methylation in _Arabidopsis thaliana_](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1927-5) _**Genome Biology**_ 2020, 21:24
 - Song X.Y, Song R.R, Zhou J.W, Yan W.K, Zhang T, Sun H.J, Xiao J, Wu Y.F, Xi M.L, Lou Q.F, Wang H.Y\*, Wang X.E\*. [Development and application of oligonucleotide-based chromosome painting for chromosome 4D of _Triticum aestivum L._](https://link.springer.com/article/10.1007/s10577-020-09627-0) _**Chromosome Research**_ 2020. [DOI:10.1007/s10577-020-09627-0](https://doi.org/10.1007/s10577-020-09627-0)
 - Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2020, 18:35-44 
 - Liu X.Y†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang J.M, Liu B, Zhang T\*, Gong Z.Y\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
