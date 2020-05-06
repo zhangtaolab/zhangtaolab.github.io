@@ -15,7 +15,7 @@ methylation in _Arabidopsis thaliana_](https://genomebiology.biomedcentral.com/a
 - Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2020, 18:35-44 
 - Liu X.Y†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang J.M, Liu B, Zhang T\*, Gong Z.Y\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
 - Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536) _**The Plant Journal**_ 2020, 101:253-264
-  - _Cover:_ [The Plant Journal Volume 101, Issue 2](/pdf/2020/2020_The_Plant_Journal_cover.pdf) 
+  - _Cover:_ [_**The Plant Journal**_ Volume 101, Issue 2](/pdf/2020/2020_The_Plant_Journal_cover.pdf) 
 
 
 ### 2019
