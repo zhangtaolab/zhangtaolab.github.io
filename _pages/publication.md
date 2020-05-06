@@ -14,10 +14,12 @@ methylation in _Arabidopsis thaliana_](https://genomebiology.biomedcentral.com/a
 - Song X.Y, Song R.R, Zhou J.W, Yan W.K, Zhang T, Sun H.J, Xiao J, Wu Y.F, Xi M.L, Lou Q.F, Wang H.Y\*, Wang X.E\*. [Development and application of oligonucleotide-based chromosome painting for chromosome 4D of _Triticum aestivum L._](https://link.springer.com/article/10.1007/s10577-020-09627-0) _**Chromosome Research**_ 2020. [DOI:10.1007/s10577-020-09627-0](https://doi.org/10.1007/s10577-020-09627-0)
 - Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2020, 18:35-44 
 - Liu X.Y†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang J.M, Liu B, Zhang T\*, Gong Z.Y\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
-  
+- Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536) _**The Plant Journal**_ 2020, 101:253-264
+  - _Cover:_ [The Plant Journal Volume 101, Issue 2](/pdf/2020/2020_The_Plant_Journal_cover.pdf) 
+
+
 ### 2019
 - Liu S†, Liu G.Q†, Cheng P.F, Xue C, Zhou Y, Chen X, Ye L, Qiao Z.Y\*, Zhang T\*, Gong Z.Y\* [Genome-wide Profiling of Histone Lysine Butyrylation Reveals its Role in the Positive Regulation of Gene Transcription in Rice](https://thericejournal.springeropen.com/articles/10.1186/s12284-019-0342-6) _**Rice**_ 2019, 12:86 
-- Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14536) _**The Plant Journal**_ [DOI:10.1111/tpj.14536](https://doi.org/10.1111/tpj.14536)
 - Alvarez J.M, Moyano T.C, Zhang T, Gras D.E, Herrea F.J, Araus V. O'Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A\* [Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in Arabidopsis roots](https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916) _**Molecular Plant**_ 2019, 12(12):1545-1560
 - Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Bidirectional promoter based CRISPR-Cas9 systems for
 plant genome editing](https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/) _**Frontiers in Plant Science**_ 2019, 10:1173
