@@ -6,6 +6,7 @@ title: 发表论文
 † 同等贡献 *通讯作者
 
 ### 2020 
+- Braz G.T, Martins L. do, Zhang T, Albert P.S, Birchler J.A, Jiang J.M\* [A universal chromosome identification system for maize and wild Zea species.](https://link.springer.com/article/10.1007%2Fs10577-020-09630-5) _**Chromosome Research**_ 2020, [DOI: 10.1007/s10577-020-09630-5](https://doi.org/10.1007/s10577-020-09630-5)
 - Zhao H.N†, Zhang W.L†\*, Zhang T†, Lin Y, Hu Y.D, Fang C, Jiang J.M\*. [Genome-wide MNase hypersensitivity assay
 unveils distinct classes of open chromatin
 associated with H3K27me3 and DNA
