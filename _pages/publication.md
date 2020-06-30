@@ -6,14 +6,15 @@ title: 发表论文
 † 同等贡献 *通讯作者
 
 ### 2020 
-- Braz G.T, Martins L. do, Zhang T, Albert P.S, Birchler J.A, Jiang J.M\* [A universal chromosome identification system for maize and wild Zea species.](https://link.springer.com/article/10.1007%2Fs10577-020-09630-5) _**Chromosome Research**_ 2020, [DOI: 10.1007/s10577-020-09630-5](https://doi.org/10.1007/s10577-020-09630-5)
-- Zhao H.N†, Zhang W.L†\*, Zhang T†, Lin Y, Hu Y.D, Fang C, Jiang J.M\*. [Genome-wide MNase hypersensitivity assay
+- Liu YL, Wang XY, Wei YY, Liu Z, Lu QW, Liu F, Zhang T\*, Peng RH\*. [Chromosome Painting Based on Bulked Oligonucleotides in Cotton](https://doi.org/10.3389/fpls.2020.00802) _**Frontiers in Plant Science**_ 2020, 11:802
+- Braz G.T, Martins L. do, Zhang T, Albert P.S, Birchler J.A, Jiang JM\* [A universal chromosome identification system for maize and wild Zea species.](https://link.springer.com/article/10.1007%2Fs10577-020-09630-5) _**Chromosome Research**_ 2020, 28(2):183-194
+- Zhao H.N†, Zhang W.L†\*, Zhang T†, Lin Y, Hu Y.D, Fang C, Jiang JM\*. [Genome-wide MNase hypersensitivity assay
 unveils distinct classes of open chromatin
 associated with H3K27me3 and DNA
 methylation in _Arabidopsis thaliana_](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1927-5) _**Genome Biology**_ 2020, 21:24
 - Song X.Y, Song R.R, Zhou J.W, Yan W.K, Zhang T, Sun H.J, Xiao J, Wu Y.F, Xi M.L, Lou Q.F, Wang H.Y\*, Wang X.E\*. [Development and application of oligonucleotide-based chromosome painting for chromosome 4D of _Triticum aestivum L._](https://link.springer.com/article/10.1007/s10577-020-09627-0) _**Chromosome Research**_ 2020. [DOI:10.1007/s10577-020-09627-0](https://doi.org/10.1007/s10577-020-09627-0)
 - Liu G.Q, Zhang Y\*, Zhang T\*. [Computational approaches for effective CRISPR guide RNA design and evaluation](https://www.sciencedirect.com/science/article/pii/S2001037019303551?via%3Dihub) _**Computational and Structural Biotechnology Journal**_ 2020, 18:35-44 
-- Liu X.Y†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang J.M, Liu B, Zhang T\*, Gong Z.Y\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
+- Liu XY†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang JM, Liu B, Zhang T\*, Gong ZY\*. [Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522) _**The Plant Journal**_ 2020, 101:112-121
 - Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536) _**The Plant Journal**_ 2020, 101:253-264
   - _Cover:_ [_**The Plant Journal**_ Volume 101, Issue 2](/pdf/2020/2020_The_Plant_Journal_cover.pdf) 
 
