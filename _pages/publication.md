@@ -6,6 +6,7 @@ title: 发表论文
 † 同等贡献 *通讯作者
 
 ### 2020 
+- Li GR†, Zhang T†, Yu ZH, Wang HJ, Yang EN, Yang ZJ\*. [An efficient Oligo‐FISH painting system for revealing chromosome rearrangements and polyploidization in Triticeae.](https://onlinelibrary.wiley.com/doi/10.1111/tpj.15081) _**The Plant Journal**_ (2020) DOI:10.1111/tpj.15081
 - Liu YL, Wang XY, Wei YY, Liu Z, Lu QW, Liu F, Zhang T\*, Peng RH\*. [Chromosome Painting Based on Bulked Oligonucleotides in Cotton.](https://doi.org/10.3389/fpls.2020.00802) _**Frontiers in Plant Science**_ 2020, 11:802
 - Zhao H.N†, Zhang W.L†\*, Zhang T†, Lin Y, Hu Y.D, Fang C, Jiang JM\*. [Genome-wide MNase hypersensitivity assay
 unveils distinct classes of open chromatin
