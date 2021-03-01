@@ -1,0 +1,23 @@
+---
+layout: pages
+title: Activity
+---
+<section class="recent-posts row">
+    <div class="col-sm-12">
+        <div class="masonrygrid row listrecent">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'images/activities' %}
+                        <div class="col-md-6 grid-item">
+                            <div class="card">
+                                <div class="card-block">
+                                    <img class="img-fluid" src="{{ site.baseurl }}{{ image.path }}" alt="image" /><br/>
+                                </div>
+                            </div>
+                        </div>
+
+                    {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</section>
+

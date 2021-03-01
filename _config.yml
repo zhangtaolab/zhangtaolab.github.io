@@ -1,127 +1,40 @@
-# Welcome to Jekyll!
-#
+# Site
+name: "Zhang Tao lab"
+title: "Zhang Tao lab"
+description: "Bioinformatics, Epigenetics and Genomics."
+meta_description: "Bioinformatics, Epigenetics and Genomics."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 6
+baseurl: 'http://zhangtaolab.org'
+email: 'contact@zhangtaolab.org'
+disqus: ''
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
-# Site settings
-title: 张韬 Lab
-description: |
-  "生物信息学，基因组学，表观遗传学，张韬，扬州大学"
-owner: 张韬 Lab # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: zhangtaolab@outlook.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zhangtaolab.github.io" # the base hostname & protocol for your site
-social:
-  # twitter: https://twitter.com/<username>
-  github: https://github.com/zhangtaolab
-  # linkedin-square: https://linkedin.com/in/<username>
-  # facebook-official: https://facebook.com/<username>
-  # google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+# Authors
+authors:
+  han_ys:
+    name: Han Yangshuo
+    display_name: Han Yangshuo
+    email: hanyangshuo@zhangtaolab.org
+    description: "This is a description."
 
 # Plugins
-gems:
+plugins: 
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# Outputting
-# permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-# timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Build settings
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
 markdown: kramdown
-#sass:
-#  style: compressed
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
+highlighter: rouge
