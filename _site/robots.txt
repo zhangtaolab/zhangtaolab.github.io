@@ -1,1 +1,1 @@
-Sitemap: /http://zhangtaolab.org/sitemap.xml
+Sitemap: /sitemap.xml

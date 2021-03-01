@@ -3,10 +3,10 @@
   <channel>
     <title>Zhang Tao lab</title>
     <description>Bioinformatics, Epigenetics and Genomics.</description>
-    <link>http://zhangtaolab.org/</link>
-    <atom:link href="http://zhangtaolab.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Mar 2021 18:16:16 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Mar 2021 18:16:16 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Mar 2021 21:55:06 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Mar 2021 21:55:06 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/2021/03/01/plantdhs.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/2021/03/01/plantdhs.html</guid>
+        <link>/2021/03/01/plantdhs.html</link>
+        <guid isPermaLink="true">/2021/03/01/plantdhs.html</guid>
         
         
       </item>
@@ -25,11 +25,11 @@
       <item>
         <title>Chorus2 oligo database</title>
         <description>&lt;p&gt;The oligo database current host oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.
-&lt;a href=&quot;http://zhangtaolab.org/oligo_database&quot;&gt;Details&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;/oligo_database&quot;&gt;Details&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Feb 2021 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/2021/02/28/oligo_database.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/2021/02/28/oligo_database.html</guid>
+        <link>/2021/02/28/oligo_database.html</link>
+        <guid isPermaLink="true">/2021/02/28/oligo_database.html</guid>
         
         
       </item>
@@ -41,8 +41,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/software/2000/03/01/popera.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/software/2000/03/01/popera.html</guid>
+        <link>/software/2000/03/01/popera.html</link>
+        <guid isPermaLink="true">/software/2000/03/01/popera.html</guid>
         
         
         <category>software</category>
@@ -54,8 +54,8 @@
         <description>&lt;p&gt;gRNA design software for base editing knockout system.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/software/2000/03/01/crisprbets.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/software/2000/03/01/crisprbets.html</guid>
+        <link>/software/2000/03/01/crisprbets.html</link>
+        <guid isPermaLink="true">/software/2000/03/01/crisprbets.html</guid>
         
         
         <category>software</category>
@@ -69,8 +69,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/dev_test/software/2000/03/01/chorus2.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/dev_test/software/2000/03/01/chorus2.html</guid>
+        <link>/dev_test/software/2000/03/01/chorus2.html</link>
+        <guid isPermaLink="true">/dev_test/software/2000/03/01/chorus2.html</guid>
         
         
         <category>dev_test</category>
@@ -86,8 +86,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://zhangtaolab.org/software/2000/03/01/CRISPRMatch.html</link>
-        <guid isPermaLink="true">http://zhangtaolab.org/software/2000/03/01/CRISPRMatch.html</guid>
+        <link>/software/2000/03/01/CRISPRMatch.html</link>
+        <guid isPermaLink="true">/software/2000/03/01/CRISPRMatch.html</guid>
         
         
         <category>software</category>
