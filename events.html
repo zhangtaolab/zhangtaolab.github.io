@@ -1,0 +1,22 @@
+---
+layout: pages
+title: Events
+---
+
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+
+    {% for tag in site.categories %}
+        {% unless tag[0] == 'software' %}
+          <h3>{{ tag[0] }}</h3>
+          <ul>
+            {% for post in tag[1] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">-{{ post.date | date_to_string}}</span></li>
+            {% endfor %}
+          </ul>
+        {% endunless %}
+    {% endfor %}
+
+</section>
