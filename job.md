@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: article
 comments: false
 title: job details
 ---
