@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" href="/assets/images/favicon.png">    
 <title>Oligo Database | Zhang Tao lab</title>
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Oligo Database | Zhang Tao lab</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Oligo Database" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Bioinformatics, Epigenetics and Genomics." />
 <meta property="og:description" content="Bioinformatics, Epigenetics and Genomics." />
-<link rel="canonical" href="http://localhost:4000/database/oligo_database" />
-<meta property="og:url" content="http://localhost:4000/database/oligo_database" />
 <meta property="og:site_name" content="Zhang Tao lab" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Oligo Database" />
 <script type="application/ld+json">
-{"headline":"Oligo Database","url":"http://localhost:4000/database/oligo_database","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"Bioinformatics, Epigenetics and Genomics.","@type":"WebPage","@context":"http://schema.org"}</script>
+{"url":"/database/oligo_database","headline":"Oligo Database","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"description":"Bioinformatics, Epigenetics and Genomics.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -290,10 +290,10 @@ To download the oligos, please click the picture of the speices. Details about <
 
 <p>To use the oligo sequences of the target species, users should first download the <em>bed</em> file from the download column in the above table.<br />
 Oligo sequences are provided with <em>bed.bgz</em> format, which is a compressed version of bed file. The bed file contains six columns which are separated by delimiter, just like this:<br />
-<code class="highlighter-rouge">chr01   97858   97902   ATTTTCCATGGACCTCATTAAGATTAGCTATTGAACCAGTTACCC   324     +</code><br />
+<code class="language-plaintext highlighter-rouge">chr01   97858   97902   ATTTTCCATGGACCTCATTAAGATTAGCTATTGAACCAGTTACCC   324     +</code><br />
 Each column represents chromosome, oligo start site, oligo end site, oligo probe sequence, k-mer score and target strand of probes, respectively.<br />
 Users can decompress the file using 7-Zip software in Windows or the following command in Linux/MacOS:<br />
-<code class="highlighter-rouge">$ bgzip -d xxx.bed.bgz</code>.<br />
+<code class="language-plaintext highlighter-rouge">$ bgzip -d xxx.bed.bgz</code>.<br />
 The decompressed bed file can be opened and read by text editor or Excel easily.
 Oligo sequences in the bed file can be synthesized directly for oligo-FISH experiments.</p>
 
@@ -306,6 +306,7 @@ Chorus2 uses python script Chorus2.py to identify and pre-filter oligos. It is i
 
     </div>
 </section>
+
     </div>
     
     

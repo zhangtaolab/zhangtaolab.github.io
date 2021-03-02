@@ -3,11 +3,11 @@
   <channel>
     <title>Zhang Tao lab</title>
     <description>Bioinformatics, Epigenetics and Genomics.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Mar 2021 10:57:47 +0800</pubDate>
-    <lastBuildDate>Tue, 02 Mar 2021 10:57:47 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Mar 2021 11:10:47 +0800</pubDate>
+    <lastBuildDate>Tue, 02 Mar 2021 11:10:47 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>PlantDHS</title>
@@ -16,8 +16,8 @@
 &lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/info/database/plantdhs</link>
-        <guid isPermaLink="true">http://localhost:4000/info/database/plantdhs</guid>
+        <link>/info/database/plantdhs</link>
+        <guid isPermaLink="true">/info/database/plantdhs</guid>
         
         
         <category>database</category>
@@ -31,8 +31,8 @@
 &lt;p&gt;&lt;a href=&quot;/database/oligo_database&quot;&gt;Details&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Feb 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/info/database/oligo_database</link>
-        <guid isPermaLink="true">http://localhost:4000/info/database/oligo_database</guid>
+        <link>/info/database/oligo_database</link>
+        <guid isPermaLink="true">/info/database/oligo_database</guid>
         
         
         <category>database</category>
@@ -46,8 +46,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/software/popera</link>
-        <guid isPermaLink="true">http://localhost:4000/software/popera</guid>
+        <link>/software/popera</link>
+        <guid isPermaLink="true">/software/popera</guid>
         
         
         <category>software</category>
@@ -61,8 +61,8 @@
 &lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/software/crisprbets</link>
-        <guid isPermaLink="true">http://localhost:4000/software/crisprbets</guid>
+        <link>/software/crisprbets</link>
+        <guid isPermaLink="true">/software/crisprbets</guid>
         
         
         <category>software</category>
@@ -76,8 +76,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/software/chorus2</link>
-        <guid isPermaLink="true">http://localhost:4000/software/chorus2</guid>
+        <link>/software/chorus2</link>
+        <guid isPermaLink="true">/software/chorus2</guid>
         
         
         <category>software</category>
@@ -91,8 +91,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/software/crisprmatch</link>
-        <guid isPermaLink="true">http://localhost:4000/software/crisprmatch</guid>
+        <link>/software/crisprmatch</link>
+        <guid isPermaLink="true">/software/crisprmatch</guid>
         
         
         <category>software</category>
