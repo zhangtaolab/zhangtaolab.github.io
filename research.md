@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: article
 title: Research
 comments: false
 ---

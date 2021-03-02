@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: page-side
 disqus: false
 archive: false
 post_class: post-template
@@ -28,7 +28,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                            <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>

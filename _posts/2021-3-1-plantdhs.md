@@ -1,7 +1,9 @@
 ---
 layout: post
-title: plantdhs
+title: PlantDHS
 image: assets/images/plantdhs.jpg
+categories: [ database ]
+permalink: /info/database/plantdhs
 ---
 Plant DHS Database.
 

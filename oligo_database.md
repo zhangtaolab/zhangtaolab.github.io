@@ -1,12 +1,14 @@
 ---
-layout: pages
+layout: article
 title: Oligo Database
 comments: false
+permalink: /database/oligo_database
 ---
+
 Oligo Database
 ===============
 
-The oligo database current host oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.  
+The oligo database currently hosts oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.  
 To download the oligos, please click the picture of the speices. Details about [Chorus2](#chorus_def), which was used to design the oligos can be found [here](https://github.com/zhangtaolab/Chorus2).
 
 #### Information table
@@ -56,20 +58,15 @@ To use the oligo sequences of the target species, users should first download th
 Oligo sequences are provided with *bed.bgz* format, which is a compressed version of bed file. The bed file contains six columns which are separated by delimiter, just like this:  
 `chr01   97858   97902   ATTTTCCATGGACCTCATTAAGATTAGCTATTGAACCAGTTACCC   324     +`  
 Each column represents chromosome, oligo start site, oligo end site, oligo probe sequence, k-mer score and target strand of probes, respectively.  
-Users can decompress the file and read the records using 7-Zip software in Windows or the following command in Linux/MacOS:  
+Users can decompress the file using 7-Zip software in Windows or the following command in Linux/MacOS:  
 `$ bgzip -d xxx.bed.bgz`.  
-The decompressed bed file can be opened by text editor or Excel easily.
+The decompressed bed file can be opened and read by text editor or Excel easily.
 Oligo sequences in the bed file can be synthesized directly for oligo-FISH experiments.  
 
 
 ***
+
 #### <a id="chorus_def" text-decoration="none">Chorus2</a>
 
-Chorus2 is a software which is developed to design genome-scale oligonucleotide-based probes for fluorescence *in situ* hybridization (FISH).  
+[Chorus2](https://github.com/zhangtaolab/Chorus2) is a software which is developed to design genome-scale oligonucleotide-based probes for fluorescence *in situ* hybridization (FISH).  
 Chorus2 uses python script Chorus2.py to identify and pre-filter oligos. It is implemented with a "k-mer score" method to remove repetitive oligos of target genome. Chorus2 run fast and can handle large genome like wheat. The oligos designed by Chorus2 has high specificity and suitable for FISH. The Chorus2 package runs on Linux, macOS and Windows with flexible command-line or an easy-to-use GUI (graphical user interface).
-
-#### Citation
-
-If you use the oligos in the database or Chorus2 software, please cite the following article:
-1. Han YH†, Zhang T†, Thammapichai P, Weng YQ, and Jiang JM*: [Chromosome-specific painting in Cucumis species using bulked oligonucleotides](https://www.genetics.org/content/200/3/771). Genetics 2015, 200(3):771-779.
-2. [https://github.com/zhangtaolab/Chorus2](https://github.com/zhangtaolab/Chorus2)
