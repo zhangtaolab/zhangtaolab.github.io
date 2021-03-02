@@ -173,10 +173,9 @@
     ================================================== --> 
     <div class="main-content">
         <section>
+    <h1 class="posttitle">Oligo Database</h1>
     <div class="article-post">
-    <h1 id="oligo-database">Oligo Database</h1>
-
-<p>The oligo database currently hosts oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.<br />
+    <p>The oligo database currently hosts oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.<br />
 To download the oligos, please click the picture of the speices. Details about <a href="#chorus_def">Chorus2</a>, which was used to design the oligos can be found <a href="https://github.com/zhangtaolab/Chorus2">here</a>.</p>
 
 <h4 id="information-table">Information table</h4>
@@ -262,9 +261,9 @@ To download the oligos, please click the picture of the speices. Details about <
 <table>
   <tbody>
     <tr>
-      <td><img src="assets/images/plants_img/arabidopsis.jpeg" width="50%" /></td>
-      <td><img src="assets/images/plants_img/rice.jpeg" width="50%" /></td>
-      <td><img src="assets/images/plants_img/maize.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/arabidopsis.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/rice.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/maize.jpeg" width="50%" /></td>
     </tr>
     <tr>
       <td>Arabidopsis</td>
@@ -272,9 +271,9 @@ To download the oligos, please click the picture of the speices. Details about <
       <td>Maize</td>
     </tr>
     <tr>
-      <td><img src="assets/images/plants_img/potato.jpeg" width="50%" /></td>
-      <td><img src="assets/images/plants_img/barley.jpeg" width="50%" /></td>
-      <td><img src="assets/images/plants_img/soybean.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/potato.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/barley.jpeg" width="50%" /></td>
+      <td><img src="/assets/images/plants_img/soybean.jpeg" width="50%" /></td>
     </tr>
     <tr>
       <td>Potato</td>
@@ -289,13 +288,34 @@ To download the oligos, please click the picture of the speices. Details about <
 <h4 id="how-to-use-the-database">How to use the database</h4>
 
 <p>To use the oligo sequences of the target species, users should first download the <em>bed</em> file from the download column in the above table.<br />
-Oligo sequences are provided with <em>bed.bgz</em> format, which is a compressed version of bed file. The bed file contains six columns which are separated by delimiter, just like this:<br />
-<code class="language-plaintext highlighter-rouge">chr01   97858   97902   ATTTTCCATGGACCTCATTAAGATTAGCTATTGAACCAGTTACCC   324     +</code><br />
+Oligo sequences are provided with <em>bed.bgz</em> format, which is a compressed version of bed file. 
+Users can decompress the file following the below instructions:<br />
+<strong>For Windows Users</strong>:<br />
+Download <a href="https://www.7-zip.org/">7-Zip</a> software and install.<br />
+<img src="/assets/images/7-zip_download.png" /><br />
+Use 7-Zip to uncompress <em>bed.bgz</em> file.<br />
+<img src="/assets/images/7-zip_usage.png" /><br />
+<strong>For Linux/MacOS Users</strong>:<br />
+Using the following command to uncompress <em>bed.bgz</em> file:<br />
+<code class="language-plaintext highlighter-rouge">$ gzip -cd xxx.bed.bgz &gt; xxx.bed</code>.<br />
+<img src="/assets/images/gzip_usage.png" /></p>
+
+<p>The decompressed bed file can be opened and read by text editor or <em>Excel</em> easily.<br />
+<strong>For Windows users</strong>, text editor (Such as <a href="https://www.editplus.com/"><em>EditPlus</em></a>) is the optimum choice to open it.<br />
+<img src="/assets/images/editplus_usage.png" /></p>
+
+<p>The bed file contains six columns which are separated by delimiter, just like this:<br />
+<code class="language-plaintext highlighter-rouge">Chr1	1360	1404	AAGATAGAGAACAAGAGAGTGAGAGGATAAGGATATAGACCAGAC	2841	+</code><br />
 Each column represents chromosome, oligo start site, oligo end site, oligo probe sequence, k-mer score and target strand of probes, respectively.<br />
-Users can decompress the file using 7-Zip software in Windows or the following command in Linux/MacOS:<br />
-<code class="language-plaintext highlighter-rouge">$ bgzip -d xxx.bed.bgz</code>.<br />
-The decompressed bed file can be opened and read by text editor or Excel easily.
-Oligo sequences in the bed file can be synthesized directly for oligo-FISH experiments.</p>
+Windows Users can use the filter function of <em>Excel</em> to select the target oligos.<br />
+<strong>For Linux/MacOS users</strong>, <code class="language-plaintext highlighter-rouge">awk</code> or <code class="language-plaintext highlighter-rouge">perl</code> command may be a better method to select the desired oligo sequences. Just like this:<br />
+<code class="language-plaintext highlighter-rouge">awk '$1=="Chr1"&amp;&amp;$2&gt;=100000&amp;&amp;$3&lt;=200000' TIGR7.bed</code><br />
+This command will extract oligos in the region Chr1:100000-200000 in rice.<br />
+<img src="/assets/images/awk_oligo_usage.png" /></p>
+
+<p>Finally, oligo sequences in the fourth column of the bed file can be synthesized directly for oligo-FISH experiments.</p>
+
+<p><br /></p>
 
 <hr />
 
