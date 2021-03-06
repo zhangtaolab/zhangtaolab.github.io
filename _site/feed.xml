@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Mar 2021 14:49:45 +0800</pubDate>
-    <lastBuildDate>Tue, 02 Mar 2021 14:49:45 +0800</lastBuildDate>
+    <pubDate>Sat, 06 Mar 2021 15:43:26 +0800</pubDate>
+    <lastBuildDate>Sat, 06 Mar 2021 15:43:26 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report:The relationship between genome structure and function</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Precise patterns of gene expression in metazoans are controlled by three classes of regulatory elements: promoters, enhancers and boundary elements. During differentiation and development, these elements form specific interactions in dynamic higher-order chromatin structures. However, the relationship between genome structure and its function in gene regulation is not completely understood. Here we review recent progress in this field and discuss whether genome structure plays an instructive role in regulating gene expression or is a reflection of the activity of the regulatory elements of the genome.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-reviews-genetics-2021&quot;&gt;Source: &lt;a href=&quot;page.source&quot;&gt;Nature Reviews Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sat, 06 Mar 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/03/06/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/03/06/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>PlantDHS</title>
