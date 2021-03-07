@@ -5,11 +5,11 @@
     <div class="row">
         <div class="col-md-5 wrapthumbnail">
             <a href="{{ post.url | absolute_url }}">
-                {% if post.image %}
+<!--                {% if post.image %}
                     <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ post.image }});">
                     </div>
-                {% endif %}
-<!--                {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}-->
+                {% endif %}-->
+                {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
             </a>
         </div>
         <div class="col-md-7">
