@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: http://192.168.127.25:4000/sitemap.xml

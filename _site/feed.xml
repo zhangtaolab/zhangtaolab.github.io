@@ -3,10 +3,10 @@
   <channel>
     <title>Zhang Tao lab</title>
     <description>Bioinformatics, Epigenetics and Genomics.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Mar 2021 15:43:26 +0800</pubDate>
-    <lastBuildDate>Sat, 06 Mar 2021 15:43:26 +0800</lastBuildDate>
+    <link>http://192.168.127.25:4000/</link>
+    <atom:link href="http://192.168.127.25:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 07 Mar 2021 20:27:34 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 20:27:34 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -14,11 +14,11 @@
         <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
 &lt;p&gt;Precise patterns of gene expression in metazoans are controlled by three classes of regulatory elements: promoters, enhancers and boundary elements. During differentiation and development, these elements form specific interactions in dynamic higher-order chromatin structures. However, the relationship between genome structure and its function in gene regulation is not completely understood. Here we review recent progress in this field and discuss whether genome structure plays an instructive role in regulating gene expression or is a reflection of the activity of the regulatory elements of the genome.&lt;/p&gt;
 
-&lt;h4 id=&quot;source-nature-reviews-genetics-2021&quot;&gt;Source: &lt;a href=&quot;page.source&quot;&gt;Nature Reviews Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;source-nature-reviews-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41576-020-00303-x#author-information&quot;&gt;Nature Reviews Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
 </description>
         <pubDate>Sat, 06 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/06/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/06/lab_meeting.html</guid>
+        <link>http://192.168.127.25:4000/lab%20meeting/2021/03/06/lab_meeting.html</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/lab%20meeting/2021/03/06/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
@@ -32,8 +32,8 @@
 &lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/info/database/plantdhs</link>
-        <guid isPermaLink="true">/info/database/plantdhs</guid>
+        <link>http://192.168.127.25:4000/info/database/plantdhs</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/info/database/plantdhs</guid>
         
         
         <category>database</category>
@@ -47,8 +47,8 @@
 &lt;p&gt;&lt;a href=&quot;/database/oligo_database&quot;&gt;Details&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Feb 2021 00:00:00 +0800</pubDate>
-        <link>/info/database/oligo_database</link>
-        <guid isPermaLink="true">/info/database/oligo_database</guid>
+        <link>http://192.168.127.25:4000/info/database/oligo_database</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/info/database/oligo_database</guid>
         
         
         <category>database</category>
@@ -62,8 +62,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/popera</link>
-        <guid isPermaLink="true">/software/popera</guid>
+        <link>http://192.168.127.25:4000/software/popera</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/software/popera</guid>
         
         
         <category>software</category>
@@ -77,8 +77,8 @@
 &lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/crisprbets</link>
-        <guid isPermaLink="true">/software/crisprbets</guid>
+        <link>http://192.168.127.25:4000/software/crisprbets</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/software/crisprbets</guid>
         
         
         <category>software</category>
@@ -92,8 +92,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/chorus2</link>
-        <guid isPermaLink="true">/software/chorus2</guid>
+        <link>http://192.168.127.25:4000/software/chorus2</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/software/chorus2</guid>
         
         
         <category>software</category>
@@ -107,8 +107,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/crisprmatch</link>
-        <guid isPermaLink="true">/software/crisprmatch</guid>
+        <link>http://192.168.127.25:4000/software/crisprmatch</link>
+        <guid isPermaLink="true">http://192.168.127.25:4000/software/crisprmatch</guid>
         
         
         <category>software</category>
