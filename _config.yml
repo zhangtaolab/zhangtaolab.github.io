@@ -18,6 +18,10 @@ authors:
     display_name: Han Yangshuo
     email: hanyangshuo@zhangtaolab.org
     description: "This is a description."
+  wyc:
+    name: Wu Yuechao
+    display_name: Wu Yuechao
+    email: wuyuechao@zhangtaolab.org
 
 # Plugins
 plugins: 
