@@ -12,13 +12,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Bioinformatics, Epigenetics and Genomics." />
 <meta property="og:description" content="Bioinformatics, Epigenetics and Genomics." />
-<link rel="canonical" href="http://192.168.127.25:4000/database/oligo_database" />
-<meta property="og:url" content="http://192.168.127.25:4000/database/oligo_database" />
 <meta property="og:site_name" content="Zhang Tao lab" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Oligo Database" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://192.168.127.25:4000/assets/images/logo.png"}},"@type":"WebPage","description":"Bioinformatics, Epigenetics and Genomics.","url":"http://192.168.127.25:4000/database/oligo_database","headline":"Oligo Database","@context":"https://schema.org"}</script>
+{"url":"/database/oligo_database","headline":"Oligo Database","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"description":"Bioinformatics, Epigenetics and Genomics.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -94,6 +92,10 @@
 
                             
 
+                        
+
+                            
+
                                 <a class="dropdown-item" href="/software/chorus2">Chorus2</a>
 
                             
@@ -132,6 +134,7 @@
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="/database/oligo_database">Oligo database</a>
                     <a class="dropdown-item" href="http://plantdhs.org/">PlantDHS</a>
+                    <a class="dropdown-item" href="https://bioinfor.yzu.edu.cn/jbrowse2/">Genome browser</a>
                     </div>
                 </li>
 
@@ -182,7 +185,7 @@
     <h1 class="posttitle">Oligo Database</h1>
     <div class="article-post">
     <p>The oligo database currently hosts oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.<br />
-To download the oligos, please click the picture of the speices. Details about <a href="#chorus_def">Chorus2</a>, which was used to design the oligos can be found <a href="https://github.com/zhangtaolab/Chorus2">here</a>.</p>
+To download the oligos, please click the download link of the speices. Details about <a href="#chorus_def">Chorus2</a>, which was used to design the oligos can be found <a href="https://github.com/zhangtaolab/Chorus2">here</a>.</p>
 
 <h4 id="information-table">Information table</h4>
 
@@ -298,17 +301,17 @@ Oligo sequences are provided with <em>bed.bgz</em> format, which is a compressed
 Users can decompress the file following the below instructions:<br />
 <strong>For Windows Users</strong>:<br />
 Download <a href="https://www.7-zip.org/">7-Zip</a> software and install.<br />
-<img src="/assets/images/7-zip_download.png" /><br />
+<img src="/assets/images/7-zip_download.png" alt="img" /><br />
 Use 7-Zip to uncompress <em>bed.bgz</em> file.<br />
-<img src="/assets/images/7-zip_usage.png" /><br />
+<img src="/assets/images/7-zip_usage.png" alt="img" /><br />
 <strong>For Linux/MacOS Users</strong>:<br />
 Using the following command to uncompress <em>bed.bgz</em> file:<br />
 <code class="language-plaintext highlighter-rouge">$ gzip -cd xxx.bed.bgz &gt; xxx.bed</code>.<br />
-<img src="/assets/images/gzip_usage.png" /></p>
+<img src="/assets/images/gzip_usage.png" alt="img" /></p>
 
 <p>The decompressed bed file can be opened and read by text editor or <em>Excel</em> easily.<br />
 <strong>For Windows users</strong>, text editor (Such as <a href="https://www.editplus.com/"><em>EditPlus</em></a>) is the optimum choice to open it.<br />
-<img src="/assets/images/editplus_usage.png" /></p>
+<img src="/assets/images/editplus_usage.png" alt="img" /></p>
 
 <p>The bed file contains six columns which are separated by delimiter, just like this:<br />
 <code class="language-plaintext highlighter-rouge">Chr1	1360	1404	AAGATAGAGAACAAGAGAGTGAGAGGATAAGGATATAGACCAGAC	2841	+</code><br />
@@ -317,7 +320,7 @@ Windows Users can use the filter function of <em>Excel</em> to select the target
 <strong>For Linux/MacOS users</strong>, <code class="language-plaintext highlighter-rouge">awk</code> or <code class="language-plaintext highlighter-rouge">perl</code> command may be a better method to select the desired oligo sequences. Just like this:<br />
 <code class="language-plaintext highlighter-rouge">awk '$1=="Chr1"&amp;&amp;$2&gt;=100000&amp;&amp;$3&lt;=200000' TIGR7.bed</code><br />
 This command will extract oligos in the region Chr1:100000-200000 in rice.<br />
-<img src="/assets/images/awk_oligo_usage.png" /></p>
+<img src="/assets/images/awk_oligo_usage.png" alt="img" /></p>
 
 <p>Finally, oligo sequences in the fourth column of the bed file can be synthesized directly for oligo-FISH experiments.</p>
 

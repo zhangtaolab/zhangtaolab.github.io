@@ -6,7 +6,7 @@ permalink: /database/oligo_database
 ---
 
 The oligo database currently hosts oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.  
-To download the oligos, please click the picture of the speices. Details about [Chorus2](#chorus_def), which was used to design the oligos can be found [here](https://github.com/zhangtaolab/Chorus2).
+To download the oligos, please click the download link of the speices. Details about [Chorus2](#chorus_def), which was used to design the oligos can be found [here](https://github.com/zhangtaolab/Chorus2).
 
 #### Information table
 
@@ -56,17 +56,17 @@ Oligo sequences are provided with *bed.bgz* format, which is a compressed versio
 Users can decompress the file following the below instructions:  
 **For Windows Users**:  
 Download [7-Zip](https://www.7-zip.org/) software and install.  
-<img src="{{ site.baseurl }}/assets/images/7-zip_download.png">  
+![img]({{ site.baseurl }}/assets/images/7-zip_download.png)  
 Use 7-Zip to uncompress *bed.bgz* file.  
-<img src="{{ site.baseurl }}/assets/images/7-zip_usage.png">  
+![img]({{ site.baseurl }}/assets/images/7-zip_usage.png)  
 **For Linux/MacOS Users**:  
 Using the following command to uncompress *bed.bgz* file:  
 `$ gzip -cd xxx.bed.bgz > xxx.bed`.  
-<img src="{{ site.baseurl }}/assets/images/gzip_usage.png">  
+![img]({{ site.baseurl }}/assets/images/gzip_usage.png)  
 
 The decompressed bed file can be opened and read by text editor or *Excel* easily.  
 **For Windows users**, text editor (Such as [*EditPlus*](https://www.editplus.com/)) is the optimum choice to open it.  
-<img src="{{ site.baseurl }}/assets/images/editplus_usage.png">  
+![img]({{ site.baseurl }}/assets/images/editplus_usage.png)  
 
 The bed file contains six columns which are separated by delimiter, just like this:  
 `Chr1	1360	1404	AAGATAGAGAACAAGAGAGTGAGAGGATAAGGATATAGACCAGAC	2841	+`  
@@ -75,7 +75,7 @@ Windows Users can use the filter function of *Excel* to select the target oligos
 **For Linux/MacOS users**, `awk` or `perl` command may be a better method to select the desired oligo sequences. Just like this:  
 `awk '$1=="Chr1"&&$2>=100000&&$3<=200000' TIGR7.bed`  
 This command will extract oligos in the region Chr1:100000-200000 in rice.  
-<img src="{{ site.baseurl }}/assets/images/awk_oligo_usage.png">  
+![img]({{ site.baseurl }}/assets/images/awk_oligo_usage.png)  
 
 Finally, oligo sequences in the fourth column of the bed file can be synthesized directly for oligo-FISH experiments.  
 

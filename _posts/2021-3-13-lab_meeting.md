@@ -4,6 +4,7 @@ title: Report:Chromatin Accessibility Dynamics and a Hierarchical Transcriptiona
 image: assets/images/lab_meeting/2021-03-13.png
 author: wyc
 source: https://linkinghub.elsevier.com/retrieve/pii/S1534580720305517
+is_meeting: true
 categories: [Lab Meeting]
 hostDate: 2021-3-16
 journal: Developmental Cell (2020)
