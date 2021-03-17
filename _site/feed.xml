@@ -3,11 +3,27 @@
   <channel>
     <title>Zhang Tao lab</title>
     <description>Bioinformatics, Epigenetics and Genomics.</description>
-    <link>http://192.168.127.25:4000/</link>
-    <atom:link href="http://192.168.127.25:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Mar 2021 20:27:34 +0800</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 20:27:34 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Mar 2021 16:36:33 +0800</pubDate>
+    <lastBuildDate>Wed, 17 Mar 2021 16:36:33 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report:Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Plant somatic embryogenesis refers to a phenomenon where embryos develop from somatic cells in the absence of fertilization. Previous studies have revealed that the phytohormone auxin plays a crucial role in somatic embryogenesis by inducing a cell totipotent state, although its underlying mechanism is poorly understood. Here, we show that auxin rapidly rewires the cell totipotency network by altering chromatin accessibility. The analysis of chromatin accessibility dynamics further reveals a hierarchical gene regulatory network underlying somatic embryogenesis. Particularly, we find that the embryonic nature of explants is a prerequisite for somatic cell reprogramming. Upon cell reprogramming, the B3-type totipotent transcription factor LEC2 promotes somatic embryo formation by direct activation of the early embryonic patterning genes WOX2 and WOX3. Our results thus shed light on the molecular mechanism by which auxin promotes the acquisition of plant cell totipotency and establish a direct link between cell totipotent genes and the embryonic development pathway.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-developmental-cell-2020&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S1534580720305517&quot;&gt;Developmental Cell (2020)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sat, 13 Mar 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/03/13/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/03/13/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report:The relationship between genome structure and function</title>
@@ -17,8 +33,8 @@
 &lt;h4 id=&quot;source-nature-reviews-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41576-020-00303-x#author-information&quot;&gt;Nature Reviews Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
 </description>
         <pubDate>Sat, 06 Mar 2021 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/lab%20meeting/2021/03/06/lab_meeting.html</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/lab%20meeting/2021/03/06/lab_meeting.html</guid>
+        <link>/lab%20meeting/2021/03/06/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/03/06/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
@@ -26,14 +42,18 @@
       </item>
     
       <item>
-        <title>PlantDHS</title>
-        <description>&lt;p&gt;Plant DHS Database.&lt;/p&gt;
+        <title>Chorus2 oligo database</title>
+        <description>&lt;p&gt;An oligo database which hosts oligo sequences of plant species for Oligo-FISH.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/database/oligo_database&quot;&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The oligo database current host oligo sequences of six plant species, including Arabidopsis, rice, maize, potato, barley and soybean. All the oligos are designed by Chorus2 software.&lt;br /&gt;
+The details of the database are shown &lt;a href=&quot;/database/oligo_database&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/info/database/plantdhs</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/info/database/plantdhs</guid>
+        <pubDate>Tue, 02 Mar 2021 00:00:00 +0800</pubDate>
+        <link>/info/database/oligo_database</link>
+        <guid isPermaLink="true">/info/database/oligo_database</guid>
         
         
         <category>database</category>
@@ -41,14 +61,30 @@
       </item>
     
       <item>
-        <title>Chorus2 oligo database</title>
-        <description>&lt;p&gt;The oligo database current host oligo sequences of six species, including Arabidopsis, rice, maize, potato, barley and soybean. The details of the oligos are showed in the bellow table.&lt;/p&gt;
+        <title>PlantDHS</title>
+        <description>&lt;p&gt;PlantDHS: a database for DNase I hypersensitive sites (DHSs) in plants.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/database/oligo_database&quot;&gt;Details&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PlantDHS&lt;/strong&gt; is a plant DNase I hypersensitive site (DHS) database that integrates histone modification, RNA sequencing, nucleosome positioning/occupancy, transcription factor binding sites (TFBS), and genomic sequence within an easily navigated user interface. DHSs are indicative of all CREs, including promoters, enhancers, silencers, insulators and transcription factor binding sites.&lt;br /&gt;
+PlantDHS provides a platform to predict all CREs associated with individual genes from three model plant species, including &lt;em&gt;Arabidopsis thaliana&lt;/em&gt;, &lt;em&gt;Brachypodium distachyon&lt;/em&gt; and rice (&lt;em&gt;Oryza sativa&lt;/em&gt;).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Zhang T, Marand A, Jiang JM*. &lt;a href=&quot;http://zhangtaolab.org/pdf/2016/NAR_2016.pdf&quot;&gt;PlantDHS: A Database for DNase I Hypertensive Sites in Plants.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Nucleic Acids Research&lt;/strong&gt;&lt;/em&gt; 2016, 44(D1):D1148-D1153.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/PlantDHS/Figure1.jpg&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/images/PlantDHS/Figure2.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 28 Feb 2021 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/info/database/oligo_database</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/info/database/oligo_database</guid>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
+        <link>/info/database/plantdhs</link>
+        <guid isPermaLink="true">/info/database/plantdhs</guid>
         
         
         <category>database</category>
@@ -57,13 +93,25 @@
     
       <item>
         <title>Popera</title>
-        <description>&lt;p&gt;DHS identification software.&lt;/p&gt;
+        <description>&lt;p&gt;A software specially designed for DHS identification.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;DNase I hypersensitive sites (DHSs) are regions of chromatin that are sensitive to cleavage by the DNase I enzyme. In these specific regions of the genome, chromatin has lost its condensed structure, exposing the DNA and making it accessible.&lt;br /&gt;
+&lt;strong&gt;Popera&lt;/strong&gt; is specially designed for identifying genome-wide DHSs from DNase-seq reads. First, Popera identifies the DHSs by applying the kernel density estimation algorithm, which is similar to the algorithm defined by F-seq. Second, all the DHSs identified from various tissues and developmental stages were merged to create a unified DHS file; DHSs were then assigned unique ID tags. Lastly, normalized scores of unified DHSs were calculated for each unique tissue and developmental stage. Besides, Popera can generate smooth bigwig files, which provide more explicit and pretty visualization for downstream analysis.&lt;/p&gt;
+
+&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;DHS identified by &lt;em&gt;F-seq&lt;/em&gt;&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/Popera/DHS_Fseq.jpg&quot; alt=&quot;img&quot; /&gt;
+&lt;strong&gt;DHS identified by &lt;em&gt;Popera&lt;/em&gt;&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/Popera/DHS_Popera.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/software/popera</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/software/popera</guid>
+        <link>/software/popera</link>
+        <guid isPermaLink="true">/software/popera</guid>
         
         
         <category>software</category>
@@ -72,13 +120,24 @@
     
       <item>
         <title>CRISPR-BETS</title>
-        <description>&lt;p&gt;gRNA design software for base editing knockout system.&lt;/p&gt;
+        <description>&lt;p&gt;A gRNA design software for base editing knockout using stop codon.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;&lt;strong&gt;Web&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Desktop&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;CRISPR-BETS&lt;/strong&gt; (&lt;strong&gt;CRISPR&lt;/strong&gt;-&lt;strong&gt;B&lt;/strong&gt;ase &lt;strong&gt;E&lt;/strong&gt;diting &lt;strong&gt;T&lt;/strong&gt;o &lt;strong&gt;S&lt;/strong&gt;top codon) is developed for designing gRNA to knockout gene by CRISPR base editing system. CRISPR-BETS has both online and desktop version, which are integrated into a user-friendly graphic user interface (GUI) and compatible with major operating systems (Windows, MacOS, Linux). Guide RNAs can be designed easily without any environment installation. Users can complete the analysis with a simple mouse click. Results will display with detailed information and fancy images, which are able to be downloaded. Moreover, CRISPR-BETS allows instant check the gRNA specificity.&lt;/p&gt;
+
+&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/CRISPR-BETS/CRISPR-BETS_preview01.png&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/images/CRISPR-BETS/CRISPR-BETS_preview02.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/software/crisprbets</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/software/crisprbets</guid>
+        <link>/software/crisprbets</link>
+        <guid isPermaLink="true">/software/crisprbets</guid>
         
         
         <category>software</category>
@@ -87,13 +146,48 @@
     
       <item>
         <title>Chorus2</title>
-        <description>&lt;p&gt;Oligo FISH probe design software.&lt;/p&gt;
+        <description>&lt;p&gt;Design of genome-scale oligonucleotide-based probes for fluorescence &lt;em&gt;in situ&lt;/em&gt; hybridization (FISH)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://chorus2.readthedocs.io/en/latest/&quot;&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Chorus2&lt;/strong&gt;, a software that is developed specifically for oligo selection in plant species. It is highly effective to remove all repetitive elements in selection of single copy oligos, which is critical for the development of successful FISH probes. Chorus2 is more effective than Chorus and OligoMiner for repeat removal. Chorus2 allows to select oligos that are conserved among related species, which extends the usage of oligo-FISH probes among phylogenetically related plant species. Chorus2 allows development of FISH probes from plant species without an assembled genome.&lt;/p&gt;
+
+&lt;h3 id=&quot;video-tutorials&quot;&gt;Video tutorials&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLo8q8tqFX5J27OsuKYFpd-gOtl8Qgf70X&quot;&gt;YouTube (EN)&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.bilibili.com/video/BV1W54y1S7qS/&quot;&gt;bilibili (中文)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;oligo-design-with-choruschorus2&quot;&gt;Oligo design with Chorus/Chorus2&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Wheat&lt;/strong&gt;: Li GR†, Zhang T†, Yu ZH, Wang HJ, Yang EN, Yang ZJ*. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/tpj.15081&quot;&gt;An efficient Oligo‐FISH painting system for revealing chromosome rearrangements and polyploidization in Triticeae.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2021, 105(4):978-993&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rice&lt;/strong&gt;: Liu XY†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang JM, Liu B, Zhang T*, Gong ZY*. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522&quot;&gt;Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2020, 101:112-121&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maize&lt;/strong&gt;: Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J*. &lt;a href=&quot;https://www.pnas.org/content/116/5/1679&quot;&gt;Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Proceedings of the National Academy of Sciences of the United States of America&lt;/strong&gt;&lt;/em&gt; 2019, 16(5):1679-1685&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Populus&lt;/strong&gt;: Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML*, Jiang JM. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536&quot;&gt;An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2020, 101:253-264&lt;br /&gt;
+Xin H†, Zhang T†, Han Y, Wu YF, Shi JS, Xi ML*, and Jiang JM. &lt;a href=&quot;https://link.springer.com/article/10.1007/s00412-018-0664-y&quot;&gt;Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides.&lt;/a&gt; &lt;em&gt;Chromosoma&lt;/em&gt; 2018, 127(3):313-321&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Potato&lt;/strong&gt;, &lt;strong&gt;Tomato&lt;/strong&gt;, &lt;strong&gt;Eggplant&lt;/strong&gt;, &lt;strong&gt;Tzimbalo&lt;/strong&gt; and &lt;strong&gt;Pepper&lt;/strong&gt;: Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM*. &lt;a href=&quot;http://www.genetics.org/content/208/2/513.full.pdf&quot;&gt;Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.&lt;/a&gt; &lt;em&gt;Genetics&lt;/em&gt; 2018, 208(2):513-523&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cucumber&lt;/strong&gt;, &lt;strong&gt;Muskmelon&lt;/strong&gt; and other &lt;strong&gt;Cucumis&lt;/strong&gt;: Han YH†, Zhang T†, Thammapichai P, Weng YQ, and Jiang JM*:  &lt;a href=&quot;/pdf/2015/Genetics_2015.pdf&quot;&gt;Chromosome-specific painting in Cucumis species using bulked oligonucleotides.&lt;/a&gt; &lt;em&gt;Genetics&lt;/em&gt; 2015, 200(3):771-779&lt;/li&gt;
+  &lt;li&gt;Cotton, Switchgrass, Sugarcane, Banana and etc …&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;oligo-fish-performed-with-choruschorus2-designed-probes&quot;&gt;Oligo-FISH performed with Chorus/Chorus2 designed probes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Chorus2/F1.jpg&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/images/Chorus2/F2.jpg&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/images/Chorus2/F3.jpg&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/images/Chorus2/F4.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;oligo-database&quot;&gt;Oligo database&lt;/h2&gt;
+
+&lt;p&gt;We have developed an oligo database for several plant species. The database currently covers six popular plant species.&lt;br /&gt;
+The oligo database is available &lt;a href=&quot;http://192.168.127.25:4000/database/oligo_database&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/software/chorus2</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/software/chorus2</guid>
+        <link>/software/chorus2</link>
+        <guid isPermaLink="true">/software/chorus2</guid>
         
         
         <category>software</category>
@@ -104,11 +198,26 @@
         <title>CRISPRMatch</title>
         <description>&lt;p&gt;An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Commandline(CLI) version&lt;/a&gt;
+&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatchGUI&quot;&gt;GUI version&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;CRISPRMatch&lt;/strong&gt;, an automatic stand-alone toolkit based on python script to process the high-throughput genome-editing data of CRISPR nuclease transformed protoplasts by integrating analysis steps like mapping reads and normalizing reads count, calculating mutation frequency (deletion and insertion), evaluating efficiency and accuracy of genome-editing, and visualizing the results (tables and figures). Both of CRISPR-Cas9 and CRISPR-Cpf1 nucleases are supported by CRISPRMatch toolkit. A graphical user interface(GUI) version of CRISPRMatch has also been deployed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You Q, Zhong ZH, Ren QR, Hassan F, Zhang Y*, Zhang T*. &lt;a href=&quot;http://www.ijbs.com/v14p0858.htm&quot;&gt;CRISPRMatch: An Automatic Calculation And Visualization Tool For High-throughput CRISPR Genome-editing Data Analysis.&lt;/a&gt; &lt;em&gt;International Journal of Biological Sciences&lt;/em&gt; 2018, 14(8):858-862&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/CRISPRMatch/CRISPRMatch_preview.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>http://192.168.127.25:4000/software/crisprmatch</link>
-        <guid isPermaLink="true">http://192.168.127.25:4000/software/crisprmatch</guid>
+        <link>/software/crisprmatch</link>
+        <guid isPermaLink="true">/software/crisprmatch</guid>
         
         
         <category>software</category>

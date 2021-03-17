@@ -28,7 +28,7 @@ comments: false
 
 * Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML\*, Jiang JM. [An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536) The Plant Journal 2020, 101:253-264
 
-    * Cover: [The Plant Journal Volume 101, Issue 2](http://zhangtaolab.org/pdf/2020/2020_The_Plant_Journal_cover.pdf)
+  * Cover: [The Plant Journal Volume 101, Issue 2](http://zhangtaolab.org/pdf/2020/2020_The_Plant_Journal_cover.pdf)
 
 ## 2019
 
@@ -100,7 +100,7 @@ comments: false
 
 * Zhang T†, Talbert PB†, Zhang WL†, Wu YF, Yang ZJ, Henikoff JG, Henikoff S, Jiang JM. [The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres.](http://zhangtaolab.org/pdf/2013/PNAS_2013.pdf) Proceedings of the National Academy of Sciences of the United States of America 2013, 110(50):E4875–E4883.
 
-    * Commentary: Heslop-Harrison, J.S. and Schwarzacher, T. [Nucleosomes and centromeric DNA packaging.](http://zhangtaolab.org/pdf/2013/PNAS_2013_comm.pdf) Proceedings of the National Academy of Sciences of the United States of America 2013, 110(50):19974-19975.
+  * Commentary: Heslop-Harrison, J.S. and Schwarzacher, T. [Nucleosomes and centromeric DNA packaging.](http://zhangtaolab.org/pdf/2013/PNAS_2013_comm.pdf) Proceedings of the National Academy of Sciences of the United States of America 2013, 110(50):19974-19975.
 
 * Iovene M, Zhang T, Lou Q, Buell CR, Jiang JM. Copy number variation in potato - an asexually propagated autotetraploid species. The Plant Journal 2013, 75(1):80-89.
 
