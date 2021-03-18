@@ -8,6 +8,8 @@ comments: false
 
 ## 2021
 
+* Zhang C, Zhang JX, Tang YJ, Liu KW, Liu Y, Tang JQ, Zhang T, Yu HX\*. [DEEP GREEN PANICLE1 suppresses GOLDEN2-LIKE activity to reduce chlorophyll synthesis in rice glumes.](https://academic.oup.com/plphys/article/185/2/469/6020270) Plant Physiology 2021, 185(2):469-477
+
 * Liu GQ, Qi YP, Zhang T. [Analysis of Off-Target Mutations in CRISPR-Edited Rice Plants Using Whole-Genome Sequencing.](https://link.springer.com/protocol/10.1007/978-1-0716-1068-8_10) Methods in Molecular Biology 2021, 2238:145-172
 
 * Li GR†, Zhang T†, Yu ZH, Wang HJ, Yang EN, Yang ZJ\*. [An efficient Oligo‐FISH painting system for revealing chromosome rearrangements and polyploidization in Triticeae.](https://onlinelibrary.wiley.com/doi/10.1111/tpj.15081) The Plant Journal 2021, 105(4):978-993
