@@ -11,7 +11,7 @@ permalink: /software/crisprbets
 A gRNA design software for base editing knockout using stop codon.
 
 [**Web**](https://bioinfor.yzu.edu.cn/crisprbets/)  
-**Desktop**  
+[**Desktop**](https://github.com/yuechaowu/CRISPR-BETS_desktop)  
 **Documentation**  
 
 ## Introduction

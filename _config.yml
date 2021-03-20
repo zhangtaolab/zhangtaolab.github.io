@@ -22,6 +22,10 @@ authors:
     name: Wu Yuechao
     display_name: Wu Yuechao
     email: wuyuechao@zhangtaolab.org
+  lgq:
+    name: Liu Guanqing
+    display_name: Liu Guanqing
+    email: liuguanqing@zhangtaolab.org
 
 # Plugins
 plugins: 
