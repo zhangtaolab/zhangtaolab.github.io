@@ -1,6 +1,6 @@
 ---
 layout: meeting
-title: Report:Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis
+title: "Report: Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis"
 image: assets/images/lab_meeting/2021-03-13.png
 author: wyc
 source: https://linkinghub.elsevier.com/retrieve/pii/S1534580720305517

@@ -5,12 +5,28 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Mar 2021 09:15:26 +0800</pubDate>
-    <lastBuildDate>Thu, 18 Mar 2021 09:15:26 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Mar 2021 16:17:26 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Mar 2021 16:17:26 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Report:Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis</title>
+        <title>Report: Epigenetic reprogramming rewires transcription during the alternation of generations in Arabidopsis</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Alternation between morphologically distinct haploid and diploid life forms is a defining feature of most plant and algal life cycles, yet the underlying molecular mechanisms that govern these transitions remain unclear. Here, we explore the dynamic relationship between chromatin accessibility and epigenetic modifications during life form transitions in Arabidopsis. The diploid-to-haploid life form transition is governed by the loss of H3K9me2 and DNA demethylation of transposon-associated cis-regulatory elements. This event is associated with dramatic changes in chromatin accessibility and transcriptional reprogramming. In contrast, the global loss of H3K27me3 in the haploid form shapes a chromatin accessibility landscape that is poised to re-initiate the transition back to diploid life after fertilisation. Hence, distinct epigenetic reprogramming events rewire transcription through major reorganisation of the regulatory epigenome to guide the alternation of generations in flowering plants.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-elife-2021&quot;&gt;Source: &lt;a href=&quot;https://elifesciences.org/articles/61894&quot;&gt;eLife (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sat, 20 Mar 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/03/20/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/03/20/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Report: Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis</title>
         <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
 &lt;p&gt;Plant somatic embryogenesis refers to a phenomenon where embryos develop from somatic cells in the absence of fertilization. Previous studies have revealed that the phytohormone auxin plays a crucial role in somatic embryogenesis by inducing a cell totipotent state, although its underlying mechanism is poorly understood. Here, we show that auxin rapidly rewires the cell totipotency network by altering chromatin accessibility. The analysis of chromatin accessibility dynamics further reveals a hierarchical gene regulatory network underlying somatic embryogenesis. Particularly, we find that the embryonic nature of explants is a prerequisite for somatic cell reprogramming. Upon cell reprogramming, the B3-type totipotent transcription factor LEC2 promotes somatic embryo formation by direct activation of the early embryonic patterning genes WOX2 and WOX3. Our results thus shed light on the molecular mechanism by which auxin promotes the acquisition of plant cell totipotency and establish a direct link between cell totipotent genes and the embryonic development pathway.&lt;/p&gt;
 
@@ -26,7 +42,7 @@
       </item>
     
       <item>
-        <title>Report:The relationship between genome structure and function</title>
+        <title>Report: The relationship between genome structure and function</title>
         <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
 &lt;p&gt;Precise patterns of gene expression in metazoans are controlled by three classes of regulatory elements: promoters, enhancers and boundary elements. During differentiation and development, these elements form specific interactions in dynamic higher-order chromatin structures. However, the relationship between genome structure and its function in gene regulation is not completely understood. Here we review recent progress in this field and discuss whether genome structure plays an instructive role in regulating gene expression or is a reflection of the activity of the regulatory elements of the genome.&lt;/p&gt;
 
@@ -123,7 +139,7 @@ PlantDHS provides a platform to predict all CREs associated with individual gene
         <description>&lt;p&gt;A gRNA design software for base editing knockout using stop codon.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;&lt;strong&gt;Web&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;strong&gt;Desktop&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/yuechaowu/CRISPR-BETS_desktop&quot;&gt;&lt;strong&gt;Desktop&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -198,7 +214,7 @@ The oligo database is available &lt;a href=&quot;http://192.168.127.25:4000/data
         <title>CRISPRMatch</title>
         <description>&lt;p&gt;An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Commandline(CLI) version&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Commandline(CLI) version&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatchGUI&quot;&gt;GUI version&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;

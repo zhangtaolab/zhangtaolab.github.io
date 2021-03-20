@@ -9,7 +9,7 @@ permalink: /software/crisprmatch
 ---
 An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.
 
-[Commandline(CLI) version](https://github.com/zhangtaolab/CRISPRMatch)
+[Commandline(CLI) version](https://github.com/zhangtaolab/CRISPRMatch)  
 [GUI version](https://github.com/zhangtaolab/CRISPRMatchGUI)
 
 ## Introduction

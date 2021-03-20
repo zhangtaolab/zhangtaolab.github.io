@@ -1,6 +1,6 @@
-I"G<p>An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.</p>
+I"M<p>An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.</p>
 
-<p><a href="https://github.com/zhangtaolab/CRISPRMatch">Commandline(CLI) version</a>
+<p><a href="https://github.com/zhangtaolab/CRISPRMatch">Commandline(CLI) version</a><br />
 <a href="https://github.com/zhangtaolab/CRISPRMatchGUI">GUI version</a></p>
 
 <h2 id="introduction">Introduction</h2>
