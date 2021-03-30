@@ -8,7 +8,7 @@ comments: false
 
 ## 2021
 
-* Meng FL†, Zhao HN†, Zhu B, Zhang T, Yang, Li Y, Han YP, Jiang JM\*. [Genomic Editing of Intronic Enhancers Unveils Their Role in Fine-Tuning Tissue-Specific Gene Expression in *Arabidopsis thaliana*](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koab093/6187954) ***The Plant Cell*** 2021, koab093
+* Meng FL†, Zhao HN†, Zhu B, Zhang T, Yang, Li Y, Han YP, Jiang JM\*. [Genomic Editing of Intronic Enhancers Unveils Their Role in Fine-Tuning Tissue-Specific Gene Expression in *Arabidopsis thaliana*](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koab093/6187954) ***The Plant Cell*** [DOI:10.1093/plcell/koab093](https://doi.org/10.1093/plcell/koab093)
 
 * Zhang C, Zhang JX, Tang YJ, Liu KW, Liu Y, Tang JQ, Zhang T, Yu HX\*. [DEEP GREEN PANICLE1 suppresses GOLDEN2-LIKE activity to reduce chlorophyll synthesis in rice glumes.](https://academic.oup.com/plphys/article/185/2/469/6020270) ***Plant Physiology*** 2021, 185(2):469-477
 
