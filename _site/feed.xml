@@ -5,8 +5,8 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Mar 2021 16:17:26 +0800</pubDate>
-    <lastBuildDate>Sat, 20 Mar 2021 16:17:26 +0800</lastBuildDate>
+    <pubDate>Tue, 30 Mar 2021 20:35:07 +0800</pubDate>
+    <lastBuildDate>Tue, 30 Mar 2021 20:35:07 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -116,13 +116,11 @@ PlantDHS provides a platform to predict all CREs associated with individual gene
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;DNase I hypersensitive sites (DHSs) are regions of chromatin that are sensitive to cleavage by the DNase I enzyme. In these specific regions of the genome, chromatin has lost its condensed structure, exposing the DNA and making it accessible.&lt;br /&gt;
-&lt;strong&gt;Popera&lt;/strong&gt; is specially designed for identifying genome-wide DHSs from DNase-seq reads. First, Popera identifies the DHSs by applying the kernel density estimation algorithm, which is similar to the algorithm defined by F-seq. Second, all the DHSs identified from various tissues and developmental stages were merged to create a unified DHS file; DHSs were then assigned unique ID tags. Lastly, normalized scores of unified DHSs were calculated for each unique tissue and developmental stage. Besides, Popera can generate smooth bigwig files, which provide more explicit and pretty visualization for downstream analysis.&lt;/p&gt;
+&lt;strong&gt;Popera&lt;/strong&gt; is specially designed for identifying genome-wide DHSs from DNase-seq reads. First, Popera identifies the DHSs by applying the kernel density estimation algorithm. Second, all the DHSs identified from various tissues and developmental stages were merged to create a unified DHS file; DHSs were then assigned unique ID tags. Lastly, normalized scores of unified DHSs were calculated for each unique tissue and developmental stage. Besides, Popera can generate smooth bigwig files, which provide more explicit and pretty visualization for downstream analysis.&lt;/p&gt;
 
 &lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;DHS identified by &lt;em&gt;F-seq&lt;/em&gt;&lt;/strong&gt;
-&lt;img src=&quot;/assets/images/Popera/DHS_Fseq.jpg&quot; alt=&quot;img&quot; /&gt;
-&lt;strong&gt;DHS identified by &lt;em&gt;Popera&lt;/em&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;DHS identified by &lt;em&gt;Popera&lt;/em&gt;&lt;/strong&gt;
 &lt;img src=&quot;/assets/images/Popera/DHS_Popera.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
@@ -214,8 +212,8 @@ The oligo database is available &lt;a href=&quot;http://192.168.127.25:4000/data
         <title>CRISPRMatch</title>
         <description>&lt;p&gt;An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;Commandline(CLI) version&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatchGUI&quot;&gt;GUI version&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;&lt;strong&gt;CommandLine(CLI)&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatchGUI&quot;&gt;&lt;strong&gt;GUI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
