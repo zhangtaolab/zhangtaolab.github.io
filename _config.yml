@@ -26,6 +26,9 @@ authors:
     name: Liu Guanqing
     display_name: Liu Guanqing
     email: liuguanqing@zhangtaolab.org
+  xxy:
+    name: Xin Xiaoyue
+    display_name: Xin Xiaoyue
 
 # Plugins
 plugins: 
