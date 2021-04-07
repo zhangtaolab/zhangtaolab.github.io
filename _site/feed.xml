@@ -5,8 +5,8 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Apr 2021 20:26:29 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Apr 2021 20:26:29 +0800</lastBuildDate>
+    <pubDate>Thu, 08 Apr 2021 00:50:34 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Apr 2021 00:50:34 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -74,21 +74,21 @@
       </item>
     
       <item>
-        <title>Chorus2 oligo database</title>
-        <description>&lt;p&gt;An oligo database which hosts oligo sequences of plant species for Oligo-FISH.&lt;/p&gt;
+        <title>Chorus2 oligo datasets</title>
+        <description>&lt;p&gt;Oligo datasets which host oligo sequences for Oligo-FISH.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/database/oligo_database&quot;&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/download/oligo_datasets&quot;&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The oligo database current host oligo sequences of six plant species, including Arabidopsis, rice, maize, potato, barley and soybean. All the oligos are designed by Chorus2 software.&lt;br /&gt;
-The details of the database are shown &lt;a href=&quot;/database/oligo_database&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The oligo datasets currently host oligo sequences of nine species, including Arabidopsis, rice, maize, potato, barley, soybean, human, mouse and zebrafish. All the oligos are designed by Chorus2 software.&lt;br /&gt;
+The details of the datasets are shown &lt;a href=&quot;/database/oligo_datasets&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/info/database/oligo_database</link>
-        <guid isPermaLink="true">/info/database/oligo_database</guid>
+        <link>/info/download/oligo_datasets</link>
+        <guid isPermaLink="true">/info/download/oligo_datasets</guid>
         
         
-        <category>database</category>
+        <category>download</category>
         
       </item>
     

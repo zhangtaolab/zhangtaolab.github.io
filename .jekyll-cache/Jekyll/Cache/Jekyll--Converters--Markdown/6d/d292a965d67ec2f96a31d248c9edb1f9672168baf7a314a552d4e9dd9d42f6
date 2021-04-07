@@ -1,0 +1,20 @@
+I"Ï<p>PlantDHS: a database for DNase I hypersensitive sites (DHSs) in plants.</p>
+
+<p><a href="http://plantdhs.org/">Go to</a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>PlantDHS</strong> is a plant DNase I hypersensitive site (DHS) database that integrates histone modification, RNA sequencing, nucleosome positioning/occupancy, transcription factor binding sites (TFBS), and genomic sequence within an easily navigated user interface. DHSs are indicative of all CREs, including promoters, enhancers, silencers, insulators and transcription factor binding sites.<br />
+PlantDHS provides a platform to predict all CREs associated with individual genes from three model plant species, including <em>Arabidopsis thaliana</em>, <em>Brachypodium distachyon</em> and rice (<em>Oryza sativa</em>).</p>
+
+<ul>
+  <li>Zhang T, Marand A, Jiang JM*. <a href="http://zhangtaolab.org/pdf/2016/NAR_2016.pdf">PlantDHS: A Database for DNase I Hypertensive Sites in Plants.</a> <em><strong>Nucleic Acids Research</strong></em> 2016, 44(D1):D1148-D1153.</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="preview">Preview</h3>
+
+<p><img src="/assets/images/PlantDHS/Figure1.jpg" alt="img" />
+<img src="/assets/images/PlantDHS/Figure2.jpg" alt="img" /></p>
+:ET
