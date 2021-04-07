@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Oligo Probes Datasets
+title: Oligo Datasets
 comments: false
 permalink: /download/oligo_datasets
 ---
