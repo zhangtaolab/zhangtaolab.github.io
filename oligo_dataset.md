@@ -32,15 +32,15 @@ To download the oligos, please click the download link of the speices. Details a
 
 |Species|Scientific name |Reference |No. of oligos |Download|
 |---        |---                   |---                                                                   |---         |---     |
-|Arabidopsis|*Arabidopsis thaliana*|[TAIR10](https://www.arabidopsis.org/)                                |1,089,367   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/TAIR10.bed.bgz)|
-|Rice       |*Oryza sativa*        |[TIGR7](http://rice.plantbiology.msu.edu/)                            |1,710,279   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/TIGR7.bed.bgz)|
-|Maize      |*Zea mays*            |[B73_v4](https://www.maizegdb.org/)                                   |1,641,770   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/B73_v4.bed.bgz)|
-|Potato     |*Solanum tuberosum*   |[DM_v4.04](http://solanaceae.plantbiology.msu.edu/pgsc_download.shtml)|1,674,902   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/DM_v404.bed.bgz)|
-|Barley     |*Hordeum vulgare*     |[IBSC_v2](http://plants.ensembl.org/Hordeum_vulgare/Info/Index)       |2,968,560   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/IBSC_v2.bed.bgz)|
-|Soybean    |*Glycine max*         |[Gmax_ZH13_v2.0](https://bigd.big.ac.cn/gwh/Assembly/652/show)        |1,851,420   |[bed](http://jianglab.plantbiology.msu.edu/oligo_database_files/data/Gmax_ZH13_v3.bed.bgz)|
-|Human      |*Homo sapiens*        |[hg38](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips)        |2,311,370   |[bed]({{ site.baseurl }}/download/oligo_datasets)|
-|Mouse      |*Mus musculus*        |[mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips)        |3,397,774   |[bed]({{ site.baseurl }}/download/oligo_datasets)|
-|Zebrafish  |*Danio rerio*         |[danRer11](http://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips)|2,442,308   |[bed]({{ site.baseurl }}/download/oligo_datasets)|
+|Arabidopsis|*Arabidopsis thaliana*|[TAIR10](https://www.arabidopsis.org/)                                |1,089,367   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TAIR10.bed.bgz)|
+|Rice       |*Oryza sativa*        |[TIGR7](http://rice.plantbiology.msu.edu/)                            |1,710,279   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TIGR7.bed.bgz)|
+|Maize      |*Zea mays*            |[B73_v4](https://www.maizegdb.org/)                                   |1,641,770   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/B73_v4.bed.bgz)|
+|Potato     |*Solanum tuberosum*   |[DM_v4.04](http://solanaceae.plantbiology.msu.edu/pgsc_download.shtml)|1,674,902   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/DM_v404.bed.bgz)|
+|Barley     |*Hordeum vulgare*     |[IBSC_v2](http://plants.ensembl.org/Hordeum_vulgare/Info/Index)       |2,968,560   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/IBSC_v2.bed.bgz)|
+|Soybean    |*Glycine max*         |[Gmax_ZH13_v2.0](https://bigd.big.ac.cn/gwh/Assembly/652/show)        |1,851,420   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/Gmax_ZH13_v2.bed.bgz)|
+|Human      |*Homo sapiens*        |[hg38](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips)        |2,311,370   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/hg38.bed.bgz)|
+|Mouse      |*Mus musculus*        |[mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips)        |3,397,774   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/mm10.bed.bgz)|
+|Zebrafish  |*Danio rerio*         |[danRer11](http://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips)|2,442,308   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/danRer11.bed.bgz)|
 
 
 **Images**
@@ -49,12 +49,12 @@ To download the oligos, please click the download link of the speices. Details a
 |Arabidopsis|Rice|Maize|
 |<img src="{{ site.baseurl }}/assets/images/species_img/potato.jpeg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/barley.jpeg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/soybean.jpeg" width="50%">|
 |Potato|Barley|Soybean|
-|<img src="{{ site.baseurl }}/assets/images/species_img/human.jpg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/mouse.jpg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/zebrafish.jpg" width="50%">|
-|Human ([Graphic courtesy of CBSE](http://www.cbse.ucsc.edu/))|Mouse (Photo courtesy of [The Jackson Laboratory](http://www.jax.org/))|Zebrafish ([NHGRI Press Photos](http://www.genome.gov/dmd/img.cfm?node=Photos/Animals/Zebrafish&id=79130))|
+|<img src="{{ site.baseurl }}/assets/images/species_img/human.jpeg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/mouse.jpeg" width="50%">|<img src="{{ site.baseurl }}/assets/images/species_img/zebrafish.jpeg" width="50%">|
+|Human|Mouse|Zebrafish|
 
 <br/>
 
-#### How to use the database
+#### How to use the datasets
 
 To use the oligo sequences of the target species, users should first download the *bed* file from the download column in the above table.  
 Oligo sequences are provided with *bed.bgz* format, which is a compressed version of bed file. 
