@@ -21,7 +21,7 @@
 <lastmod>2021-03-01T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>/info/database/oligo_database</loc>
+<loc>/info/download/oligo_datasets</loc>
 <lastmod>2021-03-02T00:00:00+08:00</lastmod>
 </url>
 <url>
@@ -39,6 +39,10 @@
 <url>
 <loc>/lab%20meeting/2021/04/04/lab_meeting.html</loc>
 <lastmod>2021-04-04T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>/lab%20meeting/2021/04/11/lab_meeting.html</loc>
+<lastmod>2021-04-11T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>/Publication.html</loc>
@@ -59,7 +63,7 @@
 <loc>/job.html</loc>
 </url>
 <url>
-<loc>/database/oligo_database</loc>
+<loc>/download/oligo_datasets</loc>
 </url>
 <url>
 <loc>/research.html</loc>
@@ -69,6 +73,9 @@
 </url>
 <url>
 <loc>/category/database/</loc>
+</url>
+<url>
+<loc>/category/download/</loc>
 </url>
 <url>
 <loc>/category/lab-meeting/</loc>
