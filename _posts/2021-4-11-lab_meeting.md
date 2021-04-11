@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Report: Molecular Networks of Seed Size Control in Plants"
-image: assets/images/lab_meeting/2021-03-20.png
+image: assets/images/lab_meeting/2021-04-11.png
 author: by
 source: https://www.annualreviews.org/doi/10.1146/annurev-arplant-050718-095851
 is_meeting: true
