@@ -29,6 +29,10 @@ authors:
   xxy:
     name: Xin Xiaoyue
     display_name: Xin Xiaoyue
+  by:
+    name: Bao Yu
+    display_name: Bao Yu
+    email: baoyu@zhangtaolab.org
 
 # Plugins
 plugins: 

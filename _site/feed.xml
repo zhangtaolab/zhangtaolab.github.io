@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Apr 2021 00:50:34 +0800</pubDate>
-    <lastBuildDate>Thu, 08 Apr 2021 00:50:34 +0800</lastBuildDate>
+    <pubDate>Sun, 11 Apr 2021 11:16:18 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Apr 2021 11:16:18 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Molecular Networks of Seed Size Control in Plants</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;The size of seeds affects not only evolutionary fitness but also grain yield of crops. Understanding the mechanisms controlling seed size has become an important research field in plant science. Seed size is determined by the integrated signals of maternal and zygotic tissues, which control the coordinated growth of the embryo, endosperm, and seed coat. Recent advances have identified several signaling pathways that control seed size through maternal tissues, including or involving the ubiquitin-proteasome pathway, G-protein signaling, mitogen-activated protein kinase (MAPK) signaling, phytohormone perception and homeostasis, and some transcriptional regulators. Meanwhile, growth of the zygotic tissues is regulated in part by the HAIKU (IKU) pathway and phytohormones. This review provides a general overview of current findings in seed size control and discusses the emerging molecular mechanisms and regulatory networks found to be involved.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-annual-review-of-plant-biology-2019&quot;&gt;Source: &lt;a href=&quot;https://www.annualreviews.org/doi/10.1146/annurev-arplant-050718-095851&quot;&gt;Annual Review of Plant Biology (2019)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 11 Apr 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/04/11/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/04/11/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Identification of Plant Enhancers and Their Constituent Elements by STARR-seq in Tobacco Leaves</title>
@@ -218,36 +234,6 @@ The oligo database is available &lt;a href=&quot;http://192.168.127.25:4000/data
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
         <link>/software/chorus2</link>
         <guid isPermaLink="true">/software/chorus2</guid>
-        
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>CRISPRMatch</title>
-        <description>&lt;p&gt;An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatch&quot;&gt;&lt;strong&gt;CommandLine(CLI)&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/zhangtaolab/CRISPRMatchGUI&quot;&gt;&lt;strong&gt;GUI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;CRISPRMatch&lt;/strong&gt;, an automatic stand-alone toolkit based on python script to process the high-throughput genome-editing data of CRISPR nuclease transformed protoplasts by integrating analysis steps like mapping reads and normalizing reads count, calculating mutation frequency (deletion and insertion), evaluating efficiency and accuracy of genome-editing, and visualizing the results (tables and figures). Both of CRISPR-Cas9 and CRISPR-Cpf1 nucleases are supported by CRISPRMatch toolkit. A graphical user interface(GUI) version of CRISPRMatch has also been deployed.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You Q, Zhong ZH, Ren QR, Hassan F, Zhang Y*, Zhang T*. &lt;a href=&quot;http://www.ijbs.com/v14p0858.htm&quot;&gt;CRISPRMatch: An Automatic Calculation And Visualization Tool For High-throughput CRISPR Genome-editing Data Analysis.&lt;/a&gt; &lt;em&gt;International Journal of Biological Sciences&lt;/em&gt; 2018, 14(8):858-862&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/CRISPRMatch/CRISPRMatch_preview.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/crisprmatch</link>
-        <guid isPermaLink="true">/software/crisprmatch</guid>
         
         
         <category>software</category>
