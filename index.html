@@ -60,13 +60,10 @@ title: Home
 
             {% for post in paginator.posts %}
 
-            {% unless post.is_software == true %}
-
-                {% if post.is_meeting != true %}
+            {% unless post.is_software == true or post.is_meeting == true %}
 
                     {% include postbox.html %}
 
-                {% endif %}
             {% endunless %}
 
             {% endfor %}

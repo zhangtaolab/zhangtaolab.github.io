@@ -5,7 +5,7 @@ description: "Bioinformatics, Epigenetics and Genomics."
 meta_description: "Bioinformatics, Epigenetics and Genomics."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 6
+paginate: 100
 baseurl: ''
 email: 'liuguanqing@zhangtaolab.org'
 disqus: ''
@@ -33,6 +33,9 @@ authors:
     name: Bao Yu
     display_name: Bao Yu
     email: baoyu@zhangtaolab.org
+  dy:
+    name: Ding Yu
+    display_name: Ding Yu
 
 # Plugins
 plugins: 

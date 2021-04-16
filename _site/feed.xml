@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Apr 2021 12:02:59 +0800</pubDate>
-    <lastBuildDate>Sun, 11 Apr 2021 12:02:59 +0800</lastBuildDate>
+    <pubDate>Fri, 16 Apr 2021 16:24:53 +0800</pubDate>
+    <lastBuildDate>Fri, 16 Apr 2021 16:24:53 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: G-protein βγ subunits determine grain size through interaction with MADS-domain transcription factors in rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;The simultaneous improvement of grain quality and yield of cereal crops is a major challenge for modern agriculture. Here we show that a rice grain yield quantitative trait locus qLGY3 encodes a MADS-domain transcription factor OsMADS1, which acts as a key downstream effector of G-protein βγ dimers. The presence of an alternatively spliced protein OsMADS1&lt;sup&gt;lgy3&lt;/sup&gt; is shown to be associated with formation of long and slender grains, resulting in increases in both grain quality and yield potential of rice. The Gγ subunits GS3 and DEP1 interact directly with the conserved keratin-like domain of MADS transcription factors, function as cofactors to enhance OsMADS1 transcriptional activity and promote the co-operative transactivation of common target genes, thereby regulating grain size and shape. We also demonstrate that combining OsMADS1&lt;sup&gt;lgy3&lt;/sup&gt; allele with high-yield-associated dep1-1 and gs3 alleles represents an effective strategy for simultaneously improving both the productivity and end-use quality of rice.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communications-2018&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03047-9&quot;&gt;Nature Communications (2018)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Fri, 16 Apr 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/04/16/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/04/16/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Molecular Networks of Seed Size Control in Plants</title>
@@ -184,56 +200,6 @@ PlantDHS provides a platform to predict all CREs associated with individual gene
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
         <link>/software/crisprbets</link>
         <guid isPermaLink="true">/software/crisprbets</guid>
-        
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>Chorus2</title>
-        <description>&lt;p&gt;Design of genome-scale oligonucleotide-based probes for fluorescence &lt;em&gt;in situ&lt;/em&gt; hybridization (FISH)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Chorus2/&quot;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://chorus2.readthedocs.io/en/latest/&quot;&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Chorus2&lt;/strong&gt;, a software that is developed specifically for oligo selection in plant species. It is highly effective to remove all repetitive elements in selection of single copy oligos, which is critical for the development of successful FISH probes. Chorus2 is more effective than Chorus and OligoMiner for repeat removal. Chorus2 allows to select oligos that are conserved among related species, which extends the usage of oligo-FISH probes among phylogenetically related plant species. Chorus2 allows development of FISH probes from plant species without an assembled genome.&lt;/p&gt;
-
-&lt;h3 id=&quot;video-tutorials&quot;&gt;Video tutorials&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLo8q8tqFX5J27OsuKYFpd-gOtl8Qgf70X&quot;&gt;YouTube (EN)&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.bilibili.com/video/BV1W54y1S7qS/&quot;&gt;bilibili (中文)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;oligo-design-with-choruschorus2&quot;&gt;Oligo design with Chorus/Chorus2&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Wheat&lt;/strong&gt;: Li GR†, Zhang T†, Yu ZH, Wang HJ, Yang EN, Yang ZJ*. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/tpj.15081&quot;&gt;An efficient Oligo‐FISH painting system for revealing chromosome rearrangements and polyploidization in Triticeae.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2021, 105(4):978-993&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Rice&lt;/strong&gt;: Liu XY†, Sun S†, Wu Y, Zhou Y, Gu S.W, Yu H.X, Yi CD, Gu MH, Jiang JM, Liu B, Zhang T*, Gong ZY*. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522&quot;&gt;Dual‐color oligo‐FISH can reveal chromosomal variations and evolution in Oryza species.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2020, 101:112-121&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Maize&lt;/strong&gt;: Albert P.S†, Zhang T†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J*. &lt;a href=&quot;https://www.pnas.org/content/116/5/1679&quot;&gt;Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Proceedings of the National Academy of Sciences of the United States of America&lt;/strong&gt;&lt;/em&gt; 2019, 16(5):1679-1685&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Populus&lt;/strong&gt;: Xin HY†, Zhang T†, Wu YF, Zhang WL, Zhang PD, Xi ML*, Jiang JM. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536&quot;&gt;An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;The Plant Journal&lt;/strong&gt;&lt;/em&gt; 2020, 101:253-264&lt;br /&gt;
-Xin H†, Zhang T†, Han Y, Wu YF, Shi JS, Xi ML*, and Jiang JM. &lt;a href=&quot;https://link.springer.com/article/10.1007/s00412-018-0664-y&quot;&gt;Chromosome painting and comparative physical mapping of the sex chromosomes in Populus tomentosa and Populus deltoides.&lt;/a&gt; &lt;em&gt;Chromosoma&lt;/em&gt; 2018, 127(3):313-321&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Potato&lt;/strong&gt;, &lt;strong&gt;Tomato&lt;/strong&gt;, &lt;strong&gt;Eggplant&lt;/strong&gt;, &lt;strong&gt;Tzimbalo&lt;/strong&gt; and &lt;strong&gt;Pepper&lt;/strong&gt;: Braz GT†, He L†, Zhao HN†, Zhang T†, Semrau K, Rouillard JM, Torres GA, Jiang JM*. &lt;a href=&quot;http://www.genetics.org/content/208/2/513.full.pdf&quot;&gt;Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution.&lt;/a&gt; &lt;em&gt;Genetics&lt;/em&gt; 2018, 208(2):513-523&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cucumber&lt;/strong&gt;, &lt;strong&gt;Muskmelon&lt;/strong&gt; and other &lt;strong&gt;Cucumis&lt;/strong&gt;: Han YH†, Zhang T†, Thammapichai P, Weng YQ, and Jiang JM*:  &lt;a href=&quot;/pdf/2015/Genetics_2015.pdf&quot;&gt;Chromosome-specific painting in Cucumis species using bulked oligonucleotides.&lt;/a&gt; &lt;em&gt;Genetics&lt;/em&gt; 2015, 200(3):771-779&lt;/li&gt;
-  &lt;li&gt;Cotton, Switchgrass, Sugarcane, Banana and etc …&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;oligo-fish-performed-with-choruschorus2-designed-probes&quot;&gt;Oligo-FISH performed with Chorus/Chorus2 designed probes&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Chorus2/F1.jpg&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/Chorus2/F2.jpg&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/Chorus2/F3.jpg&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/Chorus2/F4.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;oligo-database&quot;&gt;Oligo database&lt;/h2&gt;
-
-&lt;p&gt;We have developed an oligo database for several plant species. The database currently covers six popular plant species.&lt;br /&gt;
-The oligo database is available &lt;a href=&quot;http://192.168.127.25:4000/database/oligo_database&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/chorus2</link>
-        <guid isPermaLink="true">/software/chorus2</guid>
         
         
         <category>software</category>

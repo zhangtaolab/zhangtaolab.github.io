@@ -2,7 +2,7 @@
 layout: post
 title: PlantDHS
 image: assets/images/plantdhs.jpg
-categories: [ database ]
+categories: [database]
 permalink: /info/database/plantdhs
 ---
 PlantDHS: a database for DNase I hypersensitive sites (DHSs) in plants.
