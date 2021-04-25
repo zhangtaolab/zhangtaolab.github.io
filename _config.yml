@@ -36,6 +36,9 @@ authors:
   dy:
     name: Ding Yu
     display_name: Ding Yu
+  www:
+    name: Wu Wenwen
+    display_name: Wu Wenwen
 
 # Plugins
 plugins: 
