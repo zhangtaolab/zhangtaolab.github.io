@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Apr 2021 16:24:53 +0800</pubDate>
-    <lastBuildDate>Fri, 16 Apr 2021 16:24:53 +0800</lastBuildDate>
+    <pubDate>Sun, 25 Apr 2021 21:20:54 +0800</pubDate>
+    <lastBuildDate>Sun, 25 Apr 2021 21:20:54 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Unidirectional movement of small RNAs from shoots to roots in interspecific heterograf</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Long-distance RNA movement is important for plant growth and environmental responses; however, the extent to which RNAs move between distant tissues, their relative magnitude and functional importance remain to be elucidated on a genomic scale. Using a soybean (Glycine max)–common bean (Phaseolus vulgaris) grafting system, we identified 100 shoot–root mobile microRNAs and 32 shoot–root mobile phased secondary small interfering RNAs (phasiRNAs), which were predominantly pro- duced in shoots and transported to roots, and, in most cases, accumulated to a level similar to that observed in shoots. Many of these microRNAs or phasiRNAs enabled cleavage of their messenger RNA targets or phasiRNA precursors in roots. In contrast, most mobile-capable mRNAs were transcribed in both shoots and roots, with only small proportions transported to recipient tissues. These findings suggest that the regulatory mechanisms for small RNA movement are different from those for mRNA movement, and that the former is more strictly regulated and, probably, more functionally important than the latter.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-plants-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-020-00829-2&quot;&gt;Nature Plants (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/04/25/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/04/25/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: G-protein βγ subunits determine grain size through interaction with MADS-domain transcription factors in rice</title>
@@ -174,32 +190,6 @@ PlantDHS provides a platform to predict all CREs associated with individual gene
         <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
         <link>/software/popera</link>
         <guid isPermaLink="true">/software/popera</guid>
-        
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>CRISPR-BETS</title>
-        <description>&lt;p&gt;A gRNA design software for base editing knockout using stop codon.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprbets/&quot;&gt;&lt;strong&gt;Web&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/yuechaowu/CRISPR-BETS_desktop&quot;&gt;&lt;strong&gt;Desktop&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;CRISPR-BETS&lt;/strong&gt; (&lt;strong&gt;CRISPR&lt;/strong&gt;-&lt;strong&gt;B&lt;/strong&gt;ase &lt;strong&gt;E&lt;/strong&gt;diting &lt;strong&gt;T&lt;/strong&gt;o &lt;strong&gt;S&lt;/strong&gt;top codon) is developed for designing gRNA to knockout gene by CRISPR base editing system. CRISPR-BETS has both online and desktop version, which are integrated into a user-friendly graphic user interface (GUI) and compatible with major operating systems (Windows, MacOS, Linux). Guide RNAs can be designed easily without any environment installation. Users can complete the analysis with a simple mouse click. Results will display with detailed information and fancy images, which are able to be downloaded. Moreover, CRISPR-BETS allows instant check the gRNA specificity.&lt;/p&gt;
-
-&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/CRISPR-BETS/CRISPR-BETS_preview01.png&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/CRISPR-BETS/CRISPR-BETS_preview02.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/crisprbets</link>
-        <guid isPermaLink="true">/software/crisprbets</guid>
         
         
         <category>software</category>
