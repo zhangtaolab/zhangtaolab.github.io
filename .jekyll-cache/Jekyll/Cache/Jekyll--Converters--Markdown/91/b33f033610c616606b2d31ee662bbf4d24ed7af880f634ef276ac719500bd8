@@ -1,4 +1,4 @@
-I"�<p>Design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization (FISH)</p>
+I"�<p>Design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization (FISH)</p>
 
 <p><a href="https://github.com/zhangtaolab/Chorus2/"><strong>GitHub</strong></a><br />
 <a href="https://chorus2.readthedocs.io/en/latest/"><strong>Documentation</strong></a></p>
@@ -31,6 +31,11 @@ Xin H†, Zhang T†, Han Y, Wu YF, Shi JS, Xi ML*, and Jiang JM. <a href="https
 <img src="/assets/images/Chorus2/F2.jpg" alt="img" />
 <img src="/assets/images/Chorus2/F3.jpg" alt="img" />
 <img src="/assets/images/Chorus2/F4.jpg" alt="img" /></p>
+
+<h2 id="citation">Citation</h2>
+<ul>
+  <li>Zhang T†,*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM*. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization <strong><em>Plant Biotechnology Journal</em></strong> DOI: 10.1111/pbi.13610 (Accepted)</li>
+</ul>
 
 <h2 id="oligo-database">Oligo database</h2>
 
