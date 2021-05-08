@@ -95,7 +95,7 @@ Finally, oligo sequences in the fourth column of the bed file can be synthesized
 Chorus2 uses python script Chorus2.py to identify and pre-filter oligos. It is implemented with a "k-mer score" method to remove repetitive oligos of target genome. Chorus2 run fast and can handle large genome like wheat. The oligos designed by Chorus2 has high specificity and suitable for FISH. The Chorus2 package runs on Linux, macOS and Windows with flexible command-line or an easy-to-use GUI (graphical user interface).
 
 #### Citation
-- Zhang T†,\*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM\*. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence *in situ* hybridization ***Plant Biotechnology Journal*** DOI: 10.1111/pbi.13610 (Accepted)
+Zhang T†,\*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM\*. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence *in situ* hybridization ***Plant Biotechnology Journal*** (2021) DOI: 10.1111/pbi.13610 (Accepted)
 <br/>
 
 **\* If there are any questions when using Chorus2 or our oligo datasets, please contact us ([hanyangshuo@zhangtaolab.org](mailto:hanyangshuo@zhangtaolab.org) or [liuguanqing@zhangtaolab.org](mailto:liuguanqing@zhangtaolab.org)).**
