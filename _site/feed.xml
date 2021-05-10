@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 May 2021 16:05:14 +0800</pubDate>
-    <lastBuildDate>Sat, 08 May 2021 16:05:14 +0800</lastBuildDate>
+    <pubDate>Mon, 10 May 2021 15:23:52 +0800</pubDate>
+    <lastBuildDate>Mon, 10 May 2021 15:23:52 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: A high-quality genome assembly highlights rye genomic characteristics and agronomically important genes</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Rye is a valuable food and forage crop, an important genetic resource for wheat and triticale improvement and an indispensable material for efficient comparative genomic studies in grasses. Here, we sequenced the genome of Weining rye, an elite Chinese rye variety. The assembled contigs (7.74 Gb) accounted for 98.47% of the estimated genome size (7.86 Gb), with 93.67% of the contigs (7.25 Gb) assigned to seven chromosomes. Repetitive elements constituted 90.31% of the assembled genome. Compared to previously sequenced Triticeae genomes, Daniela, Sumaya and Sumana retrotransposons showed strong expansion in rye. Further analyses of the Weining assembly shed new light on genome-wide gene duplications and their impact on starch biosynthesis genes, physical organization of complex prolamin loci, gene expression features underlying early heading trait and putative domestication-associated chromosomal regions and loci in rye. This genome sequence promises to accelerate genomic and breeding studies in rye and related cereal crops.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00808-z&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/05/10/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/05/10/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Unidirectional movement of small RNAs from shoots to roots in interspecific heterograf</title>
@@ -168,31 +184,6 @@ PlantDHS provides a platform to predict all CREs associated with individual gene
         
         
         <category>database</category>
-        
-      </item>
-    
-      <item>
-        <title>Popera</title>
-        <description>&lt;p&gt;A software specially designed for DHS identification.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/forrestzhang/Popera&quot;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;DNase I hypersensitive sites (DHSs) are regions of chromatin that are sensitive to cleavage by the DNase I enzyme. In these specific regions of the genome, chromatin has lost its condensed structure, exposing the DNA and making it accessible.&lt;br /&gt;
-&lt;strong&gt;Popera&lt;/strong&gt; is specially designed for identifying genome-wide DHSs from DNase-seq reads. First, Popera identifies the DHSs by applying the kernel density estimation algorithm. Second, all the DHSs identified from various tissues and developmental stages were merged to create a unified DHS file; DHSs were then assigned unique ID tags. Lastly, normalized scores of unified DHSs were calculated for each unique tissue and developmental stage. Besides, Popera can generate smooth bigwig files, which provide more explicit and pretty visualization for downstream analysis.&lt;/p&gt;
-
-&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;DHS identified by &lt;em&gt;Popera&lt;/em&gt;&lt;/strong&gt;
-&lt;img src=&quot;/assets/images/Popera/DHS_Popera.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Mar 2000 00:00:00 +0800</pubDate>
-        <link>/software/popera</link>
-        <guid isPermaLink="true">/software/popera</guid>
-        
-        
-        <category>software</category>
         
       </item>
     
