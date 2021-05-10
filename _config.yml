@@ -39,6 +39,10 @@ authors:
   www:
     name: Wu Wenwen
     display_name: Wu Wenwen
+  ls:
+    name: Liu Shuo
+    display_name: Liu Shuo
+    email: liushuo@zhangtaolab.org
 
 # Plugins
 plugins: 
