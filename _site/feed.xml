@@ -5,9 +5,41 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 May 2021 15:27:08 +0800</pubDate>
-    <lastBuildDate>Tue, 11 May 2021 15:27:08 +0800</lastBuildDate>
+    <pubDate>Sun, 23 May 2021 21:01:31 +0800</pubDate>
+    <lastBuildDate>Sun, 23 May 2021 21:01:31 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Chromothripsis as an on-target consequence of CRISPR–Cas9 genome editing</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Genome editing has therapeutic potential for treating genetic diseases and cancer. However, the currently most practicable approaches rely on the generation of DNA double-strand breaks (DSBs), which can give rise to a poorly characterized spectrum of chromosome structural abnormalities. Here, using model cells and single-cell whole-genome sequencing, as well as by editing at a clinically relevant locus in clinically relevant cells, we show that CRISPR–Cas9 editing generates structural defects of the nucleus, micronuclei and chromosome bridges, which initiate a mutational process called chromothripsis. Chromothripsis is extensive chromosome rearrangement restricted to one or a few chromosomes that can cause human congenital disease and cancer. These results demonstrate that chromothripsis is a previously unappreciated on-target consequence of CRISPR–Cas9-generated DSBs. As genome editing is implemented in the clinic, the potential for extensive chromosomal rearrangements should be considered and monitored.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00838-7&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 23 May 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/05/23/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/05/23/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Report: Integrative inference of transcriptional networks in Arabidopsis yields novel ROS signalling regulators</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Gene regulation is a dynamic process in which transcription factors (TFs) play an important role in controlling spatiotemporal gene expression. To enhance our global understanding of regulatory interactions in Arabidopsis thaliana, different regulatory input networks capturing complementary information about DNA motifs, open chromatin, TF-binding and expression-based regulatory interactions were combined using a supervised learning approach, resulting in an integrated gene regulatory net- work (iGRN) covering 1,491 TFs and 31,393 target genes (1.7 million interactions). This iGRN outperforms the different input networks to predict known regulatory interactions and has a similar performance to recover functional interactions compared to state-of-the-art experimental methods. The iGRN correctly inferred known functions for 681 TFs and predicted new gene functions for hundreds of unknown TFs. For regulators predicted to be involved in reactive oxygen species (ROS) stress regu- lation, we confirmed in total 75% of TFs with a function in ROS and/or physiological stress responses. This includes 13 ROS regulators, previously not connected to any ROS or stress function, that were experimentally validated in our ROS-specific phenotypic assays of loss- or gain-of-function lines. In conclusion, the presented iGRN offers a high-quality starting point to enhance our understanding of gene regulation in plants by integrating different experimental data types.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-plants-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-021-00894-1&quot;&gt;Nature Plants (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 17 May 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/05/17/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/05/17/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: A high-quality genome assembly highlights rye genomic characteristics and agronomically important genes</title>
@@ -134,56 +166,6 @@
         
         
         <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Chorus2 oligo datasets</title>
-        <description>&lt;p&gt;Oligo datasets which host oligo sequences for Oligo-FISH.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/download/oligo_datasets&quot;&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The oligo datasets currently host oligo sequences of nine species, including Arabidopsis, rice, maize, potato, barley, soybean, human, mouse and zebrafish. All the oligos are designed by Chorus2 software.&lt;br /&gt;
-The details of the datasets are shown &lt;a href=&quot;/database/oligo_datasets&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 02 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/info/download/oligo_datasets</link>
-        <guid isPermaLink="true">/info/download/oligo_datasets</guid>
-        
-        
-        <category>download</category>
-        
-      </item>
-    
-      <item>
-        <title>PlantDHS</title>
-        <description>&lt;p&gt;PlantDHS: a database for DNase I hypersensitive sites (DHSs) in plants.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://plantdhs.org/&quot;&gt;Go to&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;PlantDHS&lt;/strong&gt; is a plant DNase I hypersensitive site (DHS) database that integrates histone modification, RNA sequencing, nucleosome positioning/occupancy, transcription factor binding sites (TFBS), and genomic sequence within an easily navigated user interface. DHSs are indicative of all CREs, including promoters, enhancers, silencers, insulators and transcription factor binding sites.&lt;br /&gt;
-PlantDHS provides a platform to predict all CREs associated with individual genes from three model plant species, including &lt;em&gt;Arabidopsis thaliana&lt;/em&gt;, &lt;em&gt;Brachypodium distachyon&lt;/em&gt; and rice (&lt;em&gt;Oryza sativa&lt;/em&gt;).&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Zhang T, Marand A, Jiang JM*. &lt;a href=&quot;http://zhangtaolab.org/pdf/2016/NAR_2016.pdf&quot;&gt;PlantDHS: A Database for DNase I Hypertensive Sites in Plants.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Nucleic Acids Research&lt;/strong&gt;&lt;/em&gt; 2016, 44(D1):D1148-D1153.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/PlantDHS/Figure1.jpg&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/PlantDHS/Figure2.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/info/database/plantdhs</link>
-        <guid isPermaLink="true">/info/database/plantdhs</guid>
-        
-        
-        <category>database</category>
         
       </item>
     
