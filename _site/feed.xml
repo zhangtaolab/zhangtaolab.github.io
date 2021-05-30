@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 May 2021 10:21:24 +0800</pubDate>
-    <lastBuildDate>Fri, 28 May 2021 10:21:24 +0800</lastBuildDate>
+    <pubDate>Sun, 30 May 2021 21:36:29 +0800</pubDate>
+    <lastBuildDate>Sun, 30 May 2021 21:36:29 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Single-nucleotide-level mapping of DNA regulatory elements that control fetal hemoglobin expression</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Pinpointing functional noncoding DNA sequences and defining their contributions to health-related traits is a major challenge for modern genetics. We developed a high-throughput framework to map noncoding DNA functions with single-nucleotide resolution in four loci that control erythroid fetal hemoglobin (HbF) expression, a genetically determined trait that modifies sickle cell disease (SCD) phenotypes. Specifically, we used the adenine base editor ABEmax to introduce 10,156 separate A•T to G•C conversions in 307 predicted regulatory elements and quantified the effects on erythroid HbF expression. We identified numerous regulatory elements, defined their epigenomic structures and linked them to low-frequency variants associated with HbF expression in an SCD cohort. Targeting a newly discovered γ-globin gene repressor element in SCD donor CD34+ hematopoietic progenitors raised HbF levels in the erythroid progeny, inhibiting hypoxia-induced sickling. Our findings reveal previously unappreciated genetic complexities of HbF regulation and provide potentially therapeutic insights into SCD.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00861-8&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 30 May 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/05/30/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/05/30/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Chromothripsis as an on-target consequence of CRISPR–Cas9 genome editing</title>
@@ -147,22 +163,6 @@
         <pubDate>Sat, 13 Mar 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/03/13/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/03/13/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: The relationship between genome structure and function</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Precise patterns of gene expression in metazoans are controlled by three classes of regulatory elements: promoters, enhancers and boundary elements. During differentiation and development, these elements form specific interactions in dynamic higher-order chromatin structures. However, the relationship between genome structure and its function in gene regulation is not completely understood. Here we review recent progress in this field and discuss whether genome structure plays an instructive role in regulating gene expression or is a reflection of the activity of the regulatory elements of the genome.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-reviews-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41576-020-00303-x#author-information&quot;&gt;Nature Reviews Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sat, 06 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/06/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/06/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
