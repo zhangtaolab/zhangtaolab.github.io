@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 May 2021 21:36:29 +0800</pubDate>
-    <lastBuildDate>Sun, 30 May 2021 21:36:29 +0800</lastBuildDate>
+    <pubDate>Sun, 13 Jun 2021 21:06:06 +0800</pubDate>
+    <lastBuildDate>Sun, 13 Jun 2021 21:06:06 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Natural variations of SLG1 confer high-temperature tolerance in indica rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;With global warming and climate change, breeding crop plants tolerant to high-temperature stress is of immense significance. tRNA 2-thiolation is a highly conserved form of tRNA modification among living organisms. Here, we report the identification of SLG1 (Slender Guy 1), which encodes the cytosolic tRNA 2-thiolation protein 2 (RCTU2) in rice. SLG1 plays a key role in the response of rice plants to high-temperature stress at both seedling and reproductive stages. Dysfunction of SLG1 results in plants with thermosensitive phenotype, while overexpression of SLG1 enhances the tolerance of plants to high temperature. SLG1 is differentiated between the two Asian cultivated rice subspecies, indica and japonica, and the variations at both promoter and coding regions lead to an increased level of thiolated tRNA and enhanced thermotolerance of indica rice varieties. Our results demonstrate that the allelic differentiation of SLG1 confers indica rice to high-temperature tolerance, and tRNA thiolation pathway might be a potential target in the next generation rice breeding for the warming globe.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communication-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-020-19320-9&quot;&gt;Nature Communication (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/06/13/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/06/13/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Single-nucleotide-level mapping of DNA regulatory elements that control fetal hemoglobin expression</title>
@@ -147,22 +163,6 @@
         <pubDate>Sat, 20 Mar 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/03/20/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/03/20/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Plant somatic embryogenesis refers to a phenomenon where embryos develop from somatic cells in the absence of fertilization. Previous studies have revealed that the phytohormone auxin plays a crucial role in somatic embryogenesis by inducing a cell totipotent state, although its underlying mechanism is poorly understood. Here, we show that auxin rapidly rewires the cell totipotency network by altering chromatin accessibility. The analysis of chromatin accessibility dynamics further reveals a hierarchical gene regulatory network underlying somatic embryogenesis. Particularly, we find that the embryonic nature of explants is a prerequisite for somatic cell reprogramming. Upon cell reprogramming, the B3-type totipotent transcription factor LEC2 promotes somatic embryo formation by direct activation of the early embryonic patterning genes WOX2 and WOX3. Our results thus shed light on the molecular mechanism by which auxin promotes the acquisition of plant cell totipotency and establish a direct link between cell totipotent genes and the embryonic development pathway.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-developmental-cell-2020&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S1534580720305517&quot;&gt;Developmental Cell (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sat, 13 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/13/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/13/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
