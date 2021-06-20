@@ -5,9 +5,41 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 May 2021 21:36:29 +0800</pubDate>
-    <lastBuildDate>Sun, 30 May 2021 21:36:29 +0800</lastBuildDate>
+    <pubDate>Sun, 20 Jun 2021 21:21:40 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Jun 2021 21:21:40 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Human dendritic cells (DCs) comprise subsets with distinct phenotypic and functional characteristics, but the transcriptional programs that dictate their identity remain elusive. Here, we analyze global chromatin acces- sibility profiles across resting and stimulated human DC subsets by means of the assay for transposase- accessible chromatin using sequencing (ATAC-seq). We uncover specific regions of chromatin accessibility for each subset and transcriptional regulators of DC function. By comparing plasmacytoid DC responses to IFN-I-producing and non-IFN-I-producing conditions, we identify genetic programs related to their function. Finally, by intersecting chromatin accessibility with genome-wide association studies, we recognize DC subset-specific enrichment of heritability in autoimmune diseases. Our results unravel the basis of human DC subset heterogeneity and provide a framework for their analysis in disease pathogenesis.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-cell-reports-2020&quot;&gt;Source: &lt;a href=&quot;https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31169-4&quot;&gt;Cell Reports (2020)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 20 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/06/20/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/06/20/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Report: Natural variations of SLG1 confer high-temperature tolerance in indica rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;With global warming and climate change, breeding crop plants tolerant to high-temperature stress is of immense significance. tRNA 2-thiolation is a highly conserved form of tRNA modification among living organisms. Here, we report the identification of SLG1 (Slender Guy 1), which encodes the cytosolic tRNA 2-thiolation protein 2 (RCTU2) in rice. SLG1 plays a key role in the response of rice plants to high-temperature stress at both seedling and reproductive stages. Dysfunction of SLG1 results in plants with thermosensitive phenotype, while overexpression of SLG1 enhances the tolerance of plants to high temperature. SLG1 is differentiated between the two Asian cultivated rice subspecies, indica and japonica, and the variations at both promoter and coding regions lead to an increased level of thiolated tRNA and enhanced thermotolerance of indica rice varieties. Our results demonstrate that the allelic differentiation of SLG1 confers indica rice to high-temperature tolerance, and tRNA thiolation pathway might be a potential target in the next generation rice breeding for the warming globe.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communication-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-020-19320-9&quot;&gt;Nature Communication (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/06/13/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/06/13/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Single-nucleotide-level mapping of DNA regulatory elements that control fetal hemoglobin expression</title>
@@ -131,38 +163,6 @@
         <pubDate>Sun, 04 Apr 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/04/04/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/04/04/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Epigenetic reprogramming rewires transcription during the alternation of generations in Arabidopsis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Alternation between morphologically distinct haploid and diploid life forms is a defining feature of most plant and algal life cycles, yet the underlying molecular mechanisms that govern these transitions remain unclear. Here, we explore the dynamic relationship between chromatin accessibility and epigenetic modifications during life form transitions in Arabidopsis. The diploid-to-haploid life form transition is governed by the loss of H3K9me2 and DNA demethylation of transposon-associated cis-regulatory elements. This event is associated with dramatic changes in chromatin accessibility and transcriptional reprogramming. In contrast, the global loss of H3K27me3 in the haploid form shapes a chromatin accessibility landscape that is poised to re-initiate the transition back to diploid life after fertilisation. Hence, distinct epigenetic reprogramming events rewire transcription through major reorganisation of the regulatory epigenome to guide the alternation of generations in flowering plants.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-elife-2021&quot;&gt;Source: &lt;a href=&quot;https://elifesciences.org/articles/61894&quot;&gt;eLife (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sat, 20 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/20/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/20/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Chromatin Accessibility Dynamics and a Hierarchical Transcriptional Regulatory Network Structure for Plant Somatic Embryogenesis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Plant somatic embryogenesis refers to a phenomenon where embryos develop from somatic cells in the absence of fertilization. Previous studies have revealed that the phytohormone auxin plays a crucial role in somatic embryogenesis by inducing a cell totipotent state, although its underlying mechanism is poorly understood. Here, we show that auxin rapidly rewires the cell totipotency network by altering chromatin accessibility. The analysis of chromatin accessibility dynamics further reveals a hierarchical gene regulatory network underlying somatic embryogenesis. Particularly, we find that the embryonic nature of explants is a prerequisite for somatic cell reprogramming. Upon cell reprogramming, the B3-type totipotent transcription factor LEC2 promotes somatic embryo formation by direct activation of the early embryonic patterning genes WOX2 and WOX3. Our results thus shed light on the molecular mechanism by which auxin promotes the acquisition of plant cell totipotency and establish a direct link between cell totipotent genes and the embryonic development pathway.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-developmental-cell-2020&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S1534580720305517&quot;&gt;Developmental Cell (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sat, 13 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/13/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/13/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
