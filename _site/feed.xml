@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 21:06:06 +0800</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 21:06:06 +0800</lastBuildDate>
+    <pubDate>Sun, 20 Jun 2021 21:21:40 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Jun 2021 21:21:40 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Human dendritic cells (DCs) comprise subsets with distinct phenotypic and functional characteristics, but the transcriptional programs that dictate their identity remain elusive. Here, we analyze global chromatin acces- sibility profiles across resting and stimulated human DC subsets by means of the assay for transposase- accessible chromatin using sequencing (ATAC-seq). We uncover specific regions of chromatin accessibility for each subset and transcriptional regulators of DC function. By comparing plasmacytoid DC responses to IFN-I-producing and non-IFN-I-producing conditions, we identify genetic programs related to their function. Finally, by intersecting chromatin accessibility with genome-wide association studies, we recognize DC subset-specific enrichment of heritability in autoimmune diseases. Our results unravel the basis of human DC subset heterogeneity and provide a framework for their analysis in disease pathogenesis.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-cell-reports-2020&quot;&gt;Source: &lt;a href=&quot;https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31169-4&quot;&gt;Cell Reports (2020)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 20 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/06/20/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/06/20/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Natural variations of SLG1 confer high-temperature tolerance in indica rice</title>
@@ -147,22 +163,6 @@
         <pubDate>Sun, 04 Apr 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/04/04/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/04/04/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Epigenetic reprogramming rewires transcription during the alternation of generations in Arabidopsis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Alternation between morphologically distinct haploid and diploid life forms is a defining feature of most plant and algal life cycles, yet the underlying molecular mechanisms that govern these transitions remain unclear. Here, we explore the dynamic relationship between chromatin accessibility and epigenetic modifications during life form transitions in Arabidopsis. The diploid-to-haploid life form transition is governed by the loss of H3K9me2 and DNA demethylation of transposon-associated cis-regulatory elements. This event is associated with dramatic changes in chromatin accessibility and transcriptional reprogramming. In contrast, the global loss of H3K27me3 in the haploid form shapes a chromatin accessibility landscape that is poised to re-initiate the transition back to diploid life after fertilisation. Hence, distinct epigenetic reprogramming events rewire transcription through major reorganisation of the regulatory epigenome to guide the alternation of generations in flowering plants.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-elife-2021&quot;&gt;Source: &lt;a href=&quot;https://elifesciences.org/articles/61894&quot;&gt;eLife (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sat, 20 Mar 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/03/20/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/03/20/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
