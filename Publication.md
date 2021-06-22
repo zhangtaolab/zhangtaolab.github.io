@@ -8,6 +8,8 @@ comments: false
 
 ## 2021
 
+* Randall L.B†, Sretenovic S†, Wu YC†, Yin D, Zhang T, Eck J.V, Qi YP\*. [Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor](https://academic.oup.com/plphys/advance-article-abstract/doi/10.1093/plphys/kiab264/6294312) ***Plant Physiology*** [DOI:10.1093/plphys/kiab264](https://doi.org/10.1093/plphys/kiab264)
+
 * Ren QR†, Sretenovic S†, Liu GQ†, Zhong ZH, Wang JH, Huang L, Tang X, Guo YC, Liu L, Wu YC, Zhou J, Zhao YX, Yang H, He Y, Liu SS, Yin DS, Mayorga R, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Improved plant cytosine base editors with high editing activity, purity, and specificity](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13635) ***Plant Biotechnology Journal*** [DOI:10.1111/pbi.13635](https://doi.org/10.1111/pbi.13635)
 
 * Zhang T†\*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM\*. [Chorus2: design of genome‐scale oligonucleotide‐based probes for fluorescence in situ hybridization](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13610) ***Plant Biotechnology Journal*** [DOI:10.1111/pbi.13610](https://doi.org/10.1111/pbi.13610)
