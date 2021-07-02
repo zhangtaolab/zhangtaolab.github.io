@@ -8,6 +8,8 @@ comments: false
 
 ## 2021
 
+* Liu GQ, Zhang T\*. [Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation](https://www.mdpi.com/1422-0067/22/13/7124) ***International Journal of Molecular Sciences*** [DOI:10.3390/ijms22137124](https://doi.org/10.3390/ijms22137124)
+
 * Randall L.B†, Sretenovic S†, Wu YC†, Yin D, Zhang T, Eck J.V, Qi YP\*. [Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor](https://academic.oup.com/plphys/advance-article-abstract/doi/10.1093/plphys/kiab264/6294312) ***Plant Physiology*** [DOI:10.1093/plphys/kiab264](https://doi.org/10.1093/plphys/kiab264)
 
 * Ren QR†, Sretenovic S†, Liu GQ†, Zhong ZH, Wang JH, Huang L, Tang X, Guo YC, Liu L, Wu YC, Zhou J, Zhao YX, Yang H, He Y, Liu SS, Yin DS, Mayorga R, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Improved plant cytosine base editors with high editing activity, purity, and specificity](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13635) ***Plant Biotechnology Journal*** [DOI:10.1111/pbi.13635](https://doi.org/10.1111/pbi.13635)
