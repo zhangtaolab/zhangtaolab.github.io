@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Jul 2021 15:28:18 +0800</pubDate>
-    <lastBuildDate>Fri, 02 Jul 2021 15:28:18 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Jul 2021 10:35:59 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Jul 2021 10:35:59 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Determinants of genome-wide distribution and evolution of uORFs in eukaryotes</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Upstream open reading frames (uORFs) play widespread regulatory functions in modulating mRNA translation in eukaryotes, but the principles underlying the genomic distribution and evolution of uORFs remain poorly understood. Here, we analyze ~17 million putative canonical uORFs in 478 eukaryotic species that span most of the extant taxa of eukaryotes. We demonstrate how positive and purifying selection, coupled with differences in effective population size (Ne), has shaped the contents of uORFs in eukaryotes. Besides, gene expression level is important in influencing uORF occurrences across genes in a species. Our analyses suggest that most uORFs might play regulatory roles rather than encode functional peptides. We also show that the Kozak sequence context of uORFs has evolved across eukaryotic clades, and that noncanonical uORFs tend to have weaker suppressive effects than canonical uORFs in translation regulation. This study provides insights into the driving forces underlying uORF evolution in eukaryotes.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communications-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-021-21394-y&quot;&gt;Nature Communications (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 04 Jul 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/07/04/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/07/04/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity</title>
@@ -147,22 +163,6 @@
         <pubDate>Sun, 11 Apr 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/04/11/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/04/11/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Identification of Plant Enhancers and Their Constituent Elements by STARR-seq in Tobacco Leaves</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Genetic engineering of cis-regulatory elements in crop plants is a promising strategy to ensure food security. However, such engineering is currently hindered by our limited knowledge of plant cis-regulatory elements. Here, we adapted self-transcribing active regulatory region sequencing (STARR-seq)—a technology for the high-throughput identification of enhancers—for its use in transiently transformed tobacco (Nicotiana benthamiana) leaves. We demonstrate that the optimal placement in the reporter construct of enhancer sequences from a plant virus, pea (Pisum sativum) and wheat (Triticum aestivum), was just upstream of a minimal promoter and that none of these four known enhancers was active in the 39 untranslated region of the reporter gene. The optimized assay sensitively identified small DNA regions containing each of the four enhancers, including two whose activity was stimulated by light. Furthermore, we coupled the assay to saturation mutagenesis to pinpoint functional regions within an enhancer, which we recombined to create synthetic enhancers. Our results describe an approach to define enhancer properties that can be performed in potentially any plant species or tissue transformable by Agrobacterium and that can use regulatory DNA derived from any plant genome.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-the-plant-cell-2020&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/article/32/7/2120/6115620&quot;&gt;The Plant Cell (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 04 Apr 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/04/04/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/04/04/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
