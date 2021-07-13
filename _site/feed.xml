@@ -5,9 +5,28 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jul 2021 10:35:59 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Jul 2021 10:35:59 +0800</lastBuildDate>
+    <pubDate>Tue, 13 Jul 2021 10:52:50 +0800</pubDate>
+    <lastBuildDate>Tue, 13 Jul 2021 10:52:50 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: In vivo nuclear RNA structurome reveals RNA-structure regulation of mRNA processing in plants</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; mRNA processing is critical for gene expression. A challenge in regulating mRNA processing is how to recognize the actual mRNA processing sites, such as splice and polyadenylation sites, when the sequence content is insufficient for this purpose. Previous studies suggested that RNA structure affects mRNA processing. However, the regulatory role of RNA structure in mRNA processing remains unclear.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here, we perform in vivo selective 2′-hydroxyl acylation analyzed by primer extension (SHAPE) chemical profiling on Arabidopsis and generate the in vivo nuclear RNA structure landscape. We find that nuclear mRNAs fold differently from cytosolic mRNAs across translation start and stop sites. Notably, we discover a two-nucleotide single-stranded RNA structure feature upstream of 5′ splice sites that is strongly associated with splicing and the selection of alternative 5′ splice sites. The regulatory role of this RNA structure feature is further confirmed by experimental validation. Moreover, we find the single-strandedness of branch sites is also associated with 3′ splice site recognition. We also identify an RNA structure feature comprising two close-by single-stranded regions that is specifically associated with both polyadenylation and alternative polyadenylation events.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; We successfully identify pre-mRNA structure features associated with splicing and polyadenylation at whole-genome scale and validate an RNA structure feature which can regulate splicing. Our study unveils a new RNA structure regulatory mechanism for mRNA processing.&lt;/p&gt;
+&lt;h4 id=&quot;source-genome-biology-2021&quot;&gt;Source: &lt;a href=&quot;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02236-4&quot;&gt;Genome Biology (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Tue, 13 Jul 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/07/13/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/07/13/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Determinants of genome-wide distribution and evolution of uORFs in eukaryotes</title>
@@ -147,22 +166,6 @@
         <pubDate>Fri, 16 Apr 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/04/16/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/04/16/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Molecular Networks of Seed Size Control in Plants</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;The size of seeds affects not only evolutionary fitness but also grain yield of crops. Understanding the mechanisms controlling seed size has become an important research field in plant science. Seed size is determined by the integrated signals of maternal and zygotic tissues, which control the coordinated growth of the embryo, endosperm, and seed coat. Recent advances have identified several signaling pathways that control seed size through maternal tissues, including or involving the ubiquitin-proteasome pathway, G-protein signaling, mitogen-activated protein kinase (MAPK) signaling, phytohormone perception and homeostasis, and some transcriptional regulators. Meanwhile, growth of the zygotic tissues is regulated in part by the HAIKU (IKU) pathway and phytohormones. This review provides a general overview of current findings in seed size control and discusses the emerging molecular mechanisms and regulatory networks found to be involved.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-annual-review-of-plant-biology-2019&quot;&gt;Source: &lt;a href=&quot;https://www.annualreviews.org/doi/10.1146/annurev-arplant-050718-095851&quot;&gt;Annual Review of Plant Biology (2019)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 11 Apr 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/04/11/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/04/11/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
