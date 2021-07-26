@@ -42,6 +42,9 @@ authors:
     name: Liu Shuo
     display_name: Liu Shuo
     email: liushuo@zhangtaolab.org
+  zx:
+    name: Zhang Xin
+    display_name: Zhang Xin
 
 # Plugins
 plugins: 

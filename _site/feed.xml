@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jul 2021 15:30:40 +0800</pubDate>
-    <lastBuildDate>Sun, 18 Jul 2021 15:30:40 +0800</lastBuildDate>
+    <pubDate>Mon, 26 Jul 2021 09:16:58 +0800</pubDate>
+    <lastBuildDate>Mon, 26 Jul 2021 09:16:58 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Integrated global analysis reveals a vitamin E- vitamin K1 sub-network, downstream of COLD1, underlying rice chilling tolerance divergence</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Rice, a staple food with tropical/subtropical origination, is susceptible to cold stress, one of the major con- straints on its yield and distribution. Asian cultivated rice consists of two subspecies with diverged chilling tolerance to adapt to different environments. The mechanism underlying this divergence remains obscure with a few known factors, including membrane protein CHILLING-TOLERANCE DIVERGENCE 1 (COLD1). Here, we reveal a vitamin E-vitamin K1 sub-network responsible for chilling tolerance divergence through global analyses. Rice genome regions responsible for tolerance divergence are identified with chromosome segment substitution lines (CSSLs). Comparative transcriptomic and metabolomic analysis of chilling- tolerant CSSL4-1 and parent lines uncovered a vitamin E-vitamin K1 sub-network in chloroplast with tocoph- erol (vitamin E) mediating chloroplast-to-nucleus signaling. COLD1, located in the substitution segment in CSSL4-1, is confirmed as its upstream regulator by transgenic material analysis. Our work uncovers a pathway downstream of COLD1, through which rice modulates chilling tolerance for thermal adaptation, with potential utility in crop improvement.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-cell-reports-2021&quot;&gt;Source: &lt;a href=&quot;https://www.cell.com/cell-reports/fulltext/S2211-1247(21)00795-6&quot;&gt;Cell Reports (2021)&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Mon, 26 Jul 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/07/26/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/07/26/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: The Taxus genome provides insights into paclitaxel biosynthesis</title>
@@ -151,22 +168,6 @@
         <pubDate>Mon, 10 May 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/05/10/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/05/10/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Unidirectional movement of small RNAs from shoots to roots in interspecific heterograf</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Long-distance RNA movement is important for plant growth and environmental responses; however, the extent to which RNAs move between distant tissues, their relative magnitude and functional importance remain to be elucidated on a genomic scale. Using a soybean (Glycine max)–common bean (Phaseolus vulgaris) grafting system, we identified 100 shoot–root mobile microRNAs and 32 shoot–root mobile phased secondary small interfering RNAs (phasiRNAs), which were predominantly pro- duced in shoots and transported to roots, and, in most cases, accumulated to a level similar to that observed in shoots. Many of these microRNAs or phasiRNAs enabled cleavage of their messenger RNA targets or phasiRNA precursors in roots. In contrast, most mobile-capable mRNAs were transcribed in both shoots and roots, with only small proportions transported to recipient tissues. These findings suggest that the regulatory mechanisms for small RNA movement are different from those for mRNA movement, and that the former is more strictly regulated and, probably, more functionally important than the latter.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-plants-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-020-00829-2&quot;&gt;Nature Plants (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 25 Apr 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/04/25/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/04/25/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
