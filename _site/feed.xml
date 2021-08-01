@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Jul 2021 09:16:58 +0800</pubDate>
-    <lastBuildDate>Mon, 26 Jul 2021 09:16:58 +0800</lastBuildDate>
+    <pubDate>Sun, 01 Aug 2021 20:21:35 +0800</pubDate>
+    <lastBuildDate>Sun, 01 Aug 2021 20:21:35 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: KOBAS-i: intelligent prioritization and exploratory visualization of biological functions for gene enrichment analysis</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Gene set enrichment (GSE) analysis plays an essen- tial role in extracting biological insight from genome- scale experiments. ORA (overrepresentation analy- sis), FCS (functional class scoring), and PT (path- way topology) approaches are three generations of GSE methods along the timeline of development. Pre- vious versions of KOBAS provided services based on just the ORA method. Here we presented ver- sion 3.0 of KOBAS, which is named KOBAS-i (short for KOBAS intelligent version). It introduced a novel machine learning-based method we published ear- lier, CGPS, which incorporates seven FCS tools and two PT tools into a single ensemble score and in- telligently prioritizes the relevant biological path- ways. In addition, KOBAS has expanded the down- stream exploratory visualization for selecting and understanding the enriched results. The tool con- structs a novel view of cirFunMap, which presents different enriched terms and their correlations in a landscape. Finally, based on the previous version’s framework, KOBAS increased the number of sup- ported species from 1327 to 5944. For an easier lo- cal run, it also provides a prebuilt Docker image that requires no installation, as a supplementary to the source code version. KOBAS can be freely accessed at http://kobas.cbi.pku.edu.cn, and a mirror site is available at http://bioinfo.org/kobas.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nucleic-acids-research-2021&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/nar/article/49/W1/W317/6292104&quot;&gt;Nucleic Acids Research (2021)&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/08/01/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/08/01/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Integrated global analysis reveals a vitamin E- vitamin K1 sub-network, downstream of COLD1, underlying rice chilling tolerance divergence</title>
@@ -152,22 +169,6 @@
         <pubDate>Mon, 17 May 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/05/17/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/05/17/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: A high-quality genome assembly highlights rye genomic characteristics and agronomically important genes</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Rye is a valuable food and forage crop, an important genetic resource for wheat and triticale improvement and an indispensable material for efficient comparative genomic studies in grasses. Here, we sequenced the genome of Weining rye, an elite Chinese rye variety. The assembled contigs (7.74 Gb) accounted for 98.47% of the estimated genome size (7.86 Gb), with 93.67% of the contigs (7.25 Gb) assigned to seven chromosomes. Repetitive elements constituted 90.31% of the assembled genome. Compared to previously sequenced Triticeae genomes, Daniela, Sumaya and Sumana retrotransposons showed strong expansion in rye. Further analyses of the Weining assembly shed new light on genome-wide gene duplications and their impact on starch biosynthesis genes, physical organization of complex prolamin loci, gene expression features underlying early heading trait and putative domestication-associated chromosomal regions and loci in rye. This genome sequence promises to accelerate genomic and breeding studies in rye and related cereal crops.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00808-z&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 10 May 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/05/10/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/05/10/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
