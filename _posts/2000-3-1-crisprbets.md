@@ -14,9 +14,9 @@ A gRNA design software for base editing knockout using stop codon.
  
 **Desktop Download** (Please refer to the documentation for installation)
 
-* [MacOS](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_macos_package.zip)
-* [Windows](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_win_package.zip)
-* [Linux](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip)
+* [MacOS](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_macos_package.zip)
+* [Windows](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_win_package.zip)
+* [Linux](https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_linux_package.zip)
 
 [**Documentation**](https://crispr-bets-online.readthedocs.io/en/latest/)  
 

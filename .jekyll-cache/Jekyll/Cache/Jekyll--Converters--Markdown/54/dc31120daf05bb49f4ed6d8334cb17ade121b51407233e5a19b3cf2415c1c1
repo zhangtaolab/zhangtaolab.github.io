@@ -1,0 +1,31 @@
+I"c<p>A gRNA design software for base editing knockout using stop codon.</p>
+
+<p><a href="https://bioinfor.yzu.edu.cn/crisprbets/"><strong>Web Server</strong></a></p>
+
+<p><strong>Desktop Download</strong> (Please refer to the documentation for installation)</p>
+
+<ul>
+  <li><a href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_macos_package.zip">MacOS</a></li>
+  <li><a href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_win_package.zip">Windows</a></li>
+  <li><a href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_linux_package.zip">Linux</a></li>
+</ul>
+
+<p><a href="https://crispr-bets-online.readthedocs.io/en/latest/"><strong>Documentation</strong></a></p>
+
+<p><a href="https://github.com/zhangtaolab/CRISPR-BETS_desktop"><strong>Github</strong></a> / <a href="https://gitee.com/keeeeepgoing/CRISPR-BETS_desktop"><strong>Gitee</strong></a></p>
+
+<h3 id="video-tutorial">Video tutorial</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=iZj22KE4RTo">Youtube(EN)</a></li>
+  <li><a href="https://www.bilibili.com/video/BV1c44y1z7TG">bilibili(中文)</a></li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>CRISPR-BETS</strong> (<strong>CRISPR</strong>-<strong>B</strong>ase <strong>E</strong>diting <strong>T</strong>o <strong>S</strong>top codon) is developed for designing gRNA to knockout gene by CRISPR base editing system. CRISPR-BETS has both online and desktop version, which are integrated into a user-friendly graphic user interface (GUI) and compatible with major operating systems (Windows, MacOS, Linux). Guide RNAs can be designed easily without any environment installation. Users can complete the analysis with a simple mouse click. Results will display with detailed information and fancy images, which are able to be downloaded. Moreover, CRISPR-BETS allows instant check the gRNA specificity.</p>
+
+<h3 id="preview">Preview</h3>
+
+<p><img src="/assets/images/CRISPR-BETS/CRISPR-BETS_preview01.png" alt="img" />
+<img src="/assets/images/CRISPR-BETS/CRISPR-BETS_preview02.png" alt="img" /></p>
+:ET
