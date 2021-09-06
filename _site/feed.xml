@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Aug 2021 00:24:28 +0800</pubDate>
-    <lastBuildDate>Tue, 31 Aug 2021 00:24:28 +0800</lastBuildDate>
+    <pubDate>Mon, 06 Sep 2021 09:15:50 +0800</pubDate>
+    <lastBuildDate>Mon, 06 Sep 2021 09:15:50 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: PAM-less plant genome editing using a CRISPR–SpRY toolbox</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;The rapid development of the CRISPR–Cas9, –Cas12a and – Cas12b genome editing systems has greatly fuelled basic and translational plant research1–6. DNA targeting by these Cas nucleases is restricted by their preferred protospacer adja- cent motifs (PAMs). The PAM requirement for the most popu- lar Streptococcus pyogenes Cas9 (SpCas9) is NGG (N = A, T, C, G)7, limiting its targeting scope to GC-rich regions. Here, we demonstrate genome editing at relaxed PAM sites in rice (a monocot) and the Dahurian larch (a coniferous tree), using an engineered SpRY Cas9 variant8. Highly efficient targeted mutagenesis can be readily achieved by SpRY at relaxed PAM sites in the Dahurian larch protoplasts and in rice trans- genic lines through non-homologous end joining (NHEJ). Furthermore, an SpRY-based cytosine base editor was devel- oped and demonstrated by directed evolution of new herbicide resistant OsALS alleles in rice. Similarly, a highly active SpRY adenine base editor was developed based on ABE8e (ref. 9) and SpRY-ABE8e was able to target relaxed PAM sites in rice plants, achieving up to 79% editing efficiency with high prod- uct purity. Thus, the SpRY toolbox breaks a PAM restriction barrier in plant genome engineering by enabling DNA editing in a PAM-less fashion. Evidence was also provided for second- ary off-target effects by de novo generated single guide RNAs (sgRNAs) due to SpRY-mediated transfer DNA self-editing, which calls for more sophisticated programmes for designing highly specific sgRNAs when implementing the SpRY genome editing toolbox.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-plants-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-020-00827-4&quot;&gt;Nature Plants (2021)&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/09/06/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/09/06/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: The key role of terminators on the expression and post- transcriptional gene silencing of transgenes</title>
@@ -154,22 +171,6 @@
         <pubDate>Sun, 30 May 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/05/30/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/05/30/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Chromothripsis as an on-target consequence of CRISPR–Cas9 genome editing</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Genome editing has therapeutic potential for treating genetic diseases and cancer. However, the currently most practicable approaches rely on the generation of DNA double-strand breaks (DSBs), which can give rise to a poorly characterized spectrum of chromosome structural abnormalities. Here, using model cells and single-cell whole-genome sequencing, as well as by editing at a clinically relevant locus in clinically relevant cells, we show that CRISPR–Cas9 editing generates structural defects of the nucleus, micronuclei and chromosome bridges, which initiate a mutational process called chromothripsis. Chromothripsis is extensive chromosome rearrangement restricted to one or a few chromosomes that can cause human congenital disease and cancer. These results demonstrate that chromothripsis is a previously unappreciated on-target consequence of CRISPR–Cas9-generated DSBs. As genome editing is implemented in the clinic, the potential for extensive chromosomal rearrangements should be considered and monitored.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00838-7&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 23 May 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/05/23/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/05/23/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>

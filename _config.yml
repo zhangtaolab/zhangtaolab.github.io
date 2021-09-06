@@ -45,6 +45,9 @@ authors:
   zx:
     name: Zhang Xin
     display_name: Zhang Xin
+  pcr:
+    name: Pan Kairui
+    display_name: Pan Kairui
 
 # Plugins
 plugins: 
