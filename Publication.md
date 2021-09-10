@@ -8,6 +8,8 @@ comments: false
 
 ## 2021
 
+* Ding Y, Zhu JN, Zhao DS, Liu QQ, Yang QQ\*, ZhangT\*. [Targeting Cis-Regulatory Elements for Rice Grain Quality Improvement](https://www.frontiersin.org/articles/10.3389/fpls.2021.705834/full) ***Frontiers in Plant Science*** [DOI:10.3389/fpls.2021.705834](https://doi.org/10.3389/fpls.2021.705834)
+
 * Liu GQ, Zhang T\*. [Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation](https://www.mdpi.com/1422-0067/22/13/7124) ***International Journal of Molecular Sciences*** 2021, 22(13), 7124
 
 * Randall L.B†, Sretenovic S†, Wu YC†, Yin D, Zhang T, Eck J.V, Qi YP\*. [Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor](https://academic.oup.com/plphys/advance-article-abstract/doi/10.1093/plphys/kiab264/6294312) ***Plant Physiology*** [DOI:10.1093/plphys/kiab264](https://doi.org/10.1093/plphys/kiab264)
