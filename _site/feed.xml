@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Sep 2021 10:51:02 +0800</pubDate>
-    <lastBuildDate>Fri, 10 Sep 2021 10:51:02 +0800</lastBuildDate>
+    <pubDate>Sun, 12 Sep 2021 20:26:41 +0800</pubDate>
+    <lastBuildDate>Sun, 12 Sep 2021 20:26:41 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Conserved noncoding sequences provide insights into regulatory sequence and loss of gene expression in maize</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Thousands of species will be sequenced in the next few years; however, understanding how their genomes work, without an unlimited budget, requires both molecular and novel evolutionary approaches. We developed a sensitive sequence alignment pipeline to identify conserved noncoding sequences (CNSs) in the Andropogoneae tribe (multiple crop species descended from a common ancestor ∼18 million years ago). The Andropogoneae share similar physiology while being tremendously genomically diverse, harboring a broad range of ploidy levels, structural variation, and transposons. These contribute to the potential of Andropogoneae as a powerful system for studying CNSs and are factors we leverage to understand the function of maize CNSs. We found that 86% of CNSs were comprised of annotated features, including introns, UTRs, putative cis-regulatory elements, chromatin loop anchors, noncoding RNA (ncRNA) genes, and several transposable element superfamilies. CNSs were enriched in active regions of DNA replication in the early S phase of the mitotic cell cycle and showed different DNA methylation ratios compared to the genome-wide background. More than half of putative cis-regulatory sequences (identified via other methods) overlapped with CNSs detected in this study. Variants in CNSs were associated with gene expression levels, and CNS absence contributed to loss of gene expression. Furthermore, the evolution of CNSs was associated with the functional diversification of duplicated genes in the context of maize subgenomes. Our results provide a quantitative understanding of the molecular processes governing the evolution of CNSs in maize.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-genome-research-2021&quot;&gt;Source: &lt;a href=&quot;https://genome.cshlp.org/content/31/7/1245&quot;&gt;Genome Research (2021)&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Sun, 12 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/09/12/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/09/12/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: PAM-less plant genome editing using a CRISPR–SpRY toolbox</title>
@@ -155,22 +172,6 @@
         <pubDate>Sun, 13 Jun 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/06/13/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/06/13/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Single-nucleotide-level mapping of DNA regulatory elements that control fetal hemoglobin expression</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Pinpointing functional noncoding DNA sequences and defining their contributions to health-related traits is a major challenge for modern genetics. We developed a high-throughput framework to map noncoding DNA functions with single-nucleotide resolution in four loci that control erythroid fetal hemoglobin (HbF) expression, a genetically determined trait that modifies sickle cell disease (SCD) phenotypes. Specifically, we used the adenine base editor ABEmax to introduce 10,156 separate A•T to G•C conversions in 307 predicted regulatory elements and quantified the effects on erythroid HbF expression. We identified numerous regulatory elements, defined their epigenomic structures and linked them to low-frequency variants associated with HbF expression in an SCD cohort. Targeting a newly discovered γ-globin gene repressor element in SCD donor CD34+ hematopoietic progenitors raised HbF levels in the erythroid progeny, inhibiting hypoxia-induced sickling. Our findings reveal previously unappreciated genetic complexities of HbF regulation and provide potentially therapeutic insights into SCD.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-021-00861-8&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 30 May 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/05/30/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/05/30/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
