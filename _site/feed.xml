@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Sep 2021 20:26:41 +0800</pubDate>
-    <lastBuildDate>Sun, 12 Sep 2021 20:26:41 +0800</lastBuildDate>
+    <pubDate>Sun, 19 Sep 2021 21:22:31 +0800</pubDate>
+    <lastBuildDate>Sun, 19 Sep 2021 21:22:31 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: RGN1 controls grain number and shapes panicle architecture in rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Yield in rice is determined mainly by panicle architecture. Using map-based cloning we identified an R2R3 MYB transcription factor REGULATOR OF GRAIN NUMBER1 (RGN1) affecting grain number and panicle architecture. Mutation of RGN1 caused an absence of lateral grains on secondary branches. We demonstrated that RGN1 controls lateral grain formation by regulation of LONELY GUY (LOG) expression, thus controlling grain number and shaping panicle architecture. A novel favorable allele, RGN1C, derived from the Or-I group in wild rice affected panicle architecture by means longer panicles. Identification of RGN1 provides a theoretical basis for understanding the molecular mechanism of lateral grain formation in rice, RGN1 will be an important gene resource for molecular breeding for higher yield.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-plant-biotechnology-journal-2021&quot;&gt;Source: &lt;a href=&quot;https://genome.cshlp.org/content/31/7/1245&quot;&gt;Plant Biotechnology Journal (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/09/19/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/09/19/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: Conserved noncoding sequences provide insights into regulatory sequence and loss of gene expression in maize</title>
@@ -156,22 +172,6 @@
         <pubDate>Sun, 20 Jun 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/06/20/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/06/20/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Natural variations of SLG1 confer high-temperature tolerance in indica rice</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;With global warming and climate change, breeding crop plants tolerant to high-temperature stress is of immense significance. tRNA 2-thiolation is a highly conserved form of tRNA modification among living organisms. Here, we report the identification of SLG1 (Slender Guy 1), which encodes the cytosolic tRNA 2-thiolation protein 2 (RCTU2) in rice. SLG1 plays a key role in the response of rice plants to high-temperature stress at both seedling and reproductive stages. Dysfunction of SLG1 results in plants with thermosensitive phenotype, while overexpression of SLG1 enhances the tolerance of plants to high temperature. SLG1 is differentiated between the two Asian cultivated rice subspecies, indica and japonica, and the variations at both promoter and coding regions lead to an increased level of thiolated tRNA and enhanced thermotolerance of indica rice varieties. Our results demonstrate that the allelic differentiation of SLG1 confers indica rice to high-temperature tolerance, and tRNA thiolation pathway might be a potential target in the next generation rice breeding for the warming globe.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-communication-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-020-19320-9&quot;&gt;Nature Communication (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 13 Jun 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/06/13/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/06/13/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
