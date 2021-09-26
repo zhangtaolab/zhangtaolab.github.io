@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Sep 2021 21:22:31 +0800</pubDate>
-    <lastBuildDate>Sun, 19 Sep 2021 21:22:31 +0800</lastBuildDate>
+    <pubDate>Mon, 27 Sep 2021 00:57:01 +0800</pubDate>
+    <lastBuildDate>Mon, 27 Sep 2021 00:57:01 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Report: Analysis of gene network bifurcation during optic cup morphogenesis in zebrafish</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Sight depends on the tight cooperation between photoreceptors and pigmented cells, which derive from common progenitors through the bifurcation of a single gene regulatory network into the neural retina (NR) and retinal-pigmented epithelium (RPE) programs. Although genetic studies have identified upstream nodes controlling these networks, their regulatory logic remains poorly investigated. Here, we characterize transcriptome dynamics and chromatin accessibility in segregating NR/RPE populations in zebrafish. We analyze cis-regulatory modules and enriched transcription factor motives to show extensive network redundancy and context-dependent activity. We identify downstream targets, highlighting an early recruitment of desmosomal genes in the flattening RPE and revealing Tead factors as upstream regulators. We investigate the RPE specification network dynamics to uncover an unexpected sequence of transcription factors recruitment, which is conserved in humans. This systematic interrogation of the NR/RPE bifurcation should improve both genetic counseling for eye disorders and hiPSCs-to-RPE differentiation protocols for cell-replacement therapies in degenerative diseases.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communications-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-021-24169-7&quot;&gt;Nature Communications (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 27 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/09/27/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/09/27/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: RGN1 controls grain number and shapes panicle architecture in rice</title>
@@ -156,22 +172,6 @@
         <pubDate>Sun, 04 Jul 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/07/04/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/07/04/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Human dendritic cells (DCs) comprise subsets with distinct phenotypic and functional characteristics, but the transcriptional programs that dictate their identity remain elusive. Here, we analyze global chromatin acces- sibility profiles across resting and stimulated human DC subsets by means of the assay for transposase- accessible chromatin using sequencing (ATAC-seq). We uncover specific regions of chromatin accessibility for each subset and transcriptional regulators of DC function. By comparing plasmacytoid DC responses to IFN-I-producing and non-IFN-I-producing conditions, we identify genetic programs related to their function. Finally, by intersecting chromatin accessibility with genome-wide association studies, we recognize DC subset-specific enrichment of heritability in autoimmune diseases. Our results unravel the basis of human DC subset heterogeneity and provide a framework for their analysis in disease pathogenesis.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-cell-reports-2020&quot;&gt;Source: &lt;a href=&quot;https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31169-4&quot;&gt;Cell Reports (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 20 Jun 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/06/20/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/06/20/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
