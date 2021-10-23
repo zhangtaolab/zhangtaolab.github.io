@@ -8,6 +8,8 @@ comments: false
 
 ## 2021
 
+* Wu YC†, He Y†, Sretenovic S, Liu SS, Cheng YH, Han YS, Liu GQ, Bao Y, Fang Q, Zheng XL, Zhou JP, Qi YP\*, Zhang Y\*, Zhang T\*. [CRISPR-BETS: A base editing design tool for generating stop codons](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13732) ***Plant Biotechnology Journal*** [DOI: 10.1111/pbi.13732](https://doi.org/10.1111/pbi.13732)
+
 * Ding Y, Zhu JN, Zhao DS, Liu QQ, Yang QQ\*, ZhangT\*. [Targeting *Cis*-Regulatory Elements for Rice Grain Quality Improvement](https://www.frontiersin.org/articles/10.3389/fpls.2021.705834/full) ***Frontiers in Plant Science*** 2021, 12:705834
 
 * Liu GQ, Zhang T\*. [Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation](https://www.mdpi.com/1422-0067/22/13/7124) ***International Journal of Molecular Sciences*** 2021, 22(13):7124
