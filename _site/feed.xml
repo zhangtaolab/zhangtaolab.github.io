@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Oct 2021 18:39:08 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Oct 2021 18:39:08 +0800</lastBuildDate>
+    <pubDate>Mon, 25 Oct 2021 16:39:27 +0800</pubDate>
+    <lastBuildDate>Mon, 25 Oct 2021 16:39:27 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>A photoregulatory mechanism of the circadian clock in Arabidopsis</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Cryptochromes (CRYs) are photoreceptors that mediate light regulation of the circadian clock in plants and animals. Here we show that CRYs mediate blue-light regulation of N&lt;sup&gt;6&lt;/sup&gt;-methyladenosine (m&lt;sup&gt;6&lt;/sup&gt;A) modification of more than 10% of messenger RNAs in the Arabidopsis transcriptome, especially those regulated by the circadian clock. CRY2 interacts with three subunits of the METTL3/14-type N&lt;sup&gt;6&lt;/sup&gt;-methyladenosine RNA methyltransferase (m&lt;sup&gt;6&lt;/sup&gt;A writer): MTA, MTB and FIP37. Photo-excited CRY2 undergoes liquid–liquid phase separation (LLPS) to co-condense m&lt;sup&gt;6&lt;/sup&gt;A writer proteins in vivo, without obviously altering the affinity between CRY2 and the writer proteins. mta and cry1cry2 mutants share common defects of a lengthened circadian period, reduced m&lt;sup&gt;6&lt;/sup&gt;A RNA methylation and accelerated degradation of mRNA encoding the core component of the molecular oscillator circadian clock associated 1 (CCA1). These results argue for a photoregulatory mechanism by which light-induced phase separation of CRYs modulates m&lt;sup&gt;6&lt;/sup&gt;A writer activity, mRNA methylation and abundance, and the circadian rhythms in plants.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-plants-2020&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-021-01002-z&quot;&gt;Nature Plants (2020)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 25 Oct 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/10/25/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/10/25/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Report: MAC5, an RNA-binding protein, protects pri-miRNAs from SERRATE-dependent exoribonuclease activities</title>
@@ -152,23 +168,6 @@
         <pubDate>Mon, 26 Jul 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/07/26/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/07/26/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: The Taxus genome provides insights into paclitaxel biosynthesis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;The ancient gymnosperm genus Taxus is the exclusive source of the anticancer drug paclitaxel, yet no reference genome sequences are available for comprehensively elucidating the paclitaxel biosynthesis pathway. We have completed a chromosome-level genome of Taxus chinensis var. mairei with a total length of 10.23 gigabases. Taxus shared an ancestral whole-genome duplication with the coniferophyte lineage and underwent distinct transposon evolution. We discovered a unique physical and functional grouping of CYP725As (cytochrome P450) in the Taxus genome for paclitaxel biosynthesis. We also identified a gene cluster for taxadiene biosynthesis, which was formed mainly by gene duplications. This study will facilitate the elucidation of paclitaxel biosynthesis and unleash the biotechnological potential of Taxus.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-plants-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-021-00963-5&quot;&gt;Nature Plants (2021)&lt;/a&gt;&lt;/h4&gt;
-
-</description>
-        <pubDate>Sun, 18 Jul 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/07/18/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/07/18/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
