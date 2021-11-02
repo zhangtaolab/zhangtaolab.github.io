@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Oct 2021 16:39:27 +0800</pubDate>
-    <lastBuildDate>Mon, 25 Oct 2021 16:39:27 +0800</lastBuildDate>
+    <pubDate>Tue, 02 Nov 2021 20:41:30 +0800</pubDate>
+    <lastBuildDate>Tue, 02 Nov 2021 20:41:30 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Organization and regulation of gene transcription</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;The regulated transcription of genes determines cell identity and function. Recent structural studies have elucidated mechanisms that govern the regulation of transcription by RNA polymerases during the initiation and elongation phases. Microscopy studies have revealed that transcription involves the condensation of factors in the cell nucleus. A model is emerging for the transcription of protein-coding genes in which distinct transient condensates form at gene promoters and in gene bodies to concentrate the factors required for transcription initiation and elongation, respectively. The transcribing enzyme RNA polymerase II may shuttle between these condensates in a phosphorylation-dependent manner. Molecular principles are being defined that rationalize transcriptional organization and regulation, and that will guide future investigations.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-2019&quot;&gt;Source: &lt;a href=&quot;https://doi.org/10.1038/s41586-019-1517-4&quot;&gt;Nature (2019)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/10/31/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/10/31/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>A photoregulatory mechanism of the circadian clock in Arabidopsis</title>
@@ -151,23 +167,6 @@
         <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/08/01/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/08/01/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Integrated global analysis reveals a vitamin E- vitamin K1 sub-network, downstream of COLD1, underlying rice chilling tolerance divergence</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Rice, a staple food with tropical/subtropical origination, is susceptible to cold stress, one of the major con- straints on its yield and distribution. Asian cultivated rice consists of two subspecies with diverged chilling tolerance to adapt to different environments. The mechanism underlying this divergence remains obscure with a few known factors, including membrane protein CHILLING-TOLERANCE DIVERGENCE 1 (COLD1). Here, we reveal a vitamin E-vitamin K1 sub-network responsible for chilling tolerance divergence through global analyses. Rice genome regions responsible for tolerance divergence are identified with chromosome segment substitution lines (CSSLs). Comparative transcriptomic and metabolomic analysis of chilling- tolerant CSSL4-1 and parent lines uncovered a vitamin E-vitamin K1 sub-network in chloroplast with tocoph- erol (vitamin E) mediating chloroplast-to-nucleus signaling. COLD1, located in the substitution segment in CSSL4-1, is confirmed as its upstream regulator by transgenic material analysis. Our work uncovers a pathway downstream of COLD1, through which rice modulates chilling tolerance for thermal adaptation, with potential utility in crop improvement.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-cell-reports-2021&quot;&gt;Source: &lt;a href=&quot;https://www.cell.com/cell-reports/fulltext/S2211-1247(21)00795-6&quot;&gt;Cell Reports (2021)&lt;/a&gt;&lt;/h4&gt;
-
-</description>
-        <pubDate>Mon, 26 Jul 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/07/26/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/07/26/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
