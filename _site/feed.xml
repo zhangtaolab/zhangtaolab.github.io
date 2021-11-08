@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Nov 2021 10:35:41 +0800</pubDate>
-    <lastBuildDate>Thu, 04 Nov 2021 10:35:41 +0800</lastBuildDate>
+    <pubDate>Mon, 08 Nov 2021 09:20:46 +0800</pubDate>
+    <lastBuildDate>Mon, 08 Nov 2021 09:20:46 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Plastidic Pyruvate Dehydrogenase Complex E1 Component Subunit Alpha1 Is Involved in Galactolipid Biosynthesis Required for Amyloplast Development in Rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Starch accounts for over 80% of the total dry weight in cereal endosperm and determines the kernel texture and nutritional quality. Amyloplasts, terminally differentiated plastids, are responsible for starch biosynthesis and storage. We screened a series of rice mutants with floury endosperm to clarify the mechanism underlying amyloplast development and starch synthesis. We identified the floury endosperm19 (flo19) mutant which shows opaque of the interior endosperm. Abnormal compound starch grains (SGs) were present in the endosperm cells of the mutant. Molecular cloning revealed that the FLO19 allele encodes a plastid-localized pyruvate dehydrogenase complex E1 component subunit α1 (ptPDC-E1-α1) that is expressed in all rice tissues. In vivo enzyme assays demonstrated that the flo19 mutant showed decreased activity of the plastidic pyruvate dehydrogenase complex. In addition, the amounts of monogalactosyldiacylglycerol (MGDG) and digalactosyldiacylglycerol (DGDG) were much lower in the developing flo19 mutant endosperm, suggesting that FLO19 participates in fatty acid supply for galactolipid biosynthesis in amyloplasts. FLO19 overexpression significantly increased seed size and weight, but did not affect other important agronomic traits, such as panicle length, tiller number and seed setting rate. An analysis of single-nucleotide polymorphism data from a panel of rice accessions identified that the pFLO19L haplotype was positively associated with grain length, implying a potential application in rice breeding. In summary, our study demonstrates that FLO19 is involved in galactolipid biosynthesis which is essential for amyloplast development and starch biosynthesis in rice.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-plant-biotechnology-journal-2021&quot;&gt;Source: &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/pbi.13727&quot;&gt;Plant Biotechnology Journal (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 08 Nov 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/11/08/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/11/08/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Organization and regulation of gene transcription</title>
@@ -150,23 +166,6 @@
         <pubDate>Sun, 29 Aug 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/08/29/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/08/29/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: KOBAS-i: intelligent prioritization and exploratory visualization of biological functions for gene enrichment analysis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Gene set enrichment (GSE) analysis plays an essen- tial role in extracting biological insight from genome- scale experiments. ORA (overrepresentation analy- sis), FCS (functional class scoring), and PT (path- way topology) approaches are three generations of GSE methods along the timeline of development. Pre- vious versions of KOBAS provided services based on just the ORA method. Here we presented ver- sion 3.0 of KOBAS, which is named KOBAS-i (short for KOBAS intelligent version). It introduced a novel machine learning-based method we published ear- lier, CGPS, which incorporates seven FCS tools and two PT tools into a single ensemble score and in- telligently prioritizes the relevant biological path- ways. In addition, KOBAS has expanded the down- stream exploratory visualization for selecting and understanding the enriched results. The tool con- structs a novel view of cirFunMap, which presents different enriched terms and their correlations in a landscape. Finally, based on the previous version’s framework, KOBAS increased the number of sup- ported species from 1327 to 5944. For an easier lo- cal run, it also provides a prebuilt Docker image that requires no installation, as a supplementary to the source code version. KOBAS can be freely accessed at http://kobas.cbi.pku.edu.cn, and a mirror site is available at http://bioinfo.org/kobas.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nucleic-acids-research-2021&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/nar/article/49/W1/W317/6292104&quot;&gt;Nucleic Acids Research (2021)&lt;/a&gt;&lt;/h4&gt;
-
-</description>
-        <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/08/01/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/08/01/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
