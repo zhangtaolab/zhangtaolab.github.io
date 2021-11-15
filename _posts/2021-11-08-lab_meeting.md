@@ -2,11 +2,11 @@
 layout: meeting
 title: "Plastidic Pyruvate Dehydrogenase Complex E1 Component Subunit Alpha1 Is Involved in Galactolipid Biosynthesis Required for Amyloplast Development in Rice"
 image: assets/images/lab_meeting/2021-11-08.png
-author: hys
+author: zx
 source: https://onlinelibrary.wiley.com/doi/10.1111/pbi.13727
 is_meeting: true
 categories: [Lab Meeting]
-hostDate: 2021-11-03
+hostDate: 2021-11-10
 journal: Plant Biotechnology Journal (2021)
 ---
 ### Abstract:
