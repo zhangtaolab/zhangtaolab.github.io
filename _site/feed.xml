@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Nov 2021 09:20:46 +0800</pubDate>
-    <lastBuildDate>Mon, 08 Nov 2021 09:20:46 +0800</lastBuildDate>
+    <pubDate>Mon, 15 Nov 2021 09:54:53 +0800</pubDate>
+    <lastBuildDate>Mon, 15 Nov 2021 09:54:53 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Nucleolar histone deacetylases HDT1, HDT2 and HDT3 regulate plant reproductive development</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Nucleolus is a membrane-less organelle where ribosomes are assembled and rRNAs transcribed and processed. The assembled ribosomes composed of ribosomal proteins and rRNAs synthesize proteins for cell survival. In plants, the loss of nucleolar ribosomal proteins often causes gametophytically or embryonically lethality. The amount of rRNAs are under stringent regulation according to demand and partially switched off by epigenetic modifications. However, the molecular mechanism for the selective activation or silencing is still unclear, and the transcriptional coordination of rRNAs and ribosomal proteins is also unknown. Here we report the critical role of three Arabidopsis nucleolar protein HDT1, HDT2 and HDT3 in fertility and transcription of rDNAs and rRNA processing-related genes through histone acetylation. This study highlights the important roles of transcriptional repression of ribosome biogenesis-related genes for plant reproductive development.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-journal-of-genetics-and-genomics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S1673852721003246?via%3Dihub&quot;&gt;Journal of Genetics and Genomics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 15 Nov 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/11/15/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/11/15/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Plastidic Pyruvate Dehydrogenase Complex E1 Component Subunit Alpha1 Is Involved in Galactolipid Biosynthesis Required for Amyloplast Development in Rice</title>
@@ -149,23 +165,6 @@
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/09/06/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/09/06/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: The key role of terminators on the expression and post- transcriptional gene silencing of transgenes</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Transgenes have become essential to modern biology, being an important tool in functional genomic studies and also in the development of biotechnological products. One of the major challenges in the generation of transgenic lines concerns the expression of transgenes, which, compared to endogenes, are particularly susceptible to silencing mediated by small RNAs (sRNAs). Several reasons have been put forward to explain why transgenes often trigger the production of sRNAs, such as the high level of expression induced by commonly used strong constitutive promoters, the lack of introns, and features resembling viral and other exogenous sequences. However, the relative contributions of the different genomic elements with respect to protecting genes from the silencing machinery and their molecular mechanisms remain unclear. Here, we present the results of a mutagenesis screen conceived to identify features involved in the protection of endogenes against becoming a template for the production of sRNAs. Interestingly, all of the recovered mutants had alterations in genes with proposed function in transcription termination, suggesting a central role of terminators in this process. Indeed, using a GFP reporter system, we show that, among different genetic elements tested, the terminator sequence had the greatest effect on transgene-derived sRNA accumulation and that a well-defined poly(A) site might be especially important. Finally, we describe an unexpected mechanism, where transgenes containing certain intron/terminator combinations lead to an increase in the production of sRNAs, which appears to interfere with splicing.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-the-plant-journal-2020&quot;&gt;Source: &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14907&quot;&gt;The Plant Journal (2020)&lt;/a&gt;&lt;/h4&gt;
-
-</description>
-        <pubDate>Sun, 29 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/08/29/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/08/29/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
