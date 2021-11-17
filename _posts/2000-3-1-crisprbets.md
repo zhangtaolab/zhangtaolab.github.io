@@ -7,10 +7,11 @@ image: assets/images/CRISPRETS.jpg
 categories: [ software ]
 priority: 1
 permalink: /software/crisprbets
+linkage: https://bioinfor.yzu.edu.cn/crisprbets/
 ---
 A gRNA design software for base editing knockout using stop codon.
 
-[**Web Server**](https://bioinfor.yzu.edu.cn/crisprbets/) 
+[**Web Server**](https://bioinfor.yzu.edu.cn/crisprbets/)
  
 **Desktop Download** (Please refer to the documentation for installation)
 

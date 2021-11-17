@@ -40,9 +40,11 @@ post_class: post-template
                 
 			</div>
 
+            {% if page.is_software == true %}<a href="{{ page.linkage }}">{% endif %}
 			<!-- Post Featured Image -->
 			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
+            {% if page.is_software == true %}</a>{% endif %}
 
 			<!-- Post Content -->
 			<div class="article-post">

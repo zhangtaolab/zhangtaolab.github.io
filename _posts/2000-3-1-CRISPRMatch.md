@@ -6,6 +6,7 @@ image: assets/images/CRISPRmatch.png
 categories: [ software ]
 priority: 3
 permalink: /software/crisprmatch
+linkage: https://github.com/zhangtaolab/CRISPRMatch
 ---
 An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.
 
