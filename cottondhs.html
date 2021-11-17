@@ -1,13 +1,12 @@
 ---
 layout: fullscreensite
 ---
+<script>
+    const randomnumber=Math.floor(Math.random()*100000);
+    document.getElementById('jb2iframe').src = "https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs?_=" + randomnumber
+</script>
 
 <section>
     <iframe id="jb2iframe" style="height:1000px; width: 100%; margin: 0px; padding: 0px; border: none;" allowfullscreen="" frameborder="0">
     </iframe>
 </section>
-
-<script>
-    const randomnumber=Math.floor(Math.random()*100000);
-    document.getElementById('jb2iframe').src = "https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs?_=" + randomnumber
-</script>
