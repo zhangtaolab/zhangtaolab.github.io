@@ -296,13 +296,12 @@
     ================================================== -->
     <div class="main-content">
         <section>
-    <iframe src="https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs" style="height:1000px; width: 100%; margin: 0px; padding: 0px; border: none;" allowfullscreen="" frameborder="0">
+    <iframe id="jb2content" src="https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs" style="height:1000px; width: 100%; margin: 0px; padding: 0px; border: none;" allowfullscreen="" frameborder="0">
     </iframe>
 </section>
 
 <script>
-    const randomnumber=Math.floor(Math.random()*100000);
-    document.write('<iframe src="https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs?_='+randomnumber+'"></iframe>');
+    document.getElementById('jb2content').contentWindow.location.reload();
 </script>
     </div>
 
