@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Zhang Tao lab" />
 <script type="application/ld+json">
-{"url":"/cottondhs.html","@type":"WebPage","description":"Bioinformatics, Epigenetics and Genomics.","headline":"Zhang Tao lab","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"@context":"https://schema.org"}</script>
+{"headline":"Zhang Tao lab","url":"/cottondhs.html","@type":"WebPage","description":"Bioinformatics, Epigenetics and Genomics.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -296,12 +296,13 @@
     ================================================== -->
     <div class="main-content">
         <section>
-    <iframe id="jb2content" src="https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs" style="height:1000px; width: 100%; margin: 0px; padding: 0px; border: none;" allowfullscreen="" frameborder="0">
+    <iframe name="jb2iframe" style="height:1000px; width: 100%; margin: 0px; padding: 0px; border: none;" allowfullscreen="" frameborder="0">
     </iframe>
 </section>
 
 <script>
-    document.getElementById('jb2content').contentWindow.location.reload();
+    const randomnumber=Math.floor(Math.random()*100000);
+    document.getElementsByName('jb2iframe').src = "https://bioinfor.yzu.edu.cn/jbrowse2/cottondhs?_=" + randomnumber
 </script>
     </div>
 
