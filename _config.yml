@@ -48,6 +48,9 @@ authors:
   pcr:
     name: Pan Kairui
     display_name: Pan Kairui
+  ty:
+    name: Tan Yan
+    display_name: Tan Yan
 
 # Plugins
 plugins: 
