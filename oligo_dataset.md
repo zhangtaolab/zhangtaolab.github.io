@@ -30,17 +30,17 @@ To download the oligos, please click the download link of the speices. Details a
 }
 </style>
 
-|Species|Scientific name |Reference |No. of oligos |Download|
-|---        |---                   |---                                                                   |---         |---     |
-|Arabidopsis|*Arabidopsis thaliana*|[TAIR10](https://www.arabidopsis.org/)                                |1,089,367   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TAIR10.bed.bgz)|
-|Rice       |*Oryza sativa*        |[TIGR7](http://rice.plantbiology.msu.edu/)                            |1,710,279   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TIGR7.bed.bgz)|
-|Maize      |*Zea mays*            |[B73_v4](https://www.maizegdb.org/)                                   |1,641,770   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/B73_v4.bed.bgz)|
-|Potato     |*Solanum tuberosum*   |[DM_v4.04](http://solanaceae.plantbiology.msu.edu/pgsc_download.shtml)|1,674,902   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/DM_v404.bed.bgz)|
-|Barley     |*Hordeum vulgare*     |[IBSC_v2](http://plants.ensembl.org/Hordeum_vulgare/Info/Index)       |2,968,560   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/IBSC_v2.bed.bgz)|
-|Soybean    |*Glycine max*         |[Gmax_ZH13_v2.0](https://bigd.big.ac.cn/gwh/Assembly/652/show)        |1,851,420   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/Gmax_ZH13_v2.bed.bgz)|
-|Human      |*Homo sapiens*        |[hg38](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips)        |2,311,370   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/hg38.bed.bgz)|
-|Mouse      |*Mus musculus*        |[mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips)        |3,397,774   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/mm10.bed.bgz)|
-|Zebrafish  |*Danio rerio*         |[danRer11](http://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips)|2,442,308   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/danRer11.bed.bgz)|
+|Species|Scientific name |Reference |No. of oligos |Download1|Download2|
+|---        |---                   |---                                                                   |---         |---     |---     |
+|Arabidopsis|*Arabidopsis thaliana*|[TAIR10](https://www.arabidopsis.org/)                                |1,089,367   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TAIR10.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/TAIR10.bed.bgz)|
+|Rice       |*Oryza sativa*        |[TIGR7](http://rice.plantbiology.msu.edu/)                            |1,710,279   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TIGR7.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/TIGR7.bed.bgz)|
+|Maize      |*Zea mays*            |[B73_v4](https://www.maizegdb.org/)                                   |1,641,770   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/B73_v4.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/B73_v4.bed.bgz)|
+|Potato     |*Solanum tuberosum*   |[DM_v4.04](http://solanaceae.plantbiology.msu.edu/pgsc_download.shtml)|1,674,902   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/DM_v404.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/DM_v404.bed.bgz)|
+|Barley     |*Hordeum vulgare*     |[IBSC_v2](http://plants.ensembl.org/Hordeum_vulgare/Info/Index)       |2,968,560   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/IBSC_v2.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/IBSC_v2.bed.bgz)|
+|Soybean    |*Glycine max*         |[Gmax_ZH13_v2.0](https://bigd.big.ac.cn/gwh/Assembly/652/show)        |1,851,420   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/Gmax_ZH13_v2.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/Gmax_ZH13_v2.bed.bgz)|
+|Human      |*Homo sapiens*        |[hg38](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips)        |2,311,370   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/hg38.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/hg38.bed.bgz)|
+|Mouse      |*Mus musculus*        |[mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips)        |3,397,774   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/mm10.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/mm10.bed.bgz)|
+|Zebrafish  |*Danio rerio*         |[danRer11](http://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips)|2,442,308   |[bed](http://jianglab.plantbiology.msu.edu/oligo_datasets/data/danRer11.bed.bgz)|[bed](https://bioinfor.yzu.edu.cn/download/oligodatasets/danRer11.bed.bgz)|
 
 
 **Images**
