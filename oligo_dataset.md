@@ -2,7 +2,7 @@
 layout: article
 title: Oligo Datasets
 comments: false
-permalink: /download/oligo_datasets
+permalink: /Download/oligo_datasets
 ---
 
 The oligo datasets currently host oligo sequences of 9 species, including six plant species (Arabidopsis, rice, maize, potato, barley and soybean), two mammals (human and mouse) and a model species zebrafish. The details of the oligos are showed in the bellow table.  
