@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Dec 2021 20:49:09 +0800</pubDate>
-    <lastBuildDate>Sun, 05 Dec 2021 20:49:09 +0800</lastBuildDate>
+    <pubDate>Sun, 12 Dec 2021 19:58:50 +0800</pubDate>
+    <lastBuildDate>Sun, 12 Dec 2021 19:58:50 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Enhancing rice grain production by manipulating the naturally evolved cis-regulatory element-containing inverted repeat sequence of OsREM20</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Grain number per panicle (GNP) is an important agronomic trait that contributes to rice grain yield. Despite its importance in rice breeding, the molecular mechanism underlying GNP regulation remains largely unknown. In this study, we identified a previously unrecognized regulatory gene that controls GNP in rice, Oryza sativa REPRODUCTIVE MERISTEM 20 (OsREM20), which encodes a B3 domain transcription factor. Through genetic analysis and transgenic validation we found that genetic variation in the CArG box-containing inverted repeat (IR) sequence of the OsREM20 promoter alters its expression level and contributes to GNP variation among rice varieties. Furthermore, we revealed that the IR sequence regulates OsREM20 expression by affecting the direct binding of OsMADS34 to the CArG box within the IR sequence. Interestingly, the divergent pOsREM20IR and pOsREM20ΔIR alleles were found to originate from different Oryza rufipogon accessions, and were independently inherited into the japonica and indica subspecies, respectively, during domestication. Importantly, we demonstrated that IR sequence variations in the OsREM20 promoter can be utilized for germplasm improvement through either genome editing or traditional breeding. Taken together, our study characterizes novel genetic variations responsible for GNP diversity in rice, reveals the underlying molecular mechanism in the regulation of agronomically important gene expression, and provides a promising strategy for improving rice production by manipulating the cis-regulatory element-containing IR sequence.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-molecular-plant-2021&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S1674205221000915&quot;&gt;Molecular Plant (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 12 Dec 2021 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2021/12/12/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2021/12/12/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Assessing genome-wide dynamic changes in enhancer activity during early mESC differentiation by FAIRE-STARR-seq</title>
@@ -147,22 +163,6 @@
         <pubDate>Mon, 27 Sep 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/09/27/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/09/27/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: RGN1 controls grain number and shapes panicle architecture in rice</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Yield in rice is determined mainly by panicle architecture. Using map-based cloning we identified an R2R3 MYB transcription factor REGULATOR OF GRAIN NUMBER1 (RGN1) affecting grain number and panicle architecture. Mutation of RGN1 caused an absence of lateral grains on secondary branches. We demonstrated that RGN1 controls lateral grain formation by regulation of LONELY GUY (LOG) expression, thus controlling grain number and shaping panicle architecture. A novel favorable allele, RGN1C, derived from the Or-I group in wild rice affected panicle architecture by means longer panicles. Identification of RGN1 provides a theoretical basis for understanding the molecular mechanism of lateral grain formation in rice, RGN1 will be an important gene resource for molecular breeding for higher yield.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-plant-biotechnology-journal-2021&quot;&gt;Source: &lt;a href=&quot;https://genome.cshlp.org/content/31/7/1245&quot;&gt;Plant Biotechnology Journal (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/09/19/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/09/19/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
