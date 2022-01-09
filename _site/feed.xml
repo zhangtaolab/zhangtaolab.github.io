@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Dec 2021 09:27:47 +0800</pubDate>
-    <lastBuildDate>Thu, 16 Dec 2021 09:27:47 +0800</lastBuildDate>
+    <pubDate>Sun, 09 Jan 2022 20:46:58 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jan 2022 20:46:58 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>A uORF Represses the Transcription Factor AtHB1 in Aerial Tissues to Avoid a Deleterious Phenotype</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;AtHB1 is an Arabidopsis (Arabidopsis thaliana) homeodomain-leucine zipper transcription factor that participates in hypocotyl elongation under short-day conditions. Here, we show that its expression is posttranscriptionally regulated by an upstream open reading frame (uORF) located in its 5′ untranslated region. This uORF encodes a highly conserved peptide (CPuORF) that is present in varied monocot and dicot species. The Arabidopsis uORF and its maize (Zea mays) homolog repressed the translation of the main open reading frame in cis, independent of the sequence of the latter. Published ribosome footprinting results and the analysis of a frame-shifted uORF, in which the repression capability was lost, indicated that the uORF causes ribosome stalling. The regulation exerted by the CPuORF was tissue specific and did not act in the absence of light. Moreover, a photosynthetic signal is needed for the CPuORF action, since plants with uncoupled chloroplasts did not show uORF-dependent repression. Plants transformed with the native AtHB1 promoter driving AtHB1 expression did not show differential phenotypes, whereas those transformed with a construct in which the uORF was mutated exhibited serrated leaves, compact rosettes, and, most significantly, short nondehiscent anthers and siliques containing fewer or no seeds. Thus, we propose that the uncontrolled expression of AtHB1 is deleterious for the plant and, hence, finely repressed by a translational mechanism.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-plant-physiology-2017&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plphys/article/175/3/1238/6116883&quot;&gt;Plant Physiology (2017)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Sun, 09 Jan 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/01/09/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/01/09/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Enhancing rice grain production by manipulating the naturally evolved cis-regulatory element-containing inverted repeat sequence of OsREM20</title>
@@ -147,22 +163,6 @@
         <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/10/10/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/10/10/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Analysis of gene network bifurcation during optic cup morphogenesis in zebrafish</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Sight depends on the tight cooperation between photoreceptors and pigmented cells, which derive from common progenitors through the bifurcation of a single gene regulatory network into the neural retina (NR) and retinal-pigmented epithelium (RPE) programs. Although genetic studies have identified upstream nodes controlling these networks, their regulatory logic remains poorly investigated. Here, we characterize transcriptome dynamics and chromatin accessibility in segregating NR/RPE populations in zebrafish. We analyze cis-regulatory modules and enriched transcription factor motives to show extensive network redundancy and context-dependent activity. We identify downstream targets, highlighting an early recruitment of desmosomal genes in the flattening RPE and revealing Tead factors as upstream regulators. We investigate the RPE specification network dynamics to uncover an unexpected sequence of transcription factors recruitment, which is conserved in humans. This systematic interrogation of the NR/RPE bifurcation should improve both genetic counseling for eye disorders and hiPSCs-to-RPE differentiation protocols for cell-replacement therapies in degenerative diseases.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-communications-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-021-24169-7&quot;&gt;Nature Communications (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 27 Sep 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/09/27/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/09/27/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
