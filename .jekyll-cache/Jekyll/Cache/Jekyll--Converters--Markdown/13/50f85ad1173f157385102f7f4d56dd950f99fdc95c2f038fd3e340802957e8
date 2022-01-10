@@ -1,4 +1,4 @@
-I"�!<p>The oligo datasets currently host oligo sequences of 9 species, including six plant species (Arabidopsis, rice, maize, potato, barley and soybean), two mammals (human and mouse) and a model species zebrafish. The details of the oligos are showed in the bellow table.<br />
+I"�%<p>The oligo datasets currently host oligo sequences of 9 species, including six plant species (Arabidopsis, rice, maize, potato, barley and soybean), two mammals (human and mouse) and a model species zebrafish. The details of the oligos are showed in the bellow table.<br />
 To download the oligos, please click the download link of the speices. Details about <a href="#chorus_def">Chorus2</a>, which was used to design the oligos can be found <a href="https://github.com/zhangtaolab/Chorus2">here</a>.</p>
 
 <h4 id="information-table">Information table</h4>
@@ -30,7 +30,8 @@ To download the oligos, please click the download link of the speices. Details a
       <th>Scientific name</th>
       <th>Reference</th>
       <th>No. of oligos</th>
-      <th>Download</th>
+      <th>Download1</th>
+      <th>Download2</th>
     </tr>
   </thead>
   <tbody>
@@ -40,6 +41,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="https://www.arabidopsis.org/">TAIR10</a></td>
       <td>1,089,367</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TAIR10.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/TAIR10.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Rice</td>
@@ -47,6 +49,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://rice.plantbiology.msu.edu/">TIGR7</a></td>
       <td>1,710,279</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/TIGR7.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/TIGR7.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Maize</td>
@@ -54,6 +57,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="https://www.maizegdb.org/">B73_v4</a></td>
       <td>1,641,770</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/B73_v4.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/B73_v4.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Potato</td>
@@ -61,6 +65,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://solanaceae.plantbiology.msu.edu/pgsc_download.shtml">DM_v4.04</a></td>
       <td>1,674,902</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/DM_v404.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/DM_v404.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Barley</td>
@@ -68,6 +73,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://plants.ensembl.org/Hordeum_vulgare/Info/Index">IBSC_v2</a></td>
       <td>2,968,560</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/IBSC_v2.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/IBSC_v2.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Soybean</td>
@@ -75,6 +81,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="https://bigd.big.ac.cn/gwh/Assembly/652/show">Gmax_ZH13_v2.0</a></td>
       <td>1,851,420</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/Gmax_ZH13_v2.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/Gmax_ZH13_v2.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Human</td>
@@ -82,6 +89,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips">hg38</a></td>
       <td>2,311,370</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/hg38.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/hg38.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Mouse</td>
@@ -89,6 +97,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips">mm10</a></td>
       <td>3,397,774</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/mm10.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/mm10.bed.bgz">bed</a></td>
     </tr>
     <tr>
       <td>Zebrafish</td>
@@ -96,6 +105,7 @@ To download the oligos, please click the download link of the speices. Details a
       <td><a href="http://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips">danRer11</a></td>
       <td>2,442,308</td>
       <td><a href="http://jianglab.plantbiology.msu.edu/oligo_datasets/data/danRer11.bed.bgz">bed</a></td>
+      <td><a href="https://bioinfor.yzu.edu.cn/download/oligodatasets/danRer11.bed.bgz">bed</a></td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +189,7 @@ This command will extract oligos in the region Chr1:100000-200000 in rice.<br />
 Chorus2 uses python script Chorus2.py to identify and pre-filter oligos. It is implemented with a “k-mer score” method to remove repetitive oligos of target genome. Chorus2 run fast and can handle large genome like wheat. The oligos designed by Chorus2 has high specificity and suitable for FISH. The Chorus2 package runs on Linux, macOS and Windows with flexible command-line or an easy-to-use GUI (graphical user interface).</p>
 
 <h4 id="citation">Citation</h4>
-<p>Zhang T†,*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM*. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization <strong><em>Plant Biotechnology Journal</em></strong> (2021) DOI: 10.1111/pbi.13610 (Accepted)
+<p>Zhang T†,*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM*. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization <strong><em>Plant Biotechnology Journal</em></strong> 2021, 19(10):1967-1978
 <br /></p>
 
 <p><strong>* If there are any questions when using Chorus2 or our oligo datasets, please contact us (<a href="mailto:hanyangshuo@zhangtaolab.org">hanyangshuo@zhangtaolab.org</a> or <a href="mailto:liuguanqing@zhangtaolab.org">liuguanqing@zhangtaolab.org</a>).</strong></p>
