@@ -6,6 +6,10 @@ comments: false
 
 **† Equally Contributing Authors**
 
+## 2022
+
+* Tao ST†, Liu P†, Shi YN, Feng YL, Gao JJ, Chen LF, Zhang AC, Cheng XJ, Wei HR, Zhang T\*, Zhang WL\*. [Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize](https://www.mdpi.com/2073-4425/13/2/374/htm) ***Genes*** 2022, 13(2):374
+
 ## 2021
 
 * Feng YL, Tao ST, Zhang PY, Sperti FR, Liu GQ, Cheng XJ, Zhang T, Yu HX, Wang XE, Cheng CY, Monchaud D, Zhang WL\*. [Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiab566/6454112) ***Plant Physiology*** [DOI: 10.1093/plphys/kiab566](https://doi.org/10.1093/plphys/kiab566)
