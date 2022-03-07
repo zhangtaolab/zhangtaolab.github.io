@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Feb 2022 13:14:04 +0800</pubDate>
-    <lastBuildDate>Wed, 23 Feb 2022 13:14:04 +0800</lastBuildDate>
+    <pubDate>Mon, 07 Mar 2022 23:38:14 +0800</pubDate>
+    <lastBuildDate>Mon, 07 Mar 2022 23:38:14 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>A quantitative genomics map of rice provides genetic insights and guides breeding</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Extensive allelic variation in agronomically important genes serves as the basis of rice breeding. Here, we present a comprehen- sive map of rice quantitative trait nucleotides (QTNs) and inferred QTN effects based on eight genome-wide association study cohorts. Population genetic analyses revealed that domestication, local adaptation and heterosis are all associated with QTN allele frequency changes. A genome navigation system, RiceNavi, was developed for QTN pyramiding and breeding route opti- mization, and implemented in the improvement of a widely cultivated indica variety. This work presents an efficient platform that bridges ever-increasing genomic knowledge and diverse improvement needs in rice.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-020-00769-9&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 07 Mar 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/03/07/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/03/07/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>A uORF Represses the Transcription Factor AtHB1 in Aerial Tissues to Avoid a Deleterious Phenotype</title>
@@ -147,22 +163,6 @@
         <pubDate>Mon, 18 Oct 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/10/18/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/10/18/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: Determinants of genome-wide distribution and evolution of uORFs in eukaryotes</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Upstream open reading frames (uORFs) play widespread regulatory functions in modulating mRNA translation in eukaryotes, but the principles underlying the genomic distribution and evolution of uORFs remain poorly understood. Here, we analyze ~17 million putative canonical uORFs in 478 eukaryotic species that span most of the extant taxa of eukaryotes. We demonstrate how positive and purifying selection, coupled with differences in effective population size (Ne), has shaped the contents of uORFs in eukaryotes. Besides, gene expression level is important in influencing uORF occurrences across genes in a species. Our analyses suggest that most uORFs might play regulatory roles rather than encode functional peptides. We also show that the Kozak sequence context of uORFs has evolved across eukaryotic clades, and that noncanonical uORFs tend to have weaker suppressive effects than canonical uORFs in translation regulation. This study provides insights into the driving forces underlying uORF evolution in eukaryotes.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-communications-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-021-21394-y&quot;&gt;Nature Communications (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/10/10/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/10/10/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
