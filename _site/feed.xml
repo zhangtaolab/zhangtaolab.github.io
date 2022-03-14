@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Mar 2022 23:38:14 +0800</pubDate>
-    <lastBuildDate>Mon, 07 Mar 2022 23:38:14 +0800</lastBuildDate>
+    <pubDate>Mon, 14 Mar 2022 10:53:55 +0800</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2022 10:53:55 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>The two clock proteins CCA1 and LHY activate VIN3 transcription during vernalization through the vernalization-responsive cis-element</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Vernalization, a long-term cold-mediated acquisition of flowering competence, is critically regulated by VERNALIZATION INSENSITIVE 3 (VIN3), a gene induced by vernalization in Arabidopsis. Although the function of VIN3 has been extensively studied, how VIN3 expression itself is upregulated by long-term cold is not well understood. In this study, we identified a vernalization-responsive cis-element in the VIN3 promoter, VREVIN3, composed of a G-box and an evening element (EE). Mutations in either the G-box or the EE prevented VIN3 expression from being fully induced upon vernalization, leading to defects in the vernalization response. We determined that the core clock proteins CIRCADIAN CLOCK-ASSOCIATED 1 (CCA1) and LATE-ELONGATED HYPOCOTYL (LHY) associate with the EE of VREVIN3, both in vitro and in vivo. In a cca1 lhy double mutant background harboring a functional FRIGIDA allele, long-term cold-mediated VIN3 induction and acceler- ation of flowering were impaired, especially under mild cold conditions such as at 12􏰂C. During prolonged cold exposure, oscillations of CCA1/LHY transcripts were altered, while CCA1 abundance increased at dusk, coinciding with the diurnal peak of VIN3 transcripts. We propose that modulation of the clock proteins CCA1 and LHY participates in the systems in- volved in sensing long-term cold for the activation of VIN3 transcription.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-plant-cell-2021&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/article-abstract/34/3/1020/6472367&quot;&gt;Plant Cell (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 14 Mar 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/03/14/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/03/14/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>A quantitative genomics map of rice provides genetic insights and guides breeding</title>
@@ -147,22 +163,6 @@
         <pubDate>Mon, 25 Oct 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/10/25/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/10/25/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Report: MAC5, an RNA-binding protein, protects pri-miRNAs from SERRATE-dependent exoribonuclease activities</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;MAC5 is a component of the conserved MOS4-associated complex. It plays critical roles in development and immunity. Here we report that MAC5 is required for microRNA (miRNA) biogenesis. MAC5 interacts with Serrate (SE), which is a core component of the microprocessor that processes primary miRNA transcripts (pri-miRNAs) into miRNAs and binds the stem-loop region of pri-miRNAs. MAC5 is essential for both the efficient processing and the stability of pri-miRNAs. Interestingly, the reduction of pri-miRNA levels in &lt;em&gt;mac5&lt;/em&gt; is partially caused by XRN2/XRN3, the nuclear-localized 5′-to-3′ exoribonucleases, and depends on SE. These results reveal that MAC5 plays a dual role in promoting pri-miRNA processing and stability through its interaction with SE and/or pri-miRNAs. This study also uncovers that pri-miRNAs need to be protected from nuclear RNA decay machinery, which is connected to the microprocessor.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-pnas-2020&quot;&gt;Source: &lt;a href=&quot;https://www.pnas.org/content/117/38/23982&quot;&gt;PNAS (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 18 Oct 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/10/18/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/10/18/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
