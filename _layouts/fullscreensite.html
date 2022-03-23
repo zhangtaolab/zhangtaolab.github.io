@@ -71,62 +71,12 @@
 
     <!-- Begin Footer
     ================================================== -->
-    <footer class="footer">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-sm-3">
-                <div class="footer-widget">
-                <h5 class="title">Department</h5>
-                <a href="http://www.yzu.edu.cn">
-                <img src="{{ site.baseurl }}/assets/images/YZU.png" width="69px" height="auto">
-                </a>
-                </div>
-                </div>
-
-                <div class="col-sm-3">
-                <div class="footer-widget">
-                <h5 class="title"></h5>
-                </div>
-                </div>
-
-                <div class="col-sm-3">
-                <div class="footer-widget textwidget">
-                <h5 class="title">Address</h5>
-                Agricultural College of Yangzhou University<br>
-                12 wenhui east road, yangzhou, jiangsu, China, 225009<br>
-                International Coorperation Building, Room 412
-                </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="footer-widget textwidget">
-                    <h5 class="title">Contact</h5>
-                    Tel: 0514-87977229<br>
-                    E-mail: {{site.email}}
-                    </div>
-                    </div>
-
-            <div class="copyright">
-                <p class="pull-left">
-                Copyright © {{ site.time | date: "%Y" }} Zhangtao Lab, Yangzhou University. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </p>
-                <p class="pull-right">
-                <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ -->
-                <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
-                </p>
-                <div class="clearfix"></div>
-            </div>
-
-        </div>
-        </div>
-    </footer>
+    {% include footer.html %}
     <!-- End Footer
     ================================================== -->
 
 
-</div> <!-- /.site-content>
+</div> <!-- /.site-content-->
 
 <!-- JavaScript
 ================================================== -->
