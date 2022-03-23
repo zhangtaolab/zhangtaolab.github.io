@@ -5,9 +5,30 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2022 10:53:55 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2022 10:53:55 +0800</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2022 11:47:17 +0800</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2022 11:47:17 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Linker histones are fine-scale chromatin architects modulating developmental decisions in Arabidopsis</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;h4 id=&quot;background&quot;&gt;Background:&lt;/h4&gt;
+&lt;p&gt;Chromatin provides a tunable platform for gene expression control. Besides the well-studied core nucleosome, H1 linker histones are abundant chromatin components with intrinsic potential to influence chromatin function. Well studied in animals, little is known about the evolution of H1 function in other eukaryotic lineages for instance plants. Notably, in the model plant Arabidopsis, while H1 is known to influence heterochromatin and DNA methylation, its contribution to transcription, molecular, and cytological chromatin organization remains elusive.&lt;/p&gt;
+&lt;h4 id=&quot;results&quot;&gt;Results:&lt;/h4&gt;
+&lt;p&gt;We provide a multi-scale functional study of Arabidopsis linker histones. We show that H1-deficient plants are viable yet show phenotypes in seed dormancy, flowering time, lateral root, and stomata formation— complemented by either or both of the major variants. H1 depletion also impairs pluripotent callus formation. Fine- scale chromatin analyses combined with transcriptome and nucleosome profiling reveal distinct roles of H1 on hetero- and euchromatin: H1 is necessary to form heterochromatic domains yet dispensable for silencing of most transposable elements; H1 depletion affects nucleosome density distribution and mobility in euchromatin, spatial arrangement of nanodomains, histone acetylation, and methylation. These drastic changes affect moderately the transcription but reveal a subset of H1-sensitive genes.&lt;/p&gt;
+&lt;h4 id=&quot;conclusions&quot;&gt;Conclusions:&lt;/h4&gt;
+&lt;p&gt;H1 variants have a profound impact on the molecular and spatial (nuclear) chromatin organization in Arabidopsis with distinct roles in euchromatin and heterochromatin and a dual causality on gene expression. Phenotypical analyses further suggest the novel possibility that H1-mediated chromatin organization may contribute to the epigenetic control of developmental and cellular transitions.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-genome-biology-2019&quot;&gt;Source: &lt;a href=&quot;https://doi.org/10.1186/s13059-019-1767-3&quot;&gt;Genome Biology (2019)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/03/23/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/03/23/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>The two clock proteins CCA1 and LHY activate VIN3 transcription during vernalization through the vernalization-responsive cis-element</title>
@@ -147,22 +168,6 @@
         <pubDate>Sun, 31 Oct 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/10/31/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/10/31/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>A photoregulatory mechanism of the circadian clock in Arabidopsis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Cryptochromes (CRYs) are photoreceptors that mediate light regulation of the circadian clock in plants and animals. Here we show that CRYs mediate blue-light regulation of N&lt;sup&gt;6&lt;/sup&gt;-methyladenosine (m&lt;sup&gt;6&lt;/sup&gt;A) modification of more than 10% of messenger RNAs in the Arabidopsis transcriptome, especially those regulated by the circadian clock. CRY2 interacts with three subunits of the METTL3/14-type N&lt;sup&gt;6&lt;/sup&gt;-methyladenosine RNA methyltransferase (m&lt;sup&gt;6&lt;/sup&gt;A writer): MTA, MTB and FIP37. Photo-excited CRY2 undergoes liquid–liquid phase separation (LLPS) to co-condense m&lt;sup&gt;6&lt;/sup&gt;A writer proteins in vivo, without obviously altering the affinity between CRY2 and the writer proteins. mta and cry1cry2 mutants share common defects of a lengthened circadian period, reduced m&lt;sup&gt;6&lt;/sup&gt;A RNA methylation and accelerated degradation of mRNA encoding the core component of the molecular oscillator circadian clock associated 1 (CCA1). These results argue for a photoregulatory mechanism by which light-induced phase separation of CRYs modulates m&lt;sup&gt;6&lt;/sup&gt;A writer activity, mRNA methylation and abundance, and the circadian rhythms in plants.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-plants-2020&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41477-021-01002-z&quot;&gt;Nature Plants (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 25 Oct 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/10/25/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/10/25/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
