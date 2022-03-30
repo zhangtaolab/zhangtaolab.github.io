@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2022 11:47:17 +0800</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2022 11:47:17 +0800</lastBuildDate>
+    <pubDate>Wed, 30 Mar 2022 11:56:22 +0800</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2022 11:56:22 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ALK, the Key Gene for Gelatinization Temperature, is a Modifier Gene for Gel Consistency in Rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Gelatinization temperature (GT) is an important parameter in evaluating the cooking and eating quality of rice. Indeed, the phenotype, biochemistry and inheritance of GT have been widely studied in recent times. Previous map-based cloning revealed that GT was controlled by ALK gene, which encodes a putative soluble starch synthase II-3. Complementation vector and RNAi vector were constructed and transformed into Nipponbare mediated by Agrobacterium. Phenotypic and molecular analyses of transgenic lines provided direct evidence for ALK as a key gene for GT. Meanwhile, amylose content, gel consistency and pasting properties were also affected in transgenic lines. Two of four nonsynonymous single nucleotide polymorphisms in coding sequence of ALK were identified as essential for GT. Based on the single nucleotide polymorphisms (SNPs), two new sets of SNP markers combined with one cleaved amplified polymorphic sequence marker were developed for application in rice quality breeding.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-journal-of-integrative-plant-biology-2011&quot;&gt;Source: &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/j.1744-7909.2011.01065.x&quot;&gt;Journal of Integrative Plant Biology (2011)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Wed, 30 Mar 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/03/30/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/03/30/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Linker histones are fine-scale chromatin architects modulating developmental decisions in Arabidopsis</title>
@@ -152,22 +168,6 @@
         <pubDate>Mon, 08 Nov 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/11/08/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/11/08/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Organization and regulation of gene transcription</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;The regulated transcription of genes determines cell identity and function. Recent structural studies have elucidated mechanisms that govern the regulation of transcription by RNA polymerases during the initiation and elongation phases. Microscopy studies have revealed that transcription involves the condensation of factors in the cell nucleus. A model is emerging for the transcription of protein-coding genes in which distinct transient condensates form at gene promoters and in gene bodies to concentrate the factors required for transcription initiation and elongation, respectively. The transcribing enzyme RNA polymerase II may shuttle between these condensates in a phosphorylation-dependent manner. Molecular principles are being defined that rationalize transcriptional organization and regulation, and that will guide future investigations.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-2019&quot;&gt;Source: &lt;a href=&quot;https://doi.org/10.1038/s41586-019-1517-4&quot;&gt;Nature (2019)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 31 Oct 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/10/31/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/10/31/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
