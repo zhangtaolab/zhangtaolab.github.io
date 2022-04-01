@@ -12,7 +12,7 @@ comments: false
 
 ## 2021
 
-* Feng YL, Tao ST, Zhang PY, Sperti FR, Liu GQ, Cheng XJ, Zhang T, Yu HX, Wang XE, Cheng CY, Monchaud D, Zhang WL\*. [Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiab566/6454112) ***Plant Physiology*** [DOI: 10.1093/plphys/kiab566](https://doi.org/10.1093/plphys/kiab566)
+* Feng YL, Tao ST, Zhang PY, Sperti FR, Liu GQ, Cheng XJ, Zhang T, Yu HX, Wang XE, Cheng CY, Monchaud D, Zhang WL\*. [Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiab566/6454112) ***Plant Physiology*** 2022, 188(3): 1632–1648
 
 * Wu YC†, He Y†, Sretenovic S, Liu SS, Cheng YH, Han YS, Liu GQ, Bao Y, Fang Q, Zheng XL, Zhou JP, Qi YP\*, Zhang Y\*, Zhang T\*. [CRISPR-BETS: A base editing design tool for generating stop codons](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13732) ***Plant Biotechnology Journal*** 2021, 20(3):499-510
 
