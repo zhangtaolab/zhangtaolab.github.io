@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Apr 2022 11:14:16 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2022 11:14:16 +0800</lastBuildDate>
+    <pubDate>Tue, 19 Apr 2022 22:59:43 +0800</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2022 22:59:43 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>DNA methylation-free Arabidopsis reveals crucial roles of DNA methylation in regulating gene expression and development</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;A contribution of DNA methylation to defense against invading nucleic acids and maintenance of genome integrity is uncontested; however, our understanding of the extent of involvement of this epigenetic mark in genome-wide gene regulation and plant developmental control is incomplete. Here, we knock out all five known DNA methyltransferases in Arabidopsis, generating DNA methylation-free plants. This quintuple mutant exhibits a suite of developmental defects, unequivocally demonstrating that DNA methylation is essential for multiple aspects of plant development. We show that CG methylation and non-CG methylation are required for a plethora of biological processes, including pavement cell shape, endoreduplication, cell death, flowering, trichome morphology, vasculature and meristem development, and root cell fate determination. Moreover, we find that DNA methylation has a strong dose-dependent effect on gene expression and repression of transposable elements. Taken together, our results demonstrate that DNA methylation is dispensable for Arabidopsis survival but essential for the proper regulation of multiple biological processes.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communications-2022&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-022-28940-2&quot;&gt;Nature Communications (2022)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Tue, 19 Apr 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/04/19/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/04/19/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>ReFeaFi: Genome-wide prediction of regulatory elements driving transcription initiation</title>
@@ -152,22 +168,6 @@
         <pubDate>Sun, 05 Dec 2021 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2021/12/05/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2021/12/05/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Quantitative regulation of Waxy expression by CRISPR/Cas9-based promoter and 5’UTR-intron editing improves grain quality in rice</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;In cereal crops, grain starches are composed of different proportions of amylose and amylopectin, which determine the cooking and eating qualities. The amylose synthesis is controlled by the Waxy (Wx) gene encoding a granule bound NDP-glucose- starch glucosyltransferase (Shure et al., 1983). In rice (Oryza sativa L.), the varied activities of natural Wx alleles regulate different amylose contents (AC), gel consistency (GC) and pasting viscosity of grain starches; these factors together influence the grain appearance, cooking/eating quality and starch physical characters (Zhang et al., 2019). Wxa is a strong allele mainly distributing in indica (an O. sativa subspecies) cultivars producing high ACs (25%–30%) (Wang et al., 1995). While Wxb, presenting mainly in japonica (another subspecies) cultivars, is a weak allele producing moderate ACs (15–18%) (Isshiki et al., 1998). Generally, rice grains with higher ACs and lower GC values have poor eating quality, while those with moderate ACs (15–20%) and higher GC values (60–80 mm) give better taste for most consumers. Using the successive backcrossing methods, Wxb can be introgressed into indica varieties to improve the grain quality. However, the traditional breeding methods are time consuming and difficult to break close linkage drags with undesirable traits.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-plant-biotechnology-journal-2020&quot;&gt;Source: &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/pbi.13427&quot;&gt;Plant Biotechnology Journal (2020)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 21 Nov 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/11/21/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/11/21/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
