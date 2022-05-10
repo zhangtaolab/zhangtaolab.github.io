@@ -5,9 +5,25 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Apr 2022 23:07:04 +0800</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2022 23:07:04 +0800</lastBuildDate>
+    <pubDate>Wed, 11 May 2022 01:21:12 +0800</pubDate>
+    <lastBuildDate>Wed, 11 May 2022 01:21:12 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ReFeaFi: Genome-wide prediction of regulatory elements driving transcription initiation</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Regulatory elements control gene expression through transcription initiation (promoters) and by enhancing transcription at distant regions (enhancers). Accurate identification of reg- ulatory elements is fundamental for annotating genomes and understanding gene expres- sion patterns. While there are many attempts to develop computational promoter and enhancer identification methods, reliable tools to analyze long genomic sequences are still lacking. Prediction methods often perform poorly on the genome-wide scale because the number of negatives is much higher than that in the training sets. To address this issue, we propose a dynamic negative set updating scheme with a two-model approach, using one model for scanning the genome and the other one for testing candidate positions. The devel- oped method achieves good genome-level performance and maintains robust performance when applied to other vertebrate species, without re-training. Moreover, the unannotated predicted regulatory regions made on the human genome are enriched for disease-associ- ated variants, suggesting them to be potentially true regulatory elements rather than false positives. We validated high scoring “false positive” predictions using reporter assay and all tested candidates were successfully validated, demonstrating the ability of our method to discover novel human regulatory regions.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-plos-computational-biology-2021&quot;&gt;Source: &lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009376&quot;&gt;Plos Computational Biology (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Wed, 11 May 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/05/11/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/05/11/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Chromatin accessibility landscape and regulatory network of high-altitude hypoxia adaptation</title>
@@ -152,22 +168,6 @@
         <pubDate>Sun, 09 Jan 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/01/09/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/01/09/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Enhancing rice grain production by manipulating the naturally evolved cis-regulatory element-containing inverted repeat sequence of OsREM20</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Grain number per panicle (GNP) is an important agronomic trait that contributes to rice grain yield. Despite its importance in rice breeding, the molecular mechanism underlying GNP regulation remains largely unknown. In this study, we identified a previously unrecognized regulatory gene that controls GNP in rice, Oryza sativa REPRODUCTIVE MERISTEM 20 (OsREM20), which encodes a B3 domain transcription factor. Through genetic analysis and transgenic validation we found that genetic variation in the CArG box-containing inverted repeat (IR) sequence of the OsREM20 promoter alters its expression level and contributes to GNP variation among rice varieties. Furthermore, we revealed that the IR sequence regulates OsREM20 expression by affecting the direct binding of OsMADS34 to the CArG box within the IR sequence. Interestingly, the divergent pOsREM20IR and pOsREM20ΔIR alleles were found to originate from different Oryza rufipogon accessions, and were independently inherited into the japonica and indica subspecies, respectively, during domestication. Importantly, we demonstrated that IR sequence variations in the OsREM20 promoter can be utilized for germplasm improvement through either genome editing or traditional breeding. Taken together, our study characterizes novel genetic variations responsible for GNP diversity in rice, reveals the underlying molecular mechanism in the regulation of agronomically important gene expression, and provides a promising strategy for improving rice production by manipulating the cis-regulatory element-containing IR sequence.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-molecular-plant-2021&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S1674205221000915&quot;&gt;Molecular Plant (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Sun, 12 Dec 2021 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2021/12/12/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2021/12/12/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
