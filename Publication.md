@@ -7,6 +7,7 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2022
+* Wu YC†, Ren QR†, Zhong ZH†, Liu GQ†, Han YS, Bao Y, Liu L, Xiang SY, Liu S, Tang X, Zhou JP, Zheng XL, Sretenovic S, Zhang T\*, Qi YP\*, Zhang Y\*. [Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.13838) ***Plant Biotechnology Journal*** [DOI: 10.1111/pbi.13838](https://doi.org/10.1111/pbi.13838)
 
 * Tao ST†, Liu P†, Shi YN, Feng YL, Gao JJ, Chen LF, Zhang AC, Cheng XJ, Wei HR, Zhang T\*, Zhang WL\*. [Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize](https://www.mdpi.com/2073-4425/13/2/374/htm) ***Genes*** 2022, 13(2):374
 
