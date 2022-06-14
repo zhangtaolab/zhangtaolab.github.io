@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2022 17:48:20 +0800</pubDate>
-    <lastBuildDate>Tue, 31 May 2022 17:48:20 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Jun 2022 11:29:04 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Jun 2022 11:29:04 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Splicing-mediated activation of SHAGGY-like kinases underpinning carbon partitioning in Arabidopsis seeds</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Glycogen synthase kinase 3 (GSK3) family members serve as signaling hubs for plant development and stress responses, yet the underlying mechanism of their transcriptional regulation remains a long-standing mystery. Here we show that the tran- scription of SHAGGY-like kinase 11/12 (SK11/12), two members of the GSK3 gene family, is promoted by the splicing factor SmD1b, which is essential for distributing carbon sources into storage and protective components in Arabidopsis seeds. The chromatin recruitment of SmD1b at the SK11/12 loci promotes their transcription associated with co-transcriptional splicing of the first introns in the 50-untranslated region of SK11/12. The loss of SmD1b function generates transcripts with unspliced introns that create disruptive R-loops to hamper the transcriptional elongation of SK11/12, in addition to compromising the recruitment of RNA polymerase II to the SK11/12 genomic regions. These effects imposed by SmD1b de- termine the transcription of SK11/12 to confer a key switch of carbon flow among metabolic pathways in zygotic and ma- ternal tissues in seeds.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-the-plant-cell-2022&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koac110/6569842?redirectedFrom=fulltext&quot;&gt;the Plant Cell (2022)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;``&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jun 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/06/14/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/06/14/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Role of lncRNAs in cis- and trans-regulatory responses to salt in Populus trichocarpa</title>
@@ -153,22 +170,6 @@
         <pubDate>Mon, 14 Mar 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/03/14/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/03/14/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>A quantitative genomics map of rice provides genetic insights and guides breeding</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Extensive allelic variation in agronomically important genes serves as the basis of rice breeding. Here, we present a comprehen- sive map of rice quantitative trait nucleotides (QTNs) and inferred QTN effects based on eight genome-wide association study cohorts. Population genetic analyses revealed that domestication, local adaptation and heterosis are all associated with QTN allele frequency changes. A genome navigation system, RiceNavi, was developed for QTN pyramiding and breeding route opti- mization, and implemented in the improvement of a widely cultivated indica variety. This work presents an efficient platform that bridges ever-increasing genomic knowledge and diverse improvement needs in rice.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-genetics-2021&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41588-020-00769-9&quot;&gt;Nature Genetics (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 07 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/03/07/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/03/07/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
