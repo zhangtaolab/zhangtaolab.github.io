@@ -7,27 +7,30 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2022
-* Wu YC†, Ren QR†, Zhong ZH†, Liu GQ†, Han YS, Bao Y, Liu L, Xiang SY, Liu S, Tang X, Zhou JP, Zheng XL, Sretenovic S, Zhang T\*, Qi YP\*, Zhang Y\*. [Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.13838) ***Plant Biotechnology Journal*** [DOI: 10.1111/pbi.13838](https://doi.org/10.1111/pbi.13838)
 
-* Tao ST†, Liu P†, Shi YN, Feng YL, Gao JJ, Chen LF, Zhang AC, Cheng XJ, Wei HR, Zhang T\*, Zhang WL\*. [Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize](https://www.mdpi.com/2073-4425/13/2/374/htm) ***Genes*** 2022, 13(2):374
+* Xue C†, Liu GQ†, Sun S, Liu XY, Guo R, Cheng ZK, Yu HX, Gu MH, Liu K, Zhou Y\*, Zhang T\*, Gong ZY\*. [*De Novo* Centromere Formation in Pericentromeric Region of Rice Chromosome 8.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.15862) *** The Plant Journal*** [DOI: 10.1111/tpj.15862](https://doi.org/10.1111/tpj.15862)
 
-* Feng YL, Tao ST, Zhang PY, Sperti FR, Liu GQ, Cheng XJ, Zhang T, Yu HX, Wang XE, Cheng CY, Monchaud D, Zhang WL\*. [Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiab566/6454112) ***Plant Physiology*** 2022, 188(3): 1632–1648
+* Wu YC†, Ren QR†, Zhong ZH†, Liu GQ†, Han YS, Bao Y, Liu L, Xiang SY, Liu S, Tang X, Zhou JP, Zheng XL, Sretenovic S, Zhang T\*, Qi YP\*, Zhang Y\*. [Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice.](https://onlinelibrary.wiley.com/doi/10.1111/pbi.13838) ***Plant Biotechnology Journal*** [DOI: 10.1111/pbi.13838](https://doi.org/10.1111/pbi.13838)
 
-* Wu YC†, He Y†, Sretenovic S, Liu SS, Cheng YH, Han YS, Liu GQ, Bao Y, Fang Q, Zheng XL, Zhou JP, Qi YP\*, Zhang Y\*, Zhang T\*. [CRISPR-BETS: A base editing design tool for generating stop codons](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13732) ***Plant Biotechnology Journal*** 2022, 20(3):499-510
+* Tao ST†, Liu P†, Shi YN, Feng YL, Gao JJ, Chen LF, Zhang AC, Cheng XJ, Wei HR, Zhang T\*, Zhang WL\*. [Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize.](https://www.mdpi.com/2073-4425/13/2/374/htm) ***Genes*** 2022, 13(2):374
+
+* Feng YL, Tao ST, Zhang PY, Sperti FR, Liu GQ, Cheng XJ, Zhang T, Yu HX, Wang XE, Cheng CY, Monchaud D, Zhang WL\*. [Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription.](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiab566/6454112) ***Plant Physiology*** 2022, 188(3): 1632–1648
+
+* Wu YC†, He Y†, Sretenovic S, Liu SS, Cheng YH, Han YS, Liu GQ, Bao Y, Fang Q, Zheng XL, Zhou JP, Qi YP\*, Zhang Y\*, Zhang T\*. [CRISPR-BETS: A base editing design tool for generating stop codons.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13732) ***Plant Biotechnology Journal*** 2022, 20(3):499-510
 
 ## 2021
 
-* Ding Y, Zhu JN, Zhao DS, Liu QQ, Yang QQ\*, ZhangT\*. [Targeting *Cis*-Regulatory Elements for Rice Grain Quality Improvement](https://www.frontiersin.org/articles/10.3389/fpls.2021.705834/full) ***Frontiers in Plant Science*** 2021, 12:705834
+* Ding Y, Zhu JN, Zhao DS, Liu QQ, Yang QQ\*, ZhangT\*. [Targeting *Cis*-Regulatory Elements for Rice Grain Quality Improvement.](https://www.frontiersin.org/articles/10.3389/fpls.2021.705834/full) ***Frontiers in Plant Science*** 2021, 12:705834
 
-* Liu GQ, Zhang T\*. [Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation](https://www.mdpi.com/1422-0067/22/13/7124) ***International Journal of Molecular Sciences*** 2021, 22(13):7124
+* Liu GQ, Zhang T\*. [Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation.](https://www.mdpi.com/1422-0067/22/13/7124) ***International Journal of Molecular Sciences*** 2021, 22(13):7124
 
-* Randall L.B†, Sretenovic S†, Wu YC†, Yin D, Zhang T, Eck J.V, Qi YP\*. [Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor](https://academic.oup.com/plphys/advance-article-abstract/doi/10.1093/plphys/kiab264/6294312) ***Plant Physiology*** 2021, 187(1):73-87
+* Randall L.B†, Sretenovic S†, Wu YC†, Yin D, Zhang T, Eck J.V, Qi YP\*. [Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor.](https://academic.oup.com/plphys/advance-article-abstract/doi/10.1093/plphys/kiab264/6294312) ***Plant Physiology*** 2021, 187(1):73-87
 
-* Ren QR†, Sretenovic S†, Liu GQ†, Zhong ZH, Wang JH, Huang L, Tang X, Guo YC, Liu L, Wu YC, Zhou J, Zhao YX, Yang H, He Y, Liu SS, Yin DS, Mayorga R, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Improved plant cytosine base editors with high editing activity, purity, and specificity](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13635) ***Plant Biotechnology Journal*** 2021, 19(10):2052-2068
+* Ren QR†, Sretenovic S†, Liu GQ†, Zhong ZH, Wang JH, Huang L, Tang X, Guo YC, Liu L, Wu YC, Zhou J, Zhao YX, Yang H, He Y, Liu SS, Yin DS, Mayorga R, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*. [Improved plant cytosine base editors with high editing activity, purity, and specificity.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13635) ***Plant Biotechnology Journal*** 2021, 19(10):2052-2068
 
-* Zhang T†\*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM\*. [Chorus2: design of genome‐scale oligonucleotide‐based probes for fluorescence in situ hybridization](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13610) ***Plant Biotechnology Journal*** 2021, 19(10):1967-1978
+* Zhang T†\*, Liu GQ†, Zhao HN, Braz G.T, Jiang JM\*. [Chorus2: design of genome‐scale oligonucleotide‐based probes for fluorescence in situ hybridization.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13610) ***Plant Biotechnology Journal*** 2021, 19(10):1967-1978
 
-* Meng FL†, Zhao HN†, Zhu B, Zhang T, Yang, Li Y, Han YP, Jiang JM\*. [Genomic Editing of Intronic Enhancers Unveils Their Role in Fine-Tuning Tissue-Specific Gene Expression in *Arabidopsis thaliana*](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koab093/6187954) ***The Plant Cell*** 2021, 33(6):1997-2014
+* Meng FL†, Zhao HN†, Zhu B, Zhang T, Yang, Li Y, Han YP, Jiang JM\*. [Genomic Editing of Intronic Enhancers Unveils Their Role in Fine-Tuning Tissue-Specific Gene Expression in *Arabidopsis thaliana*.](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koab093/6187954) ***The Plant Cell*** 2021, 33(6):1997-2014
 
 * Zhang C, Zhang JX, Tang YJ, Liu KW, Liu Y, Tang JQ, Zhang T, Yu HX\*. [DEEP GREEN PANICLE1 suppresses GOLDEN2-LIKE activity to reduce chlorophyll synthesis in rice glumes.](https://academic.oup.com/plphys/article/185/2/469/6020270) ***Plant Physiology*** 2021, 185(2):469-477
 
