@@ -8,7 +8,7 @@ comments: false
 
 ## 2022
 
-* Xue C†, Liu GQ†, Sun S, Liu XY, Guo R, Cheng ZK, Yu HX, Gu MH, Liu K, Zhou Y\*, Zhang T\*, Gong ZY\*. [*De Novo* Centromere Formation in Pericentromeric Region of Rice Chromosome 8.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.15862) *** The Plant Journal*** [DOI: 10.1111/tpj.15862](https://doi.org/10.1111/tpj.15862)
+* Xue C†, Liu GQ†, Sun S, Liu XY, Guo R, Cheng ZK, Yu HX, Gu MH, Liu K, Zhou Y\*, Zhang T\*, Gong ZY\*. [*De Novo* Centromere Formation in Pericentromeric Region of Rice Chromosome 8.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.15862) ***The Plant Journal*** [DOI: 10.1111/tpj.15862](https://doi.org/10.1111/tpj.15862)
 
 * Wu YC†, Ren QR†, Zhong ZH†, Liu GQ†, Han YS, Bao Y, Liu L, Xiang SY, Liu S, Tang X, Zhou JP, Zheng XL, Sretenovic S, Zhang T\*, Qi YP\*, Zhang Y\*. [Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice.](https://onlinelibrary.wiley.com/doi/10.1111/pbi.13838) ***Plant Biotechnology Journal*** [DOI: 10.1111/pbi.13838](https://doi.org/10.1111/pbi.13838)
 
