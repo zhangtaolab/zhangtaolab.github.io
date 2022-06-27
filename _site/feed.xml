@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jun 2022 10:28:16 +0800</pubDate>
-    <lastBuildDate>Wed, 15 Jun 2022 10:28:16 +0800</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2022 17:48:47 +0800</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2022 17:48:47 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>H1 linker histones silence repetitive elements by promoting both histone H3K9 methylation and chromatin compaction</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Nearly 50% of mouse and human genomes are composed of repetitive sequences. Transcription of these sequences is tightly controlled during development to prevent genomic instability, inappropriate gene activation and other maladaptive processes. Here, we demonstrate an integral role for H1 linker histones in silencing repetitive elements in mouse embryonic stem cells. Strong H1 depletion causes a profound de-repression of several classes of repetitive sequences, including major satellite, LINE-1, and ERV. Activation of repetitive sequence transcription is accompanied by decreased H3K9 trimethylation of repetitive sequence chromatin. H1 linker histones interact directly with Suv39h1, Suv39h2, and SETDB1, the histone methyltransferases responsible for H3K9 trimethylation of chromatin within these regions, and stimulate their activity toward chromatin in vitro. However, we also implicate chromatin compaction mediated by H1 as an additional, dominant repressive mechanism for silencing of repetitive major satellite sequences. Our findings elucidate two distinct, H1-mediated pathways for silencing heterochromatin.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-pnas-2020&quot;&gt;Source: &lt;a href=&quot;https://www.pnas.org/doi/suppl/10.1073/pnas.1920725117&quot;&gt;PNAS (2020)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;``&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Jun 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/06/22/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/06/22/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Splicing-mediated activation of SHAGGY-like kinases underpinning carbon partitioning in Arabidopsis seeds</title>
@@ -154,22 +171,6 @@
         <pubDate>Wed, 23 Mar 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/03/23/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/03/23/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>The two clock proteins CCA1 and LHY activate VIN3 transcription during vernalization through the vernalization-responsive cis-element</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Vernalization, a long-term cold-mediated acquisition of flowering competence, is critically regulated by VERNALIZATION INSENSITIVE 3 (VIN3), a gene induced by vernalization in Arabidopsis. Although the function of VIN3 has been extensively studied, how VIN3 expression itself is upregulated by long-term cold is not well understood. In this study, we identified a vernalization-responsive cis-element in the VIN3 promoter, VREVIN3, composed of a G-box and an evening element (EE). Mutations in either the G-box or the EE prevented VIN3 expression from being fully induced upon vernalization, leading to defects in the vernalization response. We determined that the core clock proteins CIRCADIAN CLOCK-ASSOCIATED 1 (CCA1) and LATE-ELONGATED HYPOCOTYL (LHY) associate with the EE of VREVIN3, both in vitro and in vivo. In a cca1 lhy double mutant background harboring a functional FRIGIDA allele, long-term cold-mediated VIN3 induction and acceler- ation of flowering were impaired, especially under mild cold conditions such as at 12􏰂C. During prolonged cold exposure, oscillations of CCA1/LHY transcripts were altered, while CCA1 abundance increased at dusk, coinciding with the diurnal peak of VIN3 transcripts. We propose that modulation of the clock proteins CCA1 and LHY participates in the systems in- volved in sensing long-term cold for the activation of VIN3 transcription.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-plant-cell-2021&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/article-abstract/34/3/1020/6472367&quot;&gt;Plant Cell (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 14 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/03/14/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/03/14/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
