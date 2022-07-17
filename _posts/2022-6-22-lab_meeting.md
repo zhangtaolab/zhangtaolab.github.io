@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "H1 linker histones silence repetitive elements by promoting both histone H3K9 methylation and chromatin compaction"
-image: assets/images/lab_meeting/2022-6-22.png
+image: assets/images/lab_meeting/2022-06-22.png
 author: pcr
 source: https://www.pnas.org/doi/suppl/10.1073/pnas.1920725117
 is_meeting: true

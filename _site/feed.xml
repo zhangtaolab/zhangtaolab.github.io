@@ -5,9 +5,43 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2022 17:48:47 +0800</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2022 17:48:47 +0800</lastBuildDate>
+    <pubDate>Sun, 17 Jul 2022 09:33:35 +0800</pubDate>
+    <lastBuildDate>Sun, 17 Jul 2022 09:33:35 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Genome-wide cis-decoding for expression design in tomato using cistrome data and explainable deep learning</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;In the evolutionary history of plants, variation in cis-regulatory elements (CREs) resulting in diversification of gene expression has played a central role in driving the evolution of lineage-specific traits. However, it is difficult to predict expression behaviors from CRE patterns to properly harness them, mainly because the biological processes are complex. In this study, we used cistrome datasets and explainable convolutional neural network (CNN) frameworks to predict genome-wide expression patterns in tomato (Solanum lycopersicum) fruit from the DNA sequences in gene regulatory regions. By fixing the effects of trans-acting factors using single cell-type spatiotemporal transcriptome data for the response variables, we developed a prediction model for crucial expression patterns in the initiation of tomato fruit ripening. Feature visualization of the CNNs identified nucleotide residues critical to the objective expression pattern in each gene, and their effects were validated experimentally in ripening tomato fruit. This cis-decoding framework will not only contribute to the understanding of the regulatory networks derived from CREs and transcription factor interactions, but also provides a flexible means of designing alleles for optimized expression.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-the-plant-cell-2022&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/article/34/6/2174/6542321&quot;&gt;the Plant Cell (2022)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;``&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jul 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/07/17/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/07/17/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>OsAAP6 functions as an important regulator of grain protein content and nutritional quality in rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Grains from cereals contribute an important source of protein to human food, and grain protein content (GPC) is an important determinant of nutritional quality in cereals. Here we show that the quantitative trait locus (QTL) qPC1 in rice controls GPC by regulating the synthesis and accumulation of glutelins, prolamins, globulins, albumins and starch. qPC1 encodes a putative amino acid transporter OsAAP6, which functions as a positive regulator of GPC in rice, such that higher expression of OsAAP6 is correlated with higher GPC. OsAAP6 greatly enhances root absorption of a range of amino acids and has effects on the distribution of various amino acids. Two common variations in the potential cis-regulatory elements of the OsAAP6 5′-untranslated region seem to be associated with GPC diversity mainly in indica cultivars. Our results represent the first step toward unravelling the mechanism of regulation underlying natural variation of GPC in rice.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-nature-communications-2014&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/ncomms5847&quot;&gt;Nature Communications (2014)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;``&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/06/29/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/06/29/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>H1 linker histones silence repetitive elements by promoting both histone H3K9 methylation and chromatin compaction</title>
@@ -134,43 +168,6 @@
         <pubDate>Wed, 06 Apr 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/04/06/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/04/06/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>ALK, the Key Gene for Gelatinization Temperature, is a Modifier Gene for Gel Consistency in Rice</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Gelatinization temperature (GT) is an important parameter in evaluating the cooking and eating quality of rice. Indeed, the phenotype, biochemistry and inheritance of GT have been widely studied in recent times. Previous map-based cloning revealed that GT was controlled by ALK gene, which encodes a putative soluble starch synthase II-3. Complementation vector and RNAi vector were constructed and transformed into Nipponbare mediated by Agrobacterium. Phenotypic and molecular analyses of transgenic lines provided direct evidence for ALK as a key gene for GT. Meanwhile, amylose content, gel consistency and pasting properties were also affected in transgenic lines. Two of four nonsynonymous single nucleotide polymorphisms in coding sequence of ALK were identified as essential for GT. Based on the single nucleotide polymorphisms (SNPs), two new sets of SNP markers combined with one cleaved amplified polymorphic sequence marker were developed for application in rice quality breeding.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-journal-of-integrative-plant-biology-2011&quot;&gt;Source: &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/j.1744-7909.2011.01065.x&quot;&gt;Journal of Integrative Plant Biology (2011)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Wed, 30 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/03/30/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/03/30/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Linker histones are fine-scale chromatin architects modulating developmental decisions in Arabidopsis</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;h4 id=&quot;background&quot;&gt;Background:&lt;/h4&gt;
-&lt;p&gt;Chromatin provides a tunable platform for gene expression control. Besides the well-studied core nucleosome, H1 linker histones are abundant chromatin components with intrinsic potential to influence chromatin function. Well studied in animals, little is known about the evolution of H1 function in other eukaryotic lineages for instance plants. Notably, in the model plant Arabidopsis, while H1 is known to influence heterochromatin and DNA methylation, its contribution to transcription, molecular, and cytological chromatin organization remains elusive.&lt;/p&gt;
-&lt;h4 id=&quot;results&quot;&gt;Results:&lt;/h4&gt;
-&lt;p&gt;We provide a multi-scale functional study of Arabidopsis linker histones. We show that H1-deficient plants are viable yet show phenotypes in seed dormancy, flowering time, lateral root, and stomata formation— complemented by either or both of the major variants. H1 depletion also impairs pluripotent callus formation. Fine- scale chromatin analyses combined with transcriptome and nucleosome profiling reveal distinct roles of H1 on hetero- and euchromatin: H1 is necessary to form heterochromatic domains yet dispensable for silencing of most transposable elements; H1 depletion affects nucleosome density distribution and mobility in euchromatin, spatial arrangement of nanodomains, histone acetylation, and methylation. These drastic changes affect moderately the transcription but reveal a subset of H1-sensitive genes.&lt;/p&gt;
-&lt;h4 id=&quot;conclusions&quot;&gt;Conclusions:&lt;/h4&gt;
-&lt;p&gt;H1 variants have a profound impact on the molecular and spatial (nuclear) chromatin organization in Arabidopsis with distinct roles in euchromatin and heterochromatin and a dual causality on gene expression. Phenotypical analyses further suggest the novel possibility that H1-mediated chromatin organization may contribute to the epigenetic control of developmental and cellular transitions.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-genome-biology-2019&quot;&gt;Source: &lt;a href=&quot;https://doi.org/10.1186/s13059-019-1767-3&quot;&gt;Genome Biology (2019)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Wed, 23 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/03/23/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/03/23/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>

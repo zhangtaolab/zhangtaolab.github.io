@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Splicing-mediated activation of SHAGGY-like kinases underpinning carbon partitioning in Arabidopsis seeds"
-image: assets/images/lab_meeting/2022-6-14.png
+image: assets/images/lab_meeting/2022-06-14.png
 author: zx
 source: https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koac110/6569842?redirectedFrom=fulltext
 is_meeting: true
