@@ -2,8 +2,9 @@
 layout: meeting
 title: "Modeling temporal and hormonal regulation of plant transcriptional response to wounding"
 image: assets/images/lab_meeting/2022-07-29.png
-author: lgq
+author: by
 source: https://academic.oup.com/plcell/article/34/2/867/6448773
+is_meeting: true
 categories: [Lab Meeting]
 hostDate: 2022-8-3
 journal: the Plant Cell (2022)
