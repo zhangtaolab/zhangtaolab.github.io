@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Sep 2022 14:02:45 +0800</pubDate>
-    <lastBuildDate>Wed, 07 Sep 2022 14:02:45 +0800</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2022 09:36:14 +0800</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2022 09:36:14 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Inactivation of rice starch branching enzyme IIb triggers broad and unexpected changes in metabolism by transcriptional reprogramming</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+
+&lt;p&gt;Starch properties can be modified by mutating genes responsible for the synthesis of amylose and amylopectin in the endosperm. How- ever, little is known about the effects of such targeted modifications on the overall starch biosynthesis pathway and broader metabolism. Here we investigated the effects of mutating the OsSBEIIb gene encoding starch branching enzyme IIb, which is required for amylo- pectin synthesis in the endosperm. As anticipated, homozygous mu- tant plants, in which OsSBEIIb was completely inactivated by abolishing the catalytic center and C-terminal regulatory domain, pro- duced opaque seeds with depleted starch reserves. Amylose content in the mutant increased from 19.6 to 27.4% and resistant starch (RS) content increased from 0.2 to 17.2%. Many genes encoding isoforms of AGPase, soluble starch synthase, and other starch branching en- zymes were up-regulated, either in their native tissues or in an ectopic manner, whereas genes encoding granule-bound starch synthase, debranching enzymes, pullulanase, and starch phosphorylases were largely down-regulated. There was a general increase in the accumu- lation of sugars, fatty acids, amino acids, and phytosterols in the mu- tant endosperm, suggesting that intermediates in the starch biosynthesis pathway increased flux through spillover pathways causing a profound impact on the accumulation of multiple primary and secondary metabolites. Our results provide insights into the broader implications of perturbing starch metabolism in rice endo- sperm and its impact on the whole plant, which will make it easier to predict the effect of metabolic engineering in cereals for nutritional improvement or the production of valuable metabolites.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-pnas-2020&quot;&gt;Source: &lt;a href=&quot;https://www.pnas.org/doi/suppl/10.1073/pnas.2014860117&quot;&gt;PNAS (2020)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 12 Sep 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/09/12/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/09/12/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Pan-brassinosteroid signaling revealed by functional analysis of NILR1 in land plants</title>
@@ -153,22 +170,6 @@ In summary, we provide evidence for the signaling cascade of NILR1, suggesting p
         <pubDate>Tue, 26 Apr 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/04/26/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/04/26/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>DNA methylation-free Arabidopsis reveals crucial roles of DNA methylation in regulating gene expression and development</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;A contribution of DNA methylation to defense against invading nucleic acids and maintenance of genome integrity is uncontested; however, our understanding of the extent of involvement of this epigenetic mark in genome-wide gene regulation and plant developmental control is incomplete. Here, we knock out all five known DNA methyltransferases in Arabidopsis, generating DNA methylation-free plants. This quintuple mutant exhibits a suite of developmental defects, unequivocally demonstrating that DNA methylation is essential for multiple aspects of plant development. We show that CG methylation and non-CG methylation are required for a plethora of biological processes, including pavement cell shape, endoreduplication, cell death, flowering, trichome morphology, vasculature and meristem development, and root cell fate determination. Moreover, we find that DNA methylation has a strong dose-dependent effect on gene expression and repression of transposable elements. Taken together, our results demonstrate that DNA methylation is dispensable for Arabidopsis survival but essential for the proper regulation of multiple biological processes.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-nature-communications-2022&quot;&gt;Source: &lt;a href=&quot;https://www.nature.com/articles/s41467-022-28940-2&quot;&gt;Nature Communications (2022)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Tue, 19 Apr 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/04/19/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/04/19/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
