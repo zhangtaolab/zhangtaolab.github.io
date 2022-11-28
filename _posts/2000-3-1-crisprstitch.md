@@ -3,17 +3,17 @@ layout: post
 title:  "CrisprStitch"
 is_software: true
 software_postbox: true
-image: assets/images/crisprstitch.jpg
+image: assets/images/crisprstitch.png
 categories: [ software ]
 priority: 1
 permalink: /software/crisprstitch
 linkage: https://bioinfor.yzu.edu.cn/crisprstitch/
 ---
-A gRNA design software for base editing knockout using stop codon.
+An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
 
 [**Web Server**](https://bioinfor.yzu.edu.cn/crisprstitch/)
  
-**Desktop Download** (Please refer to the documentation for installation)
+**Desktop Download**
 
 * [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.1/CrisprStitch-0.5.1.dmg)
 * [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.1/CrisprStitch.Setup.0.5.1.exe)
@@ -29,4 +29,5 @@ A gRNA design software for base editing knockout using stop codon.
 
 ### Preview
 
-![img]({{ site.baseurl }}/assets/images/CrisprStitch/CrisprStitch_preview.png)
+![img]({{ site.baseurl }}/assets/images/CrisprStitch/CrisprStitch_preview1.png)
+![img]({{ site.baseurl }}/assets/images/CrisprStitch/CrisprStitch_preview2.png)
