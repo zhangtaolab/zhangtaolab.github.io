@@ -5,9 +5,26 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Dec 2022 10:48:49 +0800</pubDate>
-    <lastBuildDate>Thu, 08 Dec 2022 10:48:49 +0800</lastBuildDate>
+    <pubDate>Fri, 09 Dec 2022 11:44:39 +0800</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2022 11:44:39 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>A route to de novo domestication of wild allotetraploid rice</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+
+&lt;p&gt;Cultivated rice varieties are all diploid, and polyploidization of rice has long been desired because of its ad- vantages in genome buffering, vigorousness, and environmental robustness. However, a workable route re- mains elusive. Here, we describe a practical strategy, namely de novo domestication of wild allotetraploid rice. By screening allotetraploid wild rice inventory, we identified one genotype of Oryza alta (CCDD), poly- ploid rice 1 (PPR1), and established two important resources for its de novo domestication: (1) an efficient tissue culture, transformation, and genome editing system and (2) a high-quality genome assembly discrim- inated into two subgenomes of 12 chromosomes apiece. With these resources, we show that six agronom- ically important traits could be rapidly improved by editing O. alta homologs of the genes controlling these traits in diploid rice. Our results demonstrate the possibility that de novo domesticated allotetraploid rice can be developed into a new staple cereal to strengthen world food security.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-cell-2021&quot;&gt;Source: &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S0092867421000131&quot;&gt;Cell (2021)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/12/09/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/12/09/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
     
       <item>
         <title>Translatome and transcriptome co-profiling reveals a role of TPRXs in human zygotic genome activation</title>
@@ -155,22 +172,6 @@ In summary, we provide evidence for the signaling cascade of NILR1, suggesting p
         <pubDate>Tue, 17 May 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/05/17/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/05/17/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>ReFeaFi: Genome-wide prediction of regulatory elements driving transcription initiation</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Regulatory elements control gene expression through transcription initiation (promoters) and by enhancing transcription at distant regions (enhancers). Accurate identification of reg- ulatory elements is fundamental for annotating genomes and understanding gene expres- sion patterns. While there are many attempts to develop computational promoter and enhancer identification methods, reliable tools to analyze long genomic sequences are still lacking. Prediction methods often perform poorly on the genome-wide scale because the number of negatives is much higher than that in the training sets. To address this issue, we propose a dynamic negative set updating scheme with a two-model approach, using one model for scanning the genome and the other one for testing candidate positions. The devel- oped method achieves good genome-level performance and maintains robust performance when applied to other vertebrate species, without re-training. Moreover, the unannotated predicted regulatory regions made on the human genome are enriched for disease-associ- ated variants, suggesting them to be potentially true regulatory elements rather than false positives. We validated high scoring “false positive” predictions using reporter assay and all tested candidates were successfully validated, demonstrating the ability of our method to discover novel human regulatory regions.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-plos-computational-biology-2021&quot;&gt;Source: &lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009376&quot;&gt;Plos Computational Biology (2021)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Wed, 11 May 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/05/11/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/05/11/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>

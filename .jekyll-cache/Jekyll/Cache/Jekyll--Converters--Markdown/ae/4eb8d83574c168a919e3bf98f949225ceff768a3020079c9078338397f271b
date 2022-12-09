@@ -1,0 +1,37 @@
+I"�<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
+
+<p><a href="https://bioinfor.yzu.edu.cn/crisprstitch/"><strong>Web App</strong></a></p>
+
+<h3 id="video-tutorial">Video tutorial</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=rnVo2CoyEhs&amp;list=PLo8q8tqFX5J3IyY2Pk0dqc_v6tUvqL8F_">Youtube(EN)</a></li>
+  <li><a href="https://www.bilibili.com/video/BV1cR4y1y7nX/?spm_id_from=333.999.0.0">bilibili(中文)</a></li>
+</ul>
+
+<h2 id="desktop-download">Desktop Download</h2>
+
+<p><strong>Github Download</strong></p>
+<ul>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg">MacOS</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe">Windows</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage">Linux</a></li>
+</ul>
+
+<p><strong>Local Download</strong></p>
+<ul>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg">MacOS</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe">Windows</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage">Linux</a></li>
+</ul>
+
+<p><a href="https://github.com/zhangtaolab/CrisprStitch"><strong>Github</strong></a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>CrisprStitch</strong> is designed to integrate analysis steps including mapping reads, calculating mutation frequency, evaluating the efficiency of genome-editing systems, and outputting visualized results. All functional parts are coded by typescripts. CrisprStitch is able to apply as a website or a downloadable desktop app created by electron. Both website and desktop app perform series of calculations on the user’s local computer side, rather than remote servers, which is beneficial for file size limits, network consumption and analysis speed.</p>
+
+<h3 id="preview">Preview</h3>
+
+<p><img src="/assets/images/CrisprStitch/CrisprStitch_preview1.png" alt="img" />
+<img src="/assets/images/CrisprStitch/CrisprStitch_preview2.png" alt="img" /></p>
+:ET

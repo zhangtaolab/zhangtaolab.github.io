@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "OsAAP6 functions as an important regulator of grain protein content and nutritional quality in rice"
-image: assets/images/lab_meeting/2022-6-29.png
+image: assets/images/lab_meeting/2022-06-29.png
 author: ty
 source: https://www.nature.com/articles/ncomms5847
 is_meeting: true
