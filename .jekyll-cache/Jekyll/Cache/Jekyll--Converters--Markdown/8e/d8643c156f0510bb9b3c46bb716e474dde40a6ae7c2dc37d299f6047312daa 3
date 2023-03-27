@@ -1,0 +1,14 @@
+I"™<p>A software specially designed for DHS identification.</p>
+
+<p><a href="https://github.com/forrestzhang/Popera"><strong>Github</strong></a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>DNase I hypersensitive sites (DHSs) are regions of chromatin that are sensitive to cleavage by the DNase I enzyme. In these specific regions of the genome, chromatin has lost its condensed structure, exposing the DNA and making it accessible.<br />
+<strong>Popera</strong> is specially designed for identifying genome-wide DHSs from DNase-seq reads. First, Popera identifies the DHSs by applying the kernel density estimation algorithm. Second, all the DHSs identified from various tissues and developmental stages were merged to create a unified DHS file; DHSs were then assigned unique ID tags. Lastly, normalized scores of unified DHSs were calculated for each unique tissue and developmental stage. Besides, Popera can generate smooth bigwig files, which provide more explicit and pretty visualization for downstream analysis.</p>
+
+<h3 id="preview">Preview</h3>
+
+<p><strong>DHS identified by <em>Popera</em></strong>
+<img src="/assets/images/Popera/DHS_Popera.jpg" alt="img" /></p>
+:ET

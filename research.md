@@ -13,7 +13,7 @@ About the Lab
 ### 1. Cis-regulatory DNA Elements Identification
 Cis-regulatory DNA elements (CRMs) control the expression of genes during specific developmental stages or under various biotic and abiotic stresses. Cis-regulatory elements can be identified based on their unique molecular signatures associated with open chromatin. Identification and characterization of CRM will be essential for us to understand plant stress biology, such enhancers will also become a key resource to improve the tissue specificity and transcription levels of transgenes for crop improvement.
 
-![img]({{ site.baseurl }}/assets/images/Research_CRE.jpg)
+![img]({{ site.baseurl }}/assets/images/Research_CRE.png)
 <br><br>
 
 ### 2. Oligo-FISH Probe Design
