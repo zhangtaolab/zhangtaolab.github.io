@@ -8,7 +8,7 @@ comments: false
 
 ## 2023
 
-* * Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, DOI: 10.1038/s41477-023-01384-2
+* Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, DOI: 10.1038/s41477-023-01384-2
 
 ## 2022
 
