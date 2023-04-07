@@ -6,6 +6,10 @@ comments: false
 
 **† Equally Contributing Authors**
 
+## 2023
+
+* * Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, DOI: 10.1038/s41477-023-01384-2
+
 ## 2022
 
 * Liu S†, Bao Y†, Deng H†, Liu GQ, Han YS, Wu YC, Zhang T\*, Chen C\*. [The Methylation Inhibitor 5-Aza-2′-Deoxycytidine Induces Genome-Wide Hypomethylation in Rice](https://thericejournal.springeropen.com/articles/10.1186/s12284-022-00580-6) ***Rice*** 2022, 15:35
