@@ -7,6 +7,7 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Yu Bao, Yangyang Wei, Yuling Liu, Jingjing Gao, Shuang Cheng, Guanqing Liu, Qi You, Peng Liu, Quanwei Lu, Pengtao Li, Shulin Zhang, Nan Hu, Yangshuo Han, Shuo Liu, Yuechao Wu, Qingqing Yang, Zhaoguo Li, Guowei Ao, Fang Liu, Kunbo Wang, Jiming Jiang, Tao Zhang\*, Wenli Zhang\* ,Renhai Peng\*.[Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4).***BMC Biology*** 2023,21:2-20
 
 * Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, 9:588-604
 
