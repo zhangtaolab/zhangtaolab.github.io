@@ -7,7 +7,9 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
-* Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, Zhang T\*, Zhang WL\* ,Peng RH\*.[Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4).***BMC Biology*** 2023,21:2-20
+* Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, Zhang T\* , Zhang HQ\*. [Chromosome-specific painting in Thinopyrum species using bulked oligonucleotides](https://link.springer.com/article/10.1007/s00122-023-04423-w). ***Theoretical and Applied Genetics*** 2023, 136:177
+  
+* Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, Zhang T\*, Zhang WL\* ,Peng RH\*. [Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4). ***BMC Biology*** 2023, 21:2-20
 
 * Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, 9:588-604
 
