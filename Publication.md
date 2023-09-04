@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Sretenovic S†, Green Y†, Wu YC†, Cheng YH†, Zhang T\*, Eck J.V\*, Qi YP\*.[Genome- and transcriptome-wide off-target analyses of a high-efficiency adenine base editor in tomato](https://academic.oup.com/plphys/article-abstract/193/1/291/7198002?redirectedFrom=fulltext&utm_source=etoc&utm_campaign=plphys&utm_medium=email). ***Plant Physiology*** 2023, 193:291–303
+
 * Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, Zhang T\* , Zhang HQ\*. [Chromosome-specific painting in Thinopyrum species using bulked oligonucleotides](https://link.springer.com/article/10.1007/s00122-023-04423-w). ***Theoretical and Applied Genetics*** 2023, 136:177
   
 * Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, Zhang T\*, Zhang WL\* ,Peng RH\*. [Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4). ***BMC Biology*** 2023, 21:2-20
