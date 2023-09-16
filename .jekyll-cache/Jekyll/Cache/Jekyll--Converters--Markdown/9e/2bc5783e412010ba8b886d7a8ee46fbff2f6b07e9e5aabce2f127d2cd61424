@@ -10,18 +10,18 @@
 
 <h2 id="desktop-download">Desktop Download</h2>
 
-<p><strong>Github Download</strong></p>
-<ul>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg">MacOS</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe">Windows</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage">Linux</a></li>
-</ul>
-
 <p><strong>Local Download</strong></p>
 <ul>
   <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg">MacOS</a></li>
   <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe">Windows</a></li>
   <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage">Linux</a></li>
+</ul>
+
+<p><strong>Github Download</strong></p>
+<ul>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg">MacOS</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe">Windows</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage">Linux</a></li>
 </ul>
 
 <p><a href="https://github.com/zhangtaolab/CrisprStitch"><strong>Github</strong></a></p>

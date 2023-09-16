@@ -3,7 +3,7 @@ layout: post
 title:  "CrisprStitch"
 is_software: true
 software_postbox: true
-image: assets/images/crisprstitch.png
+image: zhangtaolab.github.io/assets/images/CRISPR-stitchV2.png
 categories: [ software ]
 priority: 1
 permalink: /software/crisprstitch
@@ -19,15 +19,16 @@ An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
  
 ## Desktop Download
 
+**Local Download**
+* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg)
+* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe)
+* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage)
+
 **Github Download**
 * [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg)
 * [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe)
 * [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage)
 
-**Local Download**
-* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg)
-* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe)
-* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage)
 
 [**Github**](https://github.com/zhangtaolab/CrisprStitch)
 
