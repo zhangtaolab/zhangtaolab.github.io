@@ -14,20 +14,20 @@ An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
 [**Web App**](https://bioinfor.yzu.edu.cn/crisprstitch/)
 
 ### Video tutorial
-* [Youtube(EN)](https://www.youtube.com/watch?v=jm8RxfQosDE)
-* [bilibili(中文)](https://www.bilibili.com/video/BV1cR4y1y7nX/?spm_id_from=333.999.0.0)
+* [Youtube(EN)](https://www.youtube.com/playlist?list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY)
+* [bilibili(中文)](https://www.bilibili.com/video/BV1tw411r7i8/)
  
-## Desktop Download (v1.0.1)
+## Desktop Download(v1.0.2)
 
 **Local Download**
-* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.dmg)
-* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.exe)
-* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64)
+* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip)
+* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip)
+* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip)
 
 **Github Download**
-* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-darwin-x64.dmg)
-* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-win32-x64.exe)
-* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-linux-x64)
+* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip)
+* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip)
+* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip)
 
 
 [**Github**](https://github.com/zhangtaolab/CrisprStitch)

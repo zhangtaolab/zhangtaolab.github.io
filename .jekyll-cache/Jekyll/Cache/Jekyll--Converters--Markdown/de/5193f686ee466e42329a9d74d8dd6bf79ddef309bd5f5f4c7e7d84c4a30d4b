@@ -1,27 +1,27 @@
-I"�<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
+I"�<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
 
 <p><a href="https://bioinfor.yzu.edu.cn/crisprstitch/"><strong>Web App</strong></a></p>
 
 <h3 id="video-tutorial">Video tutorial</h3>
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=jm8RxfQosDE">Youtube(EN)</a></li>
-  <li><a href="https://www.bilibili.com/video/BV1cR4y1y7nX/?spm_id_from=333.999.0.0">bilibili(中文)</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY">Youtube(EN)</a></li>
+  <li><a href="https://www.bilibili.com/video/BV1tw411r7i8/">bilibili(中文)</a></li>
 </ul>
 
-<h2 id="desktop-download-v101">Desktop Download (v1.0.1)</h2>
+<h2 id="desktop-downloadv102">Desktop Download(v1.0.2)</h2>
 
 <p><strong>Local Download</strong></p>
 <ul>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.dmg">MacOS</a></li>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.exe">Windows</a></li>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64">Linux</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip">Linux</a></li>
 </ul>
 
 <p><strong>Github Download</strong></p>
 <ul>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-darwin-x64.dmg">MacOS</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-win32-x64.exe">Windows</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.1/CrisprStitch-linux-x64">Linux</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip">Linux</a></li>
 </ul>
 
 <p><a href="https://github.com/zhangtaolab/CrisprStitch"><strong>Github</strong></a></p>
