@@ -5,8 +5,8 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Oct 2023 16:58:54 +0800</pubDate>
-    <lastBuildDate>Tue, 10 Oct 2023 16:58:54 +0800</lastBuildDate>
+    <pubDate>Tue, 10 Oct 2023 17:18:22 +0800</pubDate>
+    <lastBuildDate>Tue, 10 Oct 2023 17:18:22 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -17,8 +17,8 @@
 
 &lt;h3 id=&quot;video-tutorial&quot;&gt;Video tutorial&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY&quot;&gt;Youtube(EN)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1tw411r7i8/&quot;&gt;bilibili(中文)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zYwU-0t54wg&amp;amp;list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY&quot; target=&quot;_blank&quot;&gt;Youtube(EN)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1tw411r7i8/&quot; target=&quot;_blank&quot;&gt;bilibili(中文)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;desktop-downloadv102&quot;&gt;Desktop Download(v1.0.2)&lt;/h2&gt;

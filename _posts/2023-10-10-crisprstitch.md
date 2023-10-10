@@ -14,8 +14,8 @@ An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
 [**Web App**](https://bioinfor.yzu.edu.cn/crisprstitch/)
 
 ### Video tutorial
-* [Youtube(EN)](https://www.youtube.com/playlist?list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY)
-* [bilibili(中文)](https://www.bilibili.com/video/BV1tw411r7i8/)
+* [Youtube(EN)](https://www.youtube.com/watch?v=zYwU-0t54wg&list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY){:target="_blank"}
+* [bilibili(中文)](https://www.bilibili.com/video/BV1tw411r7i8/){:target="_blank"}
  
 ## Desktop Download(v1.0.2)
 
