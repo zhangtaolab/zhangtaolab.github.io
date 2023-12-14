@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Gurel F†, Wu YC†, Pan CT, Cheng YH,Li G ,Zhang T\*, Qi YP\*. [On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice](https://www.liebertpub.com/doi/10.1089/crispr.2022.0072). ***The CRISPR Journal***  2023, 6:62-74
+
 * Zhong ZH†, Liu GQ†, Tang ZJ†, Xiang SH†, Yang L, Huang L, He Y, He Y, Fan TT, Liu SS, Zheng XL, Zhang T, Qi YP\*, Huang J\*, Zhang Y\*. [Efficient plant genome engineering using a probiotic sourced CRISPR-Cas9 system](https://www.nature.com/articles/s41467-023-41802-9#citeas). ***Nature Communications*** 2023, 14:6102
 
 * Zhang YX†, Wu YC†, Li G†, Qi A, Zhang Y, Zhang T\*, Qi Y\*. [Genome-wide investigation of multiplexed CRISPR-Cas12a-mediated editing in rice](https://acsess.onlinelibrary.wiley.com/doi/10.1002/tpg2.20266). ***Plant Genome*** 2023, 16:e20266
