@@ -7,6 +7,10 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Zhong ZH†, Liu GQ†, Tang ZJ†, Xiang SH†, Yang L, Huang L, He Y, He Y, Fan TT, Liu SS, Zheng XL, Zhang T, Qi YP\*, Huang J\*, Zhang Y\*. [Efficient plant genome engineering using a probiotic sourced CRISPR-Cas9 system](https://www.nature.com/articles/s41467-023-41802-9#citeas). ***Nature Communications*** 2023, 14:6102
+
+* Zhang YX†, Wu YC†, Li G†, Qi A, Zhang Y, Zhang T\*, Qi Y\*. [Genome-wide investigation of multiplexed CRISPR-Cas12a-mediated editing in rice](https://acsess.onlinelibrary.wiley.com/doi/10.1002/tpg2.20266). ***Plant Genome*** 2023, 16:e20266
+
 * Sretenovic S†, Green Y†, Wu YC†, Cheng YH†, Zhang T\*, Eck J.V\*, Qi YP\*.[Genome- and transcriptome-wide off-target analyses of a high-efficiency adenine base editor in tomato](https://academic.oup.com/plphys/article-abstract/193/1/291/7198002?redirectedFrom=fulltext&utm_source=etoc&utm_campaign=plphys&utm_medium=email). ***Plant Physiology*** 2023, 193:291–303
 
 * Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, Zhang T\* , Zhang HQ\*. [Chromosome-specific painting in Thinopyrum species using bulked oligonucleotides](https://link.springer.com/article/10.1007/s00122-023-04423-w). ***Theoretical and Applied Genetics*** 2023, 136:177
