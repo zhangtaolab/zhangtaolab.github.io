@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Han YS, Liu GQ, Wu YC, Bao Y, Zhang Y\*, Zhang T\*.[CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://doi.org/10.1016/j.xplc.2023.100783). ***Plant Communications*** 2023
+
 * Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, Zhang T\*, Xi M\*. [Male-Specific Sequence in Populus simonii Provides Insights into Gender Determination of Poplar](https://doi.org/10.3390/f14122385). ***Forests*** 2023, 14:2385
 
 * Gurel F†, Wu YC†, Pan CT, Cheng YH,Li G ,Zhang T\*, Qi YP\*. [On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice](https://www.liebertpub.com/doi/10.1089/crispr.2022.0072). ***The CRISPR Journal***  2023, 6:62-74
