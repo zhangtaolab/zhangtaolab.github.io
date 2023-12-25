@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2023
+* Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, Zhang T\*, Xi M\*. [Male-Specific Sequence in Populus simonii Provides Insights into Gender Determination of Poplar](https://doi.org/10.3390/f14122385). ***Forests*** 2023, 14:2385
+
 * Gurel F†, Wu YC†, Pan CT, Cheng YH,Li G ,Zhang T\*, Qi YP\*. [On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice](https://www.liebertpub.com/doi/10.1089/crispr.2022.0072). ***The CRISPR Journal***  2023, 6:62-74
 
 * Zhong ZH†, Liu GQ†, Tang ZJ†, Xiang SH†, Yang L, Huang L, He Y, He Y, Fan TT, Liu SS, Zheng XL, Zhang T, Qi YP\*, Huang J\*, Zhang Y\*. [Efficient plant genome engineering using a probiotic sourced CRISPR-Cas9 system](https://www.nature.com/articles/s41467-023-41802-9#citeas). ***Nature Communications*** 2023, 14:6102
@@ -17,7 +19,7 @@ comments: false
 
 * Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, Zhang T\* , Zhang HQ\*. [Chromosome-specific painting in Thinopyrum species using bulked oligonucleotides](https://link.springer.com/article/10.1007/s00122-023-04423-w). ***Theoretical and Applied Genetics*** 2023, 136:177
   
-* Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, Zhang T\*, Zhang WL\* ,Peng RH\*. [Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4). ***BMC Biology*** 2023, 21:2-20
+* Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, Zhang T\*, Zhang WL\* ,Peng RH\*. [Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-023-01665-4). ***BMC Biology*** 2023, 21:165
 
 * Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*. [An efficient CRISPR–Cas12a promoter editing system for crop improvement](http://zhangtaolab.org/pdf/2023/2023_Nature_Plants.pdf). ***Nature Plants*** 2023, 9:588-604
 
