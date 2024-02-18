@@ -5,8 +5,8 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jan 2024 18:10:34 +0800</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2024 18:10:34 +0800</lastBuildDate>
+    <pubDate>Sun, 18 Feb 2024 10:04:47 +0800</pubDate>
+    <lastBuildDate>Sun, 18 Feb 2024 10:04:47 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -17,24 +17,24 @@
 
 &lt;h3 id=&quot;video-tutorial&quot;&gt;Video tutorial&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zYwU-0t54wg&amp;amp;list=PLo8q8tqFX5J11ZpWuKezO7ZgHVY5swecY&quot; target=&quot;_blank&quot;&gt;Youtube(EN)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1tw411r7i8/&quot; target=&quot;_blank&quot;&gt;bilibili(中文)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rnVo2CoyEhs&amp;amp;list=PLo8q8tqFX5J3IyY2Pk0dqc_v6tUvqL8F_&quot;&gt;Youtube(EN)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1cR4y1y7nX/?spm_id_from=333.999.0.0&quot;&gt;bilibili(中文)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;desktop-downloadv102&quot;&gt;Desktop Download(v1.0.2)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Local Download&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;desktop-download&quot;&gt;Desktop Download&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Github Download&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Local Download&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch&quot;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -47,8 +47,15 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/CrisprStitch/CrisprStitch_preview1.png&quot; alt=&quot;img&quot; /&gt;
 &lt;img src=&quot;/assets/images/CrisprStitch/CrisprStitch_preview2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/CrisprStitch/qrcode-302.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;QQ group: &lt;a href=&quot;https://qm.qq.com/cgi-bin/qm/qr?k=4wOhvJmI1a1XPqTN_9y0sS4jV4ghsQAV&amp;amp;jump_from=webapi&amp;amp;authKey=NyZwN16eswqCBGDrb/wS9xEGW+xwJ0m553vrqpt6IejTbDb4Kxf5L5seXK+mLQh7&quot;&gt;551407271&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;E-mail: &lt;a href=&quot;mailto:hanyangshuo@zhangtaolab.org&quot;&gt;hanyangshuo@zhangtaolab.org&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         <link>/software/crisprstitch</link>
         <guid isPermaLink="true">/software/crisprstitch</guid>
         
