@@ -2,12 +2,14 @@
 layout: post
 title:  "CRISPRMatch"
 is_software: true
-image: assets/images/CRISPRmatch.png
 categories: [ software ]
 priority: 3
 permalink: /software/crisprmatch
 linkage: https://github.com/zhangtaolab/CRISPRMatch
 ---
+CRISPRMatch is no longer actively maintained. We have launched a more powerful and user-friendly software called  [**CRISPRstitch**](/software/crisprstitch).
+
+![img]({{ site.baseurl }}/assets/images/CRISPRmatch.png)
 An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.
 
 [**CommandLine(CLI)**](https://github.com/zhangtaolab/CRISPRMatch)  

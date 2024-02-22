@@ -5,64 +5,9 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Feb 2024 10:15:26 +0800</pubDate>
-    <lastBuildDate>Sun, 18 Feb 2024 10:15:26 +0800</lastBuildDate>
+    <pubDate>Thu, 22 Feb 2024 10:50:20 +0800</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 10:50:20 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
-    
-      <item>
-        <title>CrisprStitch</title>
-        <description>&lt;p&gt;An integrated tool to fast evaluate the efficiency of CRISPR editing systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/crisprstitch/&quot;&gt;&lt;strong&gt;Web App&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;video-tutorial&quot;&gt;Video tutorial&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rnVo2CoyEhs&amp;amp;list=PLo8q8tqFX5J3IyY2Pk0dqc_v6tUvqL8F_&quot;&gt;Youtube(EN)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1cR4y1y7nX/?spm_id_from=333.999.0.0&quot;&gt;bilibili(中文)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;desktop-download&quot;&gt;Desktop Download&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Github Download&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Local Download&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg&quot;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/zhangtaolab/CrisprStitch&quot;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;CrisprStitch&lt;/strong&gt; is designed to integrate analysis steps including mapping reads, calculating mutation frequency, evaluating the efficiency of genome-editing systems, and outputting visualized results. All functional parts are coded by typescripts. CrisprStitch is able to apply as a website or a downloadable desktop app created by electron. Both website and desktop app perform series of calculations on the user’s local computer side, rather than remote servers, which is beneficial for file size limits, network consumption and analysis speed.&lt;/p&gt;
-
-&lt;h3 id=&quot;preview&quot;&gt;Preview&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/CrisprStitch/CrisprStitch_preview1.png&quot; alt=&quot;img&quot; /&gt;
-&lt;img src=&quot;/assets/images/CrisprStitch/CrisprStitch_preview2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/CrisprStitch/qrcode-302.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;QQ group: &lt;a href=&quot;https://qm.qq.com/cgi-bin/qm/qr?k=4wOhvJmI1a1XPqTN_9y0sS4jV4ghsQAV&amp;amp;jump_from=webapi&amp;amp;authKey=NyZwN16eswqCBGDrb/wS9xEGW+xwJ0m553vrqpt6IejTbDb4Kxf5L5seXK+mLQh7&quot;&gt;551407271&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;E-mail: &lt;a href=&quot;mailto:hanyangshuo@zhangtaolab.org&quot;&gt;hanyangshuo@zhangtaolab.org&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
-        <link>/software/crisprstitch</link>
-        <guid isPermaLink="true">/software/crisprstitch</guid>
-        
-        
-        <category>software</category>
-        
-      </item>
     
       <item>
         <title>Natural polymorphism of ZmICE1 contributes to amino acid metabolism that impacts cold tolerance in maize</title>
@@ -211,6 +156,22 @@ In summary, we provide evidence for the signaling cascade of NILR1, suggesting p
         <pubDate>Wed, 22 Jun 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/06/22/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/06/22/lab_meeting.html</guid>
+        
+        
+        <category>Lab Meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Splicing-mediated activation of SHAGGY-like kinases underpinning carbon partitioning in Arabidopsis seeds</title>
+        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Glycogen synthase kinase 3 (GSK3) family members serve as signaling hubs for plant development and stress responses, yet the underlying mechanism of their transcriptional regulation remains a long-standing mystery. Here we show that the tran- scription of SHAGGY-like kinase 11/12 (SK11/12), two members of the GSK3 gene family, is promoted by the splicing factor SmD1b, which is essential for distributing carbon sources into storage and protective components in Arabidopsis seeds. The chromatin recruitment of SmD1b at the SK11/12 loci promotes their transcription associated with co-transcriptional splicing of the first introns in the 50-untranslated region of SK11/12. The loss of SmD1b function generates transcripts with unspliced introns that create disruptive R-loops to hamper the transcriptional elongation of SK11/12, in addition to compromising the recruitment of RNA polymerase II to the SK11/12 genomic regions. These effects imposed by SmD1b de- termine the transcription of SK11/12 to confer a key switch of carbon flow among metabolic pathways in zygotic and ma- ternal tissues in seeds.&lt;/p&gt;
+
+&lt;h4 id=&quot;source-the-plant-cell-2022&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koac110/6569842?redirectedFrom=fulltext&quot;&gt;the Plant Cell (2022)&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Tue, 14 Jun 2022 00:00:00 +0800</pubDate>
+        <link>/lab%20meeting/2022/06/14/lab_meeting.html</link>
+        <guid isPermaLink="true">/lab%20meeting/2022/06/14/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>

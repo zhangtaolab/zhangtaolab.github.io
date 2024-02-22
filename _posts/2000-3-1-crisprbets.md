@@ -37,4 +37,7 @@ A gRNA design software for base editing knockout using stop codon.
 ![img]({{ site.baseurl }}/assets/images/CRISPR-BETS/CRISPR-BETS_preview02.png)
 
 ## Citation
-Wu, Y., He, Y., Sretenovic, S., Liu, S., Cheng, Y., Han, Y., Liu, G., Bao, Y., Fang, Q., Zheng, X., Zhou, J., Qi, Y., Zhang, Y. and Zhang, T.(2021) CRISPR-BETS: a base-editing design tool for generating stop codons. Plant Biotechnol. J. 2022, 20(3):499-510
+
+Wu YC†, He Y†, Sretenovic S, Liu SS, Cheng YH, Han YS, Liu GQ, Bao Y, Fang Q, Zheng XL, Zhou JP, Qi YP\*, Zhang Y\*, Zhang T\*. [CRISPR-BETS: A base editing design tool for generating stop codons.](https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13732) ***Plant Biotechnology Journal*** 2022, 20(3):499-510
+
+Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*.[CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://doi.org/10.1016/j.xplc.2023.100783). ***Plant Communications*** DOI: https://doi.org/10.1016/j.xplc.2023.100783

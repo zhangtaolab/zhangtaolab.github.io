@@ -1,4 +1,7 @@
-I"_<p>An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.</p>
+I"T<p>CRISPRMatch is no longer actively maintained. We have launched a more powerful and user-friendly software called  <a href="/software/crisprstitch"><strong>CRISPRstitch</strong></a>.</p>
+
+<p><img src="/assets/images/CRISPRmatch.png" alt="img" />
+An automatic calculation and visualization tool for high-throughput CRISPR genome-editing data analysis.</p>
 
 <p><a href="https://github.com/zhangtaolab/CRISPRMatch"><strong>CommandLine(CLI)</strong></a><br />
 <a href="https://github.com/zhangtaolab/CRISPRMatchGUI"><strong>GUI</strong></a></p>
