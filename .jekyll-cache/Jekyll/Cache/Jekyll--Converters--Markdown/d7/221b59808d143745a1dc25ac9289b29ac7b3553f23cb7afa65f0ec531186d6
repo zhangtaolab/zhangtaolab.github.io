@@ -1,4 +1,4 @@
-I"t<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
+I"�<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
 
 <p><a href="https://bioinfor.yzu.edu.cn/crisprstitch/"><strong>Web App</strong></a></p>
 <style type="text/css">
@@ -55,16 +55,16 @@
 
 <p><strong>Github Download</strong></p>
 <ul>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg">MacOS</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe">Windows</a></li>
-  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage">Linux</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip">Linux</a></li>
 </ul>
 
 <p><strong>Local Download</strong></p>
 <ul>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg">MacOS</a></li>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe">Windows</a></li>
-  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage">Linux</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip">Linux</a></li>
 </ul>
 
 <p><a href="https://github.com/zhangtaolab/CrisprStitch"><strong>Github</strong></a></p>
@@ -83,10 +83,4 @@
 
 <p><img src="/assets/images/CrisprStitch/CrisprStitch_preview1.png" alt="img" />
 <img src="/assets/images/CrisprStitch/CrisprStitch_preview2.png" alt="img" /></p>
-
-<h2 id="citation">Citation</h2>
-
-<p>If you use CrisprStitch in your research, please cite the following paper:</p>
-
-<p>Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y*, Zhang T*.<a href="https://doi.org/10.1016/j.xplc.2023.100783">CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems</a>. <strong><em>Plant Communications</em></strong> DOI: https://doi.org/10.1016/j.xplc.2023.100783</p>
 :ET

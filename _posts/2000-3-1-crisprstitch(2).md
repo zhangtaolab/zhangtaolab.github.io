@@ -31,26 +31,24 @@ An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
         background: rgb(245, 245, 245); 
 }
 </style>
-
 ### Video tutorial
 
 |Platform| Web browser|Mac|Linux|Windows|
-|---        |---                   |---                                                                   |---         |---     |---     |
+|---        |---    |---   |---         |---     |---     |
 | Youtube(EN)  | [Web tutorial](https://www.youtube.com/watch?v=zYwU-0t54wg&ab_channel=ZhangtaoLabTV) | [Mac tutorial](https://www.youtube.com/watch?v=2jLxRPMbhmQ&ab_channel=ZhangtaoLabTV) | [Linux tutorial](https://www.youtube.com/watch?v=qG92v8uyxRY&ab_channel=ZhangtaoLabTV) | [Windows tutorial](https://www.youtube.com/watch?v=GVN3B2cEAJo&ab_channel=ZhangtaoLabTV) |
 | Bilibili(CN) | [Web tutorial](https://www.bilibili.com/video/BV1LN411b7Sa)                          | [Mac tutorial](https://www.bilibili.com/video/BV13m4y1g7XE/)                         | [Linux tutorial](https://www.bilibili.com/video/BV1hC4y1V7LP/)                         | [Windows tutorial](https://www.bilibili.com/video/BV1tw411r7i8/) 
-
-
+ 
 ## Desktop Download
 
 **Github Download**
-* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.dmg)
-* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch.Setup.0.5.3.exe)
-* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v0.5.3/CrisprStitch-0.5.3.AppImage)
+* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip)
+* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip)
+* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip)
 
 **Local Download**
-* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.dmg)
-* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.exe)
-* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-0.5.3.AppImage)
+* [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip)
+* [Windows](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip)
+* [Linux](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip)
 
 [**Github**](https://github.com/zhangtaolab/CrisprStitch)
 
@@ -68,9 +66,3 @@ QQ group: [551407271](https://qm.qq.com/cgi-bin/qm/qr?k=4wOhvJmI1a1XPqTN_9y0sS4j
 
 ![img]({{ site.baseurl }}/assets/images/CrisprStitch/CrisprStitch_preview1.png)
 ![img]({{ site.baseurl }}/assets/images/CrisprStitch/CrisprStitch_preview2.png)
-
-## Citation
-
-If you use CrisprStitch in your research, please cite the following paper:
-
-Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*.[CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://doi.org/10.1016/j.xplc.2023.100783). ***Plant Communications*** DOI: https://doi.org/10.1016/j.xplc.2023.100783
