@@ -7,7 +7,7 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
-* Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*. [CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://doi.org/10.1016/j.xplc.2023.100783). ***Plant Communications*** 2024, 5(3):100783 DOI: https://doi.org/10.1016/j.xplc.2023.100783
+* Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*. [CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://www.cell.com/plant-communications/fulltext/S2590-3462(23)00341-3). ***Plant Communications*** 2024, 5(3):100783 
 
 * Chen L, Liu GQ, Zhang T\*. [Integrating machine learning and genome editing for crop improvement](https://link.springer.com/article/10.1007/s42994-023-00133-5). ***aBIOTECH***  DOI: https://doi.org/10.1007/s42994-023-00133-5 
 
