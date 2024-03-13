@@ -7,11 +7,11 @@ image: assets/images/crisprstitch.png
 categories: [ software ]
 priority: 1
 permalink: /software/crisprstitch
-linkage: https://bioinfor.yzu.edu.cn/crisprstitch/
+linkage: https://crisprstitch.zhangtaolab.org  
 ---
 An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
 
-[**Web App**](https://bioinfor.yzu.edu.cn/crisprstitch/)
+[**Web App**](https://crisprstitch.zhangtaolab.org)
 <style type="text/css">
     table {
         width: 100%; 

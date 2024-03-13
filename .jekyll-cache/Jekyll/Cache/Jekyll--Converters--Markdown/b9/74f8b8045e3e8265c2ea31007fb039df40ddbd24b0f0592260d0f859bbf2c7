@@ -1,0 +1,86 @@
+I"ã<p>An integrated tool to fast evaluate the efficiency of CRISPR editing systems.</p>
+
+<p><a href="https://crisprstitch.zhangtaolab.org"><strong>Web App</strong></a></p>
+<style type="text/css">
+    table {
+        width: 100%; 
+        max-width: 65em; 
+        border: 1px solid #dedede; 
+        margin: 15px auto; 
+        border-collapse: collapse; 
+        empty-cells: show; 
+    }
+    table th,
+    table td {
+        border: 1px solid #dedede; 
+        padding: 0 10px; 
+    }
+    table th {
+        font-weight: bold;
+        background: rgb(245, 245, 245); 
+}
+</style>
+
+<h3 id="video-tutorial">Video tutorial</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>Web browser</th>
+      <th>Mac</th>
+      <th>Linux</th>
+      <th>Windows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Youtube(EN)</td>
+      <td><a href="https://www.youtube.com/watch?v=zYwU-0t54wg&amp;ab_channel=ZhangtaoLabTV">Web tutorial</a></td>
+      <td><a href="https://www.youtube.com/watch?v=2jLxRPMbhmQ&amp;ab_channel=ZhangtaoLabTV">Mac tutorial</a></td>
+      <td><a href="https://www.youtube.com/watch?v=qG92v8uyxRY&amp;ab_channel=ZhangtaoLabTV">Linux tutorial</a></td>
+      <td><a href="https://www.youtube.com/watch?v=GVN3B2cEAJo&amp;ab_channel=ZhangtaoLabTV">Windows tutorial</a></td>
+    </tr>
+    <tr>
+      <td>Bilibili(CN)</td>
+      <td><a href="https://www.bilibili.com/video/BV1LN411b7Sa">Web tutorial</a></td>
+      <td><a href="https://www.bilibili.com/video/BV13m4y1g7XE/">Mac tutorial</a></td>
+      <td><a href="https://www.bilibili.com/video/BV1hC4y1V7LP/">Linux tutorial</a></td>
+      <td><a href="https://www.bilibili.com/video/BV1tw411r7i8/">Windows tutorial</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="desktop-download">Desktop Download</h2>
+
+<p><strong>Github Download</strong></p>
+<ul>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip">Linux</a></li>
+</ul>
+
+<p><strong>Local Download</strong></p>
+<ul>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip">MacOS</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-win32-x64.zip">Windows</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-linux-x64.zip">Linux</a></li>
+</ul>
+
+<p><a href="https://github.com/zhangtaolab/CrisprStitch"><strong>Github</strong></a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>CrisprStitch</strong> is designed to integrate analysis steps including mapping reads, calculating mutation frequency, evaluating the efficiency of genome-editing systems, and outputting visualized results. All functional parts are coded by typescripts. CrisprStitch is able to apply as a website or a downloadable desktop app created by electron. Both website and desktop app perform series of calculations on the userâ€™s local computer side, rather than remote servers, which is beneficial for file size limits, network consumption and analysis speed.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>QQ group: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=4wOhvJmI1a1XPqTN_9y0sS4jV4ghsQAV&amp;jump_from=webapi&amp;authKey=NyZwN16eswqCBGDrb/wS9xEGW+xwJ0m553vrqpt6IejTbDb4Kxf5L5seXK+mLQh7">551407271</a></p>
+
+<p><a href="mailto:hanyangshuo@zhangtaolab.org">hanyangshuo@zhangtaolab.org</a></p>
+
+<h3 id="preview">Preview</h3>
+
+<p><img src="/assets/images/CrisprStitch/CrisprStitch_preview1.png" alt="img" />
+<img src="/assets/images/CrisprStitch/CrisprStitch_preview2.png" alt="img" /></p>
+:ET
