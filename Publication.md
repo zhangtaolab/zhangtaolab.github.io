@@ -14,7 +14,6 @@ comments: false
 * Chen L, Liu GQ, Zhang T\*. [Integrating machine learning and genome editing for crop improvement](https://link.springer.com/article/10.1007/s42994-023-00133-5). ***aBIOTECH***  DOI: https://doi.org/10.1007/s42994-023-00133-5 
 
 ## 2023
-* Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*. [CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://doi.org/10.1016/j.xplc.2023.100783). ***Plant Communications*** DOI: https://doi.org/10.1016/j.xplc.2023.100783
 
 * Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, Zhang T\*, Xi M\*. [Male-Specific Sequence in Populus simonii Provides Insights into Gender Determination of Poplar](https://doi.org/10.3390/f14122385). ***Forests*** 2023, 14:2385
 
