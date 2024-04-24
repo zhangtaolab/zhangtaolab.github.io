@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
+* Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** DOI:  https://doi.org/10.1093/plphys/kiae214
+
 * You HL, Tang D, Liu HX, Zhou Y, Li YF, Shen Y, Gong ZY, Yu HX, Gu MH, Jinag JM, Zhang T\*, Cheng ZK\*. [Chromosome ends initiate homologous chromosome pairing during rice meiosis](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae152/7628145?login=true). ***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae152
 
 * Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*. [CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://www.cell.com/plant-communications/fulltext/S2590-3462(23)00341-3). ***Plant Communications*** 2024, 5(3):100783 
