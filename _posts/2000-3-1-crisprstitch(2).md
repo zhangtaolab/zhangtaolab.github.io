@@ -41,9 +41,9 @@ An integrated tool to fast evaluate the efficiency of CRISPR editing systems.
 ## Desktop Download
 
 **Github Download**
-* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-darwin-x64.zip)
-* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-win32-x64.zip)
-* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/download/v1.0.2/CrisprStitch-linux-x64.zip)
+* [MacOS](https://github.com/zhangtaolab/CrisprStitch/releases/latest/download/CrisprStitch-darwin-x64.zip)
+* [Windows](https://github.com/zhangtaolab/CrisprStitch/releases/latest/download/CrisprStitch-win32-x64.zip)
+* [Linux](https://github.com/zhangtaolab/CrisprStitch/releases/latest/download/CrisprStitch-linux-x64.zip)
 
 **Local Download**
 * [MacOS](https://bioinfor.yzu.edu.cn/download/crisprstitch/CrisprStitch-darwin-x64.zip)
