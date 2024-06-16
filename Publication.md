@@ -7,9 +7,11 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
-* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** DOI:https://doi.org/10.1111/pbi.14363
+* Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*.[High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants](https://www.nature.com/articles/s41467-024-49473-w). ***Nature Communications*** DOI: https://doi.org/10.1101/2024.02.25.581917
 
-* Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** DOI:  https://doi.org/10.1093/plphys/kiae214
+* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14363
+
+* Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae214
 
 * You HL, Tang D, Liu HX, Zhou Y, Li YF, Shen Y, Gong ZY, Yu HX, Gu MH, Jinag JM, Zhang T\*, Cheng ZK\*. [Chromosome ends initiate homologous chromosome pairing during rice meiosis](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae152/7628145?login=true). ***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae152
 
