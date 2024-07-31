@@ -13,9 +13,9 @@ comments: false
 
 * He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14363
 
-* Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae214
+* Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** 2024, 195(4): 2787–2798
 
-* You HL, Tang D, Liu HX, Zhou Y, Li YF, Shen Y, Gong ZY, Yu HX, Gu MH, Jinag JM, Zhang T\*, Cheng ZK\*. [Chromosome ends initiate homologous chromosome pairing during rice meiosis](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae152/7628145?login=true). ***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae152
+* You HL, Tang D, Liu HX, Zhou Y, Li YF, Shen Y, Gong ZY, Yu HX, Gu MH, Jinag JM, Zhang T\*, Cheng ZK\*. [Chromosome ends initiate homologous chromosome pairing during rice meiosis](https://academic.oup.com/plphys/article-abstract/195/4/2617/7628145). ***Plant Physiology*** 2024, 195(4):2617–2634
 
 * Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y\*, Zhang T\*. [CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems](https://www.cell.com/plant-communications/fulltext/S2590-3462(23)00341-3). ***Plant Communications*** 2024, 5(3):100783 
 
