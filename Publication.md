@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
+* He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** DOI: http://www.sciengine.com/doi/10.1007/s11427-024-2704-7
+
 * Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14422
 
 * Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*.[High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants](https://www.nature.com/articles/s41467-024-49473-w). ***Nature Communications*** DOI: https://doi.org/10.1101/2024.02.25.581917
