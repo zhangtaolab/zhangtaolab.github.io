@@ -9,11 +9,11 @@ comments: false
 ## 2024
 * He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** DOI: http://www.sciengine.com/doi/10.1007/s11427-024-2704-7
 
-* Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14422
+* Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** 2024, 22(9):2488-2503
 
-* Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*.[High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants](https://www.nature.com/articles/s41467-024-49473-w). ***Nature Communications*** DOI: https://doi.org/10.1101/2024.02.25.581917
+* Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*.[High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants](https://www.nature.com/articles/s41467-024-49473-w). ***Nature Communications*** 2024, 15:5103
 
-* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14363
+* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** 2024,22(9): 2488-2503
 
 * Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** 2024, 195(4): 2787–2798
 
