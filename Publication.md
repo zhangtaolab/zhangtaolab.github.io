@@ -7,7 +7,9 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
-* He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** DOI: http://www.sciengine.com/doi/10.1007/s11427-024-2704-7
+* Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14484
+
+* He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** DOI: https://doi.org/10.1007/s11427-024-2704-7
 
 * Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** 2024, 22(9):2488-2503
 
