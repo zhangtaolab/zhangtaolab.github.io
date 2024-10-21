@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
+* Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192).***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae557
+
 * Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14484
 
 * He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** DOI: https://doi.org/10.1007/s11427-024-2704-7
