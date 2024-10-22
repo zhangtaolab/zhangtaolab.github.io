@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
+* Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang T, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*[A CRISPR/Cas9-mediated mutant library of seed-preferred genes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422).***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14422
+
 * Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192).***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae557
 
 * Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** DOI: https://doi.org/10.1111/pbi.14484
