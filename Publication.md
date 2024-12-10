@@ -7,6 +7,8 @@ comments: false
 **† Equally Contributing Authors**
 
 ## 2024
+* Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T\*. [PDLLMs: A group of tailored DNA large language models for analyzing plant genomes](https://doi.org/10.1016/j.molp.2024.12.006). ***Molecular Plant*** DOI: https://doi.org/10.1016/j.molp.2024.12.006
+
 * Yang QQ†, Tang X†, Wu YC, Zhu WJ, Zhang T\*, Zhang Y\*. [CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits](https://thericejournal.springeropen.com/articles/10.1186/s12284-024-00743-7).***Rice*** 2024, 17:67
 
 * Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192).***Plant Physiology*** DOI: https://doi.org/10.1093/plphys/kiae557
