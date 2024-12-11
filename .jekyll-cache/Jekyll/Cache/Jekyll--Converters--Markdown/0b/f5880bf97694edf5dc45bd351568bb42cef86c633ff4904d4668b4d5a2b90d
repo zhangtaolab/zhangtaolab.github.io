@@ -1,0 +1,37 @@
+I"ª<h2 id="introduction">Introduction</h2>
+
+<p><a href="https://finetune.plantllm.org"><strong>PDLLMs</strong></a> is a website designed for performing downstream prediction tasks based on DNA large language models in plants. The website supports multiple genomic tasks, including predictions of core promoter, sequence conservation, histone modifications, lncRNAs, open chromatin and promoter strength. In addition, it supports multiple models and tokenizers for inference, allowing users to choose the appropriate combination based on their needs or according to the websiteâ€™s recommendations to perform tasks.</p>
+
+<h4 id="web-applications-for-prediction">Web applications for prediction:</h4>
+<ul>
+  <li><a href="https://finetune.plantllm.org">Web App1</a> or <a href="https://bioinfor.yzu.edu.cn/llms/finetune">Web App2</a></li>
+  <li><a href="https://bioinfor.yzu.edu.cn/llms/open-chromatin/">Plant open chromatin prediction by DNAMamba</a></li>
+</ul>
+
+<h4 id="for-finetuning-or-inference-using-our-models-please-see">For finetuning or inference using our models, please see:</h4>
+<ul>
+  <li><a href="https://docs.plantllm.org">Documentation</a></li>
+  <li><a href="https://github.com/zhangtaolab/Plant_DNA_LLMs">GitHub</a></li>
+  <li><a href="https://gitee.com/zhangtaolabyzu/Plant_DNA_LLMs">Gitee</a></li>
+</ul>
+
+<h4 id="for-using-our-models-and-plant-genomic-datasets-please-see">For using our models and plant genomic datasets, please see:</h4>
+<ul>
+  <li><a href="https://huggingface.co/zhangtaolab">Hugging Face</a></li>
+  <li><a href="https://www.modelscope.cn/organization/zhangtaolab">Modelscope</a></li>
+</ul>
+
+<h4 id="video-tutorial-for-using-our-models">Video tutorial for using our models</h4>
+<p>TODO.</p>
+
+<h2 id="contact">Contact</h2>
+<p>QQ group: 756369317</p>
+
+<h2 id="preview">Preview</h2>
+<p><img src="/assets/images/plant_DNA_LLMs/fig2.png" alt="img" /></p>
+
+<h2 id="citation">Citation</h2>
+<ul>
+  <li>Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T*. <a href="https://doi.org/10.1016/j.molp.2024.12.006">PDLLMs: A group of tailored DNA large language models for analyzing plant genomes</a>. <strong><em>Molecular Plant</em></strong> DOI: https://doi.org/10.1016/j.molp.2024.12.0066</li>
+</ul>
+:ET

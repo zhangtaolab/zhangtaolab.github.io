@@ -5,9 +5,57 @@
     <description>Bioinformatics, Epigenetics and Genomics.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Dec 2024 15:40:40 +0800</pubDate>
-    <lastBuildDate>Tue, 10 Dec 2024 15:40:40 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Dec 2024 23:36:21 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Dec 2024 23:36:21 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Plant DNA LLMs</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://finetune.plantllm.org&quot;&gt;&lt;strong&gt;PDLLMs&lt;/strong&gt;&lt;/a&gt; is a website designed for performing downstream prediction tasks based on DNA large language models in plants. The website supports multiple genomic tasks, including predictions of core promoter, sequence conservation, histone modifications, lncRNAs, open chromatin and promoter strength. In addition, it supports multiple models and tokenizers for inference, allowing users to choose the appropriate combination based on their needs or according to the website’s recommendations to perform tasks.&lt;/p&gt;
+
+&lt;h4 id=&quot;web-applications-for-prediction&quot;&gt;Web applications for prediction:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finetune.plantllm.org&quot;&gt;Web App1&lt;/a&gt; or &lt;a href=&quot;https://bioinfor.yzu.edu.cn/llms/finetune&quot;&gt;Web App2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bioinfor.yzu.edu.cn/llms/open-chromatin/&quot;&gt;Plant open chromatin prediction by DNAMamba&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;for-finetuning-or-inference-using-our-models-please-see&quot;&gt;For finetuning or inference using our models, please see:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.plantllm.org&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zhangtaolab/Plant_DNA_LLMs&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitee.com/zhangtaolabyzu/Plant_DNA_LLMs&quot;&gt;Gitee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;for-using-our-models-and-plant-genomic-datasets-please-see&quot;&gt;For using our models and plant genomic datasets, please see:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://huggingface.co/zhangtaolab&quot;&gt;Hugging Face&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.modelscope.cn/organization/zhangtaolab&quot;&gt;Modelscope&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;video-tutorial-for-using-our-models&quot;&gt;Video tutorial for using our models&lt;/h4&gt;
+&lt;p&gt;TODO.&lt;/p&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;QQ group: 756369317&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/plant_DNA_LLMs/fig2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T*. &lt;a href=&quot;https://doi.org/10.1016/j.molp.2024.12.006&quot;&gt;PDLLMs: A group of tailored DNA large language models for analyzing plant genomes&lt;/a&gt;. &lt;strong&gt;&lt;em&gt;Molecular Plant&lt;/em&gt;&lt;/strong&gt; DOI: https://doi.org/10.1016/j.molp.2024.12.0066&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Dec 2024 00:00:00 +0800</pubDate>
+        <link>/software/PDLLMs</link>
+        <guid isPermaLink="true">/software/PDLLMs</guid>
+        
+        
+        <category>software</category>
+        
+      </item>
     
       <item>
         <title>Natural polymorphism of ZmICE1 contributes to amino acid metabolism that impacts cold tolerance in maize</title>
@@ -156,22 +204,6 @@ In summary, we provide evidence for the signaling cascade of NILR1, suggesting p
         <pubDate>Wed, 22 Jun 2022 00:00:00 +0800</pubDate>
         <link>/lab%20meeting/2022/06/22/lab_meeting.html</link>
         <guid isPermaLink="true">/lab%20meeting/2022/06/22/lab_meeting.html</guid>
-        
-        
-        <category>Lab Meeting</category>
-        
-      </item>
-    
-      <item>
-        <title>Splicing-mediated activation of SHAGGY-like kinases underpinning carbon partitioning in Arabidopsis seeds</title>
-        <description>&lt;h3 id=&quot;abstract&quot;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;Glycogen synthase kinase 3 (GSK3) family members serve as signaling hubs for plant development and stress responses, yet the underlying mechanism of their transcriptional regulation remains a long-standing mystery. Here we show that the tran- scription of SHAGGY-like kinase 11/12 (SK11/12), two members of the GSK3 gene family, is promoted by the splicing factor SmD1b, which is essential for distributing carbon sources into storage and protective components in Arabidopsis seeds. The chromatin recruitment of SmD1b at the SK11/12 loci promotes their transcription associated with co-transcriptional splicing of the first introns in the 50-untranslated region of SK11/12. The loss of SmD1b function generates transcripts with unspliced introns that create disruptive R-loops to hamper the transcriptional elongation of SK11/12, in addition to compromising the recruitment of RNA polymerase II to the SK11/12 genomic regions. These effects imposed by SmD1b de- termine the transcription of SK11/12 to confer a key switch of carbon flow among metabolic pathways in zygotic and ma- ternal tissues in seeds.&lt;/p&gt;
-
-&lt;h4 id=&quot;source-the-plant-cell-2022&quot;&gt;Source: &lt;a href=&quot;https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koac110/6569842?redirectedFrom=fulltext&quot;&gt;the Plant Cell (2022)&lt;/a&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Tue, 14 Jun 2022 00:00:00 +0800</pubDate>
-        <link>/lab%20meeting/2022/06/14/lab_meeting.html</link>
-        <guid isPermaLink="true">/lab%20meeting/2022/06/14/lab_meeting.html</guid>
         
         
         <category>Lab Meeting</category>
