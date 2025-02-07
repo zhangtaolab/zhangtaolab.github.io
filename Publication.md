@@ -5,13 +5,13 @@ comments: false
 ---
 
 **† Equally Contributing Authors**
-
-## 2024
+## 2025
 * Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T\*. [PDLLMs: A group of tailored DNA large language models for analyzing plant genomes](https://www.cell.com/molecular-plant/fulltext/S1674-2052(24)00390-3). ***Molecular Plant*** 2025, 18(2):175-178
 
-* Yang QQ†, Tang X†, Wu YC, Zhu WJ, Zhang T\*, Zhang Y\*. [CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits](https://thericejournal.springeropen.com/articles/10.1186/s12284-024-00743-7). ***Rice*** 2024, 17:67
-
 * Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192). ***Plant Physiology*** 2025, 197(1):kiae557
+
+## 2024
+* Yang QQ†, Tang X†, Wu YC, Zhu WJ, Zhang T\*, Zhang Y\*. [CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits](https://thericejournal.springeropen.com/articles/10.1186/s12284-024-00743-7). ***Rice*** 2024, 17:67
 
 * Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** 2024, 23(1):128-140
 
