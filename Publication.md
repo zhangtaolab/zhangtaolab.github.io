@@ -6,6 +6,8 @@ comments: false
 
 **† Equally Contributing Authors**
 ## 2025
+* Zheng XL†, Ding L†, Liu GQ†, Guo J, Zhang Z, Pang YJ, Tang X, Ren QR, Liu BL, Huang L, Zhang T\*, Zhang Y\*. [Development and activity evaluation of a highly efficient CRISPR-Cas genome editing system in larch](https://www.sciencedirect.com/science/article/pii/S2468014125001190?via%3Dihub). ***Horticultural Plant Journal*** DOI: https://doi.org/10.1016/j.hpj.2025.02.020
+
 * Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T\*. [PDLLMs: A group of tailored DNA large language models for analyzing plant genomes](https://www.cell.com/molecular-plant/fulltext/S1674-2052(24)00390-3). ***Molecular Plant*** 2025, 18(2):175-178
 
 * Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192). ***Plant Physiology*** 2025, 197(1):kiae557
