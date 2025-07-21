@@ -5,7 +5,7 @@ is_software: true
 software_postbox: true
 image: assets/images/plant_DNA_LLMs/fig1.png
 categories: [ software ]
-priority: 5
+priority: 0
 permalink: /software/PDLLMs
 linkage:  https://finetune.plantllm.org 
 ---
