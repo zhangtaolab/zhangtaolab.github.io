@@ -13,17 +13,17 @@ comments: false
 * Yang QQ ,Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ\*, Zhang Y\*,Zhang T\*.[Improving rice grain shape through upstream open reading frame editing-mediated translation regulation](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192). ***Plant Physiology*** 2025, 197(1):kiae557
 
 ## 2024
-* Yang QQ†, Tang X†, Wu YC, Zhu WJ, Zhang T\*, Zhang Y\*. [CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits](https://thericejournal.springeropen.com/articles/10.1186/s12284-024-00743-7). ***Rice*** 2024, 17:67
+* Yang QQ†, Tang X†, Wu YC, Zhu WJ, Zhang T\*, Zhang Y\*. [CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits](https://thericejournal.springeropen.com/articles/10.1186/s12284-024-00743-7).***Rice*** 2024, 17:67
 
-* Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** 2024, 23(1):128-140
+* Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN,Zhang ST, Zhang T\*,Qi YP\*,Zhang Y\*.[An efﬁcient CRISPR-Cas12a-mediated MicroRNA knockoutstrategy in plants](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14484). ***Plant Biotechnology Journal*** 2024,23(1):128-140
 
-* He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** 2024, 197(1):kiae557
+* He Y†,Liu SS†,Chen L†,Pu DK,Zhong ZH,Tang X,Ren QR,Dong C,Wang YW,Wang DN,Zheng XL,Guo FB,Zhang T\*,Qi YP\*,Zhang Y\*. [Versatile plant genome engineering using anti-CRISPR-Cas12a systems](https://www.sciengine.com/SCLS/doi/10.1007/s11427-024-2704-7).***SCIENCE CHINA Life Sciences*** 2024,67(12):2730-2745
 
-* Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** 2024, 22(9):2488-2503
+* Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, Zhang T\*, Li QF\*, Chen C\*, Liu QQ\*. [A CRISPR/Cas9-mediated mutant library of seed-preferredgenes in rice](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14422). ***Plant Biotechnology Journal*** 2024, 22(11):3012-3014
 
 * Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, Zhang T\*, Qi YP\*, Zhang Y\*.[High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants](https://www.nature.com/articles/s41467-024-49473-w). ***Nature Communications*** 2024, 15:5103
 
-* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** 2024, 22(9): 2488-2503
+* He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, Zhang T\*, Qi YP\*, Zhang Y\*. [Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites](https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363). ***Plant Biotechnology Journal*** 2024,22(9): 2488-2503
 
 * Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, Zhang T, Wu YF, Jiang N\*, Jiang JM\*, Xi ML\*. [Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883#). ***Plant Physiology*** 2024, 195(4): 2787–2798
 
@@ -35,15 +35,15 @@ comments: false
 
 ## 2023
 
-* Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, Zhang T\*, Xi M\*. [Male-Specific Sequence in Populus simonii Provides Insights into Gender Determination of Poplar](https://doi.org/10.3390/f14122385). ***Forests*** 2023, 14:2385
+* Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, Zhang T\*, Xi M\*. [Male-Specific Sequence in Populus simonii Provides Insights into Gender Determination of Poplar](https://doi.org/10.3390/f14122385). ***Forests*** 2023, 14(12):2385
 
-* Gurel F†, Wu YC†, Pan CT, Cheng YH,Li G ,Zhang T\*, Qi YP\*. [On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice](https://www.liebertpub.com/doi/10.1089/crispr.2022.0072). ***The CRISPR Journal***  2023, 6:62-74
+* Gurel F†, Wu YC†, Pan CT, Cheng YH,Li G ,Zhang T\*, Qi YP\*. [On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice](https://www.liebertpub.com/doi/10.1089/crispr.2022.0072). ***The CRISPR Journal***  2023, 6(1):62-74
 
 * Zhong ZH†, Liu GQ†, Tang ZJ†, Xiang SH†, Yang L, Huang L, He Y, He Y, Fan TT, Liu SS, Zheng XL, Zhang T, Qi YP\*, Huang J\*, Zhang Y\*. [Efficient plant genome engineering using a probiotic sourced CRISPR-Cas9 system](https://www.nature.com/articles/s41467-023-41802-9#citeas). ***Nature Communications*** 2023, 14:6102
 
-* Zhang YX†, Wu YC†, Li G†, Qi A, Zhang Y, Zhang T\*, Qi Y\*. [Genome-wide investigation of multiplexed CRISPR-Cas12a-mediated editing in rice](https://acsess.onlinelibrary.wiley.com/doi/10.1002/tpg2.20266). ***Plant Genome*** 2023, 16:e20266
+* Zhang YX†, Wu YC†, Li G†, Qi A, Zhang Y, Zhang T\*, Qi Y\*. [Genome-wide investigation of multiplexed CRISPR-Cas12a-mediated editing in rice](https://acsess.onlinelibrary.wiley.com/doi/10.1002/tpg2.20266). ***Plant Genome*** 2023, 16(2):e20266
 
-* Sretenovic S†, Green Y†, Wu YC†, Cheng YH†, Zhang T\*, Eck J.V\*, Qi YP\*.[Genome- and transcriptome-wide off-target analyses of a high-efficiency adenine base editor in tomato](https://academic.oup.com/plphys/article-abstract/193/1/291/7198002?redirectedFrom=fulltext&utm_source=etoc&utm_campaign=plphys&utm_medium=email). ***Plant Physiology*** 2023, 193:291–303
+* Sretenovic S†, Green Y†, Wu YC†, Cheng YH†, Zhang T\*, Eck J.V\*, Qi YP\*.[Genome- and transcriptome-wide off-target analyses of a high-efficiency adenine base editor in tomato](https://academic.oup.com/plphys/article-abstract/193/1/291/7198002?redirectedFrom=fulltext&utm_source=etoc&utm_campaign=plphys&utm_medium=email). ***Plant Physiology*** 2023, 193(1):291–303
 
 * Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, Zhang T\* , Zhang HQ\*. [Chromosome-specific painting in Thinopyrum species using bulked oligonucleotides](https://link.springer.com/article/10.1007/s00122-023-04423-w). ***Theoretical and Applied Genetics*** 2023, 136:177
   
