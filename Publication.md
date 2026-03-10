@@ -5,6 +5,10 @@ comments: false
 ---
 
 **† Equally Contributing Authors**
+## 2026
+* Wang CY†, Wu YC†, Wang SX†, Liu H, Jiang SQ, Han YJ, Wu LJ\*, Zhang T\*, Zhang M\*.[Maize Anther Development Involves Translated Open Reading Frames From 3′ Untranslated Regions](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202523401).  ***Advanced Science*** 2026:e23401
+
+
 ## 2025
 * Zheng XL†, Ding L†, Liu GQ†, Guo J, Zhang Z, Pang YJ, Tang X, Ren QR, Liu BL, Huang L, Zhang T\*, Zhang Y\*. [Development and activity evaluation of a highly efficient CRISPR-Cas genome editing system in larch](https://www.sciencedirect.com/science/article/pii/S2468014125001190?via%3Dihub). ***Horticultural Plant Journal*** DOI: https://doi.org/10.1016/j.hpj.2025.02.020
 
