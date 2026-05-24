@@ -6,7 +6,7 @@ comments: false
 
 **† Equally Contributing Authors**
 ## 2026
-* Liao SY†, He Y†, Liu GQ, Li YC, Tang X, Zheng XL, Qi YP\*, Zhang Y\*, Zhang T\*.[Boosting genome editing of non-coding sequences in plants with glycosylase-mediated multi-nucleotide deletion editors](https://doi.org/10.1016/j.scib.2026.05.046).***Science Bulletin*** 2026 DOI:https://doi.org/10.1016/j.scib.2026.05.046.
+* Liao SY†, He Y†, Liu GQ, Li YC, Tang X, Zheng XL, Qi YP\*, Zhang T\*, Zhang Y\*.[Boosting genome editing of non-coding sequences in plants with glycosylase-mediated multi-nucleotide deletion editors](https://doi.org/10.1016/j.scib.2026.05.046).***Science Bulletin*** 2026 DOI:https://doi.org/10.1016/j.scib.2026.05.046.
 
 * He Y†, Ma YQ†, Wu YC†, Tang X†, Liu SS, Yin DS, Zheng XL, Qi YP\*, Zhang Y\*, Zhang T\*.[Harnessing diverse tRNAs and AI-guided mining for compact and efficient plant multiplex genome editing](https://www.sciencedirect.com/science/article/pii/S0167779926000557?dgcid=author).***Trends in Biotechnology*** 2026 DOI:https://doi.org/10.1016/j.tibtech.2026.02.016
 
