@@ -1,6 +1,6 @@
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-17 after roadmap creation
+**Updated:** 2026-08-17 after Phase 1 planning
 
 ## Project Reference
 
@@ -10,16 +10,16 @@
 
 ## Current Position
 
-**Phase:** Phase 1 - 本地开发环境（准备启动）
-**Plan:** 尚未创建计划（需要 `/gsd-plan-phase 1`）
-**Status:** Not started
-**Progress Bar:** ▱▱▱▱▱▱▱▱▱▱ 0%
+**Phase:** Phase 1 - 本地开发环境（已规划）
+**Plan:** 1 个计划（01-PLAN.md，wave 1，4 任务，tracer 先行）+ SKELETON.md
+**Status:** Ready to execute
+**Progress Bar:** ▰▱▱▱▱▱▱▱▱▱ 10%
 
 ## Performance Metrics
 
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
-**阶段进度:** Phase 1 准备启动
-**需求覆盖:** 5/5 需求已映射到路线图（100%）
+**阶段进度:** Phase 1 已规划（1 计划 / 4 任务），待执行
+**需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）
 
 ## Accumulated Context
 
@@ -56,8 +56,8 @@
 
 ## Session Continuity
 
-**Last action:** 创建路线图（3 阶段，覆盖 5 个需求）
-**Next action:** `/gsd-plan-phase 1` - 制定 Phase 1 详细计划
+**Last action:** Phase 1 规划完成（planner + checker 修订循环 2 轮后 VERIFICATION PASSED）
+**Next action:** `/gsd-execute-phase 1` - 执行 01-PLAN.md（4 任务）
 **Blockers:** 无
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
 
