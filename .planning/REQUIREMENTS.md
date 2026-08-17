@@ -9,8 +9,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### 本地开发环境（Local Environment）
 
-- [ ] **ENV-01**: 维护者能在本机完成 `bundle install` 并以 `bundle exec jekyll serve` 启动本地预览，修改内容后浏览器自动刷新（live reload）
-- [ ] **ENV-02**: 本地预览中全部页面正常渲染，出版物列表非空（jekyll-scholar 文献正常显示，无静默失败）——含为达成此点所需的 Ruby/Jekyll 版本决策与调整
+- [x] **ENV-01**: 维护者能在本机完成 `bundle install` 并以 `bundle exec jekyll serve` 启动本地预览，修改内容后浏览器自动刷新（live reload）
+- [x] **ENV-02**: 本地预览中全部页面正常渲染，出版物列表非空（jekyll-scholar 文献正常显示，无静默失败）——含为达成此点所需的 Ruby/Jekyll 版本决策与调整
 
 ### 内容数据（Content Data）
 
@@ -57,13 +57,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| ENV-01 | Phase 1 | Pending |
-| ENV-02 | Phase 1 | Pending |
+| ENV-01 | Phase 1 | Complete |
+| ENV-02 | Phase 1 | Complete |
 | CONTENT-01 | Phase 3 | Pending |
 | DEPLOY-01 | Phase 2 | Pending |
 | DEPLOY-02 | Phase 2 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 5 total
 - Mapped to phases: 5 ✓
 - Unmapped: 0

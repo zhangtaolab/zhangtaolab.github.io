@@ -6,7 +6,7 @@
 
 ## Phases
 
-- [ ] **Phase 1: 本地开发环境** - 维护者能在本地预览网站全部内容（含出版物列表）
+- [x] **Phase 1: 本地开发环境** - 维护者能在本地预览网站全部内容（含出版物列表） (completed 2026-08-17)
 - [ ] **Phase 2: 自动部署** - 维护者推送后网站自动上线，跨平台构建一致
 - [ ] **Phase 3: 内容验证** - 维护者更新内容时语法错误被拦截，避免静默失败
 
@@ -25,7 +25,7 @@
   3. 出版物列表页面显示文献条目（非空），jekyll-scholar 正常解析 `papers/ref.bib`
   4. 修改内容后浏览器自动刷新（live reload）生效
 
-**Plans:** 1/1 plans executed
+**Plans:** 1/1 plans complete
 
 - [x] 01-PLAN.md
 
@@ -63,7 +63,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. 本地开发环境 | 1/1 | In Progress | - |
+| 1. 本地开发环境 | 1/1 | Complete    | 2026-08-17 |
 | 2. 自动部署 | 0/0 | Not started | - |
 | 3. 内容验证 | 0/0 | Not started | - |
 

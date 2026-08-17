@@ -3,7 +3,7 @@ phase: 01-local-dev-environment
 plan: 01
 verifier: gsd-verifier
 date: 2026-08-17
-status: human_needed
+status: passed
 score: 11/11 machine truths verified (1 with adjudicated deviation), 2 backstop truths → human_needed, 0 gaps
 requirements: [ENV-01, ENV-02]
 prohibitions_violated: 0
@@ -177,11 +177,13 @@ RUBY_PIN_OK
 ## 4. Requirement coverage（2/2 全覆盖）
 
 ### ENV-01 — bundle install + jekyll serve + live reload
+
 - **覆盖证据：** T1（install exit 0）、T3/T4（插件加载 + serve 200）、T8（livereload 客户端 200 + 1s 探针再生）
 - **ROADMAP 判据对照：** 判据 1 ✅（install + serve 启动无依赖错误）；判据 4 机器部分 ✅、浏览器行为 → T12 人工项
 - **状态：** machine-verified；浏览器自动刷新留人工（backstop）
 
 ### ENV-02 — 全页面渲染 + 出版物非空 + scholar 正常解析 papers/ref.bib
+
 - **覆盖证据：** T5（15 URL 全 200 + marker）、T6（出版物非空全跨度）、T7（scholar 12/12 解析真实 bib）、T2（无 Unknown tag = 无静默失败）
 - **ROADMAP 判据对照：** 判据 2 机器部分 ✅（全部页面 200、CSS 161,960B）、整体布局观感 → T13 人工项；判据 3 ✅（出版物非空 + 探针证解析）
 - **状态：** machine-verified；整体视觉留人工（backstop）
