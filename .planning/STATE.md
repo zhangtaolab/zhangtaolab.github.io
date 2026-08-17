@@ -65,14 +65,14 @@ progress:
 
 ### 待确认项
 
-- Phase 1 计划细节（Ruby/Jekyll 版本测试路径）
+- **已知空态（2026-08-17，Phase 1 Task 2 实测）：** `papers/ref.bib` 无 @incollection 条目，`/talks/` 页两个 `{% bibliography --query @incollection[...] %}` 查询渲染为空列表（页面仍 200、标题"Invited Talks / Regular Talks"仍在）；真实 talks 数据属内容补全工作，不在本阶段。同类内容欠账：`_pages/teaching.md` 正文仍含 Feynman 模板演示教学条目（非文献链路，属页面内容补全）
 - GitHub Actions 工作流具体实现细节
 - YAML/BibTeX 验证工具选型
 
 ## Session Continuity
 
-**Last action:** Phase 1 / Task 1 完成 — Step 0 绿色构建（Jekyll 4.3.3 + Ruby 4.0.6），版本决策已记录
-**Next action:** Task 2 文献链路对齐 `papers/ref.bib`（scholar.source → /papers/、删演示 bib、探针验证）
+**Last action:** Phase 1 / Task 2 完成 — 文献链路对齐 papers/ref.bib（探针 12/12 条渲染验证），演示 bib 已删除
+**Next action:** Task 3 本地 serve 全页面 + live reload 端到端验证
 **Blockers:** 无
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
 
