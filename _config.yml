@@ -1,0 +1,106 @@
+# ============================================================
+# STEP 1: Your Identity (required)
+# ============================================================
+name: "Zhang Tao Lab"
+title: "Bioinformatics, Epigenetics and Genomics"
+institution: "Chengdu Institute of Biology, Chinese Academy of Sciences"
+email: "zhangtao@cib.ac.cn"
+photo: headshot.jpg  # place your photo in images/
+
+# ============================================================
+# STEP 2: Your Links (optional -- delete any you don't use)
+# ============================================================
+links:
+  google_scholar: "https://scholar.google.com/citations?user=fiqihP4AAAAJ&hl=en"
+  github: "https://github.com/zhangtaolab"
+  researchgate: ""
+  orcid: ""
+  twitter: ""
+  linkedin: ""
+  cv: ""  # e.g., "papers/cv.pdf" -- leave blank to hide the CV icon
+
+# ============================================================
+# STEP 3: Site Settings
+# ============================================================
+accent_color: "#2d6a4f"      # moss green for plant science theme
+dark_mode: true              # show dark mode toggle in navbar
+description: "Zhang Tao Lab -- Bioinformatics, Epigenetics and Genomics at Chengdu Institute of Biology, CAS"
+baseurl: ""
+url: "https://zhangtaolab.org"
+
+# Google Analytics -- paste your GA4 measurement ID, or leave blank
+analytics:
+  google_id: ""
+
+# ============================================================
+# STEP 4: Choose Your Pages (comment out any you don't need)
+# ============================================================
+nav_pages:
+  - name: about
+  - name: research
+  - name: publications
+  - name: software
+  - name: team
+  - name: news
+  - name: contact
+
+# ============================================================
+# Advanced Settings (you probably don't need to change these)
+# ============================================================
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  quiet_deps: true
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+plugins: ["jekyll-sitemap"]
+
+scholar:
+  last_name: Zhang
+  first_name: [Tao]
+  style: citesty
+  locale: en
+  source: /assets/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_bootstrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs
