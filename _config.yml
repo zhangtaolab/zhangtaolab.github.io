@@ -77,7 +77,7 @@ plugins: ["jekyll-sitemap"]
 scholar:
   last_name: Zhang
   first_name: [Tao]
-  style: citesty
+  style: apa
   locale: en
   source: /assets/
   bibliography: ref.bib
