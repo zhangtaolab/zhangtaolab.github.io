@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Software - Zhang Tao Lab</title>
+  <meta name="description" content="Open-source bioinformatics software from Zhang Tao Lab, Chengdu Institute of Biology, CAS"/>
+  <link rel="preconnect" href="https://fonts.loli.net"/>
+  <link rel="preconnect" href="https://gstatic.loli.net" crossorigin=""/>
+  <link href="https://fonts.loli.net/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;0,8..60,800;1,8..60,400&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="./assets/main.css"/>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"/>
+  <style>
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: rgba(45,106,79,0.08); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }:root { --accent: #2d6a4f; }
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: var(--accent-light, rgba(45,106,79,0.08)); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }
+
+    .software-card { display: flex; gap: 1.25rem; align-items: stretch; margin-bottom: 0; }
+    .software-body { flex: 1; min-width: 0; }
+    .software-body h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
+    .software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f8f8f6; }
+    .software-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .software-thumb-placeholder { width: 260px; min-width: 260px; border-radius: 10px; border: 2px dashed var(--border); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.8rem; background: #f8f8f6; }
+    .section-card { padding: 1.25rem !important; }
+    @media (max-width: 767px) {
+      .software-card { flex-direction: column; align-items: flex-start; }
+      .software-thumb, .software-thumb-placeholder { width: 100%; min-width: 0; height: 200px; }
+    }
+    p, li, .pub-authors { max-width: none !important; }
+  </style>
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved) { document.documentElement.setAttribute('data-bs-theme', saved); }
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { document.documentElement.setAttribute('data-bs-theme', 'dark'); }
+    })();
+  </script>
+<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./images/logo.png" width="28" height="28" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;"/>
+      Zhang Tao Lab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./research.html">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="./publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="./software.html">Software</a></li>
+        <li class="nav-item"><a class="nav-link" href="./team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-sun" id="themeIcon"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="site-container">
+
+<h1 class="page-title">Software</h1>
+
+<p>We develop and maintain open-source bioinformatics software and tools. Each software below is associated with peer-reviewed publications. All code is freely available on <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.</p>
+
+<h2 class="section-heading"><i class="fa-solid fa-brain" style="color: var(--accent);"></i> DNA Large Language Models</h2>
+
+<div class="section-card" style="border: 2px solid var(--accent);">
+  <div style="background: var(--accent); color: white; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 4px 12px; display: inline-block; border-radius: 0 0 8px 0;">Core Toolkit</div>
+  <div class="software-card" style="margin-top: var(--space-3);">
+    <div class="software-body">
+      <h4>DNALLM-Suite</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/DNALLM" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+      <p>A unified toolkit for fine-tuning and inference with DNA Language Models. Provides CLI, Web UI, and MCP (Model Context Protocol) support for seamless LLM integration. Features include fine-tuning pipelines, in-silico mutagenesis analysis, and support for multiple model architectures.</p>
+    </div>
+    <div class="software-thumb">
+      <img src="./images/software/dnallm-suite.png" alt="DNALLM-Suite screenshot" loading="lazy"/>
+    </div>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>PDLLMs — Plant DNA Large Language Models</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a class="btn-pill btn-paper" href="https://pubmed.ncbi.nlm.nih.gov/39733335/" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      </div>
+      <p>A group of tailored DNA large language models for analyzing plant genomes. Published in <em>Molecular Plant</em> 2025.</p>
+      <p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T. PDLLMs: A group of tailored DNA large language models for analyzing plant genomes. <em>Mol Plant</em>. 2025;18(2):175-178.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>dnallmmark</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/dnallmmark" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+      <p>Benchmarking framework for DNA Large Language Models. Standardized evaluation metrics and datasets for comparing DNA LLM architectures.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>MambaForSequenceClassification</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/MambaForSequenceClassification" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+      <p>HuggingFace integration for Mamba state-space models applied to DNA sequence classification. Enables efficient training for genomic sequences.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<h2 class="section-heading"><i class="fa-solid fa-scissors" style="color: var(--accent);"></i> Genome Editing</h2>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>CrisprStitch</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/CrisprStitch" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a class="btn-pill btn-paper" href="https://pubmed.ncbi.nlm.nih.gov/38146164/" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      </div>
+      <p>A fast, user-friendly tool to evaluate the efficiency of CRISPR-Cas editing systems. Available as a web application and desktop app. Performs all calculations locally on the user&#39;s computer without uploading data to remote servers.</p>
+      <p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Han YS, Liu GQ, Wu YC, Bao Y, Zhang Y, Zhang T. CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems. <em>Plant Commun</em>. 2024;5(3):100783.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<h2 class="section-heading"><i class="fa-solid fa-dna" style="color: var(--accent);"></i> Oligo-FISH &amp; Genomics</h2>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>Chorus2</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/Chorus2" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a class="btn-pill btn-paper" href="https://pubmed.ncbi.nlm.nih.gov/33960617/" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      </div>
+      <p>A software pipeline to select genome-scale oligonucleotide-based probes for fluorescence in situ hybridization (Oligo-FISH). Highly effective at removing repetitive elements and selecting single-copy oligos. Supports probe design for species with or without assembled genomes.</p>
+      <p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Zhang T, Liu G, Zhao H, Braz GT, Jiang J. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence in situ hybridization. <em>Plant Biotechnol J</em>. 2021;19(10):1967-1978.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>rustkmer</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/rustkmer" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+      <p>High-performance k-mer counting and analysis tool written in Rust for efficient processing of large genomic datasets.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<h2 class="section-heading"><i class="fa-solid fa-robot" style="color: var(--accent);"></i> AI Infrastructure</h2>
+
+<div class="section-card">
+  <div class="software-card">
+    <div class="software-body">
+      <h4>SIF — Semantic Intelligence Framework</h4>
+      <div class="pub-actions" style="margin-bottom: var(--space-3);">
+        <a class="btn-pill btn-git" href="https://github.com/zhangtaolab/SIF" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+      <p><strong>S</strong>emantic <strong>I</strong>ntelligence <strong>F</strong>ramework — a document semantic intelligence retrieval system. SIF provides collection management, hybrid search (BM25 + vector embeddings), and MCP server integration for AI-assisted document retrieval. Supports multiple embedding models including Sentence Transformers, GGUF, OpenAI-compatible APIs, and ModelScope Hub.</p>
+    </div>
+    <div class="software-thumb-placeholder">Screenshot</div>
+  </div>
+</div>
+
+<div class="callout callout-success" style="margin-top: var(--space-8);">
+  <div class="callout-title"><i class="fa-brands fa-github callout-icon"></i> Open Source</div>
+  <p>All software is freely available on our <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub organization</a>. Contributions, bug reports, and feature requests are welcome.</p>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>Zhang Tao Lab<br/>Bioinformatics, Epigenetics and Genomics<br/>Chengdu Institute of Biology, Chinese Academy of Sciences</p>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <p><a href="mailto:zhangtao@cib.ac.cn"><i class="fa-solid fa-envelope"></i> zhangtao@cib.ac.cn</a><br/>
+      <a href="https://github.com/zhangtaolab"><i class="fa-brands fa-github"></i> GitHub</a></p>
+    </div>
+    <div>
+      <h5>Links</h5>
+      <p><a href="https://scholar.google.com/citations?user=fiqihP4AAAAJ&amp;hl=en"><i class="ai ai-google-scholar"></i> Google Scholar</a><br/>
+      <a href="https://github.com/zhangtaolab/DNALLM"><i class="fa-solid fa-brain"></i> DNALLM-Suite</a></p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      © 2026 Zhang Tao Lab — Chengdu Institute of Biology, Chinese Academy of Sciences
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/bootstrap.bundle.min.js"></script>
+<script src="./assets/site.min.js"></script>
+
+
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.classList.add('open'); input.focus(); input.select(); }
+  function closeSearch() { overlay.classList.remove('open'); results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', openSearch);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics at Chengdu Institute of Biology, CAS'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab research interests'},
+    {title: 'Research', url: './research.html', snippet: 'DNA Large Language Models, AI-Driven Genomics, <em>Cis</em>-regulatory Elements, Oligo-FISH, CRISPR'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2 and more open-source tools'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students and alumni'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact information and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates from the lab'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div class="search-no-results">No results found for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" class="search-result-item" onclick="document.getElementById('searchOverlay').classList.remove('open');"><div class="search-result-title">' + h.title + '</div><div class="search-result-snippet">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+<!-- Search Overlay -->
+<div id="searchOverlay" style="position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.5);display:flex;align-items:flex-start;justify-content:center;padding-top:15vh;opacity:0;pointer-events:none;transition:opacity 0.2s;">
+  <div style="width:100%;max-width:560px;background:#fff;border:1px solid #ddd;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.2);overflow:hidden;">
+    <div style="display:flex;align-items:center;padding:1rem 1.5rem;border-bottom:1px solid #eee;gap:0.75rem;">
+      <i class="fa-solid fa-magnifying-glass" style="color:#999;font-size:0.9375rem;"></i>
+      <input type="text" id="searchInput" placeholder="Search site..." autocomplete="off" style="flex:1;border:none;background:none;font-family:DM Sans,sans-serif;font-size:1rem;color:#333;outline:none;"/>
+      <kbd style="font-size:0.6875rem;font-weight:600;color:#666;background:#f5f5f5;border:1px solid #ddd;border-radius:4px;padding:0.1rem 0.4rem;">ESC</kbd>
+    </div>
+    <div id="searchResults" style="max-height:50vh;overflow-y:auto;"></div>
+  </div>
+</div>
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.style.opacity = '1'; overlay.style.pointerEvents = 'auto'; input.focus(); }
+  function closeSearch() { overlay.style.opacity = '0'; overlay.style.pointerEvents = 'none'; results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', function(e) { e.preventDefault(); openSearch(); });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.style.opacity === '1') closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab'},
+    {title: 'Research', url: './research.html', snippet: 'DNA LLMs, Genomics, CRISPR, Oligo-FISH'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div style="padding:2rem;text-align:center;color:#666;font-size:0.875rem;">No results for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" style="display:block;padding:0.875rem 1.5rem;border-bottom:1px solid #eee;color:#333;text-decoration:none;" onclick="document.getElementById('searchOverlay').style.opacity='0';document.getElementById('searchOverlay').style.pointerEvents='none';return true;"><div style="font-family:Source Serif 4,Georgia,serif;font-weight:700;font-size:0.937rem;margin-bottom:0.25rem;">' + h.title + '</div><div style="font-size:0.812rem;color:#666;line-height:1.5;">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+
+</body></html>

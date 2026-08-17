@@ -1,0 +1,312 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Research - Zhang Tao Lab</title>
+  <meta name="description" content="Research directions of Zhang Tao Lab, Chengdu Institute of Biology, CAS"/>
+  <link rel="preconnect" href="https://fonts.loli.net"/>
+  <link rel="preconnect" href="https://gstatic.loli.net" crossorigin=""/>
+  <link href="https://fonts.loli.net/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;0,8..60,800;1,8..60,400&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="./assets/main.css"/>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"/>
+  <style>
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: rgba(45,106,79,0.08); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: var(--accent-light, rgba(45,106,79,0.08)); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }
+:root { --accent: #2d6a4f; --accent-hover: #2d6a4f; }
+  /* Override template's default research styles with high-specificity selectors */
+  main .research-grid { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; grid-auto-rows: 1fr !important; gap: 1.5rem !important; align-items: stretch !important; }
+  main .research-grid .research-card { border: 2px solid var(--accent) !important; border-radius: var(--radius) !important; overflow: hidden !important; display: flex !important; flex-direction: column !important; background: var(--card-bg) !important; height: 100% !important; }
+  main .research-grid .research-card .core-badge { background: var(--accent); color: white; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 10px; display: block; min-height: 22px; line-height: 12px; }
+  main .research-grid .research-card .img-wrap { height: 180px !important; min-height: 180px !important; background: #f0f0eb !important; display: flex !important; align-items: center !important; justify-content: center !important; overflow: hidden !important; border-bottom: 1px solid var(--border) !important; margin: 0 !important; border-radius: 0 !important; padding: 10px !important; }
+  main .research-grid .research-card .img-wrap img { width: 100% !important; height: 100% !important; object-fit: cover !important; border-radius: 6px !important; margin: 0 !important; }
+  main .research-grid .research-card .research-body { padding: 1.25rem !important; flex: 1 !important; display: flex !important; flex-direction: column !important; }
+  main .research-grid .research-card h4 { font-size: 1.05rem !important; font-weight: 700 !important; margin-bottom: 0.5rem !important; color: var(--text-primary) !important; }
+  main .research-grid .research-card p { font-size: 0.88rem !important; color: var(--text-secondary) !important; line-height: 1.6 !important; flex: 1 !important; }
+  /* Override template's default research-thumb/research-body styles */
+  main .research-grid .research-thumb { display: none !important; }
+    p, li, h1, h2, h3, h4 { max-width: none !important; }
+  </style>
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved) { document.documentElement.setAttribute('data-bs-theme', saved); }
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { document.documentElement.setAttribute('data-bs-theme', 'dark'); }
+    })();
+  </script>
+<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./images/logo.png" width="28" height="28" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;"/>
+      Zhang Tao Lab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./research.html">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="./publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="./software.html">Software</a></li>
+        <li class="nav-item"><a class="nav-link" href="./team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-sun" id="themeIcon"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="site-container">
+
+<h1 class="page-title">Research</h1>
+
+<p>Our laboratory is at the forefront of <strong>DNA Large Language Models (LLMs)</strong> and their applications in plant genomics. We develop foundation models for DNA sequence understanding and apply them to diverse biological questions, from regulatory element prediction to genome engineering. Below are our key research areas:</p>
+
+<div class="research-grid">
+
+<div class="research-card core">
+<div class="core-badge">Core Focus</div>
+<div class="img-wrap">
+  <img src="./images/research/dna-llm.jpg" alt="DNA Large Language Models" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>DNA Large Language Models</h4>
+<p>We develop and apply large language models for DNA sequence analysis. This includes <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank">PDLLMs (Plant DNA LLMs)</a> — a suite of foundation models tailored for plant genomes published in <em>Molecular Plant</em> — and <a href="https://github.com/zhangtaolab/DNALLM" target="_blank">DNALLM-Suite</a>, a comprehensive toolkit for fine-tuning and inference with DNA Language Models featuring CLI, Web UI, and MCP protocol support.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/ai-genomics.jpg" alt="AI-Driven Genomics" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>AI-Driven Genomics</h4>
+<p>We apply machine learning and deep learning to solve fundamental questions in genomics. This includes developing predictive models for gene regulation, chromatin accessibility, and genome evolution. Our work bridges the gap between cutting-edge AI methods and biological discovery.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/regulatory-elements.jpg" alt="&lt;em&gt;Cis&lt;/em&gt;-regulatory Elements" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4><em>Cis</em>-regulatory Elements</h4>
+<p><em>Cis</em>-regulatory elements (CRMs) control gene expression during specific developmental stages or under various biotic and abiotic stresses. We identify and characterize these elements based on their unique molecular signatures associated with open chromatin, leveraging LLM-based approaches for improved prediction accuracy.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/fish-probes.jpg" alt="Oligo-FISH Probes" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>Oligo-FISH Probe Design</h4>
+<p>Oligo probes designed from conserved DNA sequences can be used among genetically related species, enabling comparative cytogenetic mapping. We develop computational pipelines for genome-scale oligonucleotide-based probe design for fluorescence in situ hybridization (FISH), significantly expanding the applications of FISH in non-model plant species.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/crispr.jpg" alt="CRISPR Genome Editing" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>CRISPR/Cas Genome Editing</h4>
+<p>We develop and optimize CRISPR/Cas-based genome editing systems for plants, including base editors, prime editors, and multiplex editing strategies. Our work includes gRNA design algorithms, efficiency prediction models, and the development of <a href="https://github.com/zhangtaolab/CrisprStitch" target="_blank">CrisprStitch</a> for the research community.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/plant-genomics.jpg" alt="Plant Genomics" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>Plant Genomics &amp; Comparative Genomics</h4>
+<p>We study the structure, function, and evolution of plant genomes using large-scale sequencing and comparative approaches. Our recent work includes telomere-to-telomere genome assemblies and the application of large language models for DNA sequence analysis in plants.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/epigenetics.jpg" alt="Epigenetics" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>Epigenetics &amp; Chromatin Biology</h4>
+<p>We investigate the epigenetic regulation of gene expression in plants, focusing on DNA methylation, histone modifications, and chromatin accessibility. Our research explores how epigenetic changes contribute to plant development and stress responses.</p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="core-badge"></div>
+<div class="img-wrap">
+  <img src="./images/research/bioinformatics-tools.jpg" alt="Bioinformatics Tool Development" loading="lazy"/>
+</div>
+<div class="research-body">
+<h4>Bioinformatics Tool Development</h4>
+<p>We develop and maintain open-source bioinformatics software for the plant science community, including tools for probe design (Chorus2), CRISPR analysis (CrisprStitch), and plant DNA language models (PDLLMs, DNALLM-Suite). All tools are freely available.</p>
+</div>
+</div>
+
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>Zhang Tao Lab<br/>Bioinformatics, Epigenetics and Genomics<br/>Chengdu Institute of Biology, Chinese Academy of Sciences</p>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <p><a href="mailto:zhangtao@cib.ac.cn"><i class="fa-solid fa-envelope"></i> zhangtao@cib.ac.cn</a><br/>
+      <a href="https://github.com/zhangtaolab"><i class="fa-brands fa-github"></i> GitHub</a></p>
+    </div>
+    <div>
+      <h5>Links</h5>
+      <p><a href="https://scholar.google.com/citations?user=zhangtao"><i class="ai ai-google-scholar"></i> Google Scholar</a><br/>
+      <a href="https://github.com/zhangtaolab/DNALLM"><i class="fa-solid fa-brain"></i> DNALLM-Suite</a></p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      © 2026 Zhang Tao Lab — Chengdu Institute of Biology, Chinese Academy of Sciences
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/bootstrap.bundle.min.js"></script>
+<script src="./assets/site.min.js"></script>
+
+
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.classList.add('open'); input.focus(); input.select(); }
+  function closeSearch() { overlay.classList.remove('open'); results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', openSearch);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics at Chengdu Institute of Biology, CAS'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab research interests'},
+    {title: 'Research', url: './research.html', snippet: 'DNA Large Language Models, AI-Driven Genomics, <em>Cis</em>-regulatory Elements, Oligo-FISH, CRISPR'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2 and more open-source tools'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students and alumni'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact information and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates from the lab'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div class="search-no-results">No results found for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" class="search-result-item" onclick="document.getElementById('searchOverlay').classList.remove('open');"><div class="search-result-title">' + h.title + '</div><div class="search-result-snippet">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+<!-- Search Overlay -->
+<div id="searchOverlay" style="position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.5);display:flex;align-items:flex-start;justify-content:center;padding-top:15vh;opacity:0;pointer-events:none;transition:opacity 0.2s;">
+  <div style="width:100%;max-width:560px;background:#fff;border:1px solid #ddd;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.2);overflow:hidden;">
+    <div style="display:flex;align-items:center;padding:1rem 1.5rem;border-bottom:1px solid #eee;gap:0.75rem;">
+      <i class="fa-solid fa-magnifying-glass" style="color:#999;font-size:0.9375rem;"></i>
+      <input type="text" id="searchInput" placeholder="Search site..." autocomplete="off" style="flex:1;border:none;background:none;font-family:DM Sans,sans-serif;font-size:1rem;color:#333;outline:none;"/>
+      <kbd style="font-size:0.6875rem;font-weight:600;color:#666;background:#f5f5f5;border:1px solid #ddd;border-radius:4px;padding:0.1rem 0.4rem;">ESC</kbd>
+    </div>
+    <div id="searchResults" style="max-height:50vh;overflow-y:auto;"></div>
+  </div>
+</div>
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.style.opacity = '1'; overlay.style.pointerEvents = 'auto'; input.focus(); }
+  function closeSearch() { overlay.style.opacity = '0'; overlay.style.pointerEvents = 'none'; results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', function(e) { e.preventDefault(); openSearch(); });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.style.opacity === '1') closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab'},
+    {title: 'Research', url: './research.html', snippet: 'DNA LLMs, Genomics, CRISPR, Oligo-FISH'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div style="padding:2rem;text-align:center;color:#666;font-size:0.875rem;">No results for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" style="display:block;padding:0.875rem 1.5rem;border-bottom:1px solid #eee;color:#333;text-decoration:none;" onclick="document.getElementById('searchOverlay').style.opacity='0';document.getElementById('searchOverlay').style.pointerEvents='none';return true;"><div style="font-family:Source Serif 4,Georgia,serif;font-weight:700;font-size:0.937rem;margin-bottom:0.25rem;">' + h.title + '</div><div style="font-size:0.812rem;color:#666;line-height:1.5;">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+
+</body></html>

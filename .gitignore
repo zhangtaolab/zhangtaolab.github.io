@@ -13,3 +13,4 @@ vendor/bundle
 # GSD runtime state
 .gsd/
 .playwright-mcp/
+.tmp-cmp/

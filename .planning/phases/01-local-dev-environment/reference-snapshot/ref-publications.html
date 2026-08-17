@@ -1,0 +1,374 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Publications - Zhang Tao Lab</title>
+  <meta name="description" content="Publications from Zhang Tao Lab"/>
+  <link rel="preconnect" href="https://fonts.loli.net"/>
+  <link rel="preconnect" href="https://gstatic.loli.net" crossorigin=""/>
+  <link href="https://fonts.loli.net/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;0,8..60,800;1,8..60,400&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="./assets/main.css"/>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"/>
+  <style>
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: rgba(45,106,79,0.08); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }:root { --accent: #2d6a4f; }
+  .search-toggle { background: none; border: 1px solid var(--border); border-radius: 999px; padding: 6px; color: var(--text-secondary); cursor: pointer; font-size: 0.875rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .search-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .search-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding-top: 15vh; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .search-overlay.open { opacity: 1; pointer-events: auto; }
+  .search-modal { width: 100%; max-width: 560px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); overflow: hidden; transform: translateY(-8px) scale(0.98); transition: transform 0.3s; }
+  .search-overlay.open .search-modal { transform: translateY(0) scale(1); }
+  .search-input-wrapper { display: flex; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .search-input-icon { color: var(--text-secondary); font-size: 0.9375rem; }
+  .search-input { flex: 1; border: none; background: none; font-family: 'DM Sans', sans-serif; font-size: 1rem; color: var(--text-primary); outline: none; }
+  .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
+  .search-kbd { font-size: 0.6875rem; font-weight: 600; color: var(--text-secondary); background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.4rem; }
+  .search-results { max-height: 50vh; overflow-y: auto; }
+  .search-result-item { display: block; padding: 0.875rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-primary); text-decoration: none; transition: background 0.15s; }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: var(--accent-light, rgba(45,106,79,0.08)); }
+  .search-result-title { font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  .search-result-snippet { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; }
+  .search-no-results { padding: 2rem 1.5rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem; }
+
+    .pub-list, ol.pub-list { list-style: none !important; counter-reset: pub-counter; padding-left: 0 !important; margin-left: 0 !important; }
+    .pub-list li { margin-bottom: 1.1rem; line-height: 1.65; font-size: 0.92rem; position: relative; padding-left: 2rem; }
+    .pub-list li::before { counter-increment: pub-counter; content: counter(pub-counter) "."; position: absolute; left: 0; font-weight: 600; color: var(--accent); }
+    .pub-list a { text-decoration: underline; text-underline-offset: 3px; }
+    .year-heading { font-size: 1.4rem; font-weight: 700; font-family: 'Source Serif 4', serif; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--accent); }
+    p, li, h1, h2, h3, h4 { max-width: none !important; }
+  </style>
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved) { document.documentElement.setAttribute('data-bs-theme', saved); }
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { document.documentElement.setAttribute('data-bs-theme', 'dark'); }
+    })();
+  </script>
+<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./images/logo.png" width="28" height="28" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;"/>
+      Zhang Tao Lab
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./research.html">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="./publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="./software.html">Software</a></li>
+        <li class="nav-item"><a class="nav-link" href="./team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-sun" id="themeIcon"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="site-container">
+<h1 class="page-title">Publications</h1>
+<p><strong>† Equally Contributing Authors</strong></p>
+
+<h2 class="year-heading">2026</h2>
+<ol class="pub-list">
+<li>Bao Y, You HL, Liu S, Liu GQ, Wu YC, Yang QQ, You Q, Liu P, Yi CD*, Zhang WL*, Cheng ZK*, <strong>Zhang T*</strong>. <a href="https://doi.org/10.1038/s41467-026-73769-8" target="_blank">Telomere-to-telomere genome assembly of <em>Oryza australiensis</em> reveals transposon-driven centromere repositioning and shared EE–DD ancestry</a>. <strong><em>Nature Communications</em></strong> 2026. DOI: https://doi.org/10.1038/s41467-026-73769-8.</li>
+<li>Liao SY†, He Y†, Liu GQ, Li YC, Tang X, Zheng XL, Qi YP*, <strong>Zhang T*</strong>, Zhang Y*. <a href="https://doi.org/10.1016/j.scib.2026.05.046" target="_blank">Boosting genome editing of non-coding sequences in plants with glycosylase-mediated multi-nucleotide deletion editors</a>. <strong><em>Science Bulletin</em></strong> 2026. DOI: https://doi.org/10.1016/j.scib.2026.05.046.</li>
+<li>He Y†, Ma YQ†, Wu YC†, Tang X†, Liu SS, Yin DS, Zheng XL, Qi YP*, Zhang Y*, <strong>Zhang T*</strong>. <a href="https://doi.org/10.1016/j.tibtech.2026.02.016" target="_blank">Harnessing diverse tRNAs and AI-guided mining for compact and efficient plant multiplex genome editing</a>. <strong><em>Trends in Biotechnology</em></strong> 2026. DOI: https://doi.org/10.1016/j.tibtech.2026.02.016.</li>
+<li>Wang CY†, Wu YC†, Wang SX†, Liu H, Jiang SQ, Han YJ, Wu LJ*, <strong>Zhang T*</strong>, Zhang M*. <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202523401" target="_blank">Maize Anther Development Involves Translated Open Reading Frames From 3′ Untranslated Regions</a>. <strong><em>Advanced Science</em></strong> 2026:e23401.</li>
+</ol>
+
+<h2 class="year-heading">2025</h2>
+<ol class="pub-list">
+<li>Zheng XL†, Ding L†, Liu GQ†, Guo J, Zhang Z, Pang YJ, Tang X, Ren QR, Liu BL, Huang L, <strong>Zhang T*</strong>, Zhang Y*. <a href="https://doi.org/10.1016/j.hpj.2025.02.020" target="_blank">Development and activity evaluation of a highly efficient CRISPR-Cas genome editing system in larch</a>. <strong><em>Horticultural Plant Journal</em></strong> DOI: https://doi.org/10.1016/j.hpj.2025.02.020.</li>
+<li>Liu GQ, Chen L, Wu YC, Han YS, Bao Y, <strong>Zhang T*</strong>. <a href="https://www.cell.com/molecular-plant/fulltext/S1674-2052(24)00390-3" target="_blank">PDLLMs: A group of tailored DNA large language models for analyzing plant genomes</a>. <strong><em>Molecular Plant</em></strong> 2025, 18(2):175–178.</li>
+<li>Yang QQ, Zhu WJ, Tang X, Wu YC, Liu GQ, Zhao DS, Liu QQ*, Zhang Y*, <strong>Zhang T*</strong>. <a href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae557/7828192" target="_blank">Improving rice grain shape through upstream open reading frame editing-mediated translation regulation</a>. <strong><em>Plant Physiology</em></strong> 2025, 197(1):kiae557.</li>
+</ol>
+
+<h2 class="year-heading">2024</h2>
+<ol class="pub-list">
+<li>Yang QQ†, Tang X†, Wu YC, Zhu WJ, <strong>Zhang T*</strong>, Zhang Y*. CRISPR-Based Modulation of uORFs in DEP1 and GIF1 for Enhanced Rice Yield Traits. <strong><em>Rice</em></strong> 2024, 17:67.</li>
+<li>Zheng XL†, Tang X†, Wu YC†, Zheng XQ†, Zhou JP, Han QQ, Tang YL, Fu XX, Deng J, Wang YB, Wang DN, Zhang ST, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. An efficient CRISPR-Cas12a-mediated MicroRNA knockout strategy in plants. <strong><em>Plant Biotechnology Journal</em></strong> 2024, 23(1):128–140.</li>
+<li>He Y†, Liu SS†, Chen L†, Pu DK, Zhong ZH, Tang X, Ren QR, Dong C, Wang YW, Wang DN, Zheng XL, Guo FB, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. Versatile plant genome engineering using anti-CRISPR-Cas12a systems. <strong><em>SCIENCE CHINA Life Sciences</em></strong> 2024, 67(12):2730–2745.</li>
+<li>Zhao DS†, Chen SY†, Han YS†, Liu GQ, Liu JY, Yang QQ, Zhang Tao, Shen JL, Fan XL, Zhang CQ, <strong>Zhang T*</strong>, Li QF*, Chen C*, Liu QQ*. A CRISPR/Cas9-mediated mutant library of seed-preferred genes in rice. <strong><em>Plant Biotechnology Journal</em></strong> 2024, 22(11):3012–3014.</li>
+<li>Fan TT†, Cheng YH†, Wu YC†, Liu SS†, Tang Xu†, He Y, Liao SY, Zheng XL, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. High performance TadA-8e derived cytosine and dual base editors with undetectable off-target effects in plants. <strong><em>Nature Communications</em></strong> 2024, 15:5103.</li>
+<li>He Y†, Han YS†, Ma YQ, Liu SS, Fan TT, Liang YL, Tang X, Zheng XL, Wu YC, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. <a href="https://onlinelibrary.wiley.com/doi/10.1111/pbi.14363" target="_blank">Expanding plant genome editing scope and profiles with CRISPR-FrCas9 systems targeting palindromic TA sites</a>. <strong><em>Plant Biotechnology Journal</em></strong> 2024, 22(9):2488–2503.</li>
+<li>Xin HY, Wang YD, Zhang WL, Bao Y, Neumann P, Ning YH, <strong>Zhang T</strong>, Wu YF, Jiang N*, Jiang JM*, Xi ML*. <a href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae214/7656883" target="_blank">Celine, a long interspersed nuclear element retrotransposon, colonizes in the centromeres of poplar chromosomes</a>. <strong><em>Plant Physiology</em></strong> 2024, 195(4):2787–2798.</li>
+<li>You HL, Tang D, Liu HX, Zhou Y, Li YF, Shen Y, Gong ZY, Yu HX, Gu MH, Jiang JM, <strong>Zhang T*</strong>, Cheng ZK*. <a href="https://academic.oup.com/plphys/article-abstract/195/4/2617/7628145" target="_blank">Chromosome ends initiate homologous chromosome pairing during rice meiosis</a>. <strong><em>Plant Physiology</em></strong> 2024, 195(4):2617–2634.</li>
+<li>Han YS†, Liu GQ†, Wu YC, Bao Y, Zhang Y*, <strong>Zhang T*</strong>. <a href="https://www.cell.com/plant-communications/fulltext/S2590-3462(23)00341-3" target="_blank">CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems</a>. <strong><em>Plant Communications</em></strong> 2024, 5(3):100783.</li>
+<li>Chen L, Liu GQ, <strong>Zhang T*</strong>. <a href="https://link.springer.com/article/10.1007/s42994-023-00133-5" target="_blank">Integrating machine learning and genome editing for crop improvement</a>. <strong><em>aBIOTECH</em></strong> 2024, 5:262–277.</li>
+</ol>
+
+<h2 class="year-heading">2023</h2>
+<ol class="pub-list">
+<li>Wang ZY, Lei YJ, Liu GQ, Ning Y, Ning YR, <strong>Zhang T*</strong>, Xi M*. <a href="https://doi.org/10.3390/f14122385" target="_blank">Male-Specific Sequence in <em>Populus simonii</em> Provides Insights into Gender Determination of Poplar</a>. <strong><em>Forests</em></strong> 2023, 14(12):2385.</li>
+<li>Gurel F†, Wu YC†, Pan CT, Cheng YH, Li G, <strong>Zhang T*</strong>, Qi YP*. <a href="https://www.liebertpub.com/doi/10.1089/crispr.2022.0072" target="_blank">On- and Off-Target Analyses of CRISPR-Cas12b Genome Editing Systems in Rice</a>. <strong><em>The CRISPR Journal</em></strong> 2023, 6(1):62–74.</li>
+<li>Zhong ZH†, Liu GQ†, Tang ZJ†, Xiang SH†, Yang L, Huang L, He Y, He Y, Fan TT, Liu SS, Zheng XL, <strong>Zhang T</strong>, Qi YP*, Huang J*, Zhang Y*. <a href="https://www.nature.com/articles/s41467-023-41802-9" target="_blank">Efficient plant genome engineering using a probiotic sourced CRISPR-Cas9 system</a>. <strong><em>Nature Communications</em></strong> 2023, 14:6102.</li>
+<li>Zhang YX†, Wu YC†, Li G†, Qi A, Zhang Y, <strong>Zhang T*</strong>, Qi Y*. <a href="https://acsess.onlinelibrary.wiley.com/doi/10.1002/tpg2.20266" target="_blank">Genome-wide investigation of multiplexed CRISPR-Cas12a-mediated editing in rice</a>. <strong><em>Plant Genome</em></strong> 2023, 16(2):e20266.</li>
+<li>Sretenovic S†, Green Y†, Wu YC†, Cheng YH†, <strong>Zhang T*</strong>, Eck J.V*, Qi YP*. <a href="https://academic.oup.com/plphys/article-abstract/193/1/291/7198002" target="_blank">Genome- and transcriptome-wide off-target analyses of a high-efficiency adenine base editor in tomato</a>. <strong><em>Plant Physiology</em></strong> 2023, 193(1):291–303.</li>
+<li>Chen C†, Han YS†, Xiao H, Zou BC, Wu DD, Sha LN, Yang CR, Liu SQ, Cheng YR, Wang Y, Kang HY, Fan X, Zhou YH, <strong>Zhang T*</strong>, Zhang HQ*. <a href="https://link.springer.com/article/10.1007/s00122-023-04423-w" target="_blank">Chromosome-specific painting in <em>Thinopyrum</em> species using bulked oligonucleotides</a>. <strong><em>Theoretical and Applied Genetics</em></strong> 2023, 136:177.</li>
+<li>Bao Y†, Wei YY†, Liu YL†, Gao JJ, Cheng S, Liu GQ, You Q, Liu P, Lu QW, Li PT, Zhang SL, Hu N, Han YS, Liu S, Wu YC, Yang QQ, Li ZG, Ao GW, Liu F, Wang KB, Jiang JM, <strong>Zhang T*</strong>, Zhang WL*, Peng RH*. Genome-wide chromatin accessibility landscape and dynamics of transcription factor networks during ovule and fiber development in cotton. <strong><em>BMC Biology</em></strong> 2023, 21:165.</li>
+<li>Zhou JP†, Liu GQ†, Zhao YX, Zhang R, Tang X, Li L, Jia XY, Guo YC, Han YS, Bao Y, He Y, Han QQ, Yang H, Zheng XL, Qi YP*, <strong>Zhang T*</strong>, Zhang Y*. An efficient CRISPR–Cas12a promoter editing system for crop improvement. <strong><em>Nature Plants</em></strong> 2023, 9:588–604.</li>
+</ol>
+
+<h2 class="year-heading">2022</h2>
+<ol class="pub-list">
+<li>Liu S†, Bao Y†, Deng H†, Liu GQ, Han YS, Wu YC, <strong>Zhang T*</strong>, Chen C*. The Methylation Inhibitor 5-Aza-2′-Deoxycytidine Induces Genome-Wide Hypomethylation in Rice. <strong><em>Rice</em></strong> 2022, 15:35.</li>
+<li>Xue C†, Liu GQ†, Sun S, Liu XY, Guo R, Cheng ZK, Yu HX, Gu MH, Liu K, Zhou Y*, <strong>Zhang T*</strong>, Gong ZY*. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.15884" target="_blank">De Novo Centromere Formation in Pericentromeric Region of Rice Chromosome 8</a>. <strong><em>The Plant Journal</em></strong> 2022, 111(3):859–871.</li>
+</ol>
+
+<h2 class="year-heading">2021</h2>
+<ol class="pub-list">
+<li>Ding Y, Zhu JN, Zhao DS, Liu QQ, Yang QQ*, <strong>Zhang T*</strong>. Targeting Cis-Regulatory Elements for Rice Grain Quality Improvement. <strong><em>Frontiers in Plant Science</em></strong> 2021, 12:705834.</li>
+<li>Liu GQ, <strong>Zhang T*</strong>. Single Copy Oligonucleotide Fluorescence <em>In Situ</em> Hybridization Probe Design Platforms: Development, Application and Evaluation. <strong><em>International Journal of Molecular Sciences</em></strong> 2021, 22(13):7124.</li>
+<li>Randall L.B†, Sretenovic S†, Wu YC†, Yin D, <strong>Zhang T</strong>, Eck J.V, Qi YP*. Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor. <strong><em>Plant Physiology</em></strong> 2021, 187(1):73–87.</li>
+<li>Ren QR†, Sretenovic S†, Liu GQ†, Zhong ZH, Wang JH, Huang L, Tang X, Guo YC, Liu L, Wu YC, Zhou J, Zhao YX, Yang H, He Y, Liu SS, Yin DS, Mayorga R, Zheng XL, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. Improved plant cytosine base editors with high editing activity, purity, and specificity. <strong><em>Plant Biotechnology Journal</em></strong> 2021, 19(10):2052–2068.</li>
+<li><strong>Zhang T†*</strong>, Liu GQ†, Zhao HN, Braz G.T, Jiang JM*. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13610" target="_blank">Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence <em>in situ</em> hybridization</a>. <strong><em>Plant Biotechnology Journal</em></strong> 2021, 19(10):1967–1978.</li>
+<li>Meng FL†, Zhao HN†, Zhu B, <strong>Zhang T</strong>, Yang, Li Y, Han YP, Jiang JM*. <a href="https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koab093/6187954" target="_blank">Genomic Editing of Intronic Enhancers Unveils Their Role in Fine-Tuning Tissue-Specific Gene Expression in <em>Arabidopsis thaliana</em></a>. <strong><em>The Plant Cell</em></strong> 2021, 33(6):1997–2014.</li>
+<li>Zhang C, Zhang JX, Tang YJ, Liu KW, Liu Y, Tang JQ, <strong>Zhang T</strong>, Yu HX*. <a href="https://academic.oup.com/plphys/article/185/2/469/6020270" target="_blank">DEEP GREEN PANICLE1 suppresses GOLDEN2-LIKE activity to reduce chlorophyll synthesis in rice glumes</a>. <strong><em>Plant Physiology</em></strong> 2021, 185(2):469–477.</li>
+<li>Liu GQ, Qi YP, <strong>Zhang T</strong>. <a href="https://link.springer.com/protocol/10.1007/978-1-0716-1068-8_10" target="_blank">Analysis of Off-Target Mutations in CRISPR-Edited Rice Plants Using Whole-Genome Sequencing</a>. <strong><em>Methods in Molecular Biology</em></strong> 2021, 2238:145–172.</li>
+<li>Li GR†, <strong>Zhang T</strong>†, Yu ZH, Wang HJ, Yang EN, Yang ZJ*. <a href="https://onlinelibrary.wiley.com/doi/10.1111/tpj.15081" target="_blank">An efficient Oligo-FISH painting system for revealing chromosome rearrangements and polyploidization in Triticeae</a>. <strong><em>The Plant Journal</em></strong> 2021, 105(4):978–993.</li>
+</ol>
+
+<h2 class="year-heading">2020</h2>
+<ol class="pub-list">
+<li>Liu YL, Wang XY, Wei YY, Liu Z, Lu QW, Liu F, <strong>Zhang T*</strong>, Peng RH*. <a href="https://doi.org/10.3389/fpls.2020.00802" target="_blank">Chromosome Painting Based on Bulked Oligonucleotides in Cotton</a>. <strong><em>Frontiers in Plant Science</em></strong> 2020, 11:802.</li>
+<li>Zhao HN†, Zhang WL†*, <strong>Zhang T</strong>†, Lin Y, Hu YD, Fang C, Jiang JM*. <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1927-5" target="_blank">Genome-wide MNase hypersensitivity assay unveils distinct classes of open chromatin associated with H3K27me3 and DNA methylation in <em>Arabidopsis thaliana</em></a>. <strong><em>Genome Biology</em></strong> 2020, 21:24.</li>
+<li>Song XY, Song RR, Zhou JW, Yan WK, <strong>Zhang T</strong>, Sun HJ, Xiao J, Wu YF, Xi ML, Lou QF, Wang HY*, Wang XE*. Development and application of oligonucleotide-based chromosome painting for chromosome 4D of <em>Triticum aestivum</em> L. <strong><em>Chromosome Research</em></strong> 2020, 8(2):177–182.</li>
+<li>Braz G.T, Martins L. do, <strong>Zhang T</strong>, Albert P.S, Birchler J.A, Jiang JM*. <a href="https://link.springer.com/article/10.1007%2Fs10577-020-09630-5" target="_blank">A universal chromosome identification system for maize and wild <em>Zea</em> species</a>. <strong><em>Chromosome Research</em></strong> 2020, 28(2):183–194.</li>
+<li>Liu GQ, Zhang Y*, <strong>Zhang T*</strong>. <a href="https://www.sciencedirect.com/science/article/pii/S2001037019303551" target="_blank">Computational approaches for effective CRISPR guide RNA design and evaluation</a>. <strong><em>Computational and Structural Biotechnology Journal</em></strong> 2020, 18:35–44.</li>
+<li>Liu XY†, Sun S†, Wu Y, Zhou Y, Gu SW, Yu HX, Yi CD, Gu MH, Jiang JM, Liu B, <strong>Zhang T*</strong>, Gong ZY*. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14522" target="_blank">Dual-color oligo-FISH can reveal chromosomal variations and evolution in <em>Oryza</em> species</a>. <strong><em>The Plant Journal</em></strong> 2020, 101:112–121.</li>
+<li>Xin HY†, <strong>Zhang T</strong>†, Wu YF, Zhang WL, Zhang PD, Xi ML*, Jiang JM. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tpj.14536" target="_blank">An extraordinarily stable karyotype of the woody <em>Populus</em> species revealed by chromosome painting</a>. <strong><em>The Plant Journal</em></strong> 2020, 101:253–264. Cover: The Plant Journal Volume 101, Issue 2.</li>
+</ol>
+
+<h2 class="year-heading">2019</h2>
+<ol class="pub-list">
+<li>Liu S†, Liu GQ†, Cheng PF, Xue C, Zhou Y, Chen X, Ye L, Qiao ZY*, <strong>Zhang T*</strong>, Gong Z.Y*. <a href="https://thericejournal.springeropen.com/articles/10.1186/s12284-019-0342-6" target="_blank">Genome-wide Profiling of Histone Lysine Butyrylation Reveals its Role in the Positive Regulation of Gene Transcription in Rice</a>. <strong><em>Rice</em></strong> 2019, 12:86.</li>
+<li>Alvarez J.M, Moyano T.C, <strong>Zhang T</strong>, Gras D.E, Herrea F.J, Araus V. O&#39;Brien J.A, Carrillo L, Medina J, Vicente-Carbajosa J, Jiang JM, Gutierrez R.A*. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1674205219302916" target="_blank">Local changes in chromatin accessibility and transcriptional networks underlying the nitrate response in <em>Arabidopsis</em> roots</a>. <strong><em>Molecular Plant</em></strong> 2019, 12(12):1545–1560.</li>
+<li>Ren QR, Zhong ZH, Wang Y, You Q, Li Q, Yuan MZ, He Y, Qi CY, Tang X, Zheng XL, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01173/" target="_blank">Bidirectional promoter based CRISPR-Cas9 systems for plant genome editing</a>. <strong><em>Frontiers in Plant Science</em></strong> 2019, 10:1173.</li>
+<li>Zhong ZH†, Sretenovic S†, Ren QR†, Yang LJ, Bao Y, Qi CY, Yuan MZ, He Y, Liu SS, Wang JH, Huang L, Wang Y, Baby DB, Wang D, <strong>Zhang T</strong>, Qi YP*, Zhang Y*. <a href="https://www.cell.com/molecular-plant/fulltext/S1674-2052(19)30124-8" target="_blank">Improving plant genome editing with high-fidelity xCas9 and non-canonical PAM-targeting Cas9-NG</a>. <strong><em>Molecular Plant</em></strong> 2019, 12(7):1027–1036.</li>
+<li>Albert P.S†, <strong>Zhang T</strong>†, Semrau K, Rouillard JM, Kao YH, Wang CJ, Danilova T.V, Jiang JM, and Birchler J*. <a href="https://www.pnas.org/content/116/5/1679" target="_blank">Whole-chromosome paints in maize reveal rearrangements, nuclear domains, and chromosomal relationships</a>. <strong><em>Proceedings of the National Academy of Sciences of the United States of America</em></strong> 2019, 116(5):1679–1685.</li>
+<li>Malzahn AA†, Tang X†, Lee K, Ren QR, Sretenovic S, Zhang YX, Chen HQ, Kang MJ, Bao Y, Zheng XL, Deng KJ, <strong>Zhang T</strong>, Salcedo V, Wang K, Zhang Y*, Qi YP*. <a href="https://rdcu.be/bjyiQ" target="_blank">Application of CRISPR-Cas12a temperature sensitivity for improved genome editing in rice, maize, and <em>Arabidopsis</em></a>. <strong><em>BMC Biology</em></strong> 2019, 17(1):9.</li>
+<li>Tang X†, Ren QR†, Yang LJ, Bao Y, Zhong ZH, He Y, Liu SS, Qi CY, Liu BL, Wang Y, Sretenovic S, Zhang YX, Zheng XL, <strong>Zhang T*</strong>, Qi YP*, Zhang Y*. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13068" target="_blank">Single transcript unit CRISPR 2.0 systems for robust Cas9 and Cas12a mediated plant genome editing</a>. <strong><em>Plant Biotechnology Journal</em></strong> 2019, 17(7):1431–1445.</li>
+</ol>
+
+<h2 class="year-heading">2018</h2>
+<ol class="pub-list">
+<li>Wu ZG†, Fang DM†, Yang R†, Gao F, An XY, Zhou XX, Li YF, Yi CD, <strong>Zhang T</strong>, Liang CZ, Cui P*, Cheng ZK*, Luo Q*. De novo genome assembly of <em>Oryza granulata</em> reveals rapid genome expansion and adaptive evolution. <strong><em>Communications Biology</em></strong> 2018, 1:84.</li>
+<li>Tang X†, Liu GQ†, Zhou JP†, Ren QR, You Q, Tian L, Xin XH, Zhong ZH, Liu BL, Zheng XL, Zhang DW, Malzahn A, Gong ZY, Qi YP*, <strong>Zhang T*</strong>, and Zhang Y*. A large-scale whole-genome sequencing analysis reveals highly specific genome editing by both Cas9 and Cpf1(Cas12a) nucleases in rice. <strong><em>Genome Biology</em></strong> 2018, 19:84.</li>
+<li>You Q, Zhong ZH, Ren QR, Hassan F, Zhang Y*, <strong>Zhang T*</strong>. CRISPRMatch: An Automatic Calculation And Visualization Tool For High-throughput CRISPR Genome-editing Data Analysis. <strong><em>International Journal of Biological Sciences</em></strong> 2018, 14(8):858–862.</li>
+<li>Yang XM†, Zhao HN†, <strong>Zhang T</strong>, Zeng ZX, Zhang PD, Zhu B, Han YH, Braz GT, Casler MD, Schmutz J, and Jiang JM*. Amplification and adaptation of centromeric repeats in polyploid switchgrass species. <strong><em>New Phytologist</em></strong> 2018, 218:1645–1657.</li>
+<li>Hou LL†, Xu M†, <strong>Zhang T</strong>†, Xu ZH, Wang WY, Zhang JX, Yu MM, Ji W, Zhu CW, Gong ZY, Gu MH, Jiang JM and Yu HX*. Chromosome painting and its applications in cultivated and wild rice. <strong><em>BMC Plant Biology</em></strong> 2018, 18:110.</li>
+<li>Dong ZB†, Yu J†, Li H, Huang W, Xu L, Zhao Y, <strong>Zhang T</strong>, Xu W, Jiang JM, Su Z*, and Jin WW*. Transcriptional and epigenetic adaptation of maize chromosomes in Oat-Maize addition lines. <strong><em>Nucleic Acids Research</em></strong> 2018, 46(10):5012–5028.</li>
+<li>Zhong ZH†, Zhang YX†, You Q†, Tang X, Ren QR, Liu SS, Yang LJ, Wang Y, Liu XP, Liu BL, <strong>Zhang T</strong>, Zheng XL, Le Y, Zhang Y*, and Qi YP*. Plant genome editing using FnCpf1 and LbCpf1 nucleases at redefined and altered PAM sites. <strong><em>Molecular Plant</em></strong> 2018, 11:999–1002.</li>
+<li>Xin H†, <strong>Zhang T</strong>†, Han YH, Wu YF, Shi JS, Xi ML*, and Jiang JM. Chromosome painting and comparative physical mapping of the sex chromosomes in <em>Populus tomentosa</em> and <em>Populus deltoides</em>. <strong><em>Chromosoma</em></strong> 2018, 127(3):313–321.</li>
+<li>Braz GT†, He L†, Zhao HN†, <strong>Zhang T</strong>†, Semrau K, Rouillard JM, Torres GA, Jiang JM*. Comparative oligo-FISH mapping: an efficient and powerful methodology to reveal karyotypic and chromosomal evolution. <strong><em>Genetics</em></strong> 2018, 208(2):513–523.</li>
+</ol>
+
+<h2 class="year-heading">2017</h2>
+<ol class="pub-list">
+<li>Zhang R, Xue C, Liu GQ, Liu XY, Zhang ML, Wang X, <strong>Zhang T*</strong>, and Gong ZY*. Segmental Duplication of Chromosome 11 and its Implications for Cell Division and Genome-wide Expression in Rice. <strong><em>Scientific Reports</em></strong> 2017, 7:2689.</li>
+<li>Tang X†, Lowder LG†, <strong>Zhang T</strong>, Maizahn AA, Zheng XL, Voytas DF, Zhong ZH, Chen YY, Ren QR, Li Q, Kirkland ER, Zhang Y*, and Qi YP*. <a href="https://zhangtaolab.org/pdf/2017/2017_Nature_Plants.pdf" target="_blank">A CRISPR-Cpf1 system for efficient genome editing and transcriptional repression in plants</a>. <strong><em>Nature Plants</em></strong> 2017, 3:17018.</li>
+<li>Marand AP, <strong>Zhang T</strong>, Zhu B, and Jiang JM*. <a href="https://zhangtaolab.org/pdf/2016/BBE_2016_inpress.pdf" target="_blank">Towards genome-wide prediction and characterization of enhancers in plants</a>. <strong><em>Biochimica et Biophysica Acta-Gene Regulatory Mechanisms</em></strong> 2017, 1860(1):131–139.</li>
+<li>Zhou JP†, Deng KJ†, Cheng Y, Zhong ZH, Tian L, Tang X, Tang AT, Zheng XL, <strong>Zhang T</strong>, Qi YP*, and Zhang Y*. CRISPR-Cas9 Based Genome Editing Reveals New Insights into MicroRNA Function and Regulation in Rice. <strong><em>Frontiers in Plant Science</em></strong> 2017, 8:1598.</li>
+</ol>
+
+<h2 class="year-heading">2016</h2>
+<ol class="pub-list">
+<li><strong>Zhang T</strong>, Marand A, Jiang JM*. <a href="https://zhangtaolab.org/pdf/2016/NAR_2016.pdf" target="_blank">PlantDHS: A Database for DNase I Hypertensive Sites in Plants</a>. <strong><em>Nucleic Acids Research</em></strong> 2016, 44(D1):D1148–D1153.</li>
+</ol>
+
+<h2 class="year-heading">2015</h2>
+<ol class="pub-list">
+<li><strong>Zhang T</strong>†, Zhang WL†, and Jiang JM*. <a href="https://zhangtaolab.org/pdf/2015/Plant_Physiol_2015.pdf" target="_blank">Genome-wide nucleosome occupancy and positioning and their impact on gene expression and evolution in plants</a>. <strong><em>Plant Physiology</em></strong> 2015, 168(4):1406–1416.</li>
+<li>Han YH†, <strong>Zhang T</strong>†, Thammapichai P, Weng YQ, and Jiang JM*. <a href="https://zhangtaolab.org/pdf/2015/Genetics_2015.pdf" target="_blank">Chromosome-specific painting in <em>Cucumis</em> species using bulked oligonucleotides</a>. <strong><em>Genetics</em></strong> 2015, 200(3):771–779.</li>
+<li>Zhu B†, Zhang WL†, <strong>Zhang T</strong>†, Liu B, Jiang JM*. <a href="https://zhangtaolab.org/pdf/2015/Plant_Cell_2015.pdf" target="_blank">Genome-wide prediction and validation of intergenic enhancers in <em>Arabidopsis</em> using open chromatin signature</a>. <strong><em>The Plant Cell</em></strong> 2015, 27(9):2415–2426.</li>
+</ol>
+
+<h2 class="year-heading">2014</h2>
+<ol class="pub-list">
+<li><strong>Zhang T</strong>, Li GR, Yang ZJ, Nevo E. Adaptive evolution of duplicated hsp17 genes in wild barley from microclimatically divergent sites of Israel. <strong><em>Genetics and Molecular Research</em></strong> 2014, 13(1):1220–1232.</li>
+<li>Zhang WL, <strong>Zhang T</strong>, Wu YF, Jiang JM. Open Chromatin in Plant Genomes. <strong><em>Cytogenetic and Genome Research</em></strong> 2014, 143(1–3):18–27.</li>
+<li>Yang LM†, Koo DH†, Li D, <strong>Zhang T</strong>, Jiang JM, Luan FS, Renner SS, Henaff E, Sanseverino W, Garcia-Mas J, Casacuberta J, Senalik DA, Simon PW, Chen JF, and Weng YQ. Next-generation sequencing, FISH mapping and synteny-based modeling reveal mechanisms of decreasing dysploidy in <em>Cucumis</em>. <strong><em>The Plant Journal</em></strong> 2014, 77(1):16–30.</li>
+</ol>
+
+<h2 class="year-heading">2013</h2>
+<ol class="pub-list">
+<li><strong>Zhang T</strong>†, Talbert PB†, Zhang WL†, Wu YF, Yang ZJ, Henikoff JG, Henikoff S, Jiang JM. <a href="https://zhangtaolab.org/pdf/2013/PNAS_2013.pdf" target="_blank">The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres</a>. <strong><em>Proceedings of the National Academy of Sciences of the United States of America</em></strong> 2013, 110(50):E4875–E4883.</li>
+<li>Iovene M, <strong>Zhang T</strong>, Lou Q, Buell CR, Jiang JM. Copy number variation in potato - an asexually propagated autotetraploid species. <strong><em>The Plant Journal</em></strong> 2013, 75(1):80–89.</li>
+<li>Wei W, <strong>Zhang T</strong>, Lin D, Yang ZJ, Guo FB. Transcriptional abundance is not the single force driving the evolution of bacterial proteins. <strong><em>BMC Evolutionary Biology</em></strong> 2013, 13(1):162.</li>
+</ol>
+
+<h2 class="year-heading">2012</h2>
+<ol class="pub-list">
+<li>Zhang WL†, <strong>Zhang T</strong>†, Wu YF†, Jiang JM. <a href="https://zhangtaolab.org/pdf/2012/Plant_Cell_2012.pdf" target="_blank">Genome-Wide Identification of Regulatory DNA Elements and Protein-Binding Footprints Using Signatures of Open Chromatin in <em>Arabidopsis</em></a>. <strong><em>The Plant Cell</em></strong> 2012, 24(7):2719–2731.</li>
+</ol>
+
+<h2 class="year-heading">2011</h2>
+<ol class="pub-list">
+<li>Yang ZJ, <strong>Zhang T</strong>, Li GR, Nevo E. Adaptive microclimatic evolution of the dehydrin 6 gene in wild barley at “Evolution Canyon”, Israel. <strong><em>Genetica</em></strong> 2011, 139(11-12):1429–1438.</li>
+<li>Wang XH, <strong>Zhang T</strong>, Wen ZN, Xiao H, Yang ZJ, Chen GX, Zhao X. The chromosome number, karyotype and genome size of the desert plant diploid <em>Reaumuria soongorica</em> (Pall.) Maxim. <strong><em>Plant Cell Reports</em></strong> 2011, 30(6):955–964.</li>
+<li>Tang ZX, Fu SL, Ren ZL, <strong>Zhang T</strong>, Zou YT, Yang ZJ, Li GR, Zhou JP, Zhang HQ, Yan BJ, Zhang HY, Tan FQ. Diversity and evolution of four dispersed repetitive DNA sequences in the genus <em>Secale</em>. <strong><em>Genome</em></strong> 2011, 54(4):285–300.</li>
+</ol>
+
+<h2 class="year-heading">2010</h2>
+<ol class="pub-list">
+<li>Li GR, <strong>Zhang T</strong>, Wei P, Jia J, Yang ZJ. Sequence analysis of α-gliadin genes from <em>Aegilops tauschii</em> native to China. <strong><em>Asian Journal of Agricultural Sciences</em></strong> 2010, 2(4):128–135.</li>
+<li>Li GR, <strong>Zhang T</strong>, Ban Y, Yang ZJ. Molecular characterization and evolutionary analysis of α-gliadin genes from <em>Eremopyrum bonaepartis</em> (Triticeae). <strong><em>Journal of Agricultural Science</em></strong> (Toronto) 2010, 2(4):30–36.</li>
+</ol>
+
+<h2 class="year-heading">2009</h2>
+<ol class="pub-list">
+<li>Yang ZJ, <strong>Zhang T</strong>, Bolshoy A, Beharav A, Nevo E. Adaptive microclimatic structural and expressional dehydrin 1 evolution in wild barley, <em>Hordeum spontaneum</em>, at ‘Evolution Canyon’, Mount Carmel, Israel. <strong><em>Molecular Ecology</em></strong> 2009, 18(9):2063–2075.</li>
+<li>Yang ZJ, Li GR, Jia JQ, Zeng X, Lei MP, Zeng ZX, <strong>Zhang T</strong>, Ren ZL. Molecular cytogenetic characterization of wheat–<em>Secale africanum</em> amphiploids and derived introgression lines with stripe rust resistance. <strong><em>Euphytica</em></strong> 2009, 167(2):197–202.</li>
+<li>Li GR, Liu C, Zeng ZX, Jia J-Q, <strong>Zhang T</strong>, Zhou JP, Ren ZL, Yang ZJ. Identification of α-gliadin genes in <em>Dasypyrum</em> in relation to evolution and breeding. <strong><em>Euphytica</em></strong> 2009, 165(1):155–163.</li>
+</ol>
+
+<h2 class="year-heading">2006</h2>
+<ol class="pub-list">
+<li>Hu GK, Feng H, <strong>Zhang T</strong>, Yan Y, Wu B, Jiang Q, Wu JM, Zhang YZ. Molecular cloning of cDNAs for 14-3-3 and its protein interactions in a white-rot fungus <em>Phanerochaete chrysosporium</em>. <strong><em>Annals of Microbiology</em></strong> 2006, 56(3):191–196.</li>
+</ol>
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border); text-align: center;">
+<p style="color: var(--text-secondary);">For a complete list, please visit our <a href="https://scholar.google.com/citations?user=zhangtao" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a> profile.</p>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>Zhang Tao Lab<br/>Bioinformatics, Epigenetics and Genomics<br/>Chengdu Institute of Biology, Chinese Academy of Sciences</p>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <p><a href="mailto:zhangtao@cib.ac.cn"><i class="fa-solid fa-envelope"></i> zhangtao@cib.ac.cn</a><br/>
+      <a href="https://github.com/zhangtaolab"><i class="fa-brands fa-github"></i> GitHub</a></p>
+    </div>
+    <div>
+      <h5>Links</h5>
+      <p><a href="https://scholar.google.com/citations?user=zhangtao"><i class="ai ai-google-scholar"></i> Google Scholar</a><br/>
+      <a href="https://github.com/zhangtaolab/DNALLM"><i class="fa-solid fa-brain"></i> DNALLM-Suite</a></p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      © 2026 Zhang Tao Lab — Chengdu Institute of Biology, Chinese Academy of Sciences
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/bootstrap.bundle.min.js"></script>
+<script src="./assets/site.min.js"></script>
+
+
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.classList.add('open'); input.focus(); input.select(); }
+  function closeSearch() { overlay.classList.remove('open'); results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', openSearch);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics at Chengdu Institute of Biology, CAS'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab research interests'},
+    {title: 'Research', url: './research.html', snippet: 'DNA Large Language Models, AI-Driven Genomics, <em>Cis</em>-regulatory Elements, Oligo-FISH, CRISPR'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2 and more open-source tools'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students and alumni'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact information and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates from the lab'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div class="search-no-results">No results found for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" class="search-result-item" onclick="document.getElementById('searchOverlay').classList.remove('open');"><div class="search-result-title">' + h.title + '</div><div class="search-result-snippet">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+<!-- Search Overlay -->
+<div id="searchOverlay" style="position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.5);display:flex;align-items:flex-start;justify-content:center;padding-top:15vh;opacity:0;pointer-events:none;transition:opacity 0.2s;">
+  <div style="width:100%;max-width:560px;background:#fff;border:1px solid #ddd;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.2);overflow:hidden;">
+    <div style="display:flex;align-items:center;padding:1rem 1.5rem;border-bottom:1px solid #eee;gap:0.75rem;">
+      <i class="fa-solid fa-magnifying-glass" style="color:#999;font-size:0.9375rem;"></i>
+      <input type="text" id="searchInput" placeholder="Search site..." autocomplete="off" style="flex:1;border:none;background:none;font-family:DM Sans,sans-serif;font-size:1rem;color:#333;outline:none;"/>
+      <kbd style="font-size:0.6875rem;font-weight:600;color:#666;background:#f5f5f5;border:1px solid #ddd;border-radius:4px;padding:0.1rem 0.4rem;">ESC</kbd>
+    </div>
+    <div id="searchResults" style="max-height:50vh;overflow-y:auto;"></div>
+  </div>
+</div>
+<script>
+(function() {
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var toggle = document.getElementById('searchToggle');
+  function openSearch() { overlay.style.opacity = '1'; overlay.style.pointerEvents = 'auto'; input.focus(); }
+  function closeSearch() { overlay.style.opacity = '0'; overlay.style.pointerEvents = 'none'; results.innerHTML = ''; }
+  if (toggle) toggle.addEventListener('click', function(e) { e.preventDefault(); openSearch(); });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && overlay.style.opacity === '1') closeSearch();
+  });
+  var pages = [
+    {title: 'Home', url: './index.html', snippet: 'Zhang Tao Lab - Bioinformatics, Epigenetics and Genomics'},
+    {title: 'About', url: './about.html', snippet: 'About Dr. Zhang Tao and the lab'},
+    {title: 'Research', url: './research.html', snippet: 'DNA LLMs, Genomics, CRISPR, Oligo-FISH'},
+    {title: 'Publications', url: './publications.html', snippet: '83 publications from 2006 to 2026'},
+    {title: 'Software', url: './software.html', snippet: 'DNALLM-Suite, PDLLMs, CrisprStitch, Chorus2'},
+    {title: 'Team', url: './team.html', snippet: 'PI Dr. Zhang Tao, Dr. Wu Yuechao, students'},
+    {title: 'Contact', url: './contact.html', snippet: 'Contact and joining opportunities'},
+    {title: 'News', url: './news.html', snippet: 'Latest news and updates'}
+  ];
+  input.addEventListener('input', function() {
+    var q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; return; }
+    var hits = pages.filter(function(p) { return p.title.toLowerCase().includes(q) || p.snippet.toLowerCase().includes(q); });
+    if (hits.length === 0) { results.innerHTML = '<div style="padding:2rem;text-align:center;color:#666;font-size:0.875rem;">No results for "' + q + '"</div>'; }
+    else { results.innerHTML = hits.map(function(h) { return '<a href="' + h.url + '" style="display:block;padding:0.875rem 1.5rem;border-bottom:1px solid #eee;color:#333;text-decoration:none;" onclick="document.getElementById('searchOverlay').style.opacity='0';document.getElementById('searchOverlay').style.pointerEvents='none';return true;"><div style="font-family:Source Serif 4,Georgia,serif;font-weight:700;font-size:0.937rem;margin-bottom:0.25rem;">' + h.title + '</div><div style="font-size:0.812rem;color:#666;line-height:1.5;">' + h.snippet + '</div></a>'; }).join(''); }
+  });
+})();
+</script>
+
+
+</body></html>
