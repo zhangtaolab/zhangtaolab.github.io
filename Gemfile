@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "4.3.3"
+gem "jekyll", "~> 4.4.0"
 gem "sass-embedded", "~> 1.77.0"  # pin to avoid noisy deprecation warnings from Bootstrap SCSS
 gem "rack", ">= 2.2.3"
 gem "kramdown-parser-gfm"
