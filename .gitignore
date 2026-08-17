@@ -1,0 +1,14 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/bundle
+
+# macOS
+.DS_Store
+
+# GSD runtime state
+.gsd/

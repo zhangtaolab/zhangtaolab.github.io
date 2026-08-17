@@ -1,0 +1,88 @@
+// =============================================================
+// Reset + global atmosphere
+// =============================================================
+
+html {
+  scroll-behavior: smooth;
+
+  // Custom scrollbar — thin, accent-tinted
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+    &:hover {
+      background: var(--accent);
+    }
+  }
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) var(--bg-secondary);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+
+  // Subtle noise texture for depth
+  &::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.3;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+  }
+}
+
+[data-bs-theme="dark"] body::before {
+  opacity: 0.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Animated underline links — gradient trick for smooth width transition
+a {
+  color: var(--accent);
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size var(--transition-base), color var(--transition-fast);
+  padding-bottom: 1px;
+
+  &:hover {
+    color: var(--accent-hover);
+    background-size: 100% 1px;
+  }
+}
+
+// Exceptions — don't underline these on hover
+.nav-link,
+.navbar-brand,
+.icon-link,
+.btn-pill,
+.dark-mode-toggle,
+.profile-card a,
+.footer-copyright a {
+  background-image: none !important;
+  padding-bottom: 0;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #fff;
+}

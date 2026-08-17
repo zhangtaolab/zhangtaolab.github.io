@@ -1,0 +1,56 @@
+// =============================================================
+// Research page — card grid
+// =============================================================
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-6);
+}
+
+.research-card {
+  background: linear-gradient(
+    160deg,
+    var(--bg-card) 0%,
+    var(--bg-secondary) 100%
+  );
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: box-shadow var(--transition-slow), transform var(--transition-slow);
+
+  &:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+  }
+
+  .research-thumb {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover .research-thumb {
+    transform: scale(1.04);
+  }
+
+  .research-body {
+    padding: var(--space-6);
+  }
+
+  .research-title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+  }
+
+  .research-desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+}

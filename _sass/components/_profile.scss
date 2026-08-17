@@ -1,0 +1,76 @@
+// =============================================================
+// Profile card — home page sidebar
+// =============================================================
+
+.profile-card {
+  text-align: center;
+  background: linear-gradient(
+    145deg,
+    var(--bg-card) 0%,
+    var(--bg-secondary) 100%
+  );
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: var(--space-10) var(--space-6) var(--space-8);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+
+  // Decorative accent bar at top
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: var(--space-4);
+    border: 3px solid var(--bg-primary);
+    box-shadow:
+      0 0 0 1px var(--border-color),
+      var(--shadow-md);
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover .profile-photo {
+    transform: scale(1.04);
+  }
+
+  .profile-name {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: var(--space-1);
+    margin-top: 0;
+  }
+
+  .profile-title {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0;
+  }
+
+  .profile-institution {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-1);
+  }
+
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-1);
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-color);
+    flex-wrap: wrap;
+  }
+}

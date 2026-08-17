@@ -1,0 +1,118 @@
+// =============================================================
+// Home page — two-column grid, editorial feel
+// =============================================================
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--space-12);
+  align-items: start;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+}
+
+.home-content {
+  min-width: 0;
+
+  h3:first-child {
+    margin-top: 0;
+  }
+
+  // First paragraph — slightly larger, editorial lead-in
+  > p:first-of-type {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+  }
+}
+
+// Hero heading — the person's name, large and prominent
+.home-hero {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: var(--space-1);
+  color: var(--text-primary);
+
+  &::after {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.home-hero-sub {
+  font-size: 1.0625rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-8);
+  font-style: italic;
+  max-width: none;
+}
+
+// Banner image — editorial frame with caption
+.banner-frame {
+  margin: var(--space-8) 0;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover img {
+    transform: scale(1.02);
+  }
+
+  .banner-caption {
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-style: italic;
+    border-top: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+  }
+}
+
+// News timeline
+.news-timeline {
+  margin-top: 0;
+
+  .news-item {
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--border-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .news-date {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .news-headline {
+    margin-top: var(--space-1);
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}

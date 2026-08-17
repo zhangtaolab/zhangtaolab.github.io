@@ -1,0 +1,24 @@
+- name: Liu Guanqing
+  photo: team/liuguanqing.jpg
+  info: PhD Student, Bioinformatics & Genomics
+  email: liuguanqing@zhangtaolab.org
+
+- name: Wu Yuechao
+  photo: team/placeholder.jpg
+  info: PhD Student, CRISPR & Genome Editing
+
+- name: Han Yangshuo
+  photo: team/placeholder.jpg
+  info: PhD Student, Epigenetics
+
+- name: Bao Yu
+  photo: team/baoyu.jpg
+  info: Master's Student, Comparative Genomics
+
+- name: Yang Qiqi
+  photo: team/yangqiqi.jpg
+  info: Master's Student, Plant Genomics
+
+- name: "Join Us!"
+  photo: team/placeholder.jpg
+  info: We are recruiting postdocs and students. Contact us!

@@ -1,0 +1,140 @@
+// =============================================================
+// Team page — CSS Grid card layout
+// =============================================================
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-6);
+}
+
+.team-card {
+  background: linear-gradient(
+    160deg,
+    var(--bg-card) 0%,
+    var(--bg-secondary) 100%
+  );
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+  transition: box-shadow var(--transition-slow), transform var(--transition-slow);
+
+  &:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+  }
+
+  .team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: var(--space-4);
+    border: 2px solid var(--bg-primary);
+    box-shadow: 0 0 0 1px var(--border-color);
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover .team-photo {
+    transform: scale(1.06);
+  }
+
+  .team-name {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-1);
+    margin-top: 0;
+  }
+
+  .team-info {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .team-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-1);
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--border-color);
+  }
+}
+
+// PI card — horizontal, prominent
+.pi-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-8);
+  align-items: center;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .pi-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: var(--radius-xl);
+    object-fit: cover;
+    border: 2px solid var(--bg-primary);
+    box-shadow:
+      0 0 0 1px var(--border-color),
+      var(--shadow-md);
+
+    @media (max-width: 640px) {
+      margin: 0 auto;
+    }
+  }
+
+  .pi-name {
+    font-family: 'Source Serif 4', Georgia, serif;
+    margin-top: 0;
+    font-size: 1.5rem;
+    &::after { display: none; }
+  }
+
+  .pi-links {
+    display: flex;
+    gap: var(--space-1);
+    margin-top: var(--space-3);
+    flex-wrap: wrap;
+
+    @media (max-width: 640px) {
+      justify-content: center;
+    }
+  }
+}
+
+// Alumni table
+.alumni-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  td {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}

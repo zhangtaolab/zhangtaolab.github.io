@@ -1,0 +1,36 @@
+// =============================================================
+// Dark mode — Bootstrap 5.3 color-mode overrides
+// =============================================================
+
+[data-bs-theme="dark"] {
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  .pub-search {
+    background-color: var(--bg-secondary);
+  }
+
+  // Slightly reduce image brightness in dark mode
+  .profile-photo,
+  .team-photo,
+  .pi-photo {
+    filter: brightness(0.92);
+  }
+
+  // MathJax SVG equations — force light color
+  mjx-container svg {
+    color: var(--text-primary) !important;
+  }
+
+  mjx-container {
+    color: var(--text-primary) !important;
+  }
+
+  // MathJax equation reference links
+  .MathJax_ref,
+  .MathJax a,
+  mjx-container a {
+    color: var(--accent) !important;
+  }
+}

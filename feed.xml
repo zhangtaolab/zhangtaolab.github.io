@@ -1,0 +1,32 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% for post in site.posts limit:20 %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <description>{{ post.content | strip_html | truncatewords: 100 | xml_escape }}</description>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+      <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+    </item>
+    {% endfor %}
+    {% for article in site.data.news limit:20 %}
+    <item>
+      <title>{{ article.headline | xml_escape }}</title>
+      <description>{{ article.headline | xml_escape }}</description>
+      {% assign article_date = article.date %}
+      {% if article_date == "Latest" %}{% assign article_date = site.time %}{% endif %}
+      <pubDate>{{ article_date | date_to_rfc822 }}</pubDate>
+      <link>{{ site.url }}{{ site.baseurl }}/allnews.html</link>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+// =============================================================
+// Generic responsive grid utility
+// =============================================================
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-6);
+}
+
+.site-container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-8) var(--container-padding) 0;
+}

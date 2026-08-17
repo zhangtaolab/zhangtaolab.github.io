@@ -1,0 +1,46 @@
+<nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="28" height="28" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;">
+      {{ site.name | escape }}
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+        </li>
+        {% for nav in site.nav_pages %}
+        <li class="nav-item">
+          <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{{ nav.name | capitalize }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        {% if site.dark_mode %}
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Search overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-modal">
+<div class="search-input-wrapper">
+<i class="fa-solid fa-magnifying-glass search-input-icon"></i>
+<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off">
+<kbd class="search-kbd">ESC</kbd>
+</div>
+<div class="search-results" id="searchResults"></div>
+</div>
+</div>

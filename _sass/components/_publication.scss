@@ -1,0 +1,138 @@
+// =============================================================
+// Publication entry
+// =============================================================
+
+.pub-entry {
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .pub-title {
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .pub-authors {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+  }
+
+  .pub-venue {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .pub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+}
+
+// Year badge — accent pill floated right
+.year-badge {
+  display: inline-block;
+  float: right;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.625rem;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  margin-left: var(--space-3);
+  margin-top: var(--space-1);
+}
+
+// Collapsible bibtex/abstract
+.pub-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow);
+
+  &.show {
+    max-height: 1000px;
+    padding-top: var(--space-3);
+  }
+
+  pre {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    margin: var(--space-3) 0 0;
+    font-size: 0.8125rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: var(--text-primary);
+  }
+}
+
+// Copy button inside bibtex blocks
+.copy-wrapper {
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-2);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: var(--space-1) var(--space-2);
+  font-size: 0.8125rem;
+  line-height: 1;
+  transition: all var(--transition-fast);
+  opacity: 0;
+  z-index: 1;
+
+  .copy-wrapper:hover & {
+    opacity: 1;
+  }
+
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  &.copied {
+    color: var(--accent);
+    border-color: var(--accent);
+    opacity: 1;
+  }
+}
+
+// Search bar
+.pub-search {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  margin-bottom: var(--space-6);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+
+  &::placeholder {
+    color: var(--text-muted);
+  }
+}
