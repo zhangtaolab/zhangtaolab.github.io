@@ -4,8 +4,9 @@ milestone: v1.0
 milestone_name: milestone
 current_phase: 1
 current_phase_name: 本地开发环境
-status: executing
-last_updated: "2026-08-17T07:01:09.450Z"
+status: verifying
+stopped_at: Completed 1-01-PLAN.md (all 4 tasks, self-check PASSED)
+last_updated: "2026-08-17T09:08:00.000Z"
 progress:
   total_phases: 1
   completed_phases: 0
@@ -27,7 +28,7 @@ progress:
 
 **Phase:** 1 (本地开发环境) — EXECUTING
 **Plan:** 1 of 1
-**Status:** Executing Phase 1
+**Status:** Phase complete — ready for verification
 **Progress Bar:** ▰▱▱▱▱▱▱▱▱▱ 10%
 
 ## Performance Metrics
@@ -35,6 +36,11 @@ progress:
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
 **阶段进度:** Phase 1 已规划（1 计划 / 4 任务），待执行
 **需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）
+**Per-Plan Metrics:**
+
+| Plan | Duration | Tasks | Files |
+|------|----------|-------|-------|
+| Phase 1 P01 | 19 min | 4 tasks | 465 files |
 
 ## Accumulated Context
 
@@ -42,12 +48,12 @@ progress:
 
 **Ruby/Jekyll 版本兼容性（2026-08-17 已决策）：**
 
-- **生效级别：Step 0（最小改动）** — 首选级别直接成功，未动用 Step A（Jekyll 升级）/ Step B（系统级 ruby@3.4）
-- **最终组合：** Ruby 4.0.6（Homebrew，`/opt/homebrew/bin/ruby`）+ Bundler 4.0.16 + Jekyll **4.3.3**（Gemfile 钉保持不变）
-- **理由：** `bundle install` 与 `bundle exec jekyll build` 在本机 Ruby 4.0.6 下均退出码 0，无需升级 Jekyll 或安装系统级 Ruby —— 满足"最小改动、可长期维护"约束
+- **生效级别：Step 0 → Step A（用户指令后置升级）** — Task 1 实测 Step 0（Jekyll 4.3.3）已达成绿色构建；随后用户指令（2026-08-17：「根据Github 的要求，建议使用新版本的软件和软件包」）要求采用较新版本，故后置应用 Step A：Gemfile `gem "jekyll"` 钉改为 `~> 4.4.0`，未动用 Step B（系统级 ruby@3.4）
+- **最终组合：** Ruby 4.0.6（Homebrew，`/opt/homebrew/bin/ruby`）+ Bundler 4.0.16 + Jekyll **4.4.1**（Gemfile `~> 4.4.0`，resolver 取最新 4.4.x）
+- **理由：** GitHub 版本支持要求优先；`bundle install` 与 `bundle exec jekyll build` 在 Jekyll 4.4.1 下均退出码 0，无需放宽 `sass-embedded ~> 1.77.0` 钉、无需钉 jekyll-scholar/jekyll-sitemap（resolver-latest 即兼容）
 - **配套补偿（达成绿色构建所需）：** ① jekyll-scholar/jekyll-sitemap 移入 Gemfile `:jekyll_plugins` group（否则插件不加载）；② `scholar.style: citesty → apa`（磁盘无 citesty.csl，citeproc 解析失败）；③ `feed.xml` 对 `_data/news.yml` 展示性日期标签 "Latest" 回退 `site.time`（原文对不可解析日期直接过滤引发构建失败）
-- **Gemfile.lock 已生成：** jekyll-scholar 7.3.0 / jekyll-sitemap 1.4.0 / sass-embedded 1.77.8（钉保留，压制 Bootstrap 告警）
-- **剩余风险：** Ruby 4.0.6 超出 Jekyll 4.3.3 官方支持范围（≤3.1.x），属"实测可用"而非"官方支持"；Phase 2 CI 需钉 Ruby 4.0.6 + Jekyll 4.3.3 复现本机组合（`.ruby-version` 已入库作为事实源）；已知无害告警：`assets/main.css` 与 `assets/main.scss` 输出目标冲突（静态快照 161,960 字节胜出，>1000 字节，不影响验收）
+- **Gemfile.lock 已生成：** jekyll 4.4.1 / jekyll-scholar 7.3.0 / jekyll-sitemap 1.4.0 / sass-embedded 1.77.8（钉保留，压制 Bootstrap 告警）
+- **剩余风险：** Ruby 4.0.6 超出 Jekyll 4.4.1 官方支持范围（≤3.3.x），属"实测可用"而非"官方支持"；Phase 2 CI 需钉 Ruby 4.0.6 + Jekyll 4.4.1 复现本机组合（`.ruby-version` 已入库作为事实源）；已知无害告警：`assets/main.css` 与 `assets/main.scss` 输出目标冲突（静态快照 161,960 字节胜出，>1000 字节，不影响验收）；**Jekyll 4.4 行为变化：** livereload.js 改由专用 reload 服务器在 `127.0.0.1:35729` 提供（4.3.3 时经主服务 4000 端口提供），页面注入的 loader 已适配，实测 35729 端点返回 200、编辑探针 ≤10s 生效
 
 ### 已确认约束
 
@@ -71,10 +77,18 @@ progress:
 
 ## Session Continuity
 
-**Last action:** Phase 1 / Task 2 完成 — 文献链路对齐 papers/ref.bib（探针 12/12 条渲染验证），演示 bib 已删除
-**Next action:** Task 3 本地 serve 全页面 + live reload 端到端验证
+**Last session:** 2026-08-17T09:08:00.000Z
+**Stopped at:** Completed 1-01-PLAN.md (all 4 tasks + 用户版本指令后置应用, self-check PASSED; close-out by continuation agent)
+**Resume file:** None
+
+**Last action:** Phase 1 收尾 — 用户指令后置应用 Step A（Jekyll ~> 4.4.0 → 4.4.1），16 URL + 出版物标记 + livereload 探针全部重验通过，SUMMARY 落盘
+**Next action:** 阶段验证（verifier 判定 Phase 1 目标达成）
 **Blockers:** 无
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
 
 ---
 *State initialized: 2026-08-17*
+
+## Decisions
+
+- [Phase 1]: Ruby/Jekyll 版本决策（Phase 1 Task 1）：生效级别 Step 0 → Step A（用户指令后置升级）— Ruby 4.0.6 + Jekyll 4.4.1 实测可构建；jekyll-scholar 7.3.0 / jekyll-sitemap 1.4.0 锁入 Gemfile.lock，.ruby-version 入库作为 Phase 2 CI 事实源 — Step 0 先证绿色构建，后按用户指令（GitHub 版本支持要求）升级至 `~> 4.4.0`（resolver 取 4.4.1），bundle install 与 jekyll build 均退出码 0；剩余风险：Ruby 4.0.6 超出 Jekyll 官方支持范围，属实测可用；livereload.js 端点随 4.4 移至 127.0.0.1:35729
