@@ -1,24 +1,22 @@
-- name: Liu Guanqing
-  photo: team/liuguanqing.jpg
-  info: PhD Student, Bioinformatics & Genomics
-  email: liuguanqing@zhangtaolab.org
+# Team roster. role: pi | member | student
+- name: Dr. Zhang Tao
+  role: pi
+  position: Professor, Bioinformatics, Epigenetics and Genomics
+  photo: /images/logo.png
+  email: zhangtao@cib.ac.cn
+  scholar: https://scholar.google.com/citations?user=fiqihP4AAAAJ&hl=en
+  github: https://github.com/zhangtaolab
+  education:
+    - "Ph.D. University of Electronic Science and Technology of China"
 
-- name: Wu Yuechao
-  photo: team/placeholder.jpg
-  info: PhD Student, CRISPR & Genome Editing
+- name: Dr. Wu Yuechao
+  role: member
+  position: Research Scientist, Chengdu Institute of Biology, CAS
 
-- name: Han Yangshuo
-  photo: team/placeholder.jpg
-  info: PhD Student, Epigenetics
+- name: Chen Long
+  role: student
+  position: "PhD Student, Yangzhou University (YZU)"
 
-- name: Bao Yu
-  photo: team/baoyu.jpg
-  info: Master's Student, Comparative Genomics
-
-- name: Yang Qiqi
-  photo: team/yangqiqi.jpg
-  info: Master's Student, Plant Genomics
-
-- name: "Join Us!"
-  photo: team/placeholder.jpg
-  info: We are recruiting postdocs and students. Contact us!
+- name: Dian Zhang
+  role: student
+  position: "Master's Student, Chengdu Institute of Biology (CIB)"
