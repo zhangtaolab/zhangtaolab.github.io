@@ -5,13 +5,13 @@ milestone_name: milestone
 current_phase: 01
 current_phase_name: local-dev-environment
 status: executing
-stopped_at: Completed 1-01-PLAN.md (all 4 tasks + 用户版本指令后置应用, self-check PASSED; close-out by continuation agent)
-last_updated: "2026-08-18T00:49:40.938Z"
+stopped_at: Completed 01-02-PLAN.md (gap closure G-1-3/G-1-4, all 7 tasks, self-check PASSED)
+last_updated: "2026-08-18T01:00:29.102Z"
 progress:
   total_phases: 1
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
@@ -27,8 +27,8 @@ progress:
 ## Current Position
 
 **Phase:** 01 (local-dev-environment) — EXECUTING
-**Plan:** 1 of 2
-**Status:** Executing Phase 01
+**Plan:** 2 of 2
+**Status:** Ready to execute
 **Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ 33%（1/3 阶段）
 
 ## Performance Metrics
@@ -41,6 +41,7 @@ progress:
 | Plan | Duration | Tasks | Files |
 |------|----------|-------|-------|
 | Phase 1 P01 | 19 min | 4 tasks | 465 files |
+| Phase 01 P02 | 8min | 7 tasks | 12 files |
 
 ## Accumulated Context
 
@@ -78,8 +79,8 @@ progress:
 
 ## Session Continuity
 
-**Last session:** 2026-08-17T09:50:00.000Z
-**Stopped at:** Phase 1 complete, ready to plan Phase 2
+**Last session:** 2026-08-18T01:00:29.096Z
+**Stopped at:** Completed 01-02-PLAN.md (gap closure G-1-3/G-1-4, all 7 tasks, self-check PASSED)
 **Resume file:** None
 
 **Last action:** Phase 1 完成闭环 — verifier 11/11 机器事实 passed，UAT 2/2（Playwright 真实浏览器自动化：livereload 免手动刷新双向闭环 + 5 页视觉目检），SECURITY.md 5/5 威胁 closed，PROJECT.md/STATE.md 转场更新
@@ -93,3 +94,6 @@ progress:
 ## Decisions
 
 - [Phase 1]: Ruby/Jekyll 版本决策（Phase 1 Task 1）：生效级别 Step 0 → Step A（用户指令后置升级）— Ruby 4.0.6 + Jekyll 4.4.1 实测可构建；jekyll-scholar 7.3.0 / jekyll-sitemap 1.4.0 锁入 Gemfile.lock，.ruby-version 入库作为 Phase 2 CI 事实源 — Step 0 先证绿色构建，后按用户指令（GitHub 版本支持要求）升级至 `~> 4.4.0`（resolver 取 4.4.1），bundle install 与 jekyll build 均退出码 0；剩余风险：Ruby 4.0.6 超出 Jekyll 官方支持范围，属实测可用；livereload.js 端点随 4.4 移至 127.0.0.1:35729
+- [Phase ?]: Reference snapshot is content authority; its template defects ({title} placeholder, flat .html links, CDN fonts) deliberately not adopted (1-02)
+- [Phase ?]: kramdown G-1-3 prevention pattern: column-0 flattened HTML + markdown="0" wrappers; assertable via grep -En '^ {4,}.*<' (1-02)
+- [Phase ?]: Meta image tags existence-guarded via site.static_files instead of editing _config.yml (1-02)
