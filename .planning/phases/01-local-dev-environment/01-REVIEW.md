@@ -1,173 +1,286 @@
 ---
-status: issues
-files_reviewed:
+phase: 01-local-dev-environment
+reviewed: 2026-08-18T01:09:37Z
+depth: standard
+files_reviewed: 14
+files_reviewed_list:
   - .gitignore
-  - .ruby-version
-  - Gemfile
   - Gemfile.lock
   - _config.yml
+  - _data/alumni.yml
+  - _data/news.yml
+  - _data/team_members.yml
+  - _includes/head.html
+  - _includes/sidebar.html
+  - _pages/about.md
+  - _pages/home.md
+  - _pages/research.md
+  - _pages/software.md
+  - _pages/team.md
   - feed.xml
-counts:
-  critical: 0
-  warning: 2
-  info: 5
-  total: 7
-reviewer: gsd-code-reviewer
-date: 2026-08-17
+findings:
+  critical: 1
+  warning: 6
+  info: 9
+  total: 16
+status: issues_found
 ---
 
-# Phase 1 Code Review — Local Dev Environment
+# Phase 1: Code Review Report
 
-Scope: the 6 config/source files changed by Phase 1. Site-source onboarding (460 files) is out of
-scope except where it directly interacts with the reviewed configs; one adjacent-scope issue
-surfaced during build verification and is flagged as such (CR-02).
+**Reviewed:** 2026-08-18T01:09:37Z
+**Depth:** standard
+**Files Reviewed:** 14
+**Status:** issues_found
 
-Verification performed beyond static reading:
+## Summary
 
-- `bundle exec jekyll build` — succeeds (0.224s), emits one conflict warning (see CR-02); `_site/`
-  contains `feed.xml`, `sitemap.xml`, `allnews.html`, `talks/`, `publications/`; no dotfiles leak.
-- Ruby/Liquid date parsing empirically tested for the news date formats (`"Latest"`, `"May 2026"`).
-- Jekyll 4.4.1 default `exclude` confirmed `[]` via the installed gem (relevant to CR-01).
-- jekyll-scholar 7.3.0 template resolution read from installed gem source
-  (`lib/jekyll/scholar/utilities.rb`): `bibliography_template` resolves against `_layouts/`, not
-  `_includes/`; `_layouts/bibtemplate.html` exists, so the scholar config is coherent.
-- Lockfile dependency tree audited against Ruby 4.x default-gem removals — see verification notes.
+Reviewed the 14 files from Phase 01's two workstreams: local dev environment (`.gitignore`,
+`Gemfile.lock`, `_config.yml`, `feed.xml`) and the gap-closure content alignment
+(`_pages/*.md`, `_data/*.yml`, `_includes/head.html`, `_includes/sidebar.html`).
 
-## Findings
+Beyond static reading, findings were verified empirically:
 
-### CR-01 — `vendor` not excluded from site build (Phase 2 deploy-leak risk)
+- `git ls-remote` against both candidate PDLLMs repos (one 404s, one exists) — basis of CR-01.
+- Ruby 4.0.6 + installed Liquid 4.0.4: `false | default: true` renders `"true"` — basis of WR-03.
+- The freshly built `_site/` (built 09:01, after the last source edit) was inspected:
+  `feed.xml`, `about/index.html`, `team/index.html`, `index.html`, `sitemap.xml`, `papers/`.
+- Jekyll 4.4.1 gem source checked: `StaticFile#name` includes the file extension, so
+  `head.html`'s `where: "name", site.photo` og:image guard is correct (no false positive raised).
+- All images referenced by `research.md`/`software.md`/`home.md` exist; favicon.svg/ico exist;
+  `images/headshot.jpg` is absent, which the `photo_file` guard handles gracefully.
 
-- **severity:** warning
-- **file:** `_config.yml`
-- **line:** 93-103
-- **description:** Jekyll 4.4.1's default `exclude` is `[]` (verified against the installed gem),
-  so this explicit list is the complete exclusion set, and it contains no `vendor` entry. Local
-  builds are unaffected (Homebrew system gems), but if Phase 2 CI installs gems under `./vendor`
-  (e.g. `bundle install --path vendor/bundle`, a common GitHub Actions pattern), the entire gem
-  tree would be copied into `_site` and deployed to zhangtaolab.org. The `.gitignore` covers
-  `vendor/bundle` for git but nothing covers it for the site copy.
-- **suggested fix:** Add `vendor/bundle` (or `vendor`) to the `exclude:` list in `_config.yml`.
-  One line, zero effect on local builds, closes the Phase 2 leak.
+High-level: the templates are coherent and render correctly, but (1) the About page links the
+flagship project to a nonexistent GitHub repo while every other page uses the real one;
+(2) `feed.xml` emits news items that are indistinguishable from each other (identical `<link>`,
+no `<guid>`) with escaped HTML soup in titles; (3) a Liquid `default:` logic error makes
+`dark_mode: false` unenforceable; (4) the prior review's `vendor` exclusion warning is still
+unfixed in `_config.yml`.
 
-### CR-02 — Compiled/static CSS output conflict (adjacent scope, surfaced by build)
+Out-of-scope per phase context (not flagged): `assets/main.css`/`main.scss` output conflict,
+empty talks/teaching bibliography queries, CDN font host choices, deliberately-unadopted
+reference-site template defects.
 
-- **severity:** warning
-- **file:** `_config.yml` (fix location); conflict is between `assets/main.scss` and
-  `assets/main.css` (onboarded site source — outside this review's 6 files)
-- **line:** 93 (exclude block)
-- **description:** The verification build emits:
-  `Conflict: _site/assets/main.css is shared by assets/main.scss and assets/main.css — the written
-  file may end up with unexpected contents.` Jekyll writes static files after converted pages, so
-  the committed static `assets/main.css` wins over the compiled SCSS output. Today the two are
-  byte-identical (md5 `3fc61f201993510cf31d4f0f75100d00`), so there is no visible harm, but any
-  future edit to `assets/main.scss` without recompiling and recommitting `assets/main.css` would
-  silently ship the stale stylesheet in Phase 2 deploys.
-- **suggested fix:** Either delete the committed `assets/main.css` build artifact (preferred — it
-  is generated output), or add `assets/main.css` to `exclude:` so only the SCSS-compiled version
-  ships. Route to whichever phase owns the site-source files if not fixable here.
+## Critical Issues
 
-### CR-03 — `rack` gem appears unused
+### CR-01: About page links PDLLMs to a nonexistent GitHub repository
 
-- **severity:** info
-- **file:** `Gemfile`
-- **line:** 5
-- **description:** `gem "rack", ">= 2.2.3"` locks to rack 3.2.7, but nothing in the dependency
-  tree requires rack — Jekyll 4.4 serves via webrick. Dead weight in the bundle (harmless, just
-  installed bytes in CI).
-- **suggested fix:** Remove the line, or keep if Phase 2 tooling is expected to need it. No
-  functional impact either way.
+**File:** `_pages/about.md:43, 48`
+**Issue:** Both PDLLMs links on the About page point to
+`https://github.com/zhangtaolab/PDLLMs` (lines 43 and 48). Verified via `git ls-remote`:
+that repository does not exist (404 / credential prompt), while
+`https://github.com/zhangtaolab/Plant_DNA_LLMs.git` exists (HEAD `a4bf59e`). Every other
+in-scope file uses the correct repo: `home.md:28`, `research.md:24`, `software.md:51`.
+The About page is the page that introduces the lab's flagship project — both of its
+prominent links (research-interests list + featured-work callout) are dead for visitors.
+**Fix:**
+```diff
+- <li><strong>Open-source tool development</strong> — making our models and tools freely available via <a href="https://github.com/zhangtaolab/PDLLMs" target="_blank">PDLLMs</a></li>
++ <li><strong>Open-source tool development</strong> — making our models and tools freely available via <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank">PDLLMs</a></li>
 
-### CR-04 — Scholar chain is configured correctly but currently renders nothing
+- ... <a href="https://github.com/zhangtaolab/PDLLMs" target="_blank"><i class="fa-brands fa-github"></i> Get PDLLMs on GitHub</a></p>
++ ... <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank"><i class="fa-brands fa-github"></i> Get PDLLMs on GitHub</a></p>
+```
 
-- **severity:** info
-- **file:** `_config.yml`
-- **line:** 77-91
-- **description:** The post-surgery scholar config is coherent: `source: /papers/` resolves
-  (build passes), `style: apa` is provided by csl-styles, `bibliography_template: bibtemplate`
-  resolves to the existing `_layouts/bibtemplate.html` (jekyll-scholar looks in `_layouts/`, not
-  `_includes/`), and the removed `details_*` keys have no dangling references. However,
-  `papers/ref.bib` contains only 12 `@article` entries with no `keywords` fields, and the only
-  `{% bibliography %}` consumers are `_pages/talks.md`'s two `@incollection[keywords ...]`
-  queries — which match zero entries. So talks renders empty and no page currently exercises the
-  scholar rendering path (publications are hardcoded markdown). Not a Phase 1 defect; flagging so
-  content maintainers know talks will stay empty until `@incollection` entries with `keywords`
-  are added to the bib.
-- **suggested fix:** No config change needed. Optionally note in maintainer docs, or add a couple
-  of `@incollection` talks entries when convenient.
+## Warnings
 
-### CR-05 — feed.xml date fallback: timezone varies with build machine
+### WR-01: All news feed items share one link and have no guid — items are indistinguishable
 
-- **severity:** info
-- **file:** `feed.xml`
-- **line:** 25-27
-- **description:** The `Latest` → `site.time` fallback works as intended (verified in built
-  output: `Mon, 17 Aug 2026 17:18:20 +0800`). Month-year strings like `"May 2026"` parse
-  deterministically to day 1 via Liquid (`Fri, 01 May 2026 00:00:00 +0800`) — valid RFC822. The
-  only nondeterminism is the offset: local builds produce `+0800`, a UTC CI runner will produce
-  `+0000`, shifting pubDates by 8h between builds. Valid RSS either way.
-- **suggested fix:** None required. If byte-stable feeds across local/CI are ever wanted, parse
-  with an explicit timezone (e.g. `| append: " +0800"` style normalization or a custom filter).
+**File:** `feed.xml:21-30`
+**Issue:** Verified in `_site/feed.xml`: every news `<item>` has the identical
+`<link>https://zhangtaolab.org/allnews.html</link>` and no `<guid>` element. RSS readers key
+items on guid, falling back to link+title; with a shared link and no guid, readers commonly
+collapse, dedupe, or mis-update items (e.g. treating the May-2026 Nature Comms item and the
+March-2026 item as the same article, or re-alerting on every headline edit). The posts loop
+(lines 13-19) does this correctly with `<guid isPermaLink="true">`; the news loop omits it.
+**Fix:**
+```liquid
+{% for article in site.data.news limit:20 %}
+<item>
+  <title>{{ article.headline | strip_html | xml_escape }}</title>
+  <description>{{ article.headline | strip_html | xml_escape }}</description>
+  <guid isPermaLink="false">news-{{ forloop.index }}-{{ article.headline | strip_html | uri_escape | truncate: 60 }}</guid>
+  ...
+```
+Or link each item to its anchor on the news page (`/allnews.html#news-{{ forloop.index }}`
+with matching `id`s added in the news templates).
 
-### CR-06 — feed.xml: news entry without `date` would emit empty `<pubDate/>`
+### WR-02: Feed titles/descriptions contain fully escaped HTML markup
 
-- **severity:** info
-- **file:** `feed.xml`
-- **line:** 25-27
-- **description:** The fallback handles the literal `"Latest"` sentinel only. If a future
-  `_data/news.yml` entry omits `date` entirely, `date_to_rfc822` on nil produces an empty
-  `<pubDate></pubDate>` (technically invalid RSS). All current entries have a `date` key, so
-  this is latent robustness only. Note unparseable date strings would also pass through raw —
-  but escaped headlines keep that XML-safe.
-- **suggested fix:** Broaden the guard to `{% unless article.date %}{% assign article_date =
-  site.time %}{% endunless %}` or omit the `<pubDate>` element when no date exists.
+**File:** `feed.xml:23-24`
+**Issue:** Verified in `_site/feed.xml`: `<title>` for news items is the entire headline
+markup HTML-escaped, e.g. `<title>&lt;a href=&quot;https://github.com/...&quot; ...&gt;DNALLM-Suite&lt;/a&gt; — ...`.
+RSS readers render titles/descriptions as text, so subscribers see literal
+`<a href="...">DNALLM-Suite</a> — ...` soup, and the `&rarr;` entity double-escapes to a
+literal `&amp;rarr;`. Titles should be plain text.
+**Fix:** Strip markup before escaping:
+```liquid
+<title>{{ article.headline | strip_html | xml_escape }}</title>
+<description>{{ article.headline | strip_html | xml_escape }}</description>
+```
 
-### CR-07 — `.gitignore`: optionally broaden vendor pattern
+### WR-03: `dark_mode: false` can never disable the pre-paint theme script
 
-- **severity:** info
-- **file:** `.gitignore`
-- **line:** 8
-- **description:** Coverage is otherwise correct and complete for the stated purposes: Jekyll
-  artifacts (`_site/`, `.jekyll-cache/`, `.jekyll-metadata`), Bundler (`.bundle/`), macOS
-  (`.DS_Store`), GSD state (`.gsd/`); and it correctly does NOT ignore `Gemfile.lock` (verified
-  via `git check-ignore`), which Phase 2 CI needs for reproducible installs. Minor: `vendor/bundle`
-  covers only one path variant — `vendor/cache` and `vendor/ruby` used by some CI setups would not
-  be ignored. `.claude/` contains only the intentionally-committed CLAUDE.md, so nothing else
-  needs adding there.
-- **suggested fix:** Optionally change `vendor/bundle` to `vendor/`. Cosmetic.
+**File:** `_includes/head.html:44`
+**Issue:** `var darkMode = {{ site.dark_mode | default: true }};` — Liquid's `default`
+filter substitutes on `nil`, empty, **and `false`** (verified on the installed Liquid:
+`false | default: true` renders `"true"`). So a maintainer setting `dark_mode: false` in
+`_config.yml` gets `var darkMode = true;` — the early-return guard never fires and the
+script still reads/applies `data-bs-theme` — while `header.html` (`{% if site.dark_mode %}`)
+correctly hides the toggle. Config currently says `true`, so this is latent, but the config
+comment ("show dark mode toggle in navbar") promises the setting works both ways.
+**Fix:**
+```liquid
+{% assign dark_mode_enabled = site.dark_mode %}
+{% if dark_mode_enabled == nil %}{% assign dark_mode_enabled = true %}{% endif %}
+...
+var darkMode = {{ dark_mode_enabled }};
+```
+(only `nil` falls back to the default; explicit `false` now wins).
 
-## Verification Notes (things checked and found correct)
+### WR-04: Homepage and About excluded from sitemap while sibling pages are included
 
-- **Gemfile plugin group**: `jekyll-scholar` + `jekyll-sitemap` in `:jekyll_plugins` — correct;
-  both load via `bundle exec` (plugins list in `_config.yml` naming only sitemap is fine since the
-  group covers scholar). Sitemap verified generated at `_site/sitemap.xml`.
-- **Ruby 4.x default-gem removals fully covered**: every formerly-default gem in the dependency
-  tree (csv, base64, bigdecimal, observer, logger, date, json, open-uri, set, singleton, stringio,
-  time, uri, racc, rexml, forwardable) appears as a properly locked spec via declared dependencies
-  of jekyll / jekyll-scholar's chain / google-protobuf. The explicit Gemfile entries (csv, base64,
-  bigdecimal, observer, webrick) are partly redundant with those declared deps but are the right
-  insurance against future dependency drops.
-- **Gemfile.lock CI readiness**: PLATFORMS includes `aarch64-linux-gnu` and `x86_64-linux-gnu`
-  (GitHub Actions ubuntu runners) plus a `ruby` fallback platform, and a CHECKSUMS section
-  (supply-chain integrity). BUNDLED WITH 4.0.16 — Phase 2 CI must use a Ruby/Bundler pairing that
-  can honor this (setup-ruby does); consistent with `.ruby-version` `4.0.6`. Unpinned
-  jekyll-scholar 7.3.0 / jekyll-sitemap 1.4.0 are locked with checksums, so CI installs are
-  reproducible as long as the lockfile stays committed.
-- **`.ruby-version`**: `4.0.6` matches local `ruby -v` (4.0.6, arm64-darwin25). Inert locally
-  (Homebrew, no version manager) but correctly forward-looking for setup-ruby in Phase 2.
-- **`_config.yml` url/baseurl**: `https://zhangtaolab.org` + empty baseurl — matches the custom
-  domain constraint.
-- **feed.xml overall**: builds cleanly; "Latest" fallback and month-year parsing both verified in
-  `_site/feed.xml`; `site.name`/description escaped; `/allnews.html` link target exists in the
-  built site. The `site.posts` loop is currently dead (no `_posts` directory) — harmless.
-- **`exclude:` stale entries**: `update_bootstrap.sh`, `switch_theme.sh`, `Rakefile`,
-  `package.json`, `package-lock.json`, `node_modules`, `docs` do not exist in the repo — harmless
-  no-ops left from the template lineage; no action needed.
-- **No dotfile leakage**: `.gitignore`, `.ruby-version`, `.gsd/`, `.planning/` are not copied into
-  `_site` (Jekyll excludes dot entries by default; verified the built `_site` contains none).
+**File:** `_pages/home.md:4`, `_pages/about.md:4` (vs `_pages/research.md:1-5`, `_pages/software.md:1-5`, `_pages/team.md:1-5`)
+**Issue:** `home.md` and `about.md` carry `sitemap: false`; the three pages rewritten in the
+gap-closure work (`research.md`, `software.md`, `team.md`) dropped the flag. Verified in
+`_site/sitemap.xml`: it contains exactly 3 URLs (research/, software/, team/) — the site's
+most important URL (`https://zhangtaolab.org/`) and the About page are missing. This is
+inconsistent metadata across sibling pages (accidental drift, not a policy) and hurts SEO
+for the two highest-value pages.
+**Fix:** Pick one policy. Recommended: remove `sitemap: false` from `home.md` and `about.md`
+(and the other pages that carry it) so all canonical pages appear in the sitemap.
 
-## Verdict
+### WR-05: PI education maintained in two data files read by two different templates
 
-No critical issues. The two warnings (CR-01, CR-02) are both Phase 2 deploy-hygiene items — a
-one-line `exclude` addition each — and neither affects the Phase 1 goal of a working local
-environment, which is demonstrably achieved (clean build, working feed fallback, coherent scholar
-config, reproducible lockfile).
+**File:** `_pages/about.md:27-30` (reads `site.data.pi[0].education` from `_data/pi.yml`) vs `_pages/team.md:15, 37-43` (reads the same fact from `site.data.team_members.yml`)
+**Issue:** The identical string "Ph.D. University of Electronic Science and Technology of
+China" is stored in both `_data/pi.yml:2` and `_data/team_members.yml:10`, and the About
+and Team pages each read a different copy. A maintainer updating the PI's education (per the
+project's core value of low-cost content updates, the documented roster file is
+`_data/team_members.yml`) will silently leave the About page stale. This predates the phase
+but the rewrite cemented the split.
+**Fix:** Point `about.md` at the same source `team.md` uses:
+```liquid
+{% assign pi = site.data.team_members | where: "role", "pi" | first %}
+...
+{% for edu in pi.education %}
+```
+(or migrate `_data/pi.yml` consumers and delete the file).
+
+### WR-06: `vendor/` still not excluded from the site build (carried from prior review, unfixed)
+
+**File:** `_config.yml:93-103`
+**Issue:** The exclude list contains no `vendor` entry. This was flagged as CR-01 in the
+previous review of this phase (2026-08-17) and remains unfixed. If Phase 2 CI installs gems
+under `./vendor` (e.g. `bundle install --path vendor/bundle`), the entire gem tree gets
+copied into `_site/` and deployed to zhangtaolab.org. `.gitignore:8` covers git, not the
+site copy.
+**Fix:** Add to the `exclude:` list:
+```yaml
+exclude:
+  - vendor
+  - vendor/bundle
+  # ... existing entries
+```
+
+## Info
+
+### IN-01: `target="_blank"` links without `rel="noopener noreferrer"`
+
+**File:** `_pages/software.md:36` (and 9, 51, 66, 79, 98, 119, 134, 153), `_pages/home.md:28-29`, `_pages/about.md:43, 48`, `_pages/research.md:24, 64`, `_data/news.yml:2, 5, 8, 11, 14`
+**Issue:** 25 rendered `target="_blank"` anchors across the built pages carry no `rel`
+attribute (verified by grep of `_site/`). Modern browsers implicitly apply `noopener` to
+`target="_blank"`, so this is hygiene only (older browsers allow reverse tabnabbing).
+**Fix:** Add `rel="noopener noreferrer"` to external links, e.g. via a shared snippet or a
+one-time pass over the pages/data files.
+
+### IN-02: Unescaped Liquid output in attribute and content contexts
+
+**File:** `_includes/head.html:5, 9, 15` (`site.description` in meta/og/twitter content attrs), `_pages/team.md:25` (`alt="{{ pi.name }}"`)
+**Issue:** These outputs have no `| escape`. Values are maintainer-controlled config/data
+today, so no live bug, but a future value containing `"` or `>` breaks the attribute/HTML
+silently. The sibling outputs in the same files (`{{ page.title | escape }}`) are escaped,
+so this is inconsistent rather than intentional.
+**Fix:** `content="{{ site.description | escape }}"`, `alt="{{ pi.name | escape }}"`.
+
+### IN-03: JSON-LD uses HTML escaping inside JSON strings and mislabels Person fields
+
+**File:** `_includes/head.html:65-83`
+**Issue:** (a) `{{ ... | escape }}` inside `<script type="application/ld+json">` emits HTML
+entities (`&amp;`) as literal JSON text (script contents are not entity-decoded) — harmless
+for current values but wrong if a title/description ever contains `&`. (b) Semantically, the
+Person is named "Zhang Tao Lab" (an organization-style name) with
+`jobTitle: "Bioinformatics, Epigenetics and Genomics"` (site.title is a research field, not
+a job title).
+**Fix:** Use `| json_escape`-style output (`{{ site.title | escape }}` →
+`{{ site.title | replace: '"', '\"' }}` or a `| to_json` filter on the whole object), and
+map the real person name / job title fields from dedicated config keys.
+
+### IN-04: Sidebar and feed link to two different duplicate news pages
+
+**File:** `_includes/sidebar.html:26` (→ `/news/`) vs `feed.xml:28` (→ `/allnews.html`)
+**Issue:** `_pages/news.md` and `_pages/allnews.md` both exist and render the identical
+`site.data.news` list at two URLs; in-scope files point at different copies. Both have
+`sitemap: false` (mitigating SEO duplication), but it is confusing to maintain and dilutes
+feed-item links (see WR-01).
+**Fix:** Pick one canonical news URL (e.g. `/news/`), point `feed.xml` at it, and delete or
+redirect the other page.
+
+### IN-05: `papers/ref.bib` is published into the site output
+
+**File:** `_config.yml:93-103` (exclude list)
+**Issue:** Verified: `_site/papers/ref.bib` exists. The `papers/` directory is not excluded,
+so the raw BibTeX source ships to zhangtaolab.org. jekyll-scholar reads the bibliography
+directly from source regardless of `exclude`, so excluding it does not break rendering
+(re-verify the build after the change). Content is public bibliography data — hygiene, not
+confidentiality.
+**Fix:** Add `- papers` to `exclude:`.
+
+### IN-06: News and alumni data contradict each other on Liu Guanqing's timeline
+
+**File:** `_data/news.yml:17` vs `_data/alumni.yml:1-3`
+**Issue:** The June 2023 news item welcomes "new PhD students Liu Guanqing and Wu Yuechao",
+but `alumni.yml` records Liu Guanqing's period as 2017–2025 (a 6-year PhD period starting
+four years before the "welcome" announcement). One of the two records is wrong or the
+wording predates his PhD start.
+**Fix:** Correct whichever record is wrong (likely reword the 2023 item, e.g. passing
+qualifying exam, or adjust the alumni start year).
+
+### IN-07: Recruitment card disappears when no students exist; singular section heading
+
+**File:** `_pages/team.md:78-84` (nested inside `{% if students.size > 0 %}` at line 65), heading at `:50`
+**Issue:** The "Join Us!" recruiting card is inside the students-only conditional — if the
+lab temporarily has zero students, the recruiting call-to-action vanishes even though the
+page still opens with "We are looking for new team members!" (line 13). Also "Current
+Member" (line 50) is singular while it loops over `staff` (multiple members would render
+under a singular heading).
+**Fix:** Move the Join Us card outside the `{% if students.size > 0 %}` block (render it
+unconditionally, or gate on `staff.size == 0 or students.size == 0` logic that always
+includes recruiting), and use "Current Members" / pluralize intentionally.
+
+### IN-08: MathJax loaded on every page with single-dollar inline delimiters
+
+**File:** `_includes/head.html:59` (includes `mathjax.html` unconditionally)
+**Issue:** `mathjax.html` config enables `$...$` inline math and is included on every page
+(contact, team, news included). Any future prose containing two lone dollar amounts
+("costs $5 ... budget $10") will be silently typeset as math. CDN/weight concerns are out of
+scope; the delimiter-misparse hazard is the correctness concern.
+**Fix:** Restrict the include to pages that declare `math: true` in front matter
+(`{% if page.math %}{% include mathjax.html %}{% endif %}`), or narrow inline delimiters to
+`\(...\)`.
+
+### IN-09: Dead include/exclude entries referencing nonexistent paths
+
+**File:** `_config.yml:50-52, 93-103`
+**Issue:** `include: [.htaccess]` — no `.htaccess` exists. `exclude:` lists
+`update_bootstrap.sh`, `switch_theme.sh`, `tags`, `Rakefile`, `node_modules`, `package.json`,
+`package-lock.json`, `docs` — none exist in the repo (template lineage leftovers, noted as
+harmless in the prior review but still present after this phase's config work).
+**Fix:** Prune the no-op entries (or leave `Gemfile`/`Gemfile.lock` which are intentional)
+so the exclude list's meaning stays auditable.
+
+---
+
+_Reviewed: 2026-08-18T01:09:37Z_
+_Reviewer: Claude (gsd-code-reviewer)_
+_Depth: standard_
