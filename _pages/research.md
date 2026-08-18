@@ -1,4 +1,5 @@
 ---
+title: "Research"
 layout: gridlay
 permalink: /research/
 ---
@@ -7,7 +8,9 @@ permalink: /research/
 p, li, h1, h2, h3, h4 { max-width: none !important; }
 </style>
 
-## Research Areas
+<h1 class="page-title">Research</h1>
+
+<p>Our laboratory is at the forefront of <strong>DNA Large Language Models (LLMs)</strong> and their applications in plant genomics. We develop foundation models for DNA sequence understanding and apply them to diverse biological questions, from regulatory element prediction to genome engineering. Below are our key research areas:</p>
 
 <div class="research-grid">
 
@@ -18,7 +21,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">DNA Large Language Models</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We develop and apply large language models for DNA sequence understanding, including foundation models pre-trained on genomic sequences and specialized models for downstream tasks such as functional element prediction and variant effect assessment. Our open-source toolkits <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs">PDLLMs</a> and <a href="https://github.com/zhangtaolab/DNALLM">DNALLM-Suite</a> provide end-to-end solutions for DNA LLM training, fine-tuning, and deployment in plant genomics research.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We develop and apply large language models for DNA sequence analysis. This includes <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank">PDLLMs (Plant DNA LLMs)</a> — a suite of foundation models tailored for plant genomes published in <em>Molecular Plant</em> — and <a href="https://github.com/zhangtaolab/DNALLM" target="_blank">DNALLM-Suite</a>, a comprehensive toolkit for fine-tuning and inference with DNA Language Models featuring CLI, Web UI, and MCP protocol support.</p>
 </div>
 </div>
 
@@ -28,7 +31,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">AI-Driven Genomics</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We leverage deep learning and artificial intelligence to decode complex biological systems, integrating multi-omics data to uncover hidden patterns in genome organization, gene regulation, and molecular evolution. Our approaches combine transformer-based architectures with biological domain knowledge.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We apply machine learning and deep learning to solve fundamental questions in genomics. This includes developing predictive models for gene regulation, chromatin accessibility, and genome evolution. Our work bridges the gap between cutting-edge AI methods and biological discovery.</p>
 </div>
 </div>
 
@@ -38,7 +41,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;"><em>Cis</em>-regulatory Elements</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We investigate <em>cis</em>-regulatory elements including promoters, enhancers, and silencers that control gene expression patterns. Using high-throughput experimental assays combined with computational modeling, we map regulatory landscapes and predict the functional impact of sequence variation in non-coding regions.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;"><em>Cis</em>-regulatory elements (CRMs) control gene expression during specific developmental stages or under various biotic and abiotic stresses. We identify and characterize these elements based on their unique molecular signatures associated with open chromatin, leveraging LLM-based approaches for improved prediction accuracy.</p>
 </div>
 </div>
 
@@ -48,7 +51,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">Oligo-FISH Probe Design</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We develop computational pipelines and software tools for designing oligonucleotide probes used in fluorescence in situ hybridization (FISH) experiments. Our <a href="https://github.com/zhangtaolab/Chorus2">Chorus2</a> platform enables efficient probe design for chromosome painting and targeted genomic region visualization across diverse plant species.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">Oligo probes designed from conserved DNA sequences can be used among genetically related species, enabling comparative cytogenetic mapping. We develop computational pipelines for genome-scale oligonucleotide-based probe design for fluorescence in situ hybridization (FISH), significantly expanding the applications of FISH in non-model plant species.</p>
 </div>
 </div>
 
@@ -58,7 +61,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">CRISPR/Cas Genome Editing</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We apply and optimize CRISPR/Cas systems for precise genome editing in plants, developing computational tools for guide RNA design and off-target prediction. Our <a href="https://github.com/zhangtaolab/CrisprStitch">CrisprStitch</a> software streamlines the design and analysis of multiplex genome editing experiments.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We develop and optimize CRISPR/Cas-based genome editing systems for plants, including base editors, prime editors, and multiplex editing strategies. Our work includes gRNA design algorithms, efficiency prediction models, and the development of <a href="https://github.com/zhangtaolab/CrisprStitch" target="_blank">CrisprStitch</a> for the research community.</p>
 </div>
 </div>
 
@@ -68,7 +71,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">Plant Genomics &amp; Comparative Genomics</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We study genome structure, organization, and evolution across plant species through comparative genomics approaches. Our work encompasses genome assembly, annotation, synteny analysis, and the identification of lineage-specific genomic features that underlie phenotypic diversity and adaptation.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We study the structure, function, and evolution of plant genomes using large-scale sequencing and comparative approaches. Our recent work includes telomere-to-telomere genome assemblies and the application of large language models for DNA sequence analysis in plants.</p>
 </div>
 </div>
 
@@ -78,17 +81,17 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">Epigenetics &amp; Chromatin Biology</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We explore the epigenetic mechanisms that regulate gene expression, including DNA methylation, histone modifications, and chromatin accessibility. By integrating epigenomic profiling with genomic and transcriptomic data, we investigate how epigenetic landscapes contribute to developmental programming and environmental responses.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We investigate the epigenetic regulation of gene expression in plants, focusing on DNA methylation, histone modifications, and chromatin accessibility. Our research explores how epigenetic changes contribute to plant development and stress responses.</p>
 </div>
 </div>
 
 <div class="research-card">
 <div class="img-wrap" style="height: 180px; background: #f5f5f0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-  <i class="fa-solid fa-code" style="font-size: 3rem; color: var(--accent); opacity: 0.5;"></i>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/bioinformatics-tools.jpg" alt="Bioinformatics Tool Development" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
 </div>
 <div class="research-body" style="padding: 1.25rem;">
 <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem;">Bioinformatics Tool Development</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We build open-source bioinformatics software and computational pipelines that address key challenges in genomic data analysis. From efficient k-mer processing with <a href="https://github.com/zhangtaolab/rustkmer">rustkmer</a> to scalable sequence analysis frameworks, our tools prioritize performance, usability, and reproducibility for the broader research community.</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">We develop and maintain open-source bioinformatics software for the plant science community, including tools for probe design (Chorus2), CRISPR analysis (CrisprStitch), and plant DNA language models (PDLLMs, DNALLM-Suite). All tools are freely available.</p>
 </div>
 </div>
 
