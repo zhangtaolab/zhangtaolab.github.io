@@ -9,25 +9,23 @@ permalink: /software/
 <p>We develop and maintain open-source bioinformatics software and tools. Each software below is associated with peer-reviewed publications. All code is freely available on <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.</p>
 
 <style>
-.software-card { display: flex; gap: 1.25rem; align-items: stretch; }
-.software-body { flex: 1; min-width: 0; }
-.software-body h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
-.software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; background: #f8f8f6; }
-.software-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.software-thumb-placeholder { width: 260px; min-width: 260px; border-radius: 10px; border: 2px dashed var(--border-color); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.8rem; background: #f8f8f6; }
-.section-card { padding: 1.25rem !important; }
-@media (max-width: 767px) {
-  .software-card { flex-direction: column; align-items: flex-start; }
-  .software-thumb, .software-thumb-placeholder { width: 100%; min-width: 0; height: 200px; }
-}
-p, li, .pub-authors { max-width: none !important; }
+    .software-card { display: flex; gap: 1.25rem; align-items: stretch; margin-bottom: 0; }
+    .software-body { flex: 1; min-width: 0; }
+    .software-body h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
+    .software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f8f8f6; }
+    .software-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .software-thumb-placeholder { width: 260px; min-width: 260px; border-radius: 10px; border: 2px dashed var(--border); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.8rem; background: #f8f8f6; }
+    .section-card { padding: 1.25rem !important; }
+    @media (max-width: 767px) {
+      .software-card { flex-direction: column; align-items: flex-start; }
+      .software-thumb, .software-thumb-placeholder { width: 100%; min-width: 0; height: 200px; }
+    }
+    p, li, .pub-authors { max-width: none !important; }
 </style>
 
 <h2 class="section-heading"><i class="fa-solid fa-brain" style="color: var(--accent);"></i> DNA Large Language Models</h2>
 
-<div class="software-grid">
-
-<div class="section-card" style="border: 2px solid var(--accent);">
+<div class="section-card" style="border: 2px solid var(--accent);" markdown="0">
 <div style="background: var(--accent); color: white; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 4px 12px; display: inline-block; border-radius: 0 0 8px 0;">Core Toolkit</div>
 <div class="software-card" style="margin-top: var(--space-3);">
 <div class="software-body">
@@ -43,7 +41,7 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>PDLLMs — Plant DNA Large Language Models</h4>
@@ -58,7 +56,7 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>dnallmmark</h4>
@@ -71,7 +69,7 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>MambaForSequenceClassification</h4>
@@ -84,13 +82,9 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-</div>
-
 <h2 class="section-heading"><i class="fa-solid fa-scissors" style="color: var(--accent);"></i> Genome Editing</h2>
 
-<div class="software-grid">
-
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>CrisprStitch</h4>
@@ -105,13 +99,9 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-</div>
-
 <h2 class="section-heading"><i class="fa-solid fa-dna" style="color: var(--accent);"></i> Oligo-FISH &amp; Genomics</h2>
 
-<div class="software-grid">
-
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>Chorus2</h4>
@@ -126,7 +116,7 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>rustkmer</h4>
@@ -139,13 +129,9 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-</div>
-
 <h2 class="section-heading"><i class="fa-solid fa-robot" style="color: var(--accent);"></i> AI Infrastructure</h2>
 
-<div class="software-grid">
-
-<div class="section-card">
+<div class="section-card" markdown="0">
 <div class="software-card">
 <div class="software-body">
 <h4>SIF — Semantic Intelligence Framework</h4>
@@ -158,9 +144,7 @@ p, li, .pub-authors { max-width: none !important; }
 </div>
 </div>
 
-</div>
-
-<div class="callout callout-success" style="margin-top: var(--space-8);">
-  <div class="callout-title"><i class="fa-brands fa-github callout-icon"></i> Open Source</div>
-  <p>All software is freely available on our <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub organization</a>. Contributions, bug reports, and feature requests are welcome.</p>
+<div class="callout callout-success" style="margin-top: var(--space-8);" markdown="0">
+<div class="callout-title"><i class="fa-brands fa-github callout-icon"></i> Open Source</div>
+<p>All software is freely available on our <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub organization</a>. Contributions, bug reports, and feature requests are welcome.</p>
 </div>
