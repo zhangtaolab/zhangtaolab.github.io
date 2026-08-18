@@ -114,7 +114,7 @@ Output: 重排后的 _pages/research.md、_pages/software.md，修正死链的 _
     2. **卡片区**：整个网格改为单一容器 div（class 为 research-grid）并加 markdown 属性值为 0 —— 与 home.md hero、about.md section-card 同范式，容器内全部原样直通、不经 markdown 解析。容器内列 0 平铺 HTML，闭合标签独立成行，不依赖任何缩进。
     3. **8 张卡片**按 ref-research.html 第 112-198 行结构重排：首卡 class 为 `research-card core`，其余 7 卡为 `research-card`；每卡第一个子元素为 core-badge div（首卡内为文字 Core Focus，其余 7 卡为**空元素占位**以对齐卡顶，参考站同款）；img-wrap 去掉全部行内样式（高度/背景/内衬/圆角由覆盖块接管，视觉从满幅封面图变为参考站的内衬 10px 圆角图）；img 保留 `{{ site.url }}{{ site.baseurl }}` 绝对路径、本地现有 alt 文本与 `loading="lazy"`，去掉行内样式；research-body、h4、p 均去行内样式，由覆盖块供样。
     4. **文案零改动**：8 个 h4 标题与段落正文、两个链接（Plant_DNA_LLMs 与 DNALLM）的 href/文字/强调标记从现文件逐字照搬，含 em 强调与 ampersand 实体。明确不采纳参考站第 137 行的实体编码 alt（见 prohibitions），沿用本地纯文本 alt。
-    5. 本任务提交前先跑 verify 中的文本保全校验（对照 HEAD 的重写前版本），确认仅标记结构变化后再以 `fix(1-03): relayout research page per reference snapshot (G-1-5)` 提交。
+    5. 本任务提交前先跑 verify 中的文本保全校验（基线钉住 30a9e84，commit 前后运行皆有效），确认仅标记结构变化后再以 `fix(1-03): relayout research page per reference snapshot (G-1-5)` 提交。
   </action>
   <verify>
     <automated>cd /Users/forrest/Playground/zhangtaolab-jekyll && bundle exec jekyll build && \
@@ -122,10 +122,10 @@ echo "escapes=$(grep -c '&lt;' _site/research/index.html)" && \
 echo "cards=$(grep -c 'class="research-card' _site/research/index.html)" && \
 echo "badges=$(grep -c 'class="core-badge"' _site/research/index.html)" && \
 echo "filled=$(grep -c 'class="core-badge">Core Focus</div>' _site/research/index.html)" && \
-git show HEAD:_pages/research.md | sed -n '/<h1/,$p' | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-old-r.txt && \
+git show 30a9e84:_pages/research.md | sed -n '/<h1/,$p' | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-old-r.txt && \
 sed -n '/<h1/,$p' _pages/research.md | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-new-r.txt && \
 diff /tmp/g15-old-r.txt /tmp/g15-new-r.txt && echo RESEARCH-GATE-PASS</automated>
-    <expected>escapes=0；cards=8；badges=8；filled=1；归一化文本 diff 为空并输出 RESEARCH-GATE-PASS。注意：此命令须在本任务 commit 之前运行（HEAD 才是重写前版本）。</expected>
+    <expected>escapes=0；cards=8；badges=8；filled=1；归一化文本 diff 为空并输出 RESEARCH-GATE-PASS。文本保全基线钉住在 30a9e84（03-PLAN 创建提交，_pages/ 与 1-02 执行后内容一致），commit 前后运行皆有效。</expected>
   </verify>
   <done>_site/research/index.html 零转义实体（任意标签）；8 张卡片类结构与参考站一致（首卡 core + 填充徽章，7 空徽章占位）；可见文案与重写前逐字相同；页内含参考站同款 main 前缀覆盖块。</done>
 </task>
@@ -157,10 +157,10 @@ echo "cards=$(grep -c 'class="software-card"' _site/software/index.html)" && \
 echo "placeholders=$(grep -c 'software-thumb-placeholder">Screenshot</div>' _site/software/index.html)" && \
 echo "toolkit=$(grep -c 'Core Toolkit</div>' _site/software/index.html)" && \
 echo "gridwrappers=$(grep -c 'software-grid' _pages/software.md)" && \
-git show HEAD:_pages/software.md | sed -n '/<h1/,$p' | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-old-s.txt && \
+git show 30a9e84:_pages/software.md | sed -n '/<h1/,$p' | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-old-s.txt && \
 sed -n '/<h1/,$p' _pages/software.md | python3 -c "import sys,re; sys.stdout.write(re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',sys.stdin.read())).strip())" > /tmp/g15-new-s.txt && \
 diff /tmp/g15-old-s.txt /tmp/g15-new-s.txt && echo SOFTWARE-GATE-PASS</automated>
-    <expected>escapes=0；sections=8；cards=8；placeholders=7；toolkit=1；gridwrappers=0；归一化文本 diff 为空并输出 SOFTWARE-GATE-PASS。此命令须在本任务 commit 之前运行。</expected>
+    <expected>escapes=0；sections=8；cards=8；placeholders=7；toolkit=1；gridwrappers=0；归一化文本 diff 为空并输出 SOFTWARE-GATE-PASS。文本保全基线钉住在 30a9e84（03-PLAN 创建提交，_pages/ 与 1-02 执行后内容一致），commit 前后运行皆有效。</expected>
   </verify>
   <done>_site/software/index.html 零转义实体；8 张 section-card 平铺（每张恰含 1 个 software-card）；徽章/占位/callout 标题均为真实 HTML 元素；可见文案与重写前逐字相同。</done>
 </task>
@@ -201,7 +201,7 @@ echo "about-text=$(grep -c 'Get PDLLMs on GitHub' _site/about/index.html)"</auto
   <action>
     1. 仓库根全新执行 `bundle exec jekyll build`（退出码必须 0，无 Unknown tag、无 Liquid 报错）。
     2. 跑 verify 中全部断言：(a) 全站任意页零转义实体（G-1-3/G-1-4 回归保护 + G-1-5 升级断言）；(b) 两页 DOM 平铺 python 断言（research-card ×8 全为 research-grid 直接子节点且零嵌套；section-card ×8 平铺于 fade-in-section、software-card ×8 各居其卡）；(c) 源文件复发条件检查（4 空格以上缩进 HTML 为 0 行，沿用 1-02 断言）；(d) 死链清零回归。
-    3. 回环 serve 冒烟：后台启动 `bundle exec jekyll serve`（默认绑定 127.0.0.1:4000，禁止 --host 0.0.0.0），curl 断言后停止进程（不留后台服务，再 curl 应被拒）。
+    3. 回环 serve 冒烟：后台启动 `bundle exec jekyll serve`（默认绑定 127.0.0.1:4000，禁止 --host 0.0.0.0），先以有界重试等待就绪（约每 3 秒 curl 探测一次、最多约 30 秒；始终未 200 则杀掉记录的 PID 并以非零退出），curl 断言 4 页后**仅以记录的 serve PID** 停止进程（`kill $(cat /tmp/g15-serve.pid) 2>/dev/null || true`，禁止 pkill 宽匹配——可能误杀用户自己启动的 serve；不留后台服务，再 curl 应被拒）。
     4. 全部通过后写 `.planning/phases/01-local-dev-environment/03-SUMMARY.md`：记录 G-1-5/G-1-6 闭合证据（各断言命令与实测数值：转义计数 0、卡片计数 8/8/8、死链 0、serve 200 清单），注明"最终视觉一致性由 /gsd-verify-work 复跑 UAT 测试 4 确认"。
     5. 以 `test(1-03): integrated gate for G-1-5/G-1-6 closure` 提交；确认 `git status --porcelain` 为空、`_site/` 未被跟踪。
   </action>
@@ -236,11 +236,13 @@ assert all(d==0 and p=='fade-in-section' for d,p in s.rows['section-card']), s.r
 assert all(d==0 and p=='section-card' for d,p in s.rows['software-card']), s.rows['software-card']
 print('DOM-FLAT-OK')
 PY
-(bundle exec jekyll serve >/tmp/g15-serve.log 2>&1 & echo $! > /tmp/g15-serve.pid) && sleep 8 && \
+(bundle exec jekyll serve >/tmp/g15-serve.log 2>&1 & echo $! > /tmp/g15-serve.pid) && \
+ready=0; for i in $(seq 1 10); do code=$(curl -s -o /dev/null --max-time 3 -w '%{http_code}' http://127.0.0.1:4000/ 2>/dev/null || echo 000); [ "$code" = "200" ] && { ready=1; break; }; sleep 3; done; \
+[ "$ready" = "1" ] || { echo SERVE-NOT-READY-FAIL; kill $(cat /tmp/g15-serve.pid) 2>/dev/null || true; exit 1; }; \
 for p in / /about/ /research/ /software/; do printf '%s:%s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:4000$p)"; done && \
-kill $(cat /tmp/g15-serve.pid) 2>/dev/null; pkill -f 'jekyll serve' 2>/dev/null; sleep 1; \
+kill $(cat /tmp/g15-serve.pid) 2>/dev/null || true; sleep 1; \
 curl -s -o /dev/null --max-time 2 http://127.0.0.1:4000/ && echo 'SERVE-STILL-UP-FAIL' || echo SERVE-STOPPED</automated>
-    <expected>site-wide-escape-files=0；indent-recurrence=0；dead-left=0；python 输出 DOM-FLAT-OK（任何断言失败会抛异常终止）；4 个 URL 全部打印 :200；结尾输出 SERVE-STOPPED（serve 已停）。</expected>
+    <expected>site-wide-escape-files=0；indent-recurrence=0；dead-left=0；python 输出 DOM-FLAT-OK（任何断言失败会抛异常终止）；serve 就绪采用有界重试（每 3 秒探测、最多 10 次约 30 秒，始终未 200 则打印 SERVE-NOT-READY-FAIL、清理 PID 后整体非零退出）；就绪后 4 个 URL 全部打印 :200；结尾输出 SERVE-STOPPED（serve 仅经记录的 PID 停止，已停）。</expected>
   </verify>
   <done>全新构建退出码 0；全站 *.html 零转义实体；两页卡片 DOM 平铺断言全过；源文件无 4 空格以上缩进 HTML；死链清零；serve 冒烟 4 页 200 且进程已停；03-SUMMARY.md 已写入并提交，工作区干净。</done>
 </task>
