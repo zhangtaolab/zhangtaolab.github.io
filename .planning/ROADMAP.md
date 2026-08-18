@@ -25,13 +25,13 @@
   3. 出版物列表页面显示文献条目（非空），jekyll-scholar 正常解析 `papers/ref.bib`
   4. 修改内容后浏览器自动刷新（live reload）生效
 
-**Plans:** 3 plans (2 executed + 1 gap closure pending)
+**Plans:** 3/3 plans executed (2 executed + 1 gap closure pending)
 
 - [x] 02-PLAN.md
 
 - [x] 01-PLAN.md
 
-- [ ] 03-PLAN.md — G-1-5 research/software 版式重排 + G-1-6 PDLLMs 死链修正
+- [x] 03-PLAN.md — G-1-5 research/software 版式重排 + G-1-6 PDLLMs 死链修正
 
 ### Phase 2: 自动部署
 
@@ -67,7 +67,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. 本地开发环境 | 2/3 | In Progress|  |
+| 1. 本地开发环境 | 3/3 | In Progress|  |
 | 2. 自动部署 | 0/0 | Not started | - |
 | 3. 内容验证 | 0/0 | Not started | - |
 
