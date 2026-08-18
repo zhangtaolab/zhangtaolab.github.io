@@ -1,11 +1,12 @@
 ---
+title: "Software"
 layout: gridlay
 permalink: /software/
 ---
 
-## Software & Tools
+<h1 class="page-title">Software</h1>
 
-We develop and maintain open-source bioinformatics software and tools. Each software below is associated with peer-reviewed publications. All code is freely available on <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
+<p>We develop and maintain open-source bioinformatics software and tools. Each software below is associated with peer-reviewed publications. All code is freely available on <a href="https://github.com/zhangtaolab" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.</p>
 
 <style>
 .software-card { display: flex; gap: 1.25rem; align-items: stretch; }
@@ -22,7 +23,7 @@ We develop and maintain open-source bioinformatics software and tools. Each soft
 p, li, .pub-authors { max-width: none !important; }
 </style>
 
-### <i class="fa-solid fa-brain"></i> DNA Large Language Models
+<h2 class="section-heading"><i class="fa-solid fa-brain" style="color: var(--accent);"></i> DNA Large Language Models</h2>
 
 <div class="software-grid">
 
@@ -31,10 +32,10 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card" style="margin-top: var(--space-3);">
 <div class="software-body">
 <h4>DNALLM-Suite</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A comprehensive toolkit for DNA large language model training, fine-tuning, and deployment. Provides end-to-end solutions for genomic sequence modeling and analysis.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/DNALLM" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 </div>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A unified toolkit for fine-tuning and inference with DNA Language Models. Provides CLI, Web UI, and MCP (Model Context Protocol) support for seamless LLM integration. Features include fine-tuning pipelines, in-silico mutagenesis analysis, and support for multiple model architectures.</p>
 </div>
 <div class="software-thumb">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/dnallm-suite.png" alt="DNALLM-Suite screenshot" loading="lazy">
@@ -45,13 +46,13 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="section-card">
 <div class="software-card">
 <div class="software-body">
-<h4>PDLLMs</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">Plant DNA Large Language Models — pre-trained foundation models and fine-tuned variants for plant genomic sequence analysis and functional element prediction.</p>
-<div class="section-links">
+<h4>PDLLMs — Plant DNA Large Language Models</h4>
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 <a href="https://pubmed.ncbi.nlm.nih.gov/39733335/" class="btn-pill btn-paper" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
 </div>
-<p style="font-size: 0.78rem; color: #999; margin-top: 0.5rem;"><em>Citation: Liu GQ et al. Mol Plant 2025;18(2):175-178</em></p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A group of tailored DNA large language models for analyzing plant genomes. Published in <em>Molecular Plant</em> 2025.</p>
+<p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T. PDLLMs: A group of tailored DNA large language models for analyzing plant genomes. <em>Mol Plant</em>. 2025;18(2):175-178.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -61,10 +62,10 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card">
 <div class="software-body">
 <h4>dnallmmark</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">Benchmarking framework for evaluating and comparing DNA large language models on standard genomic prediction tasks.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/dnallmmark" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 </div>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">Benchmarking framework for DNA Large Language Models. Standardized evaluation metrics and datasets for comparing DNA LLM architectures.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -74,10 +75,10 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card">
 <div class="software-body">
 <h4>MambaForSequenceClassification</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">Mamba-based sequence classification models optimized for long genomic sequences, offering efficient linear-time attention for DNA analysis tasks.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/MambaForSequenceClassification" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 </div>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">HuggingFace integration for Mamba state-space models applied to DNA sequence classification. Enables efficient training for genomic sequences.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -85,7 +86,7 @@ p, li, .pub-authors { max-width: none !important; }
 
 </div>
 
-### <i class="fa-solid fa-scissors"></i> Genome Editing
+<h2 class="section-heading"><i class="fa-solid fa-scissors" style="color: var(--accent);"></i> Genome Editing</h2>
 
 <div class="software-grid">
 
@@ -93,12 +94,12 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card">
 <div class="software-body">
 <h4>CrisprStitch</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A computational pipeline for designing and analyzing multiplex CRISPR/Cas genome editing experiments. Streamlines guide RNA design and genotyping analysis for high-throughput editing studies.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/CrisprStitch" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 <a href="https://pubmed.ncbi.nlm.nih.gov/38146164/" class="btn-pill btn-paper" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
 </div>
-<p style="font-size: 0.78rem; color: #999; margin-top: 0.5rem;"><em>Citation: Han YS et al. Plant Commun 2024;5(3):100783</em></p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A fast, user-friendly tool to evaluate the efficiency of CRISPR-Cas editing systems. Available as a web application and desktop app. Performs all calculations locally on the user's computer without uploading data to remote servers.</p>
+<p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Han YS, Liu GQ, Wu YC, Bao Y, Zhang Y, Zhang T. CrisprStitch: Fast evaluation of the efficiency of CRISPR editing systems. <em>Plant Commun</em>. 2024;5(3):100783.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -106,7 +107,7 @@ p, li, .pub-authors { max-width: none !important; }
 
 </div>
 
-### <i class="fa-solid fa-dna"></i> Oligo-FISH &amp; Genomics
+<h2 class="section-heading"><i class="fa-solid fa-dna" style="color: var(--accent);"></i> Oligo-FISH &amp; Genomics</h2>
 
 <div class="software-grid">
 
@@ -114,12 +115,12 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card">
 <div class="software-body">
 <h4>Chorus2</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A high-throughput computational pipeline for designing oligonucleotide probes for fluorescence in situ hybridization (FISH). Enables efficient probe design for chromosome painting and targeted visualization across diverse plant genomes.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/Chorus2" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 <a href="https://pubmed.ncbi.nlm.nih.gov/33960617/" class="btn-pill btn-paper" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
 </div>
-<p style="font-size: 0.78rem; color: #999; margin-top: 0.5rem;"><em>Citation: Zhang T et al. Plant Biotechnol J 2021;19(10):1967-1978</em></p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A software pipeline to select genome-scale oligonucleotide-based probes for fluorescence in situ hybridization (Oligo-FISH). Highly effective at removing repetitive elements and selecting single-copy oligos. Supports probe design for species with or without assembled genomes.</p>
+<p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Zhang T, Liu G, Zhao H, Braz GT, Jiang J. Chorus2: design of genome-scale oligonucleotide-based probes for fluorescence in situ hybridization. <em>Plant Biotechnol J</em>. 2021;19(10):1967-1978.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -129,10 +130,10 @@ p, li, .pub-authors { max-width: none !important; }
 <div class="software-card">
 <div class="software-body">
 <h4>rustkmer</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A high-performance Rust-based toolkit for k-mer counting and analysis in large-scale genomic datasets. Optimized for speed and memory efficiency in next-generation sequencing data processing.</p>
-<div class="section-links">
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/rustkmer" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 </div>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">High-performance k-mer counting and analysis tool written in Rust for efficient processing of large genomic datasets.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
@@ -140,18 +141,18 @@ p, li, .pub-authors { max-width: none !important; }
 
 </div>
 
-### <i class="fa-solid fa-robot"></i> AI Infrastructure
+<h2 class="section-heading"><i class="fa-solid fa-robot" style="color: var(--accent);"></i> AI Infrastructure</h2>
 
 <div class="software-grid">
 
 <div class="section-card">
 <div class="software-card">
 <div class="software-body">
-<h4>SIF</h4>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;"><strong>S</strong>emantic <strong>I</strong>ntelligence <strong>F</strong>ramework — an infrastructure toolkit for building and deploying AI-powered genomic sequence analysis pipelines with modular components.</p>
-<div class="section-links">
+<h4>SIF — Semantic Intelligence Framework</h4>
+<div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/SIF" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
 </div>
+<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;"><strong>S</strong>emantic <strong>I</strong>ntelligence <strong>F</strong>ramework — a document semantic intelligence retrieval system. SIF provides collection management, hybrid search (BM25 + vector embeddings), and MCP server integration for AI-assisted document retrieval. Supports multiple embedding models including Sentence Transformers, GGUF, OpenAI-compatible APIs, and ModelScope Hub.</p>
 </div>
 <div class="software-thumb-placeholder">Screenshot</div>
 </div>
