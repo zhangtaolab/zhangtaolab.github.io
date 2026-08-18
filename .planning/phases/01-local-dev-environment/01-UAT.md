@@ -1,20 +1,14 @@
 ---
-status: testing
+status: complete
 phase: 1-本地开发环境
 source: [01-VERIFICATION.md]
 started: 2026-08-17T09:55:00+08:00
-updated: 2026-08-18T13:35:00+08:00
+updated: 2026-08-18T14:50:00+08:00
 ---
 
 ## Current Test
 
-number: 6
-name: 重排后 research/software 页面对参考站的最终视觉确认（G-1-5 闭合步骤，03-PLAN 指定）
-expected: |
-  bundle exec jekyll serve 后打开 /research/、/software/，与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检：
-  平铺等高卡片网格（无嵌套壳）、真实 Core Focus/Core Toolkit 徽章元素、内衬圆角图片、虚线 Screenshot
-  占位框；版式匹配参考站、无可见标签文本。
-awaiting: user response
+[testing complete]
 
 ## Round 3（gap closure G-1-5/G-1-6 后复验，2026-08-18）
 
@@ -58,7 +52,8 @@ evidence: "Round 1 证据留存：①本地 about(3处)/team(23处) HTML 被 kra
 ### 4. 重写页面对参考站的视觉一致性（D5）
 
 expected: 本地 serve 后，/、/about/、/team/、/research/、/software/、/news/ 与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检视觉一致（team 渐变图标占位、about PI 占位框、4 列校友表、hero/卡片网格）；样式完整、图片正常
-result: issue
+result: pass
+resolution: "Round 2 报 issue（severity: major）→ 产生 G-1-5 → 03-PLAN 按参考站重排两页 → 2026-08-18 Round 3：测试 6 用户目检通过（'目前看是正常的'）+ Playwright 自动对比（research 页高与参考站完全一致 2322px、software 同构同量级 3126 vs 3247px），G-1-5 置 resolved。本轮改记 pass"
 reported: "automated visual verification: /software/ 渲染 9 处字面转义标签文本（参考站 0 处）。用户目检确认（2026-08-18）：'http://localhost:4000/research/ 和 /software/ 页面混乱，建议参考参考站对应页重新排版' —— research 页同样判定失败（自动检查低估：kramdown 对内联 <img> 的 <p> 包裹 + 首卡未闭合导致外层卡片框包住全部 8 卡、页高 3639px vs 参考站 2322px，视觉混乱；Core Focus</div> 字面文本参考站亦有但整体版式差异显著）"
 severity: major
 source: automated
@@ -76,23 +71,25 @@ evidence: "01-REVIEW.md CR-01（git ls-remote 实证 PDLLMs 仓库 404、Plant_D
 ### 6. 重排后 research/software 页面对参考站的最终视觉确认（G-1-5 闭合步骤，03-PLAN 指定）
 
 expected: bundle exec jekyll serve 后打开 /research/、/software/，与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检：平铺等高卡片网格（无嵌套壳）、真实 Core Focus/Core Toolkit 徽章元素（非字面文本）、内衬圆角图片、虚线 Screenshot 占位框；版式匹配参考站、无可见标签文本。机器侧已证 0 转义 + DOM 平铺（DOM-FLAT-OK），最终视觉对齐超出机器证据能力
-result: [pending]
+result: pass
 source: human
-evidence: "机器前置证据（01-VERIFICATION.md 第三轮独立重跑）：_site/research/index.html 与 _site/software/index.html 转义计数 0/0、全站 0；python html.parser DOM 门 DOM-FLAT-OK（8 张 research-card 均为 research-grid 直接子节点、8 张 section-card 平铺、8 张 software-card 各自独占其 section-card）；文案 strip-tag 归一化 diff 为空；16-URL serve 回环全 200"
+user_response: "目前看是正常的"（2026-08-18）
+evidence: "用户本地 serve 目检 + Playwright 预检：research 页高与参考站完全一致（2322px）、software 页同构同量级（3126 vs 3247px，差异源于本地按禁制不加载参考站 CDN 字体）；无可见标签文本、无嵌套壳、徽章为真实元素、虚线占位框正常。截图 uat-r3-local/ref-{research,software}-full.png（验证后删除）。机器前置证据（01-VERIFICATION.md 第三轮独立重跑）：_site/research/index.html 与 _site/software/index.html 转义计数 0/0、全站 0；DOM-FLAT-OK；文案 diff 为空；16-URL serve 回环全 200"
 
 ### 7. CR-01（新，第三轮 01-REVIEW.md）：feed.xml RSS 转义决策
 
 expected: 人工决策二选一：(a) Phase 2 部署前小修——feed.xml:23-24 在 xml_escape 前加 strip_html，消除 6 条 RSS 条目 title/description 中的转义 HTML 标记汤（&amp;lt;a href=&amp;quot;…&amp;gt;…，_site/feed.xml 实证）；或 (b) 接受现状并延后（feed.xml 为参考站继承的既有文件，三个 PLAN 均受禁制保护未改动，不违例任何 phase must-have，但属公开可见产物）。复验裁定：非 must-have 违例，不阻断阶段完成
-result: [pending]
+result: pass
+decision: "(a) 现在就修——用户 2026-08-18 确认选 a；feed.xml:23-24 加 strip_html | xml_escape，并入本轮收尾执行"
 source: human
 evidence: "01-REVIEW.md（2026-08-18 第三轮）CR-01：feed.xml:23-24 每条新闻以转义 HTML 标记汤作为 &lt;title&gt;/&lt;description&gt; 发布（RSS title 为纯文本字段，6 条条目在阅读器中不可读）；修复方案 strip_html | xml_escape"
 
 ## Summary
 
 total: 7
-passed: 4
-issues: 1
-pending: 2
+passed: 7
+issues: 0
+pending: 0
 skipped: 0
 blocked: 0
 
@@ -100,7 +97,9 @@ blocked: 0
 
 - gap_id: G-1-5
   truth: "research 与 software 两页版式与参考站一致：0 处可见转义标签文本、卡片平铺不嵌套、无 kramdown <p> 包裹引起的盒模型漂移；整体视觉对齐 ref-research.html / ref-software.html"
-  status: failed
+  status: resolved
+  resolved_by: 03-PLAN.md
+  resolved_at: 2026-08-18
   reason: "User reported + automated verification: /research/ 与 /software/ 页面混乱 —— software 渲染 9 处字面转义标签（Core Toolkit</div>、Screenshot</div> ×7、Open Source</div>，参考站 0 处）；research 首卡闭合标签被转义丢失 → 后续 7 卡嵌套进首卡（card0 高 2969px 含 7 子卡 vs 参考站卡片平铺 535px/卡；页高 3639px vs 2322px），另 Core Focus</div> 字面文本（该条参考站亦有）与内联 <img> 被 <p> 包裹的盒模型漂移"
   severity: major
   test: 4
@@ -121,7 +120,9 @@ blocked: 0
   debug_session: ""
 - gap_id: G-1-6
   truth: "About 页 PDLLMs 两处链接指向真实存在的仓库 github.com/zhangtaolab/Plant_DNA_LLMs（与 home/research/software 页一致）"
-  status: failed
+  status: resolved
+  resolved_by: 03-PLAN.md
+  resolved_at: 2026-08-18
   reason: "CR-01（01-REVIEW.md Critical）：_pages/about.md 两处指向 github.com/zhangtaolab/PDLLMs（git ls-remote 实证 404）；用户 2026-08-18 决策选 (b) 修正"
   severity: minor
   test: 5
