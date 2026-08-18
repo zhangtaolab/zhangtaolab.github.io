@@ -9,11 +9,11 @@
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-  {% if site.photo %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}">{% endif %}
+  {% assign photo_file = site.static_files | where: "name", site.photo | first %}{% if site.photo and photo_file %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}">{% endif %}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.name | escape }}{% endif %}">
   <meta name="twitter:description" content="{{ site.description }}">
-  {% if site.photo %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}">{% endif %}
+  {% if site.photo and photo_file %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}">{% endif %}
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

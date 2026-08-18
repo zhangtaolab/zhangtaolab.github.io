@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_phase: 2
-current_phase_name: 自动部署
-status: planning
+current_phase: 01
+current_phase_name: local-dev-environment
+status: executing
 stopped_at: Completed 1-01-PLAN.md (all 4 tasks + 用户版本指令后置应用, self-check PASSED; close-out by continuation agent)
-last_updated: "2026-08-17T09:46:49.626Z"
+last_updated: "2026-08-18T00:49:40.938Z"
 progress:
   total_phases: 1
-  completed_phases: 1
-  total_plans: 1
+  completed_phases: 0
+  total_plans: 2
   completed_plans: 1
 ---
 
@@ -22,13 +22,13 @@ progress:
 
 **Core Value:** 维护者能低成本地更新网站内容（论文/新闻/成员/页面），本地预览确认后推送即自动发布。
 
-**Current Focus:** Phase 2 — 自动部署
+**Current Focus:** Phase 01 — local-dev-environment
 
 ## Current Position
 
-**Phase:** 2 — 自动部署
-**Plan:** Not started
-**Status:** Ready to plan
+**Phase:** 01 (local-dev-environment) — EXECUTING
+**Plan:** 1 of 2
+**Status:** Executing Phase 01
 **Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ 33%（1/3 阶段）
 
 ## Performance Metrics
@@ -71,6 +71,7 @@ progress:
 
 ### 待确认项
 
+- 本地内容已与 reference-snapshot 对齐（团队/新闻/首页/研究/软件/关于），publications 83 条未动（2026-08-18，1-02 gap closure G-1-3/G-1-4 实测：`&lt;div` 转义全站清零、/news/ 渲染 6 条、首页侧栏 3 条、serve 回环 6 页 200）
 - **已知空态（2026-08-17，Phase 1 Task 2 实测）：** `papers/ref.bib` 无 @incollection 条目，`/talks/` 页两个 `{% bibliography --query @incollection[...] %}` 查询渲染为空列表（页面仍 200、标题"Invited Talks / Regular Talks"仍在）；真实 talks 数据属内容补全工作，不在本阶段。同类内容欠账：`_pages/teaching.md` 正文仍含 Feynman 模板演示教学条目（非文献链路，属页面内容补全）
 - GitHub Actions 工作流具体实现细节
 - YAML/BibTeX 验证工具选型
