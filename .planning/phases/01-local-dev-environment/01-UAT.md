@@ -1,14 +1,29 @@
 ---
-status: complete
+status: testing
 phase: 1-本地开发环境
 source: [01-VERIFICATION.md]
 started: 2026-08-17T09:55:00+08:00
-updated: 2026-08-18T09:52:00+08:00
+updated: 2026-08-18T13:35:00+08:00
 ---
 
 ## Current Test
 
-[testing complete]
+number: 6
+name: 重排后 research/software 页面对参考站的最终视觉确认（G-1-5 闭合步骤，03-PLAN 指定）
+expected: |
+  bundle exec jekyll serve 后打开 /research/、/software/，与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检：
+  平铺等高卡片网格（无嵌套壳）、真实 Core Focus/Core Toolkit 徽章元素、内衬圆角图片、虚线 Screenshot
+  占位框；版式匹配参考站、无可见标签文本。
+awaiting: user response
+
+## Round 3（gap closure G-1-5/G-1-6 后复验，2026-08-18）
+
+G-1-5 / G-1-6 已经 03-PLAN（commits 8af4a82/ca3e7c6/6055212/923bc77）闭合，并由 01-VERIFICATION.md
+（2026-08-18 第三轮复验）以独立重跑的 build/serve/grep/python-DOM/git 证据确认：32/32 机器真值通过
+（11 本轮直查：4 条 roadmap SC + 7 条 G-1-5/G-1-6 闭合真值；21 条 plan-01/02 回归全数保持）、0 缺口、
+0 禁制违例、ENV-01/ENV-02 全覆盖。剩余 2 项人工事项见测试 6（重排页最终视觉确认，03-PLAN 指定的
+G-1-5 闭合认定步骤）与测试 7（新 CR-01：feed.xml RSS 转义决策）。G-1-5/G-1-6 在 Gaps 区仍登记
+failed，待测试 6 通过后由 /gsd-verify-work 归零。
 
 ## Round 2（gap closure 后复验，2026-08-18）
 
@@ -58,12 +73,26 @@ decision: "(b) 修正——用户 2026-08-18 确认选 b；改链并入本轮 ga
 source: human
 evidence: "01-REVIEW.md CR-01（git ls-remote 实证 PDLLMs 仓库 404、Plant_DNA_LLMs 存在）；VERIFICATION.md 裁定 2（继承自参考基准）"
 
+### 6. 重排后 research/software 页面对参考站的最终视觉确认（G-1-5 闭合步骤，03-PLAN 指定）
+
+expected: bundle exec jekyll serve 后打开 /research/、/software/，与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检：平铺等高卡片网格（无嵌套壳）、真实 Core Focus/Core Toolkit 徽章元素（非字面文本）、内衬圆角图片、虚线 Screenshot 占位框；版式匹配参考站、无可见标签文本。机器侧已证 0 转义 + DOM 平铺（DOM-FLAT-OK），最终视觉对齐超出机器证据能力
+result: [pending]
+source: human
+evidence: "机器前置证据（01-VERIFICATION.md 第三轮独立重跑）：_site/research/index.html 与 _site/software/index.html 转义计数 0/0、全站 0；python html.parser DOM 门 DOM-FLAT-OK（8 张 research-card 均为 research-grid 直接子节点、8 张 section-card 平铺、8 张 software-card 各自独占其 section-card）；文案 strip-tag 归一化 diff 为空；16-URL serve 回环全 200"
+
+### 7. CR-01（新，第三轮 01-REVIEW.md）：feed.xml RSS 转义决策
+
+expected: 人工决策二选一：(a) Phase 2 部署前小修——feed.xml:23-24 在 xml_escape 前加 strip_html，消除 6 条 RSS 条目 title/description 中的转义 HTML 标记汤（&amp;lt;a href=&amp;quot;…&amp;gt;…，_site/feed.xml 实证）；或 (b) 接受现状并延后（feed.xml 为参考站继承的既有文件，三个 PLAN 均受禁制保护未改动，不违例任何 phase must-have，但属公开可见产物）。复验裁定：非 must-have 违例，不阻断阶段完成
+result: [pending]
+source: human
+evidence: "01-REVIEW.md（2026-08-18 第三轮）CR-01：feed.xml:23-24 每条新闻以转义 HTML 标记汤作为 &lt;title&gt;/&lt;description&gt; 发布（RSS title 为纯文本字段，6 条条目在阅读器中不可读）；修复方案 strip_html | xml_escape"
+
 ## Summary
 
-total: 5
+total: 7
 passed: 4
 issues: 1
-pending: 0
+pending: 2
 skipped: 0
 blocked: 0
 
