@@ -16,6 +16,8 @@ Zhang Tao Lab（zhangtaolab.org）实验室主页的全新大版本，基于 Jek
 
 - ✓ 完整站点页面已存在：首页、研究、团队、出版物、新闻、博客、教学、软件、联系、404（`_pages/*.md`）
 - ✓ 本地开发环境跑通：`bundle install` + `jekyll serve --livereload` 全链路绿色，16 URL + 出版物 + live reload 端到端实测 — Phase 1
+- ✓ 全站版式与内容对齐参考站：5 页 + 3 数据文件对齐（G-1-3/G-1-4）→ research/software 重排为参考站结构（G-1-5，0 转义 + DOM 平铺 + 视觉确认）；全站 0 处 kramdown 转义 HTML — Phase 1（3 轮 gap closure，UAT 7/7）
+- ✓ RSS 订阅可读：条目 title/description 剥离 HTML 标签后输出纯文本（feed.xml strip_html | xml_escape）— Phase 1（UAT 测试 7 决策 a）
 - ✓ 新仓库就绪：全新 git 历史 + `.gitignore` + 460 文件站点源码入库（域名对接随 Phase 2 部署）— Phase 1
 - ◐ 出版物数据流（Phase 1 澄清）：出版物页面为**手写 83 条 markdown 列表**（非 scholar 生成，替换将丢失 71 条，prohibition 保护）；jekyll-scholar 链路已对齐 `papers/ref.bib`（12 条，探针实证解析），目前唯一 `{% bibliography %}` 消费者是 talks 页的 @incollection 查询（bib 无此类条目，暂渲染为空）
 - ✓ 结构化数据管理：成员 `_data/people.yml`、PI `_data/pi.yml`、新闻 `_data/news.yml`、毕业生 `_data/alumni.yml`、经费 `_data/grants.yml`
@@ -59,6 +61,9 @@ Zhang Tao Lab（zhangtaolab.org）实验室主页的全新大版本，基于 Jek
 | jekyll-scholar/jekyll-sitemap 移入 Gemfile `:jekyll_plugins` 组 | Jekyll 插件加载的唯一正确位置（顶层声明不加载，`{% bibliography %}` 必挂） | ✓ Phase 1 |
 | `scholar.source` 对齐 `/papers/`，删除 Feynman 演示 bib | 原配置指向模板演示数据；真实文献在 `papers/ref.bib` | ✓ Phase 1（探针 12/12 条实证） |
 | publications.md 保持手写 83 条列表 | bib 仅 12 条，替换将静默丢失 71 条内容 | ✓ Phase 1（prohibition 固化） |
+| research/software 重排采用参考站结构（`markdown="0"` 直通容器泛化到整网格/整卡片栈） | G-1-5：`文本</div>` 同行写法被 kramdown 转义 → 卡片嵌套 + 字面标签残留；CSS 不动，样式经页内 main 前缀覆盖块（参考站同款） | ✓ Phase 1（UAT 测试 6 视觉确认，页高与参考站一致/同量级） |
+| PDLLMs 死链改指 `Plant_DNA_LLMs` 真实仓库（about ×2 + home ×1） | CR-01：原仓库 404；参考站继承缺陷，用户决策 (b) 修正、链接文字不变 | ✓ Phase 1（G-1-6） |
+| RSS 条目 title/description 加 `strip_html` | CR-01（Round 3）：news headline 含 HTML，仅 `xml_escape` 会发布转义标记汤；用户决策 (a) 现在就修 | ✓ Phase 1（e8df062，feed 输出纯文本 + xmllint OK） |
 
 ## Evolution
 
@@ -78,4 +83,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-08-17 after Phase 1*
+*Last updated: 2026-08-18 after Phase 1（gap closure Round 3）*

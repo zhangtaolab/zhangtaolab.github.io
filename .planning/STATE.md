@@ -2,39 +2,39 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_phase: 01
-current_phase_name: local-dev-environment
-status: executing
+current_phase: 2
+current_phase_name: 自动部署
+status: planning
 stopped_at: Completed 01-02-PLAN.md (gap closure G-1-3/G-1-4, all 7 tasks, self-check PASSED)
-last_updated: "2026-08-18T05:10:02.471Z"
+last_updated: "2026-08-18T06:46:52.983Z"
 progress:
   total_phases: 1
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
-  completed_plans: 2
+  completed_plans: 3
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-17 after Phase 1 completion
+**Updated:** 2026-08-18 after Phase 1 gap closure round 3
 
 ## Project Reference
 
 **Core Value:** 维护者能低成本地更新网站内容（论文/新闻/成员/页面），本地预览确认后推送即自动发布。
 
-**Current Focus:** Phase 01 — local-dev-environment
+**Current Focus:** Phase 2 — 自动部署
 
 ## Current Position
 
-**Phase:** 01 (local-dev-environment) — EXECUTING
-**Plan:** 1 of 3
-**Status:** Executing Phase 01
+**Phase:** 2 — 自动部署
+**Plan:** Not started
+**Status:** Ready to plan
 **Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ 33%（1/3 阶段）
 
 ## Performance Metrics
 
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
-**阶段进度:** Phase 1 ✓ 完成（验证 passed + UAT 2/2 + 安全 0 开放威胁）；Phase 2 待规划
+**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 待规划
 **需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）
 **Per-Plan Metrics:**
 
@@ -72,19 +72,20 @@ progress:
 
 ### 待确认项
 
-- 本地内容已与 reference-snapshot 对齐（团队/新闻/首页/研究/软件/关于），publications 83 条未动（2026-08-18，1-02 gap closure G-1-3/G-1-4 实测：`&lt;div` 转义全站清零、/news/ 渲染 6 条、首页侧栏 3 条、serve 回环 6 页 200）
+- 本地内容已与 reference-snapshot 对齐（团队/新闻/首页/研究/软件/关于），publications 83 条未动；2026-08-18 Round 3：research/software 版式经 03-PLAN 重排后与参考站视觉一致（UAT 测试 6 用户确认），全站 0 转义
 - **已知空态（2026-08-17，Phase 1 Task 2 实测）：** `papers/ref.bib` 无 @incollection 条目，`/talks/` 页两个 `{% bibliography --query @incollection[...] %}` 查询渲染为空列表（页面仍 200、标题"Invited Talks / Regular Talks"仍在）；真实 talks 数据属内容补全工作，不在本阶段。同类内容欠账：`_pages/teaching.md` 正文仍含 Feynman 模板演示教学条目（非文献链路，属页面内容补全）
 - GitHub Actions 工作流具体实现细节
 - YAML/BibTeX 验证工具选型
+- **Phase 2 前置关注（2026-08-18 第三轮代码评审，01-REVIEW.md）：** ① `_config.yml` exclude 缺 `vendor`（CI bundle install 会把 gem 树带进构建产物）；② sitemap.xml 仅 3 URL（多数页 `sitemap: false` 漂移，robots.txt 却在广播 sitemap）；③ `head.html` `dark_mode | default: true` 使 `dark_mode: false` 失效（Liquid default 不判 false）；④ /news/ 与 /allnews.html 双页并存且 sidebar/feed 链接各指一处；⑤ RSS 条目共享 link 且无 guid（WR-01，未修——本轮仅修了 title/description 转义）
 
 ## Session Continuity
 
-**Last session:** 2026-08-18T01:00:29.096Z
-**Stopped at:** Completed 01-02-PLAN.md (gap closure G-1-3/G-1-4, all 7 tasks, self-check PASSED)
+**Last session:** 2026-08-18T06:50:00Z
+**Stopped at:** Phase 1 complete（Round 3 gap closure G-1-5/G-1-6 闭合 + feed.xml RSS 转义修复），ready to plan Phase 2
 **Resume file:** None
 
-**Last action:** Phase 1 完成闭环 — verifier 11/11 机器事实 passed，UAT 2/2（Playwright 真实浏览器自动化：livereload 免手动刷新双向闭环 + 5 页视觉目检），SECURITY.md 5/5 威胁 closed，PROJECT.md/STATE.md 转场更新
-**Next action:** `/gsd-discuss-phase 2` 或 `/gsd-plan-phase 2`（Phase 2 自动部署）
+**Last action:** Phase 1 Round 3 闭环 — 03-PLAN 执行（research/software 重排 + PDLLMs 改链）→ 验证 32/32 机器真值 passed → UAT 7/7（测试 6 视觉确认用户通过；测试 7 决策 (a) feed.xml strip_html 已修 e8df062）→ 阶段转场至 Phase 2
+**Next action:** `/gsd-discuss-phase 2` 或 `/gsd-plan-phase 2`（Phase 2 自动部署；规划时参考 STATE「Phase 2 前置关注」5 项代码评审遗留）
 **Blockers:** 无
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
 
