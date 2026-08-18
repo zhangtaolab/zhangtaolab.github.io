@@ -1,22 +1,14 @@
 ---
-status: testing
+status: complete
 phase: 1-本地开发环境
 source: [01-VERIFICATION.md]
 started: 2026-08-17T09:55:00+08:00
-updated: 2026-08-18T09:18:00+08:00
+updated: 2026-08-18T09:52:00+08:00
 ---
 
 ## Current Test
 
-number: 4
-name: 重写页面对参考站的视觉一致性（D5）
-expected: |
-  本地起 serve（bundle exec jekyll serve），浏览器打开首页/about/team/research/software/news，
-  与 https://wmsd5fpo6kcfi.ok.kimi.link/ 对应页并排目检：视觉布局与参考站一致
-  （含 team 页渐变图标占位、about 页绿色渐变 PI 占位框、4 列校友表）；样式加载完整、图片正常。
-  grep marker 已证内容逐字到位（复验 21/21），本项证视觉等价；
-  2026-08-17 的 UAT 目检通过的是重写前旧页面，不覆盖本次重写后的新 DOM。
-awaiting: user response
+[testing complete]
 
 ## Round 2（gap closure 后复验，2026-08-18）
 
@@ -51,27 +43,66 @@ evidence: "Round 1 证据留存：①本地 about(3处)/team(23处) HTML 被 kra
 ### 4. 重写页面对参考站的视觉一致性（D5）
 
 expected: 本地 serve 后，/、/about/、/team/、/research/、/software/、/news/ 与 https://wmsd5fpo6kcfi.ok.kimi.link/ 并排目检视觉一致（team 渐变图标占位、about PI 占位框、4 列校友表、hero/卡片网格）；样式完整、图片正常
-result: [pending]
-source: human
-why_human: "grep marker 证明内容逐字到位，不证明视觉等价（02-SUMMARY coverage D5，human_judgment: true）"
+result: issue
+reported: "automated visual verification: /software/ 渲染 9 处字面转义标签文本（参考站 0 处）。用户目检确认（2026-08-18）：'http://localhost:4000/research/ 和 /software/ 页面混乱，建议参考参考站对应页重新排版' —— research 页同样判定失败（自动检查低估：kramdown 对内联 <img> 的 <p> 包裹 + 首卡未闭合导致外层卡片框包住全部 8 卡、页高 3639px vs 参考站 2322px，视觉混乱；Core Focus</div> 字面文本参考站亦有但整体版式差异显著）"
+severity: major
+source: automated
+user_confirmed: "research + software 两页版面混乱，需参考 ref-research.html / ref-software.html 重新排版"
+evidence: "①grep -rc '&lt;' _site：software=9、research=1、其余页 0。②根因：'文本</div>' 同行写法被 kramdown（parse_block_html:true）转义为可见文本；kramdown 另将内联 <img> 包成 <p> 改变盒模型；首卡 div 因转义丢失闭合 → 后续 7 卡嵌套其内（DOM 实测 card0 高 2969px 含 7 子卡，参考站卡片平铺 535px/卡）。③既有断言 grep '&lt;div' 只匹配开标签，闭合标签逃过 Task 6/复验 D1。④software 其余结构（16 卡/标题/按钮类）与参考站一致；research 8 图片本地全存在"
 
 ### 5. CR-01 决策：About 页 PDLLMs 死链（参考站继承缺陷）
 
 expected: 人工决策二选一：(a) 接受参考保真——保留 _pages/about.md 两处 github.com/zhangtaolab/PDLLMs 死链（ref-about.html 同样链向该失效 URL，02-PLAN 按快照逐字对齐所致）；或 (b) 修正——将两处链接重定向到真实存在的 github.com/zhangtaolab/Plant_DNA_LLMs（home/research/software 页已在用）。复验裁定：非 must-have 违例，不阻断阶段完成
-result: [pending]
+result: pass
+decision: "(b) 修正——用户 2026-08-18 确认选 b；改链并入本轮 gap-closure 修复计划（G-1-6）"
 source: human
 evidence: "01-REVIEW.md CR-01（git ls-remote 实证 PDLLMs 仓库 404、Plant_DNA_LLMs 存在）；VERIFICATION.md 裁定 2（继承自参考基准）"
 
 ## Summary
 
 total: 5
-passed: 3
-issues: 0
-pending: 2
+passed: 4
+issues: 1
+pending: 0
 skipped: 0
 blocked: 0
 
 ## Gaps
+
+- gap_id: G-1-5
+  truth: "research 与 software 两页版式与参考站一致：0 处可见转义标签文本、卡片平铺不嵌套、无 kramdown <p> 包裹引起的盒模型漂移；整体视觉对齐 ref-research.html / ref-software.html"
+  status: failed
+  reason: "User reported + automated verification: /research/ 与 /software/ 页面混乱 —— software 渲染 9 处字面转义标签（Core Toolkit</div>、Screenshot</div> ×7、Open Source</div>，参考站 0 处）；research 首卡闭合标签被转义丢失 → 后续 7 卡嵌套进首卡（card0 高 2969px 含 7 子卡 vs 参考站卡片平铺 535px/卡；页高 3639px vs 2322px），另 Core Focus</div> 字面文本（该条参考站亦有）与内联 <img> 被 <p> 包裹的盒模型漂移"
+  severity: major
+  test: 4
+  root_cause: "_pages/research.md 与 _pages/software.md 采用 '文本</div>' 同行写法的徽章/标签行 —— kramdown parse_block_html:true 将紧跟文本的闭合 div 转义为可见文本并丢掉真实闭合 → 卡片嵌套 + 字面残留；kramdown 同时将内联 <img> 包成 <p> 引入额外 margin。既有断言 grep '&lt;div' 只匹配开标签，闭合标签逃过 Task 5/6 验收与复验 D1 检查"
+  artifacts:
+    - path: "_pages/software.md"
+      issue: "9 处 '文本</div>' 同行写法（Core Toolkit、Screenshot ×7、Open Source）被 kramdown 转义为可见文本"
+    - path: "_pages/research.md"
+      issue: "首卡 'Core Focus</div>' 闭合被转义 → 8 卡嵌套结构 + 字面残留；内联 img 被 <p> 包裹"
+    - path: ".planning/phases/01-local-dev-environment/reference-snapshot/ref-research.html"
+      issue: "重排目标基准（8 卡平铺，535px/卡）"
+    - path: ".planning/phases/01-local-dev-environment/reference-snapshot/ref-software.html"
+      issue: "重排目标基准（16 卡、徽章正常渲染、零转义）"
+  missing:
+    - "参考 ref-research.html / ref-software.html 重新排版两页：全部闭合标签独立成行或块级 markdown=\"0\"（免疫 '文本</div>' 转义）；确保卡片平铺不嵌套、img 不被 <p> 包裹（或以 CSS 抵消）；内容文案保持已对齐状态不动"
+    - "验收断言升级：grep -c '&lt;' _site/research/index.html 与 _site/software/index.html 均为 0（任意标签，不限开标签）；DOM 断言 research-card/software-card 首卡高 ≈ 后续卡（无 2000px+ 嵌套壳）；页高与参考站同量级"
+    - "research 页 'Core Focus' 徽章按参考站样式正常渲染（参考站亦有该字面残留，重排时按参考站最终视觉效果为准）"
+  debug_session: ""
+- gap_id: G-1-6
+  truth: "About 页 PDLLMs 两处链接指向真实存在的仓库 github.com/zhangtaolab/Plant_DNA_LLMs（与 home/research/software 页一致）"
+  status: failed
+  reason: "CR-01（01-REVIEW.md Critical）：_pages/about.md 两处指向 github.com/zhangtaolab/PDLLMs（git ls-remote 实证 404）；用户 2026-08-18 决策选 (b) 修正"
+  severity: minor
+  test: 5
+  root_cause: "02-PLAN 按参考快照逐字对齐，ref-about.html 本身链向该失效 URL（参考站自身缺陷）"
+  artifacts:
+    - path: "_pages/about.md"
+      issue: "两处 PDLLMs href 指向不存在的 PDLLMs 仓库"
+  missing:
+    - "将 _pages/about.md 两处 PDLLMs href 改为 https://github.com/zhangtaolab/Plant_DNA_LLMs（链接文字不变）"
+  debug_session: ""
 
 - gap_id: G-1-3
   truth: "本地 about/team 页面不得出现转义 HTML 代码块；嵌套 HTML 须按 HTML 渲染（与参考站一致为 0 处转义）"
