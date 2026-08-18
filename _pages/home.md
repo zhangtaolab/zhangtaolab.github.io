@@ -21,7 +21,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 <a class="chip" href="{{ site.url }}{{ site.baseurl }}/software/">Bioinformatics Tools</a>
 </div>
 
-<p><strong>We specialize in developing and applying DNA Large Language Models (LLMs) for plant genome analysis.</strong> Our lab is at the forefront of applying foundation models to decode complex DNA sequences, predict regulatory elements, and accelerate crop improvement. We build and maintain <a href="https://github.com/zhangtaolab/PDLLMs">PDLLMs</a>, a suite of open-source plant DNA language models for the research community. Our work spans from fundamental algorithm development to real-world applications in genomics, epigenetics, and genome engineering.</p>
+<p><strong>We specialize in developing and applying DNA Large Language Models (LLMs) for plant genome analysis.</strong> Our lab is at the forefront of applying foundation models to decode complex DNA sequences, predict regulatory elements, and accelerate crop improvement. We build and maintain <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs">PDLLMs</a>, a suite of open-source plant DNA language models for the research community. Our work spans from fundamental algorithm development to real-world applications in genomics, epigenetics, and genome engineering.</p>
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-brain callout-icon"></i> Featured: DNA Large Language Models</div>

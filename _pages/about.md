@@ -40,12 +40,12 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 <li><strong>DNA Large Language Models</strong> — building and training foundation models for DNA sequence understanding</li>
 <li><strong>Regulatory element prediction</strong> — using LLMs to identify <em>cis</em>-regulatory elements with unprecedented accuracy</li>
 <li><strong>Genome engineering</strong> — applying AI to optimize CRISPR-based genome editing</li>
-<li><strong>Open-source tool development</strong> — making our models and tools freely available via <a href="https://github.com/zhangtaolab/PDLLMs" target="_blank">PDLLMs</a></li>
+<li><strong>Open-source tool development</strong> — making our models and tools freely available via <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank">PDLLMs</a></li>
 </ul>
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-brain callout-icon"></i> Featured Work: PDLLMs</div>
-<p>Our <strong>Plant DNA Large Language Models (PDLLMs)</strong> represent a new paradigm for plant genome analysis. Published in <em>Molecular Plant</em> 2025, PDLLMs provide a suite of tailored foundation models for analyzing plant genomes, predicting regulatory elements, and accelerating crop improvement. <a href="https://github.com/zhangtaolab/PDLLMs" target="_blank"><i class="fa-brands fa-github"></i> Get PDLLMs on GitHub</a></p>
+<p>Our <strong>Plant DNA Large Language Models (PDLLMs)</strong> represent a new paradigm for plant genome analysis. Published in <em>Molecular Plant</em> 2025, PDLLMs provide a suite of tailored foundation models for analyzing plant genomes, predicting regulatory elements, and accelerating crop improvement. <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" target="_blank"><i class="fa-brands fa-github"></i> Get PDLLMs on GitHub</a></p>
 </div>
 
 <h2 class="section-heading">Grants &amp; Funding</h2>
