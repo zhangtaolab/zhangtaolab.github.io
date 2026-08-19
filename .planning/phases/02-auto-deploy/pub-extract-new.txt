@@ -25,6 +25,10 @@
 2023 | anefficientcrisprcas12apromotereditingsystemforcropimprovement | Zhou JP | An efficient CRISPR–Cas12a promoter editing system for crop improvement.
 2022 | themethylationinhibitor5aza2deoxycytidineinducesgenomewidehypomethylationinrice | Liu S | The Methylation Inhibitor 5-Aza-2′-Deoxycytidine Induces Genome-Wide Hypomethylation in Rice.
 2022 | denovocentromereformationinpericentromericregionofricechromosome8 | Xue C | De Novo Centromere Formation in Pericentromeric Region of Rice Chromosome 8.
+2022 | genomewideanalysesofpamrelaxedcas9genomeeditorsrevealsubstantialofftargeteffectsbyabe8einrice | Wu YC | Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice.
+2022 | singlecelltranscriptomeandnetworkanalysesunveilkeytranscriptionfactorsregulatingmesophyllcelldevelopmentinmaize | Tao ST | Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize.
+2022 | epigenomicfeaturesofdnagquadruplexesandtheirrolesinregulatingricegenetranscription | Feng YL | Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription.
+2022 | crisprbetsabaseeditingdesigntoolforgeneratingstopcodons | Wu YC | CRISPR-BETS: A base editing design tool for generating stop codons.
 2021 | targetingcisregulatoryelementsforricegrainqualityimprovement | Ding Y | Targeting Cis -Regulatory Elements for Rice Grain Quality Improvement.
 2021 | singlecopyoligonucleotidefluorescenceinsituhybridizationprobedesignplatformsdevelopmentapplicationandevaluation | Liu GQ | Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation.
 2021 | genomeandtranscriptomewideofftargetanalysesofanimprovedcytosinebaseeditor | Randall L.B | Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor.
@@ -71,6 +75,8 @@
 2013 | thecentosatelliteconferstranslationalandrotationalphasingoncenh3nucleosomesinricecentromeres | Zhang T | The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres
 2013 | copynumbervariationinpotatoanasexuallypropagatedautotetraploidspecies | Iovene M | Copy number variation in potato - an asexually propagated autotetraploid species.
 2013 | transcriptionalabundanceisnotthesingleforcedrivingtheevolutionofbacterialproteins | Wei W | Transcriptional abundance is not the single force driving the evolution of bacterial proteins.
+2013 | transcriptomecomparativeprofilingofbarleyeibi1mutantrevealspleiotropiceffectsofhvabcg31geneoncuticlebiogenesisandstressresponsivepathways | Yang ZJ | Transcriptome Comparative Profiling of Barley eibi1 Mutant Reveals Pleiotropic Effects of HvABCG31 Gene on Cuticle Biogenesis and Stress Responsive Pathways.
+2013 | maizelazy1mediatesshootgravitropismandinflorescencedevelopmentthroughregulatingauxintransportauxinsignalingandlightresponse | Dong ZB | Maize LAZY1 Mediates Shoot Gravitropism and Inflorescence Development through Regulating Auxin Transport, Auxin Signaling, and Light Response.
 2012 | genomewideidentificationofregulatorydnaelementsandproteinbindingfootprintsusingsignaturesofopenchromatininarabidopsis | Zhang WL | Genome-Wide Identification of Regulatory DNA Elements and Protein-Binding Footprints Using Signatures of Open Chromatin in Arabidopsis
 2011 | adaptivemicroclimaticevolutionofthedehydrin6geneinwildbarleyatevolutioncanyonisrael | Yang ZJ | Adaptive microclimatic evolution of the dehydrin 6 gene in wild barley at “Evolution Canyon”, Israel.
 2011 | thechromosomenumberkaryotypeandgenomesizeofthedesertplantdiploidreaumuriasoongoricapallmaxim | Wang XH | The chromosome number, karyotype and genome size of the desert plant diploid Reaumuria soongorica (Pall.) Maxim.

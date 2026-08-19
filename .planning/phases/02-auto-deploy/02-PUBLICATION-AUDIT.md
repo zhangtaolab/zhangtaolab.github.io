@@ -1,12 +1,12 @@
 # 02-PUBLICATION-AUDIT — D-18 出版物逐条核对报告
 
-**Plan:** 02-03 · **决策依据:** D-18（02-CONTEXT.md，2026-08-19 锁定） · **生成:** 2026-08-19，机器生成自 pub-extract.rb + pub-compare.rb（本目录，可复现）
+**Plan:** 02-03 · **决策依据:** D-18（02-CONTEXT.md，2026-08-19 锁定） · **生成:** 2026-08-19，机器生成自 pub-extract.rb + pub-compare.rb（本目录，可复现） · **轮次：第 2 轮（remedy (a) 补录后复跑；第 1 轮 BLOCK 记录见第⑦节）**
 
 ## ① 方法
 
 ### 语料声明（纠偏）
 
-- **新侧** = `_site/publications/index.html`——`_pages/publications.md` 手写 markdown 的构建产物（83 条）。**不是** papers/ref.bib 渲染：ref.bib 仅 12 条 @article，只被 `_pages/talks.md` 的两个 `{% bibliography %}` 查询引用，与本页无关（02-RESEARCH.md Pattern 4 语料纠偏表）。
+- **新侧** = `_site/publications/index.html`——`_pages/publications.md` 手写 markdown 的构建产物（89 条）。**不是** papers/ref.bib 渲染：ref.bib 仅 12 条 @article，只被 `_pages/talks.md` 的两个 `{% bibliography %}` 查询引用，与本页无关（02-RESEARCH.md Pattern 4 语料纠偏表）。
 - **旧侧** = `old-site-publication.html`——线上 `https://zhangtaolab.org/Publication` 的 byte 存档（2026-08-19 抢收，HTTP 200 前置检查通过，热切换前完成，commit a81b576）。
 - **研究期计数 ~91 的解释**：91 = 89 条顶层条目 + 2 条嵌套子条目（Commentary/Cover 注记，见第⑥节）。fetch 摘要计数把嵌套 `<li>` 一并计入；机器提取以顶层条目为比对对象，子条目单独归类、不隐藏。
 
@@ -18,7 +18,7 @@
 
 ### 匹配（pub-compare.rb，年份桶内 1:1 消耗制）
 
-1. normalized-title 精确匹配 → 82 条
+1. normalized-title 精确匹配 → 88 条
 2. NFKC 兼容折叠后从 raw title 重新取键匹配（旧站排版连字 ﬁ U+FB01 → fi 等）→ 1 条
 3. 残留 → executor 逐对人工阅读判定，全部记录于第③⑤节，无静默丢弃
 
@@ -32,11 +32,11 @@
 
 | 侧 | 条目数 | 年份桶 |
 |----|--------|--------|
-| 新侧（构建产物） | 83 | 19（2006–2026） |
+| 新侧（构建产物） | 89 | 19（2006–2026） |
 | 旧侧（存档，顶层条目） | 89 | 19（2006–2026，集合与双侧一致） |
 | 旧侧嵌套子条目 | 2 | —（注记，见⑥） |
 
-- **差额：旧侧多 6 条 = MISSING 6（新侧缺）/ EXTRA 0（新侧多）**；旧侧 89 条中 83 条已对上（精确 82 + NFKC 1）。
+- **差额：0——MISSING 0 / EXTRA 0；旧侧 89 条全部对上（精确 88 + NFKC 1）。第 1 轮的 6 条 MISSING 已按用户裁决 remedy (a) 补录（commit 66a5adf，轨迹见第⑦节）。**
 
 ## ③ 逐年对照表（旧侧每条一行——D-18「一条一条」的落地形态）
 
@@ -48,7 +48,7 @@
 | 2025 | 3 | 3 | 3 | 0 | 0 |
 | 2024 | 10 | 10 | 10 | 0 | 0 |
 | 2023 | 8 | 8 | 8 | 0 | 0 |
-| 2022 | 6 | 2 | 2 | 4 | 0 |
+| 2022 | 6 | 6 | 6 | 0 | 0 |
 | 2021 | 9 | 9 | 9 | 0 | 0 |
 | 2020 | 7 | 7 | 7 | 0 | 0 |
 | 2019 | 7 | 7 | 7 | 0 | 0 |
@@ -57,13 +57,13 @@
 | 2016 | 1 | 1 | 1 | 0 | 0 |
 | 2015 | 3 | 3 | 3 | 0 | 0 |
 | 2014 | 3 | 3 | 3 | 0 | 0 |
-| 2013 | 5 | 3 | 3 | 2 | 0 |
+| 2013 | 5 | 5 | 5 | 0 | 0 |
 | 2012 | 1 | 1 | 1 | 0 | 0 |
 | 2011 | 3 | 3 | 3 | 0 | 0 |
 | 2010 | 2 | 2 | 2 | 0 | 0 |
 | 2009 | 3 | 3 | 3 | 0 | 0 |
 | 2006 | 1 | 1 | 1 | 0 | 0 |
-| 合计 | 89 | 83 | 83 | 6 | 0 |
+| 合计 | 89 | 89 | 89 | 0 | 0 |
 
 ### 逐条状态（89 行，每行一条旧侧条目；状态列后一列为匹配到的新侧条目或缺失证据）
 
@@ -96,10 +96,10 @@
 | 2023 | Zhou JP | An efficient CRISPR–Cas12a promoter editing system for crop improvement | MATCHED | An efficient CRISPR–Cas12a promoter editing system for crop improvement. |
 | 2022 | Liu S | The Methylation Inhibitor 5-Aza-2′-Deoxycytidine Induces Genome-Wide Hypomethylation in Rice | MATCHED | The Methylation Inhibitor 5-Aza-2′-Deoxycytidine Induces Genome-Wide Hypomethylation in Rice. |
 | 2022 | Xue C | De Novo Centromere Formation in Pericentromeric Region of Rice Chromosome 8. | MATCHED | De Novo Centromere Formation in Pericentromeric Region of Rice Chromosome 8. |
-| 2022 | Wu YC | Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice. | MISSING | grep 'ABE8e' _pages/publications.md → 0 命中 |
-| 2022 | Tao ST | Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize. | MISSING | grep 'Mesophyll' _pages/publications.md → 0 命中 |
-| 2022 | Feng YL | Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription. | MISSING | grep 'G-quadruplex' _pages/publications.md → 0 命中 |
-| 2022 | Wu YC | CRISPR-BETS: A base editing design tool for generating stop codons. | MISSING | grep 'CRISPR-BETS' _pages/publications.md（正文条目区）→ 0 命中（仅旧站导航菜单提及） |
+| 2022 | Wu YC | Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice. | MATCHED | Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice. |
+| 2022 | Tao ST | Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize. | MATCHED | Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize. |
+| 2022 | Feng YL | Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription. | MATCHED | Epigenomic features of DNA G-quadruplexes and their roles in regulating rice gene transcription. |
+| 2022 | Wu YC | CRISPR-BETS: A base editing design tool for generating stop codons. | MATCHED | CRISPR-BETS: A base editing design tool for generating stop codons. |
 | 2021 | Ding Y | Targeting Cis -Regulatory Elements for Rice Grain Quality Improvement. | MATCHED | Targeting Cis -Regulatory Elements for Rice Grain Quality Improvement. |
 | 2021 | Liu GQ | Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation. | MATCHED | Single Copy Oligonucleotide Fluorescence In Situ Hybridization Probe Design Platforms: Development, Application and Evaluation. |
 | 2021 | Randall L.B | Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor. | MATCHED | Genome- and transcriptome-wide off-target analyses of an improved cytosine base editor. |
@@ -146,8 +146,8 @@
 | 2013 | Zhang T | The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres. | MATCHED | The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres |
 | 2013 | Iovene M | Copy number variation in potato - an asexually propagated autotetraploid species. | MATCHED | Copy number variation in potato - an asexually propagated autotetraploid species. |
 | 2013 | Wei W | Transcriptional abundance is not the single force driving the evolution of bacterial proteins. | MATCHED | Transcriptional abundance is not the single force driving the evolution of bacterial proteins. |
-| 2013 | Yang ZJ | Transcriptome Comparative Profiling of Barley eibi1 Mutant Reveals Pleiotropic Effects of HvABCG31 Gene on Cuticle Biogenesis and Stress Responsive Pathways. | MISSING | grep 'eibi1'/'HvABCG31' _pages/publications.md → 0 命中 |
-| 2013 | Dong ZB | Maize LAZY1 Mediates Shoot Gravitropism and Inflorescence Development through Regulating Auxin Transport, Auxin Signaling, and Light Response. | MISSING | grep 'LAZY1' _pages/publications.md → 0 命中 |
+| 2013 | Yang ZJ | Transcriptome Comparative Profiling of Barley eibi1 Mutant Reveals Pleiotropic Effects of HvABCG31 Gene on Cuticle Biogenesis and Stress Responsive Pathways. | MATCHED | Transcriptome Comparative Profiling of Barley eibi1 Mutant Reveals Pleiotropic Effects of HvABCG31 Gene on Cuticle Biogenesis and Stress Responsive Pathways. |
+| 2013 | Dong ZB | Maize LAZY1 Mediates Shoot Gravitropism and Inflorescence Development through Regulating Auxin Transport, Auxin Signaling, and Light Response. | MATCHED | Maize LAZY1 Mediates Shoot Gravitropism and Inflorescence Development through Regulating Auxin Transport, Auxin Signaling, and Light Response. |
 | 2012 | Zhang WL | Genome-Wide Identification of Regulatory DNA Elements and Protein-Binding Footprints Using Signatures of Open Chromatin in Arabidopsis . | MATCHED | Genome-Wide Identification of Regulatory DNA Elements and Protein-Binding Footprints Using Signatures of Open Chromatin in Arabidopsis |
 | 2011 | Yang ZJ | Adaptive microclimatic evolution of the dehydrin 6 gene in wild barley at “Evolution Canyon”, Israel. | MATCHED | Adaptive microclimatic evolution of the dehydrin 6 gene in wild barley at “Evolution Canyon”, Israel. |
 | 2011 | Wang XH | The chromosome number, karyotype and genome size of the desert plant diploid Reaumuria soongorica (Pall.) Maxim. | MATCHED | The chromosome number, karyotype and genome size of the desert plant diploid Reaumuria soongorica (Pall.) Maxim. |
@@ -161,21 +161,42 @@
 
 ## ④ 新侧多出条目（EXTRA，D-18 要求列报供用户确认）
 
-**0 条**——新侧 83 条全部消耗于与旧侧的匹配，无任何多出条目。（新站出版物页未收录任何旧站没有的论文，2026-08-19 前新增论文情景不存在。）
+**0 条**——新侧 89 条全部消耗于与旧侧的匹配，无任何多出条目。（新站出版物页未收录任何旧站没有的论文，2026-08-19 前新增论文情景不存在。）
 
 ## ⑤ 结论
 
-- **MISSING = 6（>0）→ verdict: BLOCK**（D-18：新站缺失任何旧站条目即阻断上线）
-- EXTRA = 0
-- **verdict: BLOCK**（机器结论行；与检查点批准后追加的 `Verdict: APPROVED <date>` 标记行是两个不同字段）
+- **MISSING = 0——旧侧 89 条全部 MATCHED（精确 88 + NFKC 1），无任何缺失**
+- EXTRA = 0——新侧 89 条全部消耗于与旧侧的匹配，无多出条目
+- **verdict: conditional-PASS**（机器结论行——双侧 89 vs 89、MISSING=0、EXTRA=0，内容侧条件已满足；最终放行仍待 D-18 检查点用户批准。批准后由 executor 在本报告末尾追加批准标记行——行首为 `Verdict` 紧跟 `: APPROVED <date>`——那是 Plan 05 前置与 Plan 06 删除前置的机器断言对象，与本小写机器结论行是两个不同字段）
 
-### 放行条件（二选一，须用户在 D-18 检查点明确表态）
+### 检查点待办（第 2 轮复核点）
 
-- **(a) 补录**：暂停本阶段后续计划，把下列 6 条按新站书写格式补录进 `_pages/publications.md`（对应年份桶内），重跑本 Plan（02-03）核对至 MISSING=0；
-- **(b) 豁免**：逐条明确豁免并给出理由（例如非本实验室主导/已撤稿/重复收录），豁免清单与理由将随 `Verdict: APPROVED` 行一并落盘。
-- 不做选择 = 部署保持阻断（D-16 的 DEPLOY_ENABLED 不设置，Plan 05 无法放行）。
+- 用户复核本报告：总数 89 vs 89、第③节 89 行全 MATCHED、第⑦节补录轨迹；可抽 3-5 条 MATCHED 行与双侧清单原文（pub-extract-new.txt / pub-extract-old.txt）比对确认匹配判定可信；
+- 回复 **approved** → executor 在报告末尾追加批准标记行（`Verdict` + `: APPROVED <date>`）并提交（D-16 首次设 DEPLOY_ENABLED 的前置条件满足，Plan 05 可放行）；
+- 回复问题（匹配判定有误 / 补录条目有疑 / 第⑥节嵌套注记需处置）→ 回到对应任务修正后重跑本核对；
+- 不回复 = 部署保持阻断（D-16 的 DEPLOY_ENABLED 不设置，Plan 05 无法放行）。
 
-### MISSING 6 条全文（自旧站存档逐字提取，供补录或豁免裁决）
+## ⑥ 旧站嵌套子条目（Commentary/Cover 注记，2 条）
+
+旧站把以下 2 条作为**父条目的嵌套注记**（非独立出版物条目），故不进入③的 89 行正表；在此完整列示，不隐藏任何旧站内容：
+
+| 年份 | 父条目 | 子条目 | 新站处置 |
+|------|--------|--------|----------|
+| 2020 | An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting | Cover: The Plant Journal Volume 101, Issue 2（封面 PDF 链接） | 新站 #47 条目内已内联保留 "Cover: *The Plant Journal* Volume 101, Issue 2."（补录重编号后 #43→#47） |
+| 2013 | The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres | Commentary: Heslop-Harrison, J.S. and Schwarzacher, T. Nucleosomes and centromeric DNA packaging. PNAS 2013, 110(50):19974-19975 | 新站无此注记（第三方评述）。第 2 轮状态：仍未迁移——嵌套注记非顶层条目、不属 D-18 阻断对象（父条目 #75 已 MATCHED）；保留原判定，供检查点最终批准时知悉，如需保留可作为后续处置对象 |
+
+## ⑦ 轮次记录（checkpoint remedy (a) 处置轨迹）
+
+| 轮 | 日期 | 新侧 | 旧侧 | MISSING | EXTRA | verdict | 处置 |
+|----|------|------|------|---------|-------|---------|------|
+| 1 | 2026-08-19 | 83 | 89 | 6 | 0 | BLOCK | 报告 commit c3381fe；用户在 D-18 检查点选择 remedy (a) 补录（无豁免——6 条全部保留上线） |
+| 2 | 2026-08-19 | 89 | 89 | 0 | 0 | conditional-PASS | 6 条补录后复跑（补录 commit 66a5adf）；待检查点最终批准 |
+
+- **补录提交 commit 66a5adf**：6 条按旧站存档原文（old-site-publication.html 逐字）补入 `_pages/publications.md`——2022 ×4（Wu YC ABE8e / Tao ST Mesophyll / Feng YL G-quadruplexes / Wu YC CRISPR-BETS）+ 2013 ×2（Yang ZJ eibi1 / Dong ZB LAZY1）；年份桶内按旧站顺序插入，全列表重编号 1-89；旧站标题链接随条目保留（2013 两条旧站本无链接）；作者标记（&dagger; 等贡献、\* 通讯、Zhang T 加粗）按新站既有书写约定转写，citation 内容字段（作者/标题/期刊/卷期页/年份）逐字未动。
+- 第 1 轮报告全文（含 6 行 MISSING 状态与放行条件原文）保存于 git 历史：`git show c3381fe:.planning/phases/02-auto-deploy/02-PUBLICATION-AUDIT.md`。
+- 第 2 轮复跑方式：`JEKYLL_ENV=production bundle exec jekyll build` → `ruby pub-extract.rb new && ruby pub-extract.rb old` → `ruby pub-compare.rb`（本报告由机器再生成，可复现）。
+- **字面量护栏**：本报告正文任何位置均不含批准标记的完整字面量——指涉时一律拆分书写（`Verdict` + `: APPROVED <date>`）。Plan 06 删除前置以固定字符串检索该标记，只有 executor 在用户批准后追加的真正标记行才会命中；conditional-PASS / BLOCK 状态下该断言保持失败。第 1 轮报告曾在豁免选项正文中完整引用该字面量（属会使 Plan 06 断言假阳性通过的闸门污染隐患），第 2 轮生成器已修正。
+- 第 1 轮 MISSING 6 条全文（补录对象存档）：
 
 1. Wu YC†, Ren QR†, Zhong ZH†, Liu GQ†, Han YS, Bao Y, Liu L, Xiang SY, Liu S, Tang X, Zhou JP, Zheng XL, Sretenovic S, Zhang T*, Qi YP*, Zhang Y*. Genome-wide analyses of PAM-relaxed Cas9 genome editors reveal substantial off-target effects by ABE8e in rice. *Plant Biotechnology Journal* 2022, 20(9): 1670-1682.
 2. Tao ST†, Liu P†, Shi YN, Feng YL, Gao JJ, Chen LF, Zhang AC, Cheng XJ, Wei HR, Zhang T*, Zhang WL*. Single-Cell Transcriptome and Network Analyses Unveil Key Transcription Factors Regulating Mesophyll Cell Development in Maize. *Genes* 2022, 13(2):374.
@@ -184,16 +205,7 @@
 5. Yang ZJ, Zhang T, Lang T, Li G, Chen G, Nevo E. Transcriptome Comparative Profiling of Barley eibi1 Mutant Reveals Pleiotropic Effects of HvABCG31 Gene on Cuticle Biogenesis and Stress Responsive Pathways. *International Journal of Molecular Sciences* 2013, 14(10):20478-20491.
 6. Dong ZB, Jiang C, Chen X, Zhang T, Ding L, Song W, Luo H, Lai J, Chen H, Liu R, Jin WW. Maize LAZY1 Mediates Shoot Gravitropism and Inflorescence Development through Regulating Auxin Transport, Auxin Signaling, and Light Response. *Plant Physiology* 2013, 163(3):1306-1322.
 
-## ⑥ 旧站嵌套子条目（Commentary/Cover 注记，2 条）
-
-旧站把以下 2 条作为**父条目的嵌套注记**（非独立出版物条目），故不进入③的 89 行正表；在此完整列示，不隐藏任何旧站内容：
-
-| 年份 | 父条目 | 子条目 | 新站处置 |
-|------|--------|--------|----------|
-| 2020 | An extraordinarily stable karyotype of the woody Populus species revealed by chromosome painting | Cover: The Plant Journal Volume 101, Issue 2（封面 PDF 链接） | 新站 #43 条目内已内联保留 "Cover: *The Plant Journal* Volume 101, Issue 2." |
-| 2013 | The CentO satellite confers translational and rotational phasing on cenH3 nucleosomes in rice centromeres | Commentary: Heslop-Harrison, J.S. and Schwarzacher, T. Nucleosomes and centromeric DNA packaging. PNAS 2013, 110(50):19974-19975 | 新站无此注记（第三方评述；如需保留可作为豁免/补录裁决对象之一） |
-
 ## DEPLOY-01 落证（flagged assumption 兑现）
 
-本报告即 DEPLOY-01「构建并部署的出版物页不丢条目」假设的显式证据：83 vs 91 的 8 条差额已全部定性——6 条 MISSING（待用户裁决）+ 2 条嵌套子条目（归类注记，父条目均已 MATCHED），**无任何未解释条目**。研究期摘要计数 91 与机器提取 89+2 的差异已对账。
+本报告即 DEPLOY-01「构建并部署的出版物页不丢条目」假设的显式证据：83 vs 91 的 8 条差额已全部处置——第 1 轮 6 条 MISSING 按用户 remedy (a) 裁决补录（commit 66a5adf），第 2 轮 89 vs 89 全对齐、MISSING=0、EXTRA=0；余 2 条为旧站嵌套子条目（归类注记，见⑥，父条目均 MATCHED），**无任何未解释条目**。研究期摘要计数 91 与机器提取 89+2 的差异已对账。
 
