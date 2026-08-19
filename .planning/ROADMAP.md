@@ -46,7 +46,7 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** 1/6 plans executed
+**Plans:** 2/6 plans executed
 
 Plans:
 **Wave 1**
@@ -55,7 +55,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 02-02-PLAN.md — CI 流水线工件：deploy.yml + ci-smoke.sh（D-05~D-09、D-16 双闸）
+- [x] 02-02-PLAN.md — CI 流水线工件：deploy.yml + ci-smoke.sh（D-05~D-09、D-16 双闸）
 - [ ] 02-03-PLAN.md — D-18 出版物逐条核对（旧站存档 + 83 vs ~91 逐条比对 + 阻断检查点）
 
 **Wave 3** *(blocked on Wave 2 completion)*
@@ -90,7 +90,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 1/6 | In Progress|  |
+| 2. 自动部署 | 2/6 | In Progress|  |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary
