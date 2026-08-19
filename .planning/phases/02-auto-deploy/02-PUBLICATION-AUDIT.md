@@ -209,3 +209,6 @@
 
 本报告即 DEPLOY-01「构建并部署的出版物页不丢条目」假设的显式证据：83 vs 91 的 8 条差额已全部处置——第 1 轮 6 条 MISSING 按用户 remedy (a) 裁决补录（commit 66a5adf），第 2 轮 89 vs 89 全对齐、MISSING=0、EXTRA=0；余 2 条为旧站嵌套子条目（归类注记，见⑥，父条目均 MATCHED），**无任何未解释条目**。研究期摘要计数 91 与机器提取 89+2 的差异已对账。
 
+Verdict: APPROVED 2026-08-19
+Approval scope: 89/89 entries verified (88 exact + 1 NFKC ligature fuzzy); 6 backfilled entries retained; 2013 PNAS CentO third-party commentary nested annotation accepted as not migrated (user decision 2026-08-19).
+
