@@ -46,7 +46,15 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** TBD
+**Plans:** 6 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — D-10~D-14 评审遗留修复（vendor exclude / sitemap 全量化 / dark_mode / 双新闻页收敛 / RSS guid）
+- [ ] 02-02-PLAN.md — CI 流水线工件：deploy.yml + ci-smoke.sh（D-05~D-09、D-16 双闸）
+- [ ] 02-03-PLAN.md — D-18 出版物逐条核对（旧站存档 + 83 vs ~91 逐条比对 + 阻断检查点）
+- [ ] 02-04-PLAN.md — 原地接管 D-15①~④（push main → 默认分支 → build_type=workflow → 验证模式）
+- [ ] 02-05-PLAN.md — 首次上线（人工闸门 → D-16 设闸 → 热切换 → 稳态自动部署证明）
+- [ ] 02-06-PLAN.md — D-15⑥ 删 master + D-17 分支清理 + 终局验收扫描
 
 ### Phase 3: 内容验证
 
@@ -68,7 +76,7 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 0/0 | Not started | - |
+| 2. 自动部署 | 0/6 | Not started | - |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary
