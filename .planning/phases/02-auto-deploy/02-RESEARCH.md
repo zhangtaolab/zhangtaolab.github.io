@@ -558,17 +558,17 @@ ruby -r rexml/document -e 'REXML::Document.new(File.read(ARGV[0])); puts "feed.x
 
 **其余全部论断均有 VERIFIED（本会话 Read/gh api/本地实验）或 CITED（官方文档/官方仓库原文）出处。**
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **83 vs 91 的 8 条差额定性**
+1. **83 vs 91 的 8 条差额定性** — RESOLVED: 由 02-03 D-18 逐条核对解决（双侧机器提取精确条数 + 逐条 MATCHED/MISSING/EXTRA 分类 + 阻断性人工裁决落盘 `Verdict: APPROVED` 标记）
    - What we know: 两侧年份标题 19/19 完全一致；2026 前 3 条逐字吻合；新站手写 83 条，旧站摘要计数 91 条。
    - What's unclear: 差额是摘要计数口径（封面/评述子条目）还是真实缺漏。
    - Recommendation: 按 D-18 逐条核对解决 —— 这正是 D-18 存在的意义；执行时先 curl 存档旧站页。
-2. **sitemap 11 的精确值**
+2. **sitemap 11 的精确值** — RESOLVED: 断言阈值化（`-ge 10`）落地于 02-01/02-02 的 smoke 断言，执行时以实测数为准记录
    - What we know: 机制上应为 11（8 翻转 + 3 原有）；断言建议 `-ge 10`。
    - What's unclear: 是否有边角（如 feed.xml 意外入图 —— 实测未入）。
    - Recommendation: 执行时以实测数为准记录，断言阈值化防脆断。
-3. **actions 用 starter 版本组合还是各最新 major**
+3. **actions 用 starter 版本组合还是各最新 major** — RESOLVED: 按 starter 版本组合（v4/v1/v5/v3/v5）落地于 02-02 Task 2 的 deploy.yml，首跑绿后如需再升
    - What we know: starter 组合（v4/v1/v5/v3/v5）为官方测试组合；各最新 major 已核实存在（v7/v1/v6/v5/v5）。
    - What's unclear: upload-pages-artifact v3→v5 跨两个 major 的兼容性。
    - Recommendation: 按 starter 组合落地（本研究的 Standard Stack 建议），首跑绿后如需再升。
