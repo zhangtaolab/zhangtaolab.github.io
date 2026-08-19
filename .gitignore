@@ -5,7 +5,7 @@ _site/
 
 # Bundler
 .bundle/
-vendor/bundle
+vendor/
 
 # macOS
 .DS_Store

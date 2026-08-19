@@ -101,3 +101,4 @@ exclude:
   - package.json
   - package-lock.json
   - docs
+  - vendor
