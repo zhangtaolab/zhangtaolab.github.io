@@ -46,12 +46,12 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** 6 plans
+**Plans:** 1/6 plans executed
 
 Plans:
 **Wave 1**
 
-- [ ] 02-01-PLAN.md — D-10~D-14 评审遗留修复（vendor exclude / sitemap 全量化 / dark_mode / 双新闻页收敛 / RSS guid）
+- [x] 02-01-PLAN.md — D-10~D-14 评审遗留修复（vendor exclude / sitemap 全量化 / dark_mode / 双新闻页收敛 / RSS guid）
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
@@ -90,7 +90,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 0/6 | Not started | - |
+| 2. 自动部署 | 1/6 | In Progress|  |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary
