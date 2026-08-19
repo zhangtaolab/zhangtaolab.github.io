@@ -85,8 +85,9 @@ progress:
 **Resume file:** .planning/phases/02-auto-deploy/02-CONTEXT.md
 
 **Last action:** Phase 1 Round 3 闭环 — 03-PLAN 执行（research/software 重排 + PDLLMs 改链）→ 验证 32/32 机器真值 passed → UAT 7/7（测试 6 视觉确认用户通过；测试 7 决策 (a) feed.xml strip_html 已修 e8df062）→ 阶段转场至 Phase 2
-**Next action:** `/gsd-discuss-phase 2` 或 `/gsd-plan-phase 2`（Phase 2 自动部署；规划时参考 STATE「Phase 2 前置关注」5 项代码评审遗留）
+**Next action:** 在新目录 `/Users/forrest/GitHub/zhangtaolab.github.io` 重启会话后执行 `/gsd-plan-phase 2`（Phase 2 自动部署；02-CONTEXT.md 已完备，含渐进式接管序列与部署闸门设计）
 **Blockers:** 无
+**Relocation:** 项目已从 `/Users/forrest/Playground/zhangtaolab-jekyll` 整体搬迁至 `/Users/forrest/GitHub/zhangtaolab.github.io`（2026-08-18；旧站本地克隆让位改名为 `~/GitHub/zhangtaolab.github.io-legacy-backup`；远端接管尚未开始，仓库无 remote）
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
 
 ---

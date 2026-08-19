@@ -39,6 +39,11 @@
 - **D-13:** ④ 删除 `_pages/allnews.md`（与 `news.md` 内容 100% 相同：同一 `site.data.news` 全量循环），`feed.xml` channel link 从 `/allnews.html` 改指 `/news/`（sidebar 已指 `/news/`，无需动）
 - **D-14:** ⑤ `feed.xml` 条目补唯一 `<guid>` 并修正条目级 `<link>`（WR-01：news 条目共享 link 且无 guid，聚合器无法区分条目）
 
+### 接管操作序列（2026-08-18 与用户对齐，planner 必须遵循）
+- **D-15:** 渐进式接管，**全程无 force push**：① `git push -u origin main`（新增分支非覆盖，master 原封不动）→ ② `gh api PATCH .../repos -f default_branch=main` → ③ `gh api PUT .../pages -f build_type=workflow`（旧站快照继续服务，无停机窗口）→ ④ 验证确认 → ⑤ 正式部署 → ⑥ **最后** `git push origin --delete master`（唯一破坏性动作，且时点在新站已验证上线之后）
+- **D-16:** 部署闸门机制：deploy job 条件 `vars.DEPLOY_ENABLED == 'true' || inputs.deploy == true` —— `DEPLOY_ENABLED` 仓库变量同时充当首次上线闸门（D-09 的人工确认环节）与常驻 kill-switch（删变量即停部署）；首次正式切换 = 设变量后 `gh workflow run deploy.yml -f deploy=true`；此后 push main 自动部署
+- **D-17:** 顺手清理旧仓 3 个 dependabot 分支（addressable-2.8.1 / kramdown-2.3.1 / rexml-3.3.3）；98 个旧 PR ref 由 GitHub 托管不可删也无需删
+
 ### Claude's Discretion
 - workflow 具体结构：job 拆分、`concurrency` 取消旧跑、bundler 缓存、runner 选型（ubuntu-latest）、断言脚本实现形式（shell/ruby）
 - ~~远端备份 tag 是否创建（D-02）~~ 已不需要 — 远端 `backup` 分支已就位
