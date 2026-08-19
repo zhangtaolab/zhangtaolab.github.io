@@ -5,7 +5,7 @@ name: "Zhang Tao Lab"
 title: "Bioinformatics, Epigenetics and Genomics"
 institution: "Chengdu Institute of Biology, Chinese Academy of Sciences"
 email: "zhangtao@cib.ac.cn"
-photo: headshot.jpg  # place your photo in images/
+photo: logo.png  # social preview image (og:image / twitter:image), sourced from images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
