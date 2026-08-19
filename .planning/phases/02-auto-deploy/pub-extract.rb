@@ -61,8 +61,11 @@ matches.each_with_index do |m, i|
 end
 
 # --- depth-aware list parsing -------------------------------------------------
-# Returns a flat list of [depth, content] for every <li> in the region, where depth
-# counts list nesting (1 = the year's outermost list, 2+ = nested sub-lists).
+# Returns a flat list of [depth, content, span_begin, span_end] for every <li> in
+# the region, where depth counts list nesting (1 = the year's outermost list,
+# 2+ = nested sub-lists) and the span covers the li's inner content. Spans allow
+# a sub-entry to be parented to the depth-1 item whose range ENCLOSES it (a stack
+# emits nested items before their parent, so "most recent depth-1 item" is wrong).
 # Uses String#match + MatchData#begin/#end (character offsets) — NOT StringScanner,
 # whose #pos is a byte offset and drifts against String#[] ranges on multibyte
 # content († – ′ ’ α appear throughout the corpus).
@@ -80,7 +83,7 @@ def list_items(region)
     when /\A<li/ then stack << [depth, m.end(0)]
     when %r{\A</li>}
       d, start = stack.pop
-      items << [d, region[start...m.begin(0)]] if d
+      items << [d, region[start...m.begin(0)], start, m.begin(0)] if d
     end
     pos = m.end(0)
   end
@@ -126,19 +129,19 @@ end
 
 entries = []     # [year, norm, first_author, raw]
 subentries = []  # [year, parent_raw, sub_raw]
-current_parent = nil
 buckets.each do |year, from, to|
-  # single document-order walk: depth-1 items are entries, deeper items are
-  # sub-entries attached to the most recent depth-1 item (their parent <li>)
-  list_items(html[from...to]).each do |(depth, content)|
-    if depth <= 1
-      norm, fa, raw = parse_entry(content)
-      entries << [year, norm, fa, raw]
-      current_parent = raw
-    else
-      _n, _f, sraw = parse_entry(content)
-      subentries << [year, current_parent, sraw]
-    end
+  items = list_items(html[from...to])
+  tops = items.select { |(d, *_)| d <= 1 }
+  tops.each do |(depth, content, _b, _e)|
+    norm, fa, raw = parse_entry(content)
+    entries << [year, norm, fa, raw]
+  end
+  items.each do |(depth, content, begin_span, end_span)|
+    next unless depth > 1
+    # parent = the depth-1 item whose span encloses this sub-entry's span
+    parent = tops.find { |(_d, _c, tb, te)| tb < begin_span && end_span < te }
+    _n, _f, sraw = parse_entry(content)
+    subentries << [year, parent ? parse_entry(parent[1])[2] : "(parent not identified)", sraw]
   end
 end
 
