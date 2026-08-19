@@ -1,7 +1,6 @@
 ---
 title: "Contact"
 layout: gridlay
-sitemap: false
 permalink: /contact/
 ---
 
