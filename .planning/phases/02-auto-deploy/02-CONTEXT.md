@@ -31,6 +31,7 @@
 ### 发布前验证
 - **D-08:** deploy 前冒烟断言把门（防 Phase 1 式 scholar 静默失败直接上线）：① `_site/sitemap.xml` 存在且含 URL（D-11 生效后应接近全站页数）；② 出版物页产物含文献条目（非空正文，锚点由 planner 选取稳定值）；③ `_site/feed.xml` 通过 `xmllint --noout` 校验
 - **D-09:** `workflow_dispatch` 支持**验证模式**（只 build + 断言，不 deploy）。首次热切换上线流程：先跑验证模式人工确认产物 → 再正式部署
+- **D-18:** （2026-08-19 plan-phase 期间用户补充；语料经研究更正）首次上线前（D-16 设置 `DEPLOY_ENABLED` 放行之前）增加**出版物逐条核对**环节：将本地构建产物（`_site` 出版物页）与现线上旧站 `https://zhangtaolab.org/Publication` **一条一条逐一比对**（每条的标题/作者/年份及条目总数）。**语料事实（研究证实）**：新站条目为手写 markdown `_pages/publications.md`（实测 83 条），`papers/ref.bib` 仅 12 条且只喂 talks.md，与本页无关；旧站实测 91 条 — 83 vs 91 差额即本核对要定性的对象。新站**缺失**任何旧站条目 → 阻断上线并回报；新站**多出**条目（迁移后新增论文）→ 列出供用户确认后放行。核对必须发生在 D-15 ⑥ 删 master 之前，且**先抓取存档旧站 /Publication 页面原文**（旧站被替换后参照物消失）；核对通过是 D-16 首次设闸放行的前置条件
 
 ### 评审遗留随车修复（用户决策：5 项全修）
 - **D-10:** ① `_config.yml` `exclude` 增 `vendor` + `.gitignore` 增 `vendor/`（防 CI 上 gem 树进 `_site` 发布）
