@@ -4,19 +4,19 @@ milestone: v1.0
 milestone_name: milestone
 current_phase: 2
 current_phase_name: 自动部署
-status: executing
-stopped_at: Completed 02-05-PLAN.md (首次上线热切换 + DEPLOY-01 稳态结项; 新站 zhangtaolab.org 在线)
-last_updated: "2026-08-19T04:21:36.656Z"
+status: verifying
+stopped_at: Completed 02-06-PLAN.md (D-15⑥ 删 master + D-17 清理 + 终局验收全绿; Phase 2 6/6 完成, ready_for_verification)
+last_updated: "2026-08-19T04:29:58.234Z"
 progress:
   total_phases: 2
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-19 after 02-05 closure (首次上线热切换完成, 新站 zhangtaolab.org 在线, DEPLOY-01 端到端结项, plan 5/6 of Phase 2)
+**Updated:** 2026-08-19 after 02-06 closure (D-15⑥ 删 master + D-17 dependabot 清理完成, 远端分支终态 {backup, main}, 终局验收电池全绿, Phase 2 6/6 plans 完成, ready for verification)
 
 ## Project Reference
 
@@ -26,15 +26,15 @@ progress:
 
 ## Current Position
 
-**Phase:** 2 (自动部署) — EXECUTING
+**Phase:** 2 (自动部署) — 6/6 PLANS COMPLETE（待 /gsd-verify-work 验证）
 **Plan:** 6 of 6
-**Status:** Ready to execute
-**Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ 33%（1/3 阶段）
+**Status:** Phase complete — ready for verification
+**Progress Bar:** ▰▰▰▰▰▰▰▱▱▱ 67%（2/3 阶段）
 
 ## Performance Metrics
 
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
-**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 执行中 5/6 plans（02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计 89/89 批准 / 02-04 原地接管 D-15①~④ 双 run 绿 / 02-05 首次上线热切换——检查点批准 → 设闸 DEPLOY_ENABLED=true → dispatch run 32215147077 双绿 → 判别式 /publications/ 200 + /Publication 404 → 稳态 push run 32215293379 deploy 绿，新站 zhangtaolab.org 在线；下一 02-06 清理收尾〔删 master/dependabot 分支〕）
+**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 执行完毕 6/6 plans（02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计 89/89 批准 / 02-04 原地接管 D-15①~④ 双 run 绿 / 02-05 首次上线热切换——dispatch run 32215147077 双绿 + 稳态 push run 32215293379 deploy 绿，新站 zhangtaolab.org 在线 / 02-06 清理收尾——四前置断言全绿后删 master + 3 dependabot 分支，远端终态 {backup, main}，回滚双保险在位，终局验收电池全绿〔四条成功标准逐条落证〕）；Phase 2 待 /gsd-verify-work 验证后关闭
 **需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）；Phase 2 全结项——DEPLOY-02（02-04 Linux 绿跑 ×2 + Ruby 4.0.6 一致）+ DEPLOY-01（02-05 push→自动构建→发布→线上可访问端到端证明）
 **Per-Plan Metrics:**
 
@@ -47,6 +47,7 @@ progress:
 | Phase 02 P03 | 70min | 3 tasks | 11 files |
 | Phase 02 P04 | 10min | 3 tasks | 0 files |
 | Phase 02 P05 | 7min | 3 tasks | 0 files |
+| Phase 02 P06 | 7min | 2 tasks | 0 files |
 
 ## Accumulated Context
 
@@ -85,12 +86,12 @@ progress:
 
 ## Session Continuity
 
-**Last session:** 2026-08-19T04:21:36.649Z
-**Stopped at:** Completed 02-05-PLAN.md (首次上线热切换 + DEPLOY-01 稳态结项; 新站 zhangtaolab.org 在线)
-**Resume file:** .planning/phases/02-auto-deploy/02-06-PLAN.md
+**Last session:** 2026-08-19T04:29:58.227Z
+**Stopped at:** Completed 02-06-PLAN.md (D-15⑥ 删 master + D-17 清理 + 终局验收全绿; Phase 2 6/6 完成, ready_for_verification)
+**Resume file:** None
 
-**Last action:** Phase 2 P05 首次上线闭环 — 检查点用户批准（"approved — deploy"）→ 设闸 DEPLOY_ENABLED=true → dispatch deploy=true run 32215147077 build+deploy 双绿 → 线上热切换判别式成立（/publications/ 200 + /Publication 404，cache-buster 首查通过）→ 稳态 push run 32215293379 deploy 绿 → DEPLOY-01 端到端结项；新站 zhangtaolab.org 在线
-**Next action:** 执行 02-06-PLAN.md（清理收尾：删远端 master + 3 dependabot 分支，D-17；其自有机器前置断言把门）
+**Last action:** Phase 2 P06 清理收尾闭环 — 四机器前置断言全绿（线上 200 / 审计 Verdict: APPROVED 恰 1 命中 / backup 在位 / build_type=workflow）→ 删远端 master + 3 dependabot 分支 → 终态双源确证恰为 {backup, main}（git ls-remote + gh api）→ 回滚双保险复核在位（backup b09c9b31 + 本地克隆）→ 终局验收电池全绿（TASK2-PASS：三页 200 含 DOI 锚点 / feed xmllint 过 / sitemap 线上=本地=CI 同值 11 / Pages API built+cname）
+**Next action:** Phase 2 全部 6/6 plans 完成 — 运行 /gsd-verify-work 做 Phase 2 验证/UAT 闭环（终局验收表已在 02-06-SUMMARY.md，可直接引用）；之后 Phase 3（内容验证, CONTENT-01）规划
 **Blockers:** 无
 **Relocation:** 项目已从 `/Users/forrest/Playground/zhangtaolab-jekyll` 整体搬迁至 `/Users/forrest/GitHub/zhangtaolab.github.io`（2026-08-18）；origin=zhangtaolab/zhangtaolab.github.io（SSH），default_branch=main，Pages build_type=workflow，旧站留底：远端 backup 分支 + 本地克隆 `~/GitHub/zhangtaolab.github.io-legacy-backup`
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。
@@ -113,3 +114,5 @@ progress:
 - [Phase ?]: Phase 2 P04: DEPLOY-02 结项（Linux 绿跑 ×2 + setup-ruby 读 .ruby-version=4.0.6 与本地一致 + 版本组合未动）；DEPLOY-01 刻意留待 02-05/06 线上锚点证明（触发链已证实，站点尚未部署）
 - [Phase ?]: Phase 2 P05: 首次上线热切换完成——用户批准后设 DEPLOY_ENABLED=true (04:16:04Z) → dispatch run 32215147077 build+deploy 双绿 (deployment 5975929344) → 判别式首查即 SWITCHED (/publications/ 200 + /Publication 404, cache-buster 强制回源即时权威) → push run 32215293379 deploy 由 skipped 变 success, D-16 常驻闸门实证; DEPLOY-01 端到端结项
 - [Phase ?]: Phase 2 P05: 闸门运维语义——此后 push main 即自动上线; 暂停发布删 DEPLOY_ENABLED 变量即可 (build 仍跑, 验证模式回退); master/backup b09c9b31 与 3 dependabot 分支未动, 删除属 Plan 06
+- [Phase ?]: Phase 2 P06: D-15⑥/D-17 完结——四机器前置断言全绿（线上 200 / 审计 Verdict: APPROVED 精确 grep 命中恰 1 / backup 在位 / build_type=workflow）后删 master + 3 dependabot 分支，终态经 git ls-remote 与 gh api 双源确证恰为 {backup, main}，回滚双保险（远端 backup b09c9b31 + 本地克隆）复核在位
+- [Phase ?]: Phase 2 P06: 终局验收电池全绿，四条成功标准逐条落证——push 自动触发 run 32215293379、线上 home/publications(DOI 锚点)/news 200、CI Ruby 4.0.6 日志逐字对齐 .ruby-version、feed xmllint 过 + sitemap 线上=本地=CI 冒烟三方同值 11、Pages API built+cname；分支删除对线上零影响（T-02-14 实证）

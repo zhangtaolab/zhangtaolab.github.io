@@ -46,7 +46,7 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** 5/6 plans executed
+**Plans:** 6/6 plans executed
 
 Plans:
 **Wave 1**
@@ -68,7 +68,7 @@ Plans:
 
 **Wave 5** *(blocked on Wave 4 completion)*
 
-- [ ] 02-06-PLAN.md — D-15⑥ 删 master + D-17 分支清理 + 终局验收扫描
+- [x] 02-06-PLAN.md — D-15⑥ 删 master + D-17 分支清理 + 终局验收扫描
 
 ### Phase 3: 内容验证
 
@@ -90,7 +90,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 5/6 | In Progress|  |
+| 2. 自动部署 | 6/6 | In Progress|  |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary
