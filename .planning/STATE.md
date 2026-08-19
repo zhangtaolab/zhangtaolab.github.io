@@ -116,3 +116,9 @@ progress:
 - [Phase ?]: Phase 2 P05: 闸门运维语义——此后 push main 即自动上线; 暂停发布删 DEPLOY_ENABLED 变量即可 (build 仍跑, 验证模式回退); master/backup b09c9b31 与 3 dependabot 分支未动, 删除属 Plan 06
 - [Phase ?]: Phase 2 P06: D-15⑥/D-17 完结——四机器前置断言全绿（线上 200 / 审计 Verdict: APPROVED 精确 grep 命中恰 1 / backup 在位 / build_type=workflow）后删 master + 3 dependabot 分支，终态经 git ls-remote 与 gh api 双源确证恰为 {backup, main}，回滚双保险（远端 backup b09c9b31 + 本地克隆）复核在位
 - [Phase ?]: Phase 2 P06: 终局验收电池全绿，四条成功标准逐条落证——push 自动触发 run 32215293379、线上 home/publications(DOI 锚点)/news 200、CI Ruby 4.0.6 日志逐字对齐 .ruby-version、feed xmllint 过 + sitemap 线上=本地=CI 冒烟三方同值 11、Pages API built+cname；分支删除对线上零影响（T-02-14 实证）
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 260819-kvb | Fix WR-01: site og:image — use existing logo.png | 2026-08-19 | 2e20772 | [260819-kvb-fix-wr-01-site-og-image-use-existing-log](./quick/260819-kvb-fix-wr-01-site-og-image-use-existing-log/) |
