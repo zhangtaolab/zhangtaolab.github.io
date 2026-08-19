@@ -49,11 +49,25 @@
 **Plans:** 6 plans
 
 Plans:
+**Wave 1**
+
 - [ ] 02-01-PLAN.md — D-10~D-14 评审遗留修复（vendor exclude / sitemap 全量化 / dark_mode / 双新闻页收敛 / RSS guid）
+
+**Wave 2** *(blocked on Wave 1 completion)*
+
 - [ ] 02-02-PLAN.md — CI 流水线工件：deploy.yml + ci-smoke.sh（D-05~D-09、D-16 双闸）
 - [ ] 02-03-PLAN.md — D-18 出版物逐条核对（旧站存档 + 83 vs ~91 逐条比对 + 阻断检查点）
+
+**Wave 3** *(blocked on Wave 2 completion)*
+
 - [ ] 02-04-PLAN.md — 原地接管 D-15①~④（push main → 默认分支 → build_type=workflow → 验证模式）
+
+**Wave 4** *(blocked on Wave 3 completion)*
+
 - [ ] 02-05-PLAN.md — 首次上线（人工闸门 → D-16 设闸 → 热切换 → 稳态自动部署证明）
+
+**Wave 5** *(blocked on Wave 4 completion)*
+
 - [ ] 02-06-PLAN.md — D-15⑥ 删 master + D-17 分支清理 + 终局验收扫描
 
 ### Phase 3: 内容验证
