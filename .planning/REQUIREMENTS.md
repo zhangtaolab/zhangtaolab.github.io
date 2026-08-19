@@ -19,7 +19,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### 部署（Deployment）
 
 - [ ] **DEPLOY-01**: 维护者推送到 GitHub 后，Actions 自动完成完整构建（含 jekyll-scholar）并发布到 GitHub Pages，站点在 Pages URL 可访问
-- [ ] **DEPLOY-02**: CI 构建在 Linux runner 上成功（Gemfile.lock 跨平台条目就绪），本地与 CI 的 Ruby 版本一致（版本 pin 落地）
+- [x] **DEPLOY-02**: CI 构建在 Linux runner 上成功（Gemfile.lock 跨平台条目就绪），本地与 CI 的 Ruby 版本一致（版本 pin 落地）
 
 ## v2 Requirements
 
@@ -61,7 +61,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ENV-02 | Phase 1 | Complete |
 | CONTENT-01 | Phase 3 | Pending |
 | DEPLOY-01 | Phase 2 | Pending |
-| DEPLOY-02 | Phase 2 | Pending |
+| DEPLOY-02 | Phase 2 | Complete |
 
 **Coverage:**
 

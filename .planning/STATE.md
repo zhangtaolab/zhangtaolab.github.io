@@ -5,18 +5,18 @@ milestone_name: milestone
 current_phase: 2
 current_phase_name: 自动部署
 status: executing
-stopped_at: Completed 02-03-PLAN.md (D-18 审计 89/89 全对齐 + 用户批准标记入库，检查点闭环)
-last_updated: "2026-08-19T03:21:06.908Z"
+stopped_at: Completed 02-04-PLAN.md (D-15①~④ 接管完成，验证模式双绿，闸门保持关闭)
+last_updated: "2026-08-19T03:36:01.683Z"
 progress:
   total_phases: 2
   completed_phases: 1
   total_plans: 9
-  completed_plans: 6
+  completed_plans: 7
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-19 after 02-03 closure (D-18 audit approved, plan 3/6 of Phase 2)
+**Updated:** 2026-08-19 after 02-04 closure (D-15①~④ takeover done, validation-mode double green, gate closed, plan 4/6 of Phase 2)
 
 ## Project Reference
 
@@ -27,15 +27,15 @@ progress:
 ## Current Position
 
 **Phase:** 2 (自动部署) — EXECUTING
-**Plan:** 4 of 6
+**Plan:** 5 of 6
 **Status:** Ready to execute
 **Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ 33%（1/3 阶段）
 
 ## Performance Metrics
 
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
-**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 执行中 3/6 plans（02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计——89/89 全对齐经用户 2026-08-19 批准，闸门标记已入库；下一 02-04 原地接管）
-**需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）
+**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 执行中 4/6 plans（02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计 89/89 批准 / 02-04 原地接管 D-15①~④——零 force push 零停机，双 run 绿，DEPLOY-02 结项；下一 02-05 首次正式部署〔含人工检查点〕）
+**需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）；Phase 2 已结项 DEPLOY-02（02-04 Linux 绿跑 ×2 + Ruby 4.0.6 一致），DEPLOY-01 留待 02-05/06 线上锚点
 **Per-Plan Metrics:**
 
 | Plan | Duration | Tasks | Files |
@@ -45,6 +45,7 @@ progress:
 | Phase 02 P01 | 5min | 3 tasks | 13 files |
 | Phase 02 P02 | 2min | 2 tasks | 2 files |
 | Phase 02 P03 | 70min | 3 tasks | 11 files |
+| Phase 02 P04 | 10min | 3 tasks | 0 files |
 
 ## Accumulated Context
 
@@ -83,9 +84,9 @@ progress:
 
 ## Session Continuity
 
-**Last session:** 2026-08-19T03:21:00.914Z
-**Stopped at:** Completed 02-03-PLAN.md (D-18 审计 89/89 全对齐 + 用户批准标记入库，检查点闭环)
-**Resume file:** .planning/phases/02-auto-deploy/02-04-PLAN.md
+**Last session:** 2026-08-19T03:36:01.677Z
+**Stopped at:** Completed 02-04-PLAN.md (D-15①~④ 接管完成，验证模式双绿，闸门保持关闭)
+**Resume file:** .planning/phases/02-auto-deploy/02-05-PLAN.md
 
 **Last action:** Phase 1 Round 3 闭环 — 03-PLAN 执行（research/software 重排 + PDLLMs 改链）→ 验证 32/32 机器真值 passed → UAT 7/7（测试 6 视觉确认用户通过；测试 7 决策 (a) feed.xml strip_html 已修 e8df062）→ 阶段转场至 Phase 2
 **Next action:** 在新目录 `/Users/forrest/GitHub/zhangtaolab.github.io` 重启会话后执行 `/gsd-plan-phase 2`（Phase 2 自动部署；02-CONTEXT.md 已完备，含渐进式接管序列与部署闸门设计）
@@ -107,3 +108,5 @@ progress:
 - [Phase ?]: Phase 2 P02: 冒烟断言先于 upload-pages-artifact（断言红则无工件可部署），runner 需 apt libxml2-utils；setup-ruby@v1 省略 ruby-version 输入使 .ruby-version(4.0.6) 成为本地/CI 版本单一事实源；D-16 双闸表达式与 D-09 验证模式（deploy 默认 false）一体落地，首次 push main 自动回退验证模式
 - [Phase ?]: Phase 2 P03: D-18 出版物审计闭环——round 1 BLOCK（6 MISSING）→ 用户 remedy (a) 逐字补录（66a5adf，83→89 重编号）→ round 2 全对齐 89/89（88 精确 + 1 NFKC 连字 2024 Zheng XL）→ 用户 2026-08-19 approved，标记行入库（650bd3e，grep 计数恰 1）；2013 PNAS CentO 嵌套评述经用户决定不迁移；~91 对账为 89 顶层 + 2 嵌套
 - [Phase ?]: Phase 2 P03: 闸门标记拆分书写护栏——审计报告正文绝不出现批准标记完整字面量（round 1 曾在豁免选项正文完整引用，属 Plan 06 grep 假阳性污染隐患，round 2 生成器修正）；标记行只由 executor 在用户批准后追加，DEPLOY-01 结项留给线上锚点证明（02-05/06）
+- [Phase ?]: Phase 2 P04: D-15①~④ 原地接管零停机完成——push main（新增分支，master/backup 未动 b09c9b31）→ default_branch=main → Pages build_type=workflow（cname zhangtaolab.org 继承、域名验证字段 null 未回退、旧站持续 200）；首跑 32212189321 + 验证模式 32212517131 双绿（build 绿含 Smoke PASS: sitemap=11、deploy skipped），DEPLOY_ENABLED 全程未设
+- [Phase ?]: Phase 2 P04: DEPLOY-02 结项（Linux 绿跑 ×2 + setup-ruby 读 .ruby-version=4.0.6 与本地一致 + 版本组合未动）；DEPLOY-01 刻意留待 02-05/06 线上锚点证明（触发链已证实，站点尚未部署）

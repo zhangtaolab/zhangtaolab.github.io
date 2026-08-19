@@ -46,7 +46,7 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** 3/6 plans executed
+**Plans:** 4/6 plans executed
 
 Plans:
 **Wave 1**
@@ -60,7 +60,7 @@ Plans:
 
 **Wave 3** *(blocked on Wave 2 completion)*
 
-- [ ] 02-04-PLAN.md — 原地接管 D-15①~④（push main → 默认分支 → build_type=workflow → 验证模式）
+- [x] 02-04-PLAN.md — 原地接管 D-15①~④（push main → 默认分支 → build_type=workflow → 验证模式）
 
 **Wave 4** *(blocked on Wave 3 completion)*
 
@@ -90,7 +90,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 3/6 | In Progress|  |
+| 2. 自动部署 | 4/6 | In Progress|  |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary
