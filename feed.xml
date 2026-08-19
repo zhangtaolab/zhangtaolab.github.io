@@ -25,7 +25,8 @@ layout: null
       {% assign article_date = article.date %}
       {% if article_date == "Latest" %}{% assign article_date = site.time %}{% endif %}
       <pubDate>{{ article_date | date_to_rfc822 }}</pubDate>
-      <link>{{ site.url }}{{ site.baseurl }}/allnews.html</link>
+      <link>{{ site.url }}{{ site.baseurl }}/news/</link>
+      <guid isPermaLink="false">news-{{ forloop.index }}-{{ article_date | date_to_xmlschema | default: 'latest' }}</guid>
     </item>
     {% endfor %}
   </channel>
