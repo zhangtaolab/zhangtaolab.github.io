@@ -23,11 +23,12 @@ Zhang Tao Lab（zhangtaolab.org）实验室主页的全新大版本，基于 Jek
 - ✓ 结构化数据管理：成员 `_data/people.yml`、PI `_data/pi.yml`、新闻 `_data/news.yml`、毕业生 `_data/alumni.yml`、经费 `_data/grants.yml`
 - ✓ Bootstrap 5 响应式布局，深色模式与站内搜索（`assets/js/site.js`）
 - ✓ RSS 订阅（`feed.xml`）、sitemap（jekyll-sitemap）、MathJax 公式渲染
+- ✓ GitHub Actions 自动构建部署：push main 自动触发完整 Ruby 构建（含 jekyll-scholar）并发布 Pages — Phase 2（DEPLOY-01 端到端结项：push run 32215293379 自动上线；DEPLOY-02：ubuntu 绿跑 ×2 + CI Ruby 4.0.6 与本地逐字一致；zhangtaolab.org 热切换在案，UAT 3/3）
+- ✓ 站点图标为实验室自有品牌：favicon.ico = 旧站真图标（逐字节一致），rel=icon → logo.png — Phase 2（G-02-1 quick fix，线上复核）
 
 ### Active
 
 - [ ] 日常更新流程可用：新增论文（`papers/ref.bib`）、新闻（`_data/news.yml`）、成员（`_data/*.yml`）、页面内容（`_pages/*.md`）的操作步骤文档化，更新后本地预览验证
-- [ ] GitHub Actions 自动构建部署：推送到新仓库后自动执行完整 Ruby 构建（含 jekyll-scholar）并发布到 GitHub Pages
 
 ### Out of Scope
 
@@ -38,8 +39,9 @@ Zhang Tao Lab（zhangtaolab.org）实验室主页的全新大版本，基于 Jek
 
 ## Context
 
-- **全新大版本**：旧 GitHub 仓库与部署将被抛弃；本仓库已用全新历史初始化（2026-08-17 `git init`，无远端）
-- **本机环境**：Ruby 4.0.6 + Bundler 4.0.16（arm64 macOS）实测可跑 Jekyll 4.4.1 + jekyll-scholar 7.3.0；`Gemfile.lock` 已入库（含 Linux runner 平台条目与 CHECKSUMS），`.ruby-version` = 4.0.6 作为 Phase 2 CI 对齐事实源
+- **全新大版本已上线（2026-08-19 热切换）**：origin = zhangtaolab/zhangtaolab.github.io（default branch: main），Pages build_type=workflow，zhangtaolab.org 服务新站；旧站留底 = 远端 `backup` 分支（b09c9b31）+ 本地克隆 `~/GitHub/zhangtaolab.github.io-legacy-backup`
+- **已接受的内容欠账（素材后补）**：CR-01 teaching.md 模板占位课程在线上（待真实课程列表）；CR-02 8 条 PDF 链接 404（待 PDF 入库 `pdf/` 或摘除链接）— UAT 2026-08-19 用户裁定暂时接受，记录于 02-UAT.md Deferred Follow-Ups
+- **本机环境**：Ruby 4.0.6 + Bundler 4.0.16（arm64 macOS）实测可跑 Jekyll 4.4.1 + jekyll-scholar 7.3.0；`Gemfile.lock` 已入库（含 Linux runner 平台条目与 CHECKSUMS），`.ruby-version` = 4.0.6 为本地/CI 版本单一事实源
 - **部署约束**：`jekyll-scholar` 不在 GitHub Pages 原生构建插件白名单内，必须用 GitHub Actions 自定义构建流程
 - **站点配置**：`url: https://zhangtaolab.org`，`baseurl: ""`，自定义域名沿用
 - 代码库地图见 `.planning/codebase/`（2026-08-17 生成，7 份文档：STACK / ARCHITECTURE / STRUCTURE / CONVENTIONS / TESTING / INTEGRATIONS / CONCERNS）
@@ -55,7 +57,12 @@ Zhang Tao Lab（zhangtaolab.org）实验室主页的全新大版本，基于 Jek
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| 部署采用 GitHub Actions 自定义构建（非 Pages 原生构建） | jekyll-scholar 不在 Pages 插件白名单 | — Pending（Phase 2） |
+| 部署采用 GitHub Actions 自定义构建（非 Pages 原生构建） | jekyll-scholar 不在 Pages 插件白名单 | ✓ Phase 2（原地接管零停机，首部署 run 32215147077 双绿） |
+| DEPLOY_ENABLED 双闸门（D-16）：deploy job 由变量门控，未设时回退验证模式 | 破坏性上线动作需显式授权；暂停发布删变量即可（build 仍跑） | ✓ Phase 2（skipped→success 两态实证） |
+| 冒烟断言先于 upload-pages-artifact；`.ruby-version` 为本地/CI 版本单一事实源 | 断言红则无工件可部署；版本漂移即跨平台不一致之源 | ✓ Phase 2（CI 日志 Ruby 4.0.6 逐字对齐） |
+| 出版物迁移审计 89/89 全对齐（D-18）：6 条曾缺逐字补录（零豁免），2 条嵌套 Commentary 用户决定不迁移 | 旧站条目零丢弃 prohibition；嵌套非顶层条目留档在案 | ✓ Phase 2（round 2 全 MATCHED，Verdict: APPROVED） |
+| 删远端 master + 3 dependabot 分支（D-15⑥/D-17）：四机器前置断言全绿后执行 | 新站已验证上线 + D-18 批准后方可清理；backup 永不触碰 | ✓ Phase 2（终态 {backup, main} 双源确证，回滚双保险在位） |
+| favicon 换用旧站真图标 + rel=icon → logo.png | 用户 UAT 报告模板 monogram 非实验室品牌（G-02-1） | ✓ Phase 2（线上字节级复核，模板 favicon.svg 移除） |
 | 旧版本仓库全部抛弃，新仓库全新历史 | 大版本重写，旧历史无保留价值 | ✓ Phase 1（460 文件入库） |
 | Jekyll 4.3.3 → `~> 4.4.0`（4.4.1） | 用户指令（2026-08-17）：按 GitHub 版本支持要求采用较新版本；Ruby 4.0.6 实测兼容 | ✓ Phase 1（livereload.js 随 4.4 迁移至 127.0.0.1:35729，功能等价已验） |
 | jekyll-scholar/jekyll-sitemap 移入 Gemfile `:jekyll_plugins` 组 | Jekyll 插件加载的唯一正确位置（顶层声明不加载，`{% bibliography %}` 必挂） | ✓ Phase 1 |
@@ -83,4 +90,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-08-18 after Phase 1（gap closure Round 3）*
+*Last updated: 2026-08-20 after Phase 2（自动部署结项：UAT 3/3，verification passed）*

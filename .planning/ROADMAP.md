@@ -7,7 +7,7 @@
 ## Phases
 
 - [x] **Phase 1: 本地开发环境** - 维护者能在本地预览网站全部内容（含出版物列表） (completed 2026-08-17)
-- [ ] **Phase 2: 自动部署** - 维护者推送后网站自动上线，跨平台构建一致
+- [x] **Phase 2: 自动部署** - 维护者推送后网站自动上线，跨平台构建一致 (completed 2026-08-20)
 - [ ] **Phase 3: 内容验证** - 维护者更新内容时语法错误被拦截，避免静默失败
 
 ## Phase Details
@@ -46,7 +46,7 @@
   3. CI 构建在 Linux runner 上成功，Ruby 版本与本地一致（通过 Gemfile.lock 版本锁定）
   4. 站点在线上的显示效果与本地预览一致，出版物列表正常显示
 
-**Plans:** 6/6 plans executed
+**Plans:** 6/6 plans complete
 
 Plans:
 **Wave 1**
@@ -90,7 +90,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
-| 2. 自动部署 | 6/6 | In Progress|  |
+| 2. 自动部署 | 6/6 | Complete    | 2026-08-20 |
 | 3. 内容验证 | 0/0 | Not started | - |
 
 ## Summary

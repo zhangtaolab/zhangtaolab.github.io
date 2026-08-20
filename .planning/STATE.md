@@ -1,40 +1,41 @@
 ---
 gsd_state_version: 1.0
 milestone: v1.0
-milestone_name: milestone
-current_phase: 2
-current_phase_name: 自动部署
-status: verifying
-stopped_at: Completed 02-06-PLAN.md (D-15⑥ 删 master + D-17 清理 + 终局验收全绿; Phase 2 6/6 完成, ready_for_verification)
-last_updated: "2026-08-19T04:29:58.234Z"
+current_phase: 3
+current_phase_name: 内容验证
+status: planning
+stopped_at: Phase 2 complete, ready to plan Phase 3
+last_updated: "2026-08-20T02:05:37.850Z"
+state_head: e8dc9b5e785497423c78981e12fd3d8b8bf1b48f
 progress:
-  total_phases: 2
+  total_phases: 3
   completed_phases: 2
   total_plans: 9
   completed_plans: 9
+milestone_name: milestone
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-19 after 02-06 closure (D-15⑥ 删 master + D-17 dependabot 清理完成, 远端分支终态 {backup, main}, 终局验收电池全绿, Phase 2 6/6 plans 完成, ready for verification)
+**Updated:** 2026-08-20 after Phase 2 verification closure（UAT 3/3 全过：favicon 修复线上复核 + CR-01/CR-02 裁定接受 + prohibitions 人工背书；verification → passed；阶段结项 6/6）
 
 ## Project Reference
 
 **Core Value:** 维护者能低成本地更新网站内容（论文/新闻/成员/页面），本地预览确认后推送即自动发布。
 
-**Current Focus:** Phase 2 — 自动部署
+**Current Focus:** Phase 3 — 内容验证
 
 ## Current Position
 
-**Phase:** 2 (自动部署) — 6/6 PLANS COMPLETE（待 /gsd-verify-work 验证）
-**Plan:** 6 of 6
-**Status:** Phase complete — ready for verification
+**Phase:** 3 — 内容验证
+**Plan:** Not started
+**Status:** Ready to plan
 **Progress Bar:** ▰▰▰▰▰▰▰▱▱▱ 67%（2/3 阶段）
 
 ## Performance Metrics
 
 **里程碑进度:** v1 - 环境跑通 + 自动部署上线
-**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 执行完毕 6/6 plans（02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计 89/89 批准 / 02-04 原地接管 D-15①~④ 双 run 绿 / 02-05 首次上线热切换——dispatch run 32215147077 双绿 + 稳态 push run 32215293379 deploy 绿，新站 zhangtaolab.org 在线 / 02-06 清理收尾——四前置断言全绿后删 master + 3 dependabot 分支，远端终态 {backup, main}，回滚双保险在位，终局验收电池全绿〔四条成功标准逐条落证〕）；Phase 2 待 /gsd-verify-work 验证后关闭
+**阶段进度:** Phase 1 ✓ 完成（3 轮验证/UAT 闭环：验证 32/32 机器真值 passed + UAT 7/7 + 安全 0 开放威胁 + 代码评审 1C/6W/10I 已决策处置）；Phase 2 ✓ 完成（6/6 plans：02-01 评审修复 / 02-02 CI 工件 / 02-03 D-18 出版物审计 89/89 批准 / 02-04 原地接管 D-15①~④ 双 run 绿 / 02-05 首次上线热切换 / 02-06 清理收尾〔删 master + dependabot，终态 {backup, main}〕；验证 31/31 机器真值 + UAT 3/3 全过——favicon G-02-1 quick fix 线上字节级复核、CR-01/CR-02 内容欠账裁定接受（素材后补，见 02-UAT.md Deferred Follow-Ups）、4 条 prohibitions 人工背书；verification passed + 安全 0 开放威胁）；Phase 3 待规划
 **需求覆盖:** 5/5 需求已映射到路线图（100%）；Phase 1 覆盖 ENV-01、ENV-02（2/2）；Phase 2 全结项——DEPLOY-02（02-04 Linux 绿跑 ×2 + Ruby 4.0.6 一致）+ DEPLOY-01（02-05 push→自动构建→发布→线上可访问端到端证明）
 **Per-Plan Metrics:**
 
@@ -86,12 +87,12 @@ progress:
 
 ## Session Continuity
 
-**Last session:** 2026-08-19T04:29:58.227Z
-**Stopped at:** Completed 02-06-PLAN.md (D-15⑥ 删 master + D-17 清理 + 终局验收全绿; Phase 2 6/6 完成, ready_for_verification)
+**Last session:** 2026-08-20
+**Stopped at:** Phase 2 complete, ready to plan Phase 3
 **Resume file:** None
 
-**Last action:** Phase 2 P06 清理收尾闭环 — 四机器前置断言全绿（线上 200 / 审计 Verdict: APPROVED 恰 1 命中 / backup 在位 / build_type=workflow）→ 删远端 master + 3 dependabot 分支 → 终态双源确证恰为 {backup, main}（git ls-remote + gh api）→ 回滚双保险复核在位（backup b09c9b31 + 本地克隆）→ 终局验收电池全绿（TASK2-PASS：三页 200 含 DOI 锚点 / feed xmllint 过 / sitemap 线上=本地=CI 同值 11 / Pages API built+cname）
-**Next action:** Phase 2 全部 6/6 plans 完成 — 运行 /gsd-verify-work 做 Phase 2 验证/UAT 闭环（终局验收表已在 02-06-SUMMARY.md，可直接引用）；之后 Phase 3（内容验证, CONTENT-01）规划
+**Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
+**Next action:** Phase 3（内容验证，CONTENT-01 — 维护者更新内容时语法错误被拦截，避免静默失败）规划：/gsd-discuss-phase 3
 **Blockers:** 无
 **Relocation:** 项目已从 `/Users/forrest/Playground/zhangtaolab-jekyll` 整体搬迁至 `/Users/forrest/GitHub/zhangtaolab.github.io`（2026-08-18）；origin=zhangtaolab/zhangtaolab.github.io（SSH），default_branch=main，Pages build_type=workflow，旧站留底：远端 backup 分支 + 本地克隆 `~/GitHub/zhangtaolab.github.io-legacy-backup`
 **Notes:** 这是一个 brownfield 项目，现有代码已完成开发。v1 重点是让新版本在本地可测试、内容可日常更新、推送后自动部署上线。

@@ -1,23 +1,27 @@
 ---
 phase: 02-auto-deploy
 verified: 2026-08-19T04:49:10Z
-status: human_needed
+status: passed
 score: 31/31 must-have truths verified (4 roadmap SC + 27 plan truths), 0 gaps
 behavior_unverified: 0
 overrides_applied: 0
 overrides_suggested:
+
   - must_have: "_includes/head.html contains \"allow_false: true\" (02-01-PLAN artifact literal check)"
     reason: "Literal syntax is Liquid 5.4+ only; locked stack runs liquid-4.0.4 (Jekyll 4.4.1 pins liquid ~> 4.0) where it raises ArgumentError. Equivalent explicit form {% if site.dark_mode == false %}false{% else %}true{% endif %} implemented and machine-proven both directions (override-config build renders 'var darkMode = false;', normal build renders 'var darkMode = true;'). The corresponding truth is VERIFIED; only the plan's literal grep pattern is unmet."
     note: "Pending user acceptance — suggested, NOT applied. Future audits should grep for 'site.dark_mode == false' instead."
 requirements: [DEPLOY-01, DEPLOY-02]
 prohibitions_reviewed: 4
 human_verification:
+
   - test: "浏览器打开 https://zhangtaolab.org/（连同 /publications/、/news/）做一次目检，确认渲染效果与本地 bundle exec jekyll serve 预览一致"
     expected: "版面正常、出版物 89 条按年份显示、无样式错乱（机器已证部署 HTML 与本地构建逐字节一致，仅 Cloudflare 邮箱混淆注入与构建时间戳不同——此步是 SC4 显示效果的最终视觉确认）"
     why_human: "字节等价是显示等价的充分机器证据，但像素级渲染观感超出 grep/diff 能力；SC4 的『显示效果』字面含视觉成分"
+
   - test: "裁定 02-REVIEW.md 两个 critical 内容缺陷（均为 Phase-1 内容面、随部署曝光，非本阶段 must_haves 违例）：CR-01 teaching.md 模板占位课程已在线上（Feynman Lectures 等，实测 /teaching/ 命中 2 处）；CR-02 8 条 PDF 链接线上 404（实测 /pdf/2013/PNAS_2013.pdf=404）"
     expected: "人工决策修复或接受（本地预览与线上同样包含该缺陷——部署产物与本地一致，缺陷存在于两侧）；选择修复即走 /gsd-quick 或纳入后续计划"
     why_human: "内容取舍（PI 授课信息、PDF 分发权限）是领域决策；管道本身忠实部署了缺陷内容，无任何机器判据可代替内容审定"
+
   - test: "确认 4 条 judgment 级 prohibitions 复核结论（见 Prohibitions 表，验证者裁定均为『未违反』）"
     expected: "人工确认或提出异议：①断言四件套未被削弱（WR-03 仅诊断文案死代码，阻断语义完好）；②出版物 89/89 零丢弃；③Ruby 4.0.6/Jekyll 4.4.1 版本组合零漂移；④master 删除发生在新站验证上线 + D-18 批准之后"
     why_human: "judgment 级禁制的最终裁定权属开发者（ADR-550 D4）；验证者结论为非权威 LLM-judge，需人工背书"
@@ -27,6 +31,11 @@ re_verification: # no previous VERIFICATION.md existed — initial verification
   gaps_closed: []
   gaps_remaining: []
   regressions: []
+previous_status: none
+previous_score: none
+gaps_closed: []
+gaps_remaining: []
+regressions: []
 ---
 
 # Phase 2: 自动部署 Verification Report
