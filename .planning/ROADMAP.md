@@ -83,7 +83,7 @@ Plans:
   3. 构建失败时错误信息清晰指出具体文件与问题位置（非静默失败）
   4. 维护者能在发布前通过验证步骤确保内容语法正确
 
-**Plans:** 2/2 plans executed
+**Plans:** 3 plans (2 executed, 1 gap closure)
 
 Plans:
 **Wave 1**
@@ -93,6 +93,10 @@ Plans:
 **Wave 2** *(blocked on Wave 1 completion)*
 
 - [x] 03-02-PLAN.md — 双入口收口（D-08 提醒层 + deploy.yml 构建前 Validate content 步骤 D-04 + 红路径端到端证明 CONTENT-01-g）
+
+**Wave 3** *(gap closure — verification gaps_found: CR-01/CR-02 边界输入崩溃)*
+
+- [ ] 03-03-PLAN.md — gap closure：层①/层③ 抗崩收口（safe_load + rescue 阶梯 + GBK 编码预检 + __dir__ 锚定 WR-01/WR-02）+ IN-01 正则同源化 + IN-03 死代码清除；spot-checks 15-18 翻绿、1-14 零回归
 
 ## Progress
 
