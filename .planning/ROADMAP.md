@@ -83,7 +83,7 @@ Plans:
   3. 构建失败时错误信息清晰指出具体文件与问题位置（非静默失败）
   4. 维护者能在发布前通过验证步骤确保内容语法正确
 
-**Plans:** 3 plans (2 executed, 1 gap closure)
+**Plans:** 3/3 plans executed (2 executed, 1 gap closure)
 
 Plans:
 **Wave 1**
@@ -96,7 +96,7 @@ Plans:
 
 **Wave 3** *(gap closure — verification gaps_found: CR-01/CR-02 边界输入崩溃)*
 
-- [ ] 03-03-PLAN.md — gap closure：层①/层③ 抗崩收口（safe_load + rescue 阶梯 + GBK 编码预检 + __dir__ 锚定 WR-01/WR-02）+ IN-01 正则同源化 + IN-03 死代码清除；spot-checks 15-18 翻绿、1-14 零回归
+- [x] 03-03-PLAN.md — gap closure：层①/层③ 抗崩收口（safe_load + rescue 阶梯 + GBK 编码预检 + __dir__ 锚定 WR-01/WR-02）+ IN-01 正则同源化 + IN-03 死代码清除；spot-checks 15-18 翻绿、1-14 零回归
 
 ## Progress
 
@@ -104,7 +104,7 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
 | 2. 自动部署 | 6/6 | Complete    | 2026-08-20 |
-| 3. 内容验证 | 2/2 | In Progress|  |
+| 3. 内容验证 | 3/3 | In Progress|  |
 
 ## Summary
 

@@ -4,20 +4,20 @@ milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed 03-02-PLAN.md（CI Validate content 步骤 + D-08 提醒 + 红路径证明，3/3 tasks）
-last_updated: "2026-08-20T07:02:52.456Z"
-state_head: dc06c99e03ff28c8aaff8ea66e64bc1e5fa528f1
+stopped_at: Completed 03-03-PLAN.md（层①③ 抗崩收口 + WR-01/WR-02 + IN-01/IN-03，2/2 tasks）
+last_updated: "2026-08-20T07:21:57.800Z"
+state_head: 4bd8f987191ff0fb8c29b7e01a2fb19666d2b226
 progress:
   total_phases: 3
   completed_phases: 2
   total_plans: 12
-  completed_plans: 11
+  completed_plans: 12
 milestone_name: milestone
 ---
 
 # 项目状态：Zhang Tao Lab 主页（全新版本）
 
-**Updated:** 2026-08-20 after Phase 2 verification closure（UAT 3/3 全过：favicon 修复线上复核 + CR-01/CR-02 裁定接受 + prohibitions 人工背书；verification → passed；阶段结项 6/6）
+**Updated:** 2026-08-20 after 03-03 gap closure（层①③ 抗崩收口 + WR-01/WR-02 + IN-01/IN-03；Phase 3 计划 3/3 完成，待 verify-work 人工确认面）
 
 ## Project Reference
 
@@ -27,10 +27,10 @@ milestone_name: milestone
 
 ## Current Position
 
-**Phase:** 3 (内容验证) — EXECUTING
-**Plan:** 1 of 3
-**Status:** Executing Phase 3
-**Progress Bar:** ▰▰▰▰▰▰▰▱▱▱ 67%（2/3 阶段）
+**Phase:** 3 (内容验证) — 全计划执行完毕，待阶段验证
+**Plan:** 3 of 3（03-03 gap closure 已完成；03-VERIFICATION 两 critical gap 收口，待重验）
+**Status:** Awaiting /gsd-verify-work 3（人工确认面：probe 覆盖充分性 / P-03 prohibitions 背书 / safe_load 接受面裁定 / D-08 文案目检）
+**Progress Bar:** ▰▰▰▰▰▰▰▱▱▱ 67%（2/3 阶段——Phase 3 经 verify-work 结项后转 3/3）
 
 ## Performance Metrics
 
@@ -51,6 +51,7 @@ milestone_name: milestone
 | Phase 02 P06 | 7min | 2 tasks | 0 files |
 | Phase 03 P01 | 10min | 3 tasks | 2 files |
 | Phase 03 P02 | 16min | 3 tasks | 3 files |
+| Phase 03 P03 | 16min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -89,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-20T03:46:09.400Z
-**Stopped at:** Completed 03-02-PLAN.md（CI Validate content 步骤 + D-08 提醒 + 红路径证明，3/3 tasks）
+**Last session:** 2026-08-20T07:21:57.723Z
+**Stopped at:** Completed 03-03-PLAN.md（层①③ 抗崩收口 + WR-01/WR-02 + IN-01/IN-03，2/2 tasks）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -122,6 +123,9 @@ milestone_name: milestone
 - [Phase 3]: Phase 3 P01: 内容验证引擎落地——validate.rb 五层校验（YAML 语法+结构 / BibTeX 解析+必填+键唯一）单 errors 数组非 fail-fast 全收集，中文报错定位文件/行列/条目/引用键；validate.sh exec 透传 0.17s；BibTeX 查重只在原始文本正则 tally（解析器静默改名 k,k,k→k,l,m）；基线全绿（8/12 条无 doi 通过，DOI 非必填）
 - [Phase 3]: Phase 3 P02: CI 双入口收口——deploy.yml 插入 Validate content 步骤（Setup Pages 后、Build with Jekyll 前，字面量命令零内联表达式），同一 validate.rb 本地/CI 两处复用；红证提交 a4e8096c 端到端证明拦截语义（run 32329006888 恰在验证步骤红、零新 deployment、线上 200 保持旧版），revert 71dcea14 复绿 + 新 deployment 5995351307
 - [Phase 3]: Phase 3 P02: D-08 提醒层落地——git show HEAD 与工作区 ref.bib 原始文本条目计数对比（不依赖 BibTeX 解析），不等输出中文提醒（publications.md 字样）但退出码零影响；guard 失败静默跳过；CI fetch-depth 1 天然静默零特判
+- [Phase 03]: Phase 3 P03: gap closure 收口——validate.rb 层① 换 Psych.safe_load(permitted_classes: [Date], aliases: true) 四级 rescue、层③ raw 单次读入 + valid_encoding? 预检三级 rescue、ROOT = __dir__ 锚定全部 File I/O（WR-01/WR-02 + CR-01/CR-02 四类崩溃输入翻绿中文全收集）；YAML_FILES 值/BIB_PATH 保持仓库相对（D-07 消息字面量 + D-08 git spec 双用途）
+- [Phase 03]: Phase 3 P03: 层⑥ D-08 工作区计数 guard 扩为 raw 存在且 valid_encoding?——对无效编码字节串做正则 scan 本身抛 ArgumentError（执行器实测三类正则全抛，计划原 nil-guard 不足）；编码错误已由层③中文报出，guard 静默跳过沿用 A1 兜底
+- [Phase 03]: Phase 3 P03: IN-01 正则同源化（层⑤提键与层⑥计数共享 opener 子模式 @\s*[a-zA-Z]\w*\s*\{）——空格形态 @article {key, 重复键进入 tally（bibtex-ruby 解析后静默改名，原始文本唯一真相源）；基线计数 12/12 不变，只放宽看得见什么、不收紧什么合法（P-03-2）
 
 ### Quick Tasks Completed
 
