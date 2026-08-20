@@ -14,7 +14,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### 内容数据（Content Data）
 
-- [ ] **CONTENT-01**: 维护者能在发布前校验 `_data/*.yml` 与 `papers/ref.bib` 的语法，错误被明确报出而非静默失败
+- [x] **CONTENT-01**: 维护者能在发布前校验 `_data/*.yml` 与 `papers/ref.bib` 的语法，错误被明确报出而非静默失败
 
 ### 部署（Deployment）
 
@@ -59,7 +59,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | ENV-01 | Phase 1 | Complete |
 | ENV-02 | Phase 1 | Complete |
-| CONTENT-01 | Phase 3 | Pending |
+| CONTENT-01 | Phase 3 | Complete |
 | DEPLOY-01 | Phase 2 | Complete |
 | DEPLOY-02 | Phase 2 | Complete |
 

@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
-status: executing
-stopped_at: Completed 03-01-PLAN.md（validate.rb+validate.sh 全绿，3/3 tasks）
-last_updated: "2026-08-20T03:25:54.309Z"
-state_head: d3c40a5e597ff53de23604f183d346d7cd50624c
+status: verifying
+stopped_at: Completed 03-02-PLAN.md（CI Validate content 步骤 + D-08 提醒 + 红路径证明，3/3 tasks）
+last_updated: "2026-08-20T03:46:09.475Z"
+state_head: 71dcea1444a388d3bae0123c26f1c47da3661afc
 progress:
   total_phases: 3
   completed_phases: 2
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
 milestone_name: milestone
 ---
 
@@ -29,7 +29,7 @@ milestone_name: milestone
 
 **Phase:** 3 (内容验证) — EXECUTING
 **Plan:** 2 of 2
-**Status:** Ready to execute
+**Status:** Phase complete — ready for verification
 **Progress Bar:** ▰▰▰▰▰▰▰▱▱▱ 67%（2/3 阶段）
 
 ## Performance Metrics
@@ -50,6 +50,7 @@ milestone_name: milestone
 | Phase 02 P05 | 7min | 3 tasks | 0 files |
 | Phase 02 P06 | 7min | 2 tasks | 0 files |
 | Phase 03 P01 | 10min | 3 tasks | 2 files |
+| Phase 03 P02 | 16min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -88,8 +89,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-20T03:25:54.240Z
-**Stopped at:** Completed 03-01-PLAN.md（validate.rb+validate.sh 全绿，3/3 tasks）
+**Last session:** 2026-08-20T03:46:09.400Z
+**Stopped at:** Completed 03-02-PLAN.md（CI Validate content 步骤 + D-08 提醒 + 红路径证明，3/3 tasks）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -119,6 +120,8 @@ milestone_name: milestone
 - [Phase ?]: Phase 2 P06: D-15⑥/D-17 完结——四机器前置断言全绿（线上 200 / 审计 Verdict: APPROVED 精确 grep 命中恰 1 / backup 在位 / build_type=workflow）后删 master + 3 dependabot 分支，终态经 git ls-remote 与 gh api 双源确证恰为 {backup, main}，回滚双保险（远端 backup b09c9b31 + 本地克隆）复核在位
 - [Phase ?]: Phase 2 P06: 终局验收电池全绿，四条成功标准逐条落证——push 自动触发 run 32215293379、线上 home/publications(DOI 锚点)/news 200、CI Ruby 4.0.6 日志逐字对齐 .ruby-version、feed xmllint 过 + sitemap 线上=本地=CI 冒烟三方同值 11、Pages API built+cname；分支删除对线上零影响（T-02-14 实证）
 - [Phase 3]: Phase 3 P01: 内容验证引擎落地——validate.rb 五层校验（YAML 语法+结构 / BibTeX 解析+必填+键唯一）单 errors 数组非 fail-fast 全收集，中文报错定位文件/行列/条目/引用键；validate.sh exec 透传 0.17s；BibTeX 查重只在原始文本正则 tally（解析器静默改名 k,k,k→k,l,m）；基线全绿（8/12 条无 doi 通过，DOI 非必填）
+- [Phase 3]: Phase 3 P02: CI 双入口收口——deploy.yml 插入 Validate content 步骤（Setup Pages 后、Build with Jekyll 前，字面量命令零内联表达式），同一 validate.rb 本地/CI 两处复用；红证提交 a4e8096c 端到端证明拦截语义（run 32329006888 恰在验证步骤红、零新 deployment、线上 200 保持旧版），revert 71dcea14 复绿 + 新 deployment 5995351307
+- [Phase 3]: Phase 3 P02: D-08 提醒层落地——git show HEAD 与工作区 ref.bib 原始文本条目计数对比（不依赖 BibTeX 解析），不等输出中文提醒（publications.md 字样）但退出码零影响；guard 失败静默跳过；CI fetch-depth 1 天然静默零特判
 
 ### Quick Tasks Completed
 

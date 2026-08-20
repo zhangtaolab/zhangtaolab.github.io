@@ -83,7 +83,7 @@ Plans:
   3. 构建失败时错误信息清晰指出具体文件与问题位置（非静默失败）
   4. 维护者能在发布前通过验证步骤确保内容语法正确
 
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans executed
 
 Plans:
 **Wave 1**
@@ -92,7 +92,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 03-02-PLAN.md — 双入口收口（D-08 提醒层 + deploy.yml 构建前 Validate content 步骤 D-04 + 红路径端到端证明 CONTENT-01-g）
+- [x] 03-02-PLAN.md — 双入口收口（D-08 提醒层 + deploy.yml 构建前 Validate content 步骤 D-04 + 红路径端到端证明 CONTENT-01-g）
 
 ## Progress
 
@@ -100,7 +100,7 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. 本地开发环境 | 3/3 | Complete    | 2026-08-18 |
 | 2. 自动部署 | 6/6 | Complete    | 2026-08-20 |
-| 3. 内容验证 | 1/2 | In Progress|  |
+| 3. 内容验证 | 2/2 | In Progress|  |
 
 ## Summary
 
