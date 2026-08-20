@@ -31,7 +31,6 @@ BIB_PATH = "papers/ref.bib"
 
 # Pattern 3（非 fail-fast）：全部错误收集到同一数组，末尾统一输出
 errors = []
-counts = {}
 
 # ── ① YAML 语法层 ────────────────────────────────────────────────────────────
 # 一律走 Psych.safe_load（safe 加载入口：!ruby/object 等类型标签被拒绝而非
@@ -187,8 +186,10 @@ if bib
   # ── ⑤ 键唯一层（原始正则提键——唯一真相源） ──────────────────────────────
   # 解析器对重复引用键静默改名（实测 k,k,k → k,l,m），解析结果里不存在重复，
   # 查重必须在原始文本上做（Don't Hand-Roll 表中唯一允许的手写正则场景）。
+  # 提键正则与层⑥ 计数正则共享同一 opener 子模式 @\s*[a-zA-Z]\w*\s*\{
+  # （允许 @ 与类型名后有空格——@article {key, 空格形态同样被 tally，IN-01）。
   # % 注释行（如首行「% Zhang Tao Lab Publications」）天然不匹配该正则。
-  raw.scan(/@\w+\{([^,\s]+)\s*,/).flatten.tally.each do |k, c|
+  raw.scan(/@\s*[a-zA-Z]\w*\s*\{([^,\s]+)\s*,/).flatten.tally.each do |k, c|
     errors << "#{BIB_PATH}：引用键 #{k} 重复出现 #{c} 次" if c > 1
   end
 end
@@ -203,8 +204,10 @@ end
 # 零 CI 特判；禁止改用父提交/远端分支对比写法（浅克隆 fetch-depth 1 下不存在）。
 # 提醒是纯文本输出，不触碰 publications.md 本身（手写列表不替换/不再生成/
 # 不自动同步，prohibition P-03-3；反向提醒属 Deferred，不做）。
+# 计数正则与层⑤ 提键正则共享同一 opener 子模式（去行锚、允许 @ 与类型名
+# 后有空格——IN-01 同源化：两个正则自此看见同一批条目 opener）
 def bib_entry_count(text)
-  text.scan(/^@[a-zA-Z]+\{/).length
+  text.scan(/@\s*[a-zA-Z]\w*\s*\{/).length
 end
 
 head_bib = nil
