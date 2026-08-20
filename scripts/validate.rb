@@ -39,7 +39,91 @@ YAML_FILES.each do |label, path|
 end
 counts = parsed.transform_values { |data| data.respond_to?(:length) ? data.length : 0 }
 
-# ── ② BibTeX 解析层 ─────────────────────────────────────────────────────────
+# ── ② YAML 结构层（逐文件 schema；语法坏的文件只短路自身，其余继续） ──────────
+# jekyll build 对本层错误全部静默通过（实测）：必填字段缺失/拼错 → 页面缺内容；
+# 顶层丢 "- " 变映射 → 整文件内容从页面消失。schema 字段清单按现有数据推导
+# （基线实测 0 错误），规则不得比现状严（Pitfall 6：现有数据必须全绿）。
+
+# D-02：date 允许 "Latest"（仅首条）或英文全拼月份 + 4 位年份
+NEWS_DATE_RE = /\A(January|February|March|April|May|June|July|August|September|October|November|December) \d{4}\z/
+# team_members.yml 首行注释原文「role: pi | member | student」；role 是 team 页
+# where 判别键，拼错则人从页面消失
+TEAM_ROLES = %w[pi member student].freeze
+
+REQUIRED_FIELDS = {
+  "news"   => %w[date headline],
+  "team"   => %w[name role position],
+  "pi"     => [], # education 有非空列表专项检查
+  "alumni" => %w[name period degree position], # team 页表格四列全部裸输出
+  "grants" => %w[name],
+}.freeze
+
+# 每条必填字段：缺失或空白即报（D-07：「<文件> 第 N 条：<字段> 字段缺失」）
+def check_required(basename, entries, fields, errors)
+  entries.each_with_index do |entry, i|
+    unless entry.is_a?(Hash)
+      errors << "#{basename} 第 #{i + 1} 条：条目应为键值对，当前是 #{entry.class}——请复制既有条目的 \"- 键: 值\" 格式"
+      next
+    end
+    fields.each do |f|
+      errors << "#{basename} 第 #{i + 1} 条：#{f} 字段缺失" if entry[f].to_s.strip.empty?
+    end
+  end
+end
+
+YAML_FILES.each do |label, path|
+  next unless parsed.key?(label) # 语法坏的文件跳过结构检查，其余文件继续
+
+  basename = File.basename(path)
+  data = parsed[label]
+  begin
+    unless data.is_a?(Array)
+      errors << "#{basename}：顶层结构应为列表（每条以 \"- \" 开头），当前是 #{data.class}——新增条目请复制既有条目的 \"- \" 前缀格式"
+      next
+    end
+
+    check_required(basename, data, REQUIRED_FIELDS[label], errors)
+
+    case label
+    when "news"
+      data.each_with_index do |entry, i|
+        next unless entry.is_a?(Hash)
+        ds = entry["date"].to_s.strip
+        if ds == "Latest"
+          if i.positive?
+            errors << "#{basename} 第 #{i + 1} 条：\"Latest\" 仅允许首条（sidebar/feed 按时间序展示，非首条 Latest 属数据摆放错误）"
+          end
+        elsif !ds.empty? && ds !~ NEWS_DATE_RE
+          errors << "#{basename} 第 #{i + 1} 条：date 格式不合法（#{ds}），合法格式：May 2026 或首条 Latest"
+        end
+      end
+    when "team"
+      data.each_with_index do |entry, i|
+        next unless entry.is_a?(Hash)
+        role = entry["role"].to_s.strip
+        next if role.empty? # 缺失已由必填检查报出
+        unless TEAM_ROLES.include?(role)
+          errors << "#{basename} 第 #{i + 1} 条：role 取值不合法（#{role}），合法值：pi | member | student"
+        end
+      end
+    when "pi"
+      # about 页下标访问 site.data.pi[0].education；educationshort 为模板零消费
+      # 死字段，不检查（Pitfall 7）
+      data.each_with_index do |entry, i|
+        next unless entry.is_a?(Hash)
+        edu = entry["education"]
+        unless edu.is_a?(Array) && !edu.empty?
+          errors << "#{basename} 第 #{i + 1} 条：education 字段缺失或为空（须为非空列表）"
+        end
+      end
+    end
+  rescue StandardError => e
+    # 兜底（T-03-03）：畸形输入不得使脚本崩溃或掩盖其余文件的错误
+    errors << "#{basename} 结构检查异常（#{e.class}）：#{e.message[0, 80]}——请人工检查该文件"
+  end
+end
+
+# ── ③ BibTeX 解析层 ─────────────────────────────────────────────────────────
 # 解析器异常消息不含文件名与行号（racc 只吐 token 碎片）——文件名与中文建议由
 # 脚本补上，不承诺 bib 行号定位；键名/字段名定位见后续各层。
 bib = nil
