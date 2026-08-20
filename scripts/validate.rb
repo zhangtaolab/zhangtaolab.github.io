@@ -161,6 +161,35 @@ if bib
   end
 end
 
+# ── ⑥ D-08 提醒层（ref.bib 条目数变化提醒——警告不阻断） ─────────────────────
+# 对比 HEAD 与工作区的 ref.bib 条目数（RESEARCH Pattern 4 同款原始文本计数，
+# 不依赖 BibTeX 解析结果——bib 语法坏时计数仍可执行）。不等 → 输出一行中文
+# 提醒（D-08 锁定文案，含 publications.md 字样），但不写入 errors、对退出码
+# 零影响（「不误伤正常提交」）。guard（非 git 目录 / 无 HEAD 历史 / ref.bib
+# 不在 HEAD）失败时静默跳过——提醒属增强，guard 失败不算错误（A1 兜底）。
+# CI（checkout fetch-depth 1）工作区=HEAD，两计数天然相等，提醒自动不触发，
+# 零 CI 特判；禁止改用父提交/远端分支对比写法（浅克隆 fetch-depth 1 下不存在）。
+# 提醒是纯文本输出，不触碰 publications.md 本身（手写列表不替换/不再生成/
+# 不自动同步，prohibition P-03-3；反向提醒属 Deferred，不做）。
+def bib_entry_count(text)
+  text.scan(/^@[a-zA-Z]+\{/).length
+end
+
+head_bib = nil
+if system("git rev-parse --git-dir", out: File::NULL, err: File::NULL) &&
+   system("git cat-file -e HEAD:#{BIB_PATH}", out: File::NULL, err: File::NULL)
+  head_bib = `git show HEAD:#{BIB_PATH} 2>/dev/null`
+  head_bib = nil unless $?.success?
+end
+if head_bib
+  head_count = bib_entry_count(head_bib)
+  work_count = bib_entry_count(File.read(BIB_PATH))
+  if head_count != work_count
+    puts "提醒：ref.bib 条目数 #{head_count} → #{work_count} 已变化；" \
+         "publications.md 为手写列表，请确认已同步新增/删除条目"
+  end
+end
+
 # ── 汇总输出 ────────────────────────────────────────────────────────────────
 # PASS 行的逐文件计数由解析结果动态计算（维护者加条目后自动更新，勿硬编码）；
 # 「键唯一」标记表示原始文本无重复引用键（有重复会进 errors 走 FAIL 分支）。
