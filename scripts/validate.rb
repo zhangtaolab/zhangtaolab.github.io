@@ -134,11 +134,39 @@ rescue BibTeX::ParseError => e
 end
 counts["bib"] = bib.nil? ? 0 : bib.length
 
+# ── ④ BibTeX 必填层（D-03：每条 title/author/year；DOI/journal 非必填） ──────
+# 仅在解析成功后运行（解析失败时本层与键唯一层跳过，exit 已由解析层置 1）。
+# API 形状（bibtex-ruby 6.2.0 实测，勿凭记忆改写）：bib.to_a 迭代（bib.entries
+# 是 Hash）；条目是 Hash 子类，字段只有 e[:field] 下标访问；字段值带大括号
+# 原样，判空用 to_s.strip.empty?。无 doi 的条目（如 wang2026maize）必须通过。
+BIB_REQUIRED = %i[title author year].freeze
+
+if bib
+  bib.to_a.each do |entry|
+    key = entry[:bibtex_key].to_s.strip
+    # lexer 级截断条目（未闭合大括号）只 WARN 不抛异常，条目以空键+空字段存活
+    # ——键为空时给出定位线索，避免消息里只剩悬空冒号
+    key = "（引用键无法识别——多为截断或未闭合条目）" if key.empty?
+    BIB_REQUIRED.each do |field|
+      errors << "#{BIB_PATH} #{key}：#{field} 字段缺失" if entry[field].to_s.strip.empty?
+    end
+  end
+
+  # ── ⑤ 键唯一层（原始正则提键——唯一真相源） ──────────────────────────────
+  # 解析器对重复引用键静默改名（实测 k,k,k → k,l,m），解析结果里不存在重复，
+  # 查重必须在原始文本上做（Don't Hand-Roll 表中唯一允许的手写正则场景）。
+  # % 注释行（如首行「% Zhang Tao Lab Publications」）天然不匹配该正则。
+  File.read(BIB_PATH).scan(/@\w+\{([^,\s]+)\s*,/).flatten.tally.each do |k, c|
+    errors << "#{BIB_PATH}：引用键 #{k} 重复出现 #{c} 次" if c > 1
+  end
+end
+
 # ── 汇总输出 ────────────────────────────────────────────────────────────────
-# PASS 行的逐文件计数由解析结果动态计算（维护者加条目后自动更新，勿硬编码）。
+# PASS 行的逐文件计数由解析结果动态计算（维护者加条目后自动更新，勿硬编码）；
+# 「键唯一」标记表示原始文本无重复引用键（有重复会进 errors 走 FAIL 分支）。
 if errors.empty?
   puts "PASS: news=#{counts['news']}, team=#{counts['team']}, pi=#{counts['pi']}, " \
-       "alumni=#{counts['alumni']}, grants=#{counts['grants']}, bib=#{counts['bib']}"
+       "alumni=#{counts['alumni']}, grants=#{counts['grants']}, bib=#{counts['bib']}, 键唯一"
 else
   puts "FAIL: #{errors.length} 个问题"
   errors.each { |msg| puts msg }
