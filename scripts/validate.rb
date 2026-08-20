@@ -6,11 +6,17 @@
 # 校验 _data/*.yml 与 papers/ref.bib 的语法错误，全部错误一次收集、中文报出；
 # 只读数据文件（不运行 jekyll build、不修改任何被校验内容），退出码 0=全绿 / 1=有错。
 # 依赖零新增：psych 为 Ruby default gem，bibtex-ruby 已随 jekyll-scholar 锁在 Gemfile.lock。
+# 全部文件读取经 ROOT 常量（__dir__ 锚定仓库根）解析，与调用方 CWD 无关（子目录可跑）。
 
 require "psych"
 require "bibtex"
 
-# 数据文件清单：label 用于 PASS 汇总行（team 来自 team_members.yml）
+# 仓库根：由脚本自身位置推出，任意 CWD 调用等价（WR-01）
+ROOT = File.expand_path("..", __dir__)
+
+# 数据文件清单：label 用于 PASS 汇总行（team 来自 team_members.yml）。
+# 值保持仓库相对路径字符串：中文错误消息打印这些字面量（D-07），
+# 实际读取一律 File.join(ROOT, path) 锚定。
 YAML_FILES = {
   "news"   => "_data/news.yml",
   "team"   => "_data/team_members.yml",
@@ -19,6 +25,8 @@ YAML_FILES = {
   "grants" => "_data/grants.yml",
 }.freeze
 
+# 仓库相对路径：除消息字面量外，D-08 层 git spec HEAD:#{BIB_PATH} 必须是
+# 仓库相对路径（git show HEAD: 后接绝对路径在任何 CWD 下都失败）
 BIB_PATH = "papers/ref.bib"
 
 # Pattern 3（非 fail-fast）：全部错误收集到同一数组，末尾统一输出
@@ -26,15 +34,26 @@ errors = []
 counts = {}
 
 # ── ① YAML 语法层 ────────────────────────────────────────────────────────────
-# 一律走 Psych.parse_file(...).to_ruby（parser API，与 Jekyll 数据读取同路；
-# 不使用对象反序列化式加载入口）。Psych::SyntaxError 自带行号/列号（D-07）。
-# 语法坏的文件只短路自身（跳过后续结构检查），其余文件继续。
+# 一律走 Psych.safe_load（safe 加载入口：!ruby/object 等类型标签被拒绝而非
+# 实例化任意对象，T-03-01；permitted_classes: [Date] 使 unquoted ISO 日期
+# 标量与既有接受面行为一致——解析出的 Date 随后仍被结构层 date 格式规则以
+# 「date 格式不合法」拦截；aliases: true 保留锚点/别名）。空文件返回 nil，
+# 由结构层报「顶层结构应为列表…当前是 NilClass」（既有规则原样复用）。
+# Psych::SyntaxError 自带行号/列号（D-07）。rescue 阶梯 specific→general：
+# 任何单文件异常只进 errors 数组，不中断运行、不掩盖其余文件（T-03-03）。
 parsed = {}
 YAML_FILES.each do |label, path|
   begin
-    parsed[label] = Psych.parse_file(path).to_ruby
+    parsed[label] = Psych.safe_load(File.read(File.join(ROOT, path)),
+                                    permitted_classes: [Date], aliases: true)
   rescue Psych::SyntaxError => e
     errors << "#{File.basename(path)} 第 #{e.line} 行第 #{e.column} 列：YAML 语法错误（#{e.problem}）"
+  rescue Psych::DisallowedClass => e
+    errors << "#{File.basename(path)}：含不支持的 YAML 类型标签（#{e.message[0, 60]}）——数据文件只需普通文本/数字/列表，请去掉类型标签"
+  rescue Errno::ENOENT
+    errors << "#{File.basename(path)}：文件不存在——请勿删除或改名数据文件"
+  rescue StandardError => e
+    errors << "#{File.basename(path)} 读取异常（#{e.class}）：#{e.message[0, 80]}——请人工检查该文件"
   end
 end
 counts = parsed.transform_values { |data| data.respond_to?(:length) ? data.length : 0 }
@@ -126,11 +145,24 @@ end
 # ── ③ BibTeX 解析层 ─────────────────────────────────────────────────────────
 # 解析器异常消息不含文件名与行号（racc 只吐 token 碎片）——文件名与中文建议由
 # 脚本补上，不承诺 bib 行号定位；键名/字段名定位见后续各层。
+# raw 单次读入并复用于解析/键扫描/D-08 计数；解析前 valid_encoding? 预检
+# （GBK 等编码保存事故得到中文判定而非 ArgumentError 崩溃）。rescue 阶梯
+# specific→general：异常只进 errors 数组，已收集的 YAML 错误仍会打印。
 bib = nil
+raw = nil
 begin
-  bib = BibTeX.parse(File.read(BIB_PATH))
+  raw = File.read(File.join(ROOT, BIB_PATH))
+  if raw.valid_encoding?
+    bib = BibTeX.parse(raw)
+  else
+    errors << "#{BIB_PATH} 含非 UTF-8 字节（多为编辑器以 GBK 等编码保存）——请以 UTF-8 重新保存"
+  end
 rescue BibTeX::ParseError => e
   errors << "#{BIB_PATH} 解析失败（检查最近编辑：多为缺失逗号或未闭合大括号）—— #{e.message[0, 120]}"
+rescue Errno::ENOENT
+  errors << "#{BIB_PATH}：文件不存在——请勿删除或改名数据文件"
+rescue StandardError => e
+  errors << "#{BIB_PATH} 解析异常（#{e.class}）：#{e.message[0, 80]}——请人工检查"
 end
 counts["bib"] = bib.nil? ? 0 : bib.length
 
@@ -156,7 +188,7 @@ if bib
   # 解析器对重复引用键静默改名（实测 k,k,k → k,l,m），解析结果里不存在重复，
   # 查重必须在原始文本上做（Don't Hand-Roll 表中唯一允许的手写正则场景）。
   # % 注释行（如首行「% Zhang Tao Lab Publications」）天然不匹配该正则。
-  File.read(BIB_PATH).scan(/@\w+\{([^,\s]+)\s*,/).flatten.tally.each do |k, c|
+  raw.scan(/@\w+\{([^,\s]+)\s*,/).flatten.tally.each do |k, c|
     errors << "#{BIB_PATH}：引用键 #{k} 重复出现 #{c} 次" if c > 1
   end
 end
@@ -181,9 +213,12 @@ if system("git rev-parse --git-dir", out: File::NULL, err: File::NULL) &&
   head_bib = `git show HEAD:#{BIB_PATH} 2>/dev/null`
   head_bib = nil unless $?.success?
 end
-if head_bib
+# 工作区侧复用层③单次读入的 raw；raw 为 nil（ref.bib 缺失）或含非 UTF-8
+# 字节时静默跳过计数（对无效编码字节串做正则计数本身会抛 ArgumentError，
+# 而缺失/编码错误已由层③中文报出）——提醒属增强，guard 失败不算错误（A1 兜底）。
+if head_bib && raw && raw.valid_encoding?
   head_count = bib_entry_count(head_bib)
-  work_count = bib_entry_count(File.read(BIB_PATH))
+  work_count = bib_entry_count(raw)
   if head_count != work_count
     puts "提醒：ref.bib 条目数 #{head_count} → #{work_count} 已变化；" \
          "publications.md 为手写列表，请确认已同步新增/删除条目"
