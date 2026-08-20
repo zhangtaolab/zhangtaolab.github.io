@@ -1,27 +1,21 @@
 ---
-status: testing
+status: complete
 phase: 02-auto-deploy
 source: [02-VERIFICATION.md]
 started: 2026-08-19T04:50:00Z
-updated: 2026-08-19T04:50:00Z
+updated: 2026-08-20T00:00:00Z
 ---
 
 ## Current Test
 
-number: 3
-name: Prohibitions 复核确认
-expected: |
-  确认 4 条 judgment 级 prohibitions 复核结论（见 02-VERIFICATION.md Prohibitions 表，
-  验证者裁定均为『未违反』）。
-awaiting: user response
+[testing complete]
 
 ## Tests
 
 ### 1. 在线视觉终检
 expected: 浏览器对比 zhangtaolab.org 与本地预览，渲染效果一致（布局/字体/暗色模式）
-result: issue
-reported: "icon 不对"
-severity: major
+result: pass
+retest: 2026-08-20 — G-02-1 修复（commit 8161635）随 36d23d5f 推送部署（run 32322876555 success）后线上复核：rel=icon → /images/logo.png、favicon.ico 5430B 与旧站真图标逐字节一致（hash 17be7d84）、模板 favicon.svg 404。自动化复测翻转。
 
 ### 2. CR-01/CR-02 内容缺陷裁定
 expected: 裁定 02-REVIEW.md 两个 critical 内容缺陷（均为 Phase-1 内容面、随部署曝光，非本阶段 must_haves 违例）：CR-01 teaching.md 模板占位课程已在线上（Feynman Lectures 等，实测 /teaching/ 命中 2 处）；CR-02 8 条 PDF 链接线上 404（实测 /pdf/2013/PNAS_2013.pdf=404）。决定修复（提供课程列表/PDF 文件）或暂时接受
@@ -29,14 +23,15 @@ result: pass
 
 ### 3. Prohibitions 复核确认
 expected: 确认 4 条 judgment 级 prohibitions 复核结论（见 02-VERIFICATION.md Prohibitions 表，验证者裁定均为『未违反』）
-result: [pending]
+result: pass
+confirmed: 2026-08-20 — 用户逐条确认四条禁制复核结论成立（冒烟断言完好、89/89 零丢弃、版本钉零漂移、master 删除时序合规 + backup 在位）
 
 ## Summary
 
 total: 3
-passed: 1
-issues: 1
-pending: 1
+passed: 3
+issues: 0
+pending: 0
 skipped: 0
 blocked: 0
 
@@ -53,7 +48,9 @@ blocked: 0
 
 - gap_id: G-02-1
   truth: "线上站点图标正确（浏览器标签 favicon 与导航栏品牌图标应为站点自身的 logo，与本地预览一致）"
-  status: failed
+  status: resolved
+  resolved_by: "8161635 fix(uat) quick fix（部署于 36d23d5f push, run 32322876555 success）"
+  resolved_at: 2026-08-20
   reason: "User reported: icon 不对 — 这里应该使用 zhangtaolab 的 logo 而不是这个（附截图，指浏览器标签图标）"
   severity: major
   test: 1
