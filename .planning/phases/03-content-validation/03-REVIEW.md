@@ -1,6 +1,6 @@
 ---
 phase: 03-content-validation
-reviewed: 2026-08-20T03:59:22Z
+reviewed: 2026-08-20T07:43:19Z
 depth: standard
 files_reviewed: 3
 files_reviewed_list:
@@ -8,153 +8,138 @@ files_reviewed_list:
   - scripts/validate.rb
   - scripts/validate.sh
 findings:
-  critical: 2
+  critical: 0
   warning: 2
-  info: 3
-  total: 7
+  info: 2
+  total: 4
 status: issues_found
 ---
 
 # Phase 03: Code Review Report
 
-**Reviewed:** 2026-08-20T03:59:22Z
+**Reviewed:** 2026-08-20T07:43:19Z
 **Depth:** standard
-**Files Reviewed:** 3 (.github/workflows/deploy.yml +2, scripts/validate.rb new, scripts/validate.sh new)
+**Files Reviewed:** 3 (.github/workflows/deploy.yml +2 lines, scripts/validate.rb new, scripts/validate.sh new)
 **Status:** issues_found
 
 ## Summary
 
-Reviewed the Phase 3 content-validation deliverables: `scripts/validate.rb` (YAML syntax+schema validation, BibTeX parse/required-field/key-uniqueness checks, D-08 git-based entry-count reminder), `scripts/validate.sh` (wrapper), and the 2-line `Validate content` step in `deploy.yml`.
+Re-review after gap-closure commits `e28e6aa4` and `4bd8f987`. All findings were verified by execution against the locked stack (Ruby 4.0.6 / psych 5.3.1 / bibtex-ruby 6.2.0) — baseline in the real repo, crash/degenerate inputs in a disposable clone under `/tmp`. No source files were modified; the sandbox clone has been deleted.
 
-**What works (verified empirically, not just by reading):** baseline run passes (`PASS: news=6, team=4, pi=1, alumni=2, grants=2, bib=12, 键唯一`, exit 0); YAML syntax errors produce the designed Chinese message with line/column while other files continue; duplicate bib keys are caught via the raw-regex tally; truncated (unclosed-brace) bib entries hit the empty-key placeholder path; the D-08 reminder fires on count change (12→13), stays silent when unchanged, and never affects the exit code; FAIL exits 1, blocking the CI build job. The bibtex-ruby 6.2.0 API shape assumptions (`entry[:bibtex_key]`, `entry[field]`, `bib.to_a`, `bib.length`) all check out against the locked gem. Schema assumptions match the actual data files.
+### Prior-round fix verification (all 7 confirmed fixed)
 
-**Key concerns:** the validator crashes with raw English backtraces on two plausible maintainer-mistake inputs it was explicitly built to survive — an emptied/whitespace-only YAML file (returns `false` from `Psych.parse_file`, then `NoMethodError` on `.to_ruby`) and a non-UTF-8 (e.g., GBK-saved) or missing `ref.bib` (`ArgumentError` / `Errno::ENOENT`). Both crashes abort the entire run, masking every other file's errors, in direct violation of the script's own design contract (collect-all / 中文报出 / T-03-03 兜底). Additionally, `Psych.parse_file(...).to_ruby` is the unsafe deserialization path despite the comment claiming otherwise.
+| Prior ID | Claimed fix | Verified how | Verdict |
+|---|---|---|---|
+| CR-01 | Empty/missing yml no longer crashes; collect-all preserved | `: > _data/news.yml` + `rm _data/pi.yml` simultaneously → both Chinese errors (`文件不存在` / `顶层结构应为列表…当前是 NilClass`), `FAIL: 2 个问题`, exit 1, no backtrace | FIXED |
+| CR-02 | GBK/missing bib no longer crashes | GBK-byte bib → `含非 UTF-8 字节（多为编辑器以 GBK 等编码保存）`; missing bib → `文件不存在`; both alongside the YAML errors, exit 1 | FIXED |
+| WR-01 | `__dir__`-anchored ROOT | Ran from `_data/` (direct) and `papers/` (via `validate.sh` wrapper) → identical PASS; D-08 git guard also fires correctly from a subdirectory (verified `12 → 13` reminder from `_data/`) | FIXED |
+| WR-02 | `Psych.safe_load` entry | Library probe: `!ruby/object:String` → `Psych::DisallowedClass` rejected; the same rescue branch exercised end-to-end via an unquoted timestamp (`Time` → DisallowedClass → Chinese message). Hierarchy probed: `Psych::SyntaxError` and `Psych::DisallowedClass` both `< Psych::Exception < RuntimeError < StandardError` — rescue ladder order (specific→general) is sound, no shadowing | FIXED |
+| IN-01 | Unified opener regex `@\s*[a-zA-Z]\w*\s*\{` | `@article {wang2026maize,` spaced-form duplicate → `引用键 wang2026maize 重复出现 2 次` (was missed before) | FIXED (residual edge remains — see IN-01 below) |
+| IN-02 | Single bib disk read | Code inspection: `raw` read once (line 153), reused by parse (155), key scan (192), D-08 work count (224) | FIXED |
+| IN-03 | Dead `counts = {}` removed | Line 58 `transform_values` is the sole initialization | FIXED |
 
-## Narrative Findings (AI reviewer)
+Also re-verified this round: unquoted ISO date `2026-05-01` parses as `Date` (permitted) and is correctly rejected by the structure layer as `date 格式不合法（2026-05-01）`; anchors/aliases parse with shared references; undefined alias (`Psych::AnchorNotDefined`) lands in the generic StandardError rescue with a Chinese message; D-08 reminder text matches the D-08 locked copy verbatim, fires on a legitimate 13th entry with exit 0, and writes nothing (`git status` clean apart from the probe edit — P-03-1 read-only and P-03-3 publications.md-untouched both hold); the phase diff to `deploy.yml` is exactly the 2-line `Validate content` step, correctly placed before the Jekyll build so a FAIL blocks the deploy.
 
-All findings below were confirmed by execution against Ruby 4.0.6 / psych 5.3.1 / bibtex-ruby 6.2.0 (the locked versions) in a sandbox copy — not inferred from reading alone.
+### New concerns
 
-### CR-01: Empty or whitespace-only YAML data file crashes the script and masks all other validation
+Two new Warnings, both empirically proven: (1) the bib encoding precheck is locale-dependent — under `LANG=C`, a **valid UTF-8** `ref.bib` containing non-ASCII bytes fails with a false「含非 UTF-8 字节」verdict, blocking legal content (P-03-2) with a diagnosis (re-save as UTF-8) that fixes nothing; (2) the YAML syntax-error message cites Psych's **context mark** (where the enclosing construct started), not the mistake's position — block-mapping mistakes anywhere in a data file report「第 1 行第 1 列」. Neither was introduced by the gap-closure commits; both survived the prior round's verification because format (not accuracy / not locale) was checked.
 
-**File:** `scripts/validate.rb:35-38`
-**Issue:** `Psych.parse_file(path)` returns `false` (not a `Nodes::Document`) for an empty or whitespace-only file. `false.to_ruby` raises `NoMethodError`, which the rescue (only `Psych::SyntaxError`) does not catch. Verified:
+## Warnings
+
+### WR-01: Locale-dependent false「含非 UTF-8 字节」verdict blocks legal content (P-03-2)
+
+**File:** `scripts/validate.rb:153-157`
+**Issue:** `File.read` is called without an explicit encoding mode, so the returned string is tagged with the process's default external encoding. Under a non-UTF-8 locale (`LANG=C` / `LC_ALL=C`, typical of bare SSH sessions and minimal containers), `Encoding.default_external` is `US-ASCII`; any non-ASCII byte then makes `raw.valid_encoding?` return false — even when the file is perfectly valid UTF-8. Proven in a sandbox clone:
 
 ```text
-$ : > _data/news.yml && bundle exec ruby scripts/validate.rb
-scripts/validate.rb:35:in 'block in <main>': undefined method 'to_ruby' for false (NoMethodError)
+$ printf '@article{cn2026,\n  title={基因组编辑新方法}, ... }' >> papers/ref.bib
+$ file papers/ref.bib
+papers/ref.bib: Unicode text, UTF-8 text
+$ bundle exec ruby scripts/validate.rb        # normal locale
+PASS: ..., bib=13, 键唯一                        exit=0
+$ env LANG=C LC_ALL=C bundle exec ruby scripts/validate.rb
+FAIL: 1 个问题
+papers/ref.bib 含非 UTF-8 字节（多为编辑器以 GBK 等编码保存）——请以 UTF-8 重新保存
+exit=1
 ```
 
-The same rescue also misses `Errno::ENOENT` when a data file is deleted/renamed (verified). The crash occurs on the first file processed, so **zero** other YAML files, the BibTeX checks, and the summary line ever run — exactly the "掩盖其余文件的错误" (masking other files' errors) failure mode the script's T-03-03 fallback was designed to prevent. An emptied `_data/*.yml` (bad merge-conflict resolution, accidental save) is a top-probability maintainer mistake this validator exists to catch. It does exit non-zero, so CI still fails closed, but the local maintainer gets an English backtrace instead of the designed Chinese message, with no diagnosis of the other files. Violates the file's own header contract: "全部错误一次收集、中文报出".
+The verdict is false and the prescribed remedy (re-save as UTF-8) changes nothing, so the maintainer is stuck — exactly the「不误伤正常提交」failure D-08/P-03-2 forbids. CI is unaffected (GitHub runners set `LANG=en_US.UTF-8`), so this is a local-maintainer trap, the same population WR-01-last-round protected. The YAML layer is immune (verified: Chinese `news.yml` under `LANG=C` still parses PASS — libyaml validates the bytes and ignores the Ruby encoding tag), so the fix is needed only on the bib read. Note the D-08 guard's `raw.valid_encoding?` re-check (line 222) shares the tag but only ever skips a reminder, so it is harmless.
 
-**Fix:** Handle the non-Document return and broaden the rescue; the structure layer already handles `nil`/`false` data gracefully (`data.is_a?(Array)` check emits "顶层结构应为列表，当前是 NilClass"):
+**Fix:**
+```ruby
+raw = File.read(File.join(ROOT, BIB_PATH), mode: "r:UTF-8")
+```
+
+This makes the encoding tag locale-independent; genuinely GBK-saved files still fail `valid_encoding?` and keep the existing Chinese verdict (probe still passes under UTF-8 locale).
+
+### WR-02: YAML syntax-error line/column point at the enclosing construct's start, not the mistake —「第 1 行第 1 列」for almost every block-mapping error
+
+**File:** `scripts/validate.rb:48-49`
+**Issue:** The message interpolates `e.line`/`e.column` as if they located the error, but psych 5.3.1's `Psych::SyntaxError` exposes the **context mark** (where the enclosing block/construct began), not the problem mark. For the data files' shape (a top-level block sequence starting at line 1 column 1), that is `1, 1` regardless of where the maintainer's mistake is. Verified end-to-end (mistake deliberately on line 3 of `news.yml`):
+
+```text
+$ printf -- '- date: "May 2026"\n  headline: ok\n bad_indent: [\n' > _data/news.yml
+FAIL: 1 个问题
+news.yml 第 1 行第 1 列：YAML 语法错误（did not find expected '-' indicator）
+```
+
+And in isolation: a mistake on physical line 5 of a mapping reports `e.line=1 e.column=1`; a tab violation on line 6 reports line 5 (where the enclosing plain scalar started). D-07 promises「文件名/字段名/行号保持原样」as the core maintainer UX; a line number that is wrong in the common case actively misdirects (the maintainer stares at line 1, which is always `- date: "Latest"`-shaped boilerplate). It never false-blocks or crashes, hence Warning. Not a regression from the gap-closure commits — the rendering predates them; the prior round verified the message's *format*, not its *location accuracy*.
+
+**Fix:** Present the coordinates as the construct origin, not the error site, and include psych's context phrase so the message cannot over-claim:
 
 ```ruby
-begin
-  doc = Psych.parse_file(path)
-  parsed[label] = doc.respond_to?(:to_ruby) ? doc.to_ruby : nil
 rescue Psych::SyntaxError => e
-  errors << "#{File.basename(path)} 第 #{e.line} 行第 #{e.column} 列：YAML 语法错误（#{e.problem}）"
-rescue Errno::ENOENT
-  errors << "#{File.basename(path)}：文件不存在——请勿删除或改名数据文件"
-rescue StandardError => e
-  errors << "#{File.basename(path)} 读取异常（#{e.class}）：#{e.message[0, 80]}——请人工检查该文件"
-end
+  loc = "第 #{e.line} 行第 #{e.column} 列开始的#{e.context ? e.context.sub(/\Awhile (parsing|scanning) /, '') : '结构'}内"
+  errors << "#{basename}：YAML 语法错误（#{e.problem}）——#{loc}，请检查该结构附近最近的编辑"
 ```
 
-(Preferably combined with the WR-02 `safe_load` fix, which returns `nil` for empty files and eliminates the `false` case entirely.)
+(If pin-point lines are wanted, psych 5.3.1 offers no problem-mark accessor on `SyntaxError` — the context mark is all there is — so qualify the claim rather than move it.)
 
-### CR-02: ref.bib with invalid UTF-8 bytes (or missing) crashes with uncaught ArgumentError/ENOENT
+## Info
 
-**File:** `scripts/validate.rb:131-134`
-**Issue:** The rescue only covers `BibTeX::ParseError`. Two verified crash inputs bypass it:
+### IN-01: `@article { key,` (space after the brace) still evades the key-uniqueness tally while being counted as an entry
 
-1. A `ref.bib` saved in a non-UTF-8 encoding (e.g., GBK — a realistic accident for a Chinese-language lab, e.g., pasting a Chinese note or an author name saved by a GBK-default editor):
+**File:** `scripts/validate.rb:192` (vs `:210`)
+**Issue:** The gap-closure unified the *opener* subpattern (`@\s*[a-zA-Z]\w*\s*\{`), but the key regex still requires the key to start immediately after `{`: `\{([^,\s]+)` cannot skip whitespace. Verified in a sandbox clone:
 
 ```text
-bibtex-ruby-6.2.0/lib/bibtex/utilities.rb:33:in 'BibTeX.parse': invalid byte sequence in UTF-8 (ArgumentError)
-	from scripts/validate.rb:131:in '<main>'
+$ printf '@article { wang2026maize,\n  title={Dup}, ... }' >> papers/ref.bib
+提醒：ref.bib 条目数 12 → 13 已变化；...
+PASS: news=6, ..., bib=13, 键唯一   ← duplicate silently renamed by bibtex-ruby, yet 键唯一 is asserted
+exit=0
 ```
 
-2. A missing `papers/ref.bib` (repo restructure): `File.read` at line 131 raises `Errno::ENOENT` before the rescue's class matches (same crash shape as the YAML ENOENT in CR-01).
+The PASS line asserts「键唯一」on an incomplete view — the exact silent-rename trap layer ⑤ exists to prevent, now confined to the space-after-brace spelling (bibtex-ruby accepts it; the repo's uniform style is `@article{key,`, so this is latent). One-word fix: allow whitespace after the brace, and note that `[^,\s]+` then still stops at the comma.
 
-In both cases the script dies with an English backtrace, skipping the required-field layer, the key-uniqueness layer, and the D-08 reminder — again violating the collect-all/no-crash design contract.
-
-**Fix:** Broaden the rescue and validate encoding up front:
-
+**Fix:**
 ```ruby
-bib = nil
-begin
-  raw = File.read(BIB_PATH)
-  unless raw.valid_encoding?
-    errors << "#{BIB_PATH} 含非 UTF-8 字节（多为编辑器以 GBK 等编码保存）——请以 UTF-8 重新保存"
-  else
-    bib = BibTeX.parse(raw)
-  end
-rescue BibTeX::ParseError => e
-  errors << "#{BIB_PATH} 解析失败（检查最近编辑：多为缺失逗号或未闭合大括号）—— #{e.message[0, 120]}"
-rescue Errno::ENOENT
-  errors << "#{BIB_PATH}：文件不存在——请勿删除或改名"
-rescue StandardError => e
-  errors << "#{BIB_PATH} 解析异常（#{e.class}）：#{e.message[0, 80]}——请人工检查"
-end
+raw.scan(/@\s*[a-zA-Z]\w*\s*\{\s*([^,\s]+)\s*,/)
 ```
 
-(Reading once into `raw` also removes the triple file read — see IN-02.)
+(Re-run the IN-01 probe pair after changing — the `@article {key,` case must stay caught.)
 
-### WR-01: CWD-relative data paths crash validate.sh when invoked from any subdirectory
+### IN-02: Top-level workflow `permissions` grant `pages: write, id-token: write` to the build job, which needs neither
 
-**File:** `scripts/validate.rb:15-22,35` and `scripts/validate.sh:3`
-**Issue:** `validate.sh` resolves the Ruby script location-independently (`"$(dirname "$0")/validate.rb"`), advertising that it can be run from anywhere, and `bundle exec` happily finds the Gemfile from subdirectories. But `validate.rb` reads all inputs relative to the process CWD (`_data/news.yml`, `papers/ref.bib`). Running `bash ../scripts/validate.sh` from any subdirectory (verified) crashes at line 35 with the raw `Errno::ENOENT` backtrace from CR-01 — before the Chinese error machinery ever engages. CI is unaffected (steps default to the workspace root); this is a local-maintainer trap that contradicts the wrapper's portability signal.
+**File:** `.github/workflows/deploy.yml:13-16`
+**Issue:** Job-level least privilege would scope `pages: write` + `id-token: write` to the `deploy` job only; the `build` job (checkout, validate, jekyll build, artifact upload) needs only `contents: read`. Pre-existing Phase-2 structure — this phase's diff is only the 2-line `Validate content` step, which is itself clean (static `run:` line, correct position before the build, `bundler-cache: true` guarantees the bibtex gem is installed before `bundle exec ruby scripts/validate.rb` runs). Flagged for the record, not as a phase defect.
 
-**Fix:** Anchor all paths to the script location. In `validate.rb`:
-
-```ruby
-ROOT = File.expand_path("..", __dir__)
-YAML_FILES = {
-  "news"   => File.join(ROOT, "_data/news.yml"),
-  # ... likewise for the other four
-}.freeze
-BIB_PATH = File.join(ROOT, "papers/ref.bib")
+**Fix:**
+```yaml
+permissions:
+  contents: read
+jobs:
+  build:
+    permissions:
+      contents: read
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 ```
-
-and in `validate.sh` either keep `exec bundle exec ruby "$(dirname "$0")/validate.rb" "$@"` (paths now self-anchored) or add `cd "$(dirname "$0")/.."` before `exec`. Note the git-based D-08 layer at lines 179-191 must also run from the repo root for `git show HEAD:papers/ref.bib` to resolve — anchoring with `__dir__` fixes both at once.
-
-### WR-02: Unsafe YAML deserialization path used despite comment claiming otherwise
-
-**File:** `scripts/validate.rb:29-30,35`
-**Issue:** The comment states "不使用对象反序列化式加载入口" (not using the object-deserialization loading entry), but `Psych.parse_file(...).to_ruby` invokes the full `Psych::Visitors::ToRuby` visitor — the deserialization path. A YAML file containing `!ruby/object:` tags would instantiate arbitrary Ruby objects when the validator runs. Threat model: repo files are maintainer-authored, but a malicious PR combined with a maintainer running `scripts/validate.sh` locally (the advertised workflow) means arbitrary code execution on the maintainer's machine. It also makes the "与 Jekyll 数据读取同路" claim inaccurate — Jekyll loads data files with safe loading semantics, not `to_ruby`.
-
-**Fix:** Use `Psych.safe_load(File.read(path))`. Verified compatible with all five current data files (all parse identically as Arrays with correct lengths) and it returns `nil` — not `false`, no crash — for empty files, which also structurally eliminates half of CR-01:
-
-```ruby
-parsed[label] = Psych.safe_load(File.read(path))
-```
-
-`Psych::SyntaxError` and `Errno::ENOENT` still need the CR-01 rescue; syntax errors keep their line/column through `safe_load`.
-
-### IN-01: Key-tally and entry-count regexes are mutually inconsistent and both miss `@type {key,` spacing
-
-**File:** `scripts/validate.rb:159,174-176`
-**Issue:** Line 159 scans with unanchored `@\w+\{([^,\s]+)\s*,` while line 175 counts with line-anchored `^@[a-zA-Z]+\{`. They disagree on mid-line openers and underscored types, and both miss an opener written with whitespace before the brace (`@article {key,`), which bibtex-ruby accepts — a duplicate written in that style would evade the uniqueness check while still being silently renamed by the parser. Current `ref.bib` is uniformly `@article{key,` so this is latent, not active.
-
-**Fix:** Harmonize both on one pattern, e.g. `text.scan(/@\s*[a-zA-Z]\w*\s*\{([^,\s]+)\s*,/)` for the key tally and the same opener portion for `bib_entry_count`.
-
-### IN-02: ref.bib read from disk three times per run
-
-**File:** `scripts/validate.rb:131,159,186`
-**Issue:** `File.read(BIB_PATH)` is executed at line 131 (parse), line 159 (key scan), and line 186 (work-tree count). Harmless at current size, but the three reads can diverge if the file changes mid-run, and it is avoidable repetition.
-
-**Fix:** Read once into a local (as in the CR-02 fix) and reuse for the parse, the key scan, and the work-tree count.
-
-### IN-03: Dead initialization of `counts`
-
-**File:** `scripts/validate.rb:26,40`
-**Issue:** `counts = {}` at line 26 is unconditionally overwritten at line 40 before any read; the initializer is dead code that suggests a partial-failure path that does not exist.
-
-**Fix:** Delete line 26, or make line 40 defensive (`counts = parsed.transform_values { ... }` with a fallback for unparsed files) so the PASS summary cannot reference nil counts if the file-failure handling changes.
 
 ---
 
-_Reviewed: 2026-08-20T03:59:22Z_
+_Reviewed: 2026-08-20T07:43:19Z_
 _Reviewer: Claude (gsd-code-reviewer)_
 _Depth: standard_
