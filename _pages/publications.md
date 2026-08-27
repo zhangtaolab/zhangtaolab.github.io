@@ -17,11 +17,11 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 
 ## 2026
 
-1. Bao Y, You HL, Liu S, Liu GQ, Wu YC, Yang QQ, You Q, Liu P, Yi CD\*, Zhang WL\*, Cheng ZK\*, **Zhang T\***. [Telomere-to-telomere genome assembly of *Oryza australiensis* reveals transposon-driven centromere repositioning and shared EE&ndash;DD ancestry](https://doi.org/10.1038/s41467-026-73769-8). *Nature Communications* 2026. DOI: https://doi.org/10.1038/s41467-026-73769-8.
+1. Bao Y, You HL, Liu S, Liu GQ, Wu YC, Yang QQ, You Q, Liu P, Yi CD\*, Zhang WL\*, Cheng ZK\*, **Zhang T\***. [Telomere-to-telomere genome assembly of *Oryza australiensis* reveals transposon-driven centromere repositioning and shared EE&ndash;DD ancestry](https://doi.org/10.1038/s41467-026-73769-8). *Nature Communications* 2026, 17:6877. DOI: https://doi.org/10.1038/s41467-026-73769-8.
 
 2. Liao SY&dagger;, He Y&dagger;, Liu GQ, Li YC, Tang X, Zheng XL, Qi YP\*, **Zhang T\***, Zhang Y\*. [Boosting genome editing of non-coding sequences in plants with glycosylase-mediated multi-nucleotide deletion editors](https://doi.org/10.1016/j.scib.2026.05.046). *Science Bulletin* 2026. DOI: https://doi.org/10.1016/j.scib.2026.05.046.
 
-3. He Y&dagger;, Ma YQ&dagger;, Wu YC&dagger;, Tang X&dagger;, Liu SS, Yin DS, Zheng XL, Qi YP\*, Zhang Y\*, **Zhang T\***. [Harnessing diverse tRNAs and AI-guided mining for compact and efficient plant multiplex genome editing](https://doi.org/10.1016/j.tibtech.2026.02.016). *Trends in Biotechnology* 2026. DOI: https://doi.org/10.1016/j.tibtech.2026.02.016.
+3. He Y&dagger;, Ma YQ&dagger;, Wu YC&dagger;, Tang X&dagger;, Liu SS, Yin DS, Zheng XL, Qi YP\*, Zhang Y\*, **Zhang T\***. [Harnessing diverse tRNAs and AI-guided mining for compact and efficient plant multiplex genome editing](https://doi.org/10.1016/j.tibtech.2026.02.016). *Trends in Biotechnology* 2026, 44(8):2446&ndash;2471. DOI: https://doi.org/10.1016/j.tibtech.2026.02.016.
 
 4. Wang CY&dagger;, Wu YC&dagger;, Wang SX&dagger;, Liu H, Jiang SQ, Han YJ, Wu LJ\*, **Zhang T\***, Zhang M\*. [Maize Anther Development Involves Translated Open Reading Frames From 3&prime; Untranslated Regions](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202523401). *Advanced Science* 2026:e23401.
 
