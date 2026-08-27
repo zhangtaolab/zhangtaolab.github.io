@@ -2,9 +2,9 @@
 schema_version: 1
 open_count: 1
 waived_count: 0
-fixed_count: 0
-total_count: 1
-last_updated: 2026-08-19T01:29:02.600Z
+fixed_count: 1
+total_count: 2
+last_updated: 2026-08-27T03:14:13.711Z
 ---
 
 # Broken Windows Ledger
@@ -16,6 +16,7 @@ last_updated: 2026-08-19T01:29:02.600Z
 | id | phase | kind | file | line | description | status | reason | recorded_at | resolved_at |
 |----|-------|------|------|------|-------------|--------|--------|-------------|-------------|
 | 1 | 02 | deviation | _includes/head.html | 44 | D-12 计划语法 allow_false: true 在 liquid-4.0.4 下构建失败（Liquid 5.4+ 参数），已改用显式 {% if site.dark_mode == false %} 等价实现并双侧构建验证；计划 must_haves 的 allow_false 字面检查因此有意不满足 | open |  | 2026-08-19T01:29:02.600Z |  |
+| 2 | quick-260827-f7z | deviation | _pages/publications.md | 16 | Plan assumed publications page renders from papers/ref.bib via jekyll-scholar; page is hand-curated markdown — citation lines for bao2026oryza/he2026trna synced there in same commit 8df20a2f (resolved) | fixed |  | 2026-08-27T03:13:50.076Z | 2026-08-27T03:14:13.711Z |
 
 ````json
 [
@@ -30,6 +31,18 @@ last_updated: 2026-08-19T01:29:02.600Z
     "reason": "",
     "recorded_at": "2026-08-19T01:29:02.600Z",
     "resolved_at": null
+  },
+  {
+    "id": 2,
+    "kind": "deviation",
+    "phase": "quick-260827-f7z",
+    "file": "_pages/publications.md",
+    "line": 16,
+    "description": "Plan assumed publications page renders from papers/ref.bib via jekyll-scholar; page is hand-curated markdown — citation lines for bao2026oryza/he2026trna synced there in same commit 8df20a2f (resolved)",
+    "status": "fixed",
+    "reason": "",
+    "recorded_at": "2026-08-27T03:13:50.076Z",
+    "resolved_at": "2026-08-27T03:14:13.711Z"
   }
 ]
 ````
