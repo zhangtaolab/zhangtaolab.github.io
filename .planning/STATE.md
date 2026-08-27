@@ -4,9 +4,9 @@ milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed quick task 260827-jvt（BIB-02 移除 bao2026oryza + he2026trna DOI 占位后缀，commit 772d23c5 本地未推送）
-last_updated: "2026-08-27T06:30:21Z"
-state_head: 4bd8f987191ff0fb8c29b7e01a2fb19666d2b226
+stopped_at: Completed quick task 260827-lwq（SW-DEL-01 删除 _pages/software.md 的 MambaForSequenceClassification 软件卡片，纯删除 13 行，commit 335eb74c 本地未推送）
+last_updated: "2026-08-27T07:52:50Z"
+state_head: 335eb74c3a47d21b2bfecd54f221686fd69cec0e
 progress:
   total_phases: 3
   completed_phases: 2
@@ -90,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-27T06:30:21Z
-**Stopped at:** Completed quick task 260827-jvt（BIB-02：移除 bao2026oryza + he2026trna 双表面 DOI 占位后缀，commit 772d23c5 本地未推送）
+**Last session:** 2026-08-27T07:52:50Z
+**Stopped at:** Completed quick task 260827-lwq（SW-DEL-01：删除 Software 页 MambaForSequenceClassification 卡片——单 Edit 纯删除 13 行，7 张兄弟卡 + 共享 style 块不动；live 页/validator/ci-smoke/再生成工件（index.html + search.json）全绿；commit 335eb74c 本地未推送，DEPLOY_ENABLED 生效期推送时机归用户）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -134,3 +134,4 @@ milestone_name: milestone
 | 260819-kvb | Fix WR-01: site og:image — use existing logo.png | 2026-08-19 | 2e20772 | [260819-kvb-fix-wr-01-site-og-image-use-existing-log](./quick/260819-kvb-fix-wr-01-site-og-image-use-existing-log/) |
 | 260827-f7z | BIB-01: volume/issue info for bao2026oryza (17:6877) + he2026trna (44(8):2446–2471) — ref.bib + publications.md (page is hand-curated markdown, plan assumption corrected) | 2026-08-27 | 8df20a2f | [260827-f7z-update-volume-issue-info-for-two-publish](./quick/260827-f7z-update-volume-issue-info-for-two-publish/) |
 | 260827-jvt | BIB-02: remove DOI placeholders from bao2026oryza + he2026trna — publications.md trailing suffixes + ref.bib doi fields (title hrefs retained, ci-smoke ② green; liao2026glycosylase/zheng2025larch placeholders kept, volume pending) | 2026-08-27 | 772d23c5 | [260827-jvt-remove-doi-placeholders-from-two-entries](./quick/260827-jvt-remove-doi-placeholders-from-two-entries/) |
+| 260827-lwq | SW-DEL-01: remove MambaForSequenceClassification card from _pages/software.md — pure 13-line deletion (blank + 12-line section-card block); 7 sibling cards + shared style block untouched; live page/index.html/search.json all drop the title; validate.sh + ci-smoke green | 2026-08-27 | 335eb74c | [260827-lwq-delete-mambaforsequenceclassification-so](./quick/260827-lwq-delete-mambaforsequenceclassification-so/) |
