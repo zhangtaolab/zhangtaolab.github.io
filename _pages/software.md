@@ -69,19 +69,6 @@ permalink: /software/
 </div>
 </div>
 
-<div class="section-card" markdown="0">
-<div class="software-card">
-<div class="software-body">
-<h4>MambaForSequenceClassification</h4>
-<div class="pub-actions" style="margin-bottom: var(--space-3);">
-<a href="https://github.com/zhangtaolab/MambaForSequenceClassification" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-</div>
-<p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">HuggingFace integration for Mamba state-space models applied to DNA sequence classification. Enables efficient training for genomic sequences.</p>
-</div>
-<div class="software-thumb-placeholder">Screenshot</div>
-</div>
-</div>
-
 <h2 class="section-heading"><i class="fa-solid fa-scissors" style="color: var(--accent);"></i> Genome Editing</h2>
 
 <div class="section-card" markdown="0">
