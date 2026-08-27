@@ -47,7 +47,7 @@ permalink: /software/
 <h4>PDLLMs — Plant DNA Large Language Models</h4>
 <div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://github.com/zhangtaolab/Plant_DNA_LLMs" class="btn-pill btn-git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-<a href="https://www.cell.com/molecular-plant/fulltext/S1674-2052(24)00390-3" class="btn-pill btn-paper" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
+<a href="https://doi.org/10.1016/j.molp.2024.12.006" class="btn-pill btn-paper" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>
 </div>
 <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">A group of tailored DNA large language models for analyzing plant genomes. Published in <em>Molecular Plant</em> 2025.</p>
 <p class="pub-authors" style="font-size: 0.9rem;"><strong>Citation:</strong> Liu GQ, Chen L, Wu YC, Han YS, Bao Y, Zhang T. PDLLMs: A group of tailored DNA large language models for analyzing plant genomes. <em>Mol Plant</em>. 2025;18(2):175-178.</p>
