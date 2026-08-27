@@ -4,9 +4,9 @@ milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed quick task 260827-u7s（SW-FIX-01 修正 software.md PDLLMs 卡片 Paper 链接：错误 PMID 39733335 → Molecular Plant 全文链接，1 行 1 文件，commit a6d140fb 本地未推送）
-last_updated: "2026-08-27T13:52:27.424Z"
-state_head: a6d140fb5cb3d0383befe83a285b1abe128bb3b0
+stopped_at: Completed quick task 260827-uf8（SW-FIX-02 切换 software.md PDLLMs 卡片 Paper 链接：cell.com 全文链接 → DOI 10.1016/j.molp.2024.12.006，1 行 1 文件，commit c052f229 本地未推送）
+last_updated: "2026-08-27T14:01:41.300Z"
+state_head: c052f229a694a3b06e0eda24f739bd1ddebc6809
 progress:
   total_phases: 3
   completed_phases: 2
@@ -90,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-27T13:52:27.265Z
-**Stopped at:** Completed quick task 260827-u7s（SW-FIX-01 修正 software.md PDLLMs 卡片 Paper 链接：错误 PMID 39733335 → Molecular Plant 全文链接，1 行 1 文件，commit a6d140fb 本地未推送）
+**Last session:** 2026-08-27T14:01:41.300Z
+**Stopped at:** Completed quick task 260827-uf8（SW-FIX-02 切换 software.md PDLLMs 卡片 Paper 链接：cell.com 全文链接 → DOI 10.1016/j.molp.2024.12.006，1 行 1 文件，commit c052f229 本地未推送）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -136,3 +136,4 @@ milestone_name: milestone
 | 260827-jvt | BIB-02: remove DOI placeholders from bao2026oryza + he2026trna — publications.md trailing suffixes + ref.bib doi fields (title hrefs retained, ci-smoke ② green; liao2026glycosylase/zheng2025larch placeholders kept, volume pending) | 2026-08-27 | 772d23c5 | [260827-jvt-remove-doi-placeholders-from-two-entries](./quick/260827-jvt-remove-doi-placeholders-from-two-entries/) |
 | 260827-lwq | SW-DEL-01: remove MambaForSequenceClassification card from _pages/software.md — pure 13-line deletion (blank + 12-line section-card block); 7 sibling cards + shared style block untouched; live page/index.html/search.json all drop the title; validate.sh + ci-smoke green | 2026-08-27 | 335eb74c | [260827-lwq-delete-mambaforsequenceclassification-so](./quick/260827-lwq-delete-mambaforsequenceclassification-so/) |
 | 260827-u7s | SW-FIX-01: fix wrong Paper link on PDLLMs card in _pages/software.md — line 50 href swapped from pubmed PMID 39733335 (unrelated paper) to Molecular Plant fulltext S1674-2052(24)00390-3 (byte-identical to publications.md entry #6, parentheses unencoded); CrisprStitch/Chorus2 links untouched; numstat 1/1 one file; live page + index.html flip old-PMID 1→0, search.json stays 0; validate.sh + ci-smoke green | 2026-08-27 | a6d140fb | [260827-u7s-fix-wrong-paper-link-on-pdllms-card-in-p](./quick/260827-u7s-fix-wrong-paper-link-on-pdllms-card-in-p/) |
+| 260827-uf8 | SW-FIX-02: switch PDLLMs card Paper link to DOI in _pages/software.md — line 50 href swapped from cell.com fulltext S1674-2052(24)00390-3 (u7s 遗留) to canonical DOI https://doi.org/10.1016/j.molp.2024.12.006（验证自 PMID 39659015 / Crossref，即卡片所示引用）；CrisprStitch/Chorus2 链接与 publications.md entry #6（保留 cell.com 标题链接）未动；numstat 1/1 一文件；live page + index.html 同步翻转 cell.com 1→0 / DOI 0→1，search.json 保持 0；validate.sh + ci-smoke 绿 | 2026-08-27 | c052f229 | [260827-uf8-switch-pdllms-paper-link-on-software-pag](./quick/260827-uf8-switch-pdllms-paper-link-on-software-pag/) |
