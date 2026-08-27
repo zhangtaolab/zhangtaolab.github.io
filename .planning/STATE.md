@@ -4,8 +4,8 @@ milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed quick task 260827-f7z（BIB-01 双论文卷期号，commit 8df20a2f 本地未推送）
-last_updated: "2026-08-27T03:16:00Z"
+stopped_at: Completed quick task 260827-jvt（BIB-02 移除 bao2026oryza + he2026trna DOI 占位后缀，commit 772d23c5 本地未推送）
+last_updated: "2026-08-27T06:30:21Z"
 state_head: 4bd8f987191ff0fb8c29b7e01a2fb19666d2b226
 progress:
   total_phases: 3
@@ -90,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-27T03:05:35Z
-**Stopped at:** Completed quick task 260827-f7z（BIB-01 双论文卷期号：ref.bib + publications.md 同步，commit 8df20a2f 本地未推送）
+**Last session:** 2026-08-27T06:30:21Z
+**Stopped at:** Completed quick task 260827-jvt（BIB-02：移除 bao2026oryza + he2026trna 双表面 DOI 占位后缀，commit 772d23c5 本地未推送）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -133,3 +133,4 @@ milestone_name: milestone
 |---|-------------|------|--------|-----------|
 | 260819-kvb | Fix WR-01: site og:image — use existing logo.png | 2026-08-19 | 2e20772 | [260819-kvb-fix-wr-01-site-og-image-use-existing-log](./quick/260819-kvb-fix-wr-01-site-og-image-use-existing-log/) |
 | 260827-f7z | BIB-01: volume/issue info for bao2026oryza (17:6877) + he2026trna (44(8):2446–2471) — ref.bib + publications.md (page is hand-curated markdown, plan assumption corrected) | 2026-08-27 | 8df20a2f | [260827-f7z-update-volume-issue-info-for-two-publish](./quick/260827-f7z-update-volume-issue-info-for-two-publish/) |
+| 260827-jvt | BIB-02: remove DOI placeholders from bao2026oryza + he2026trna — publications.md trailing suffixes + ref.bib doi fields (title hrefs retained, ci-smoke ② green; liao2026glycosylase/zheng2025larch placeholders kept, volume pending) | 2026-08-27 | 772d23c5 | [260827-jvt-remove-doi-placeholders-from-two-entries](./quick/260827-jvt-remove-doi-placeholders-from-two-entries/) |
