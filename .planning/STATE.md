@@ -4,9 +4,9 @@ milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed quick task 260827-lwq（SW-DEL-01 删除 _pages/software.md 的 MambaForSequenceClassification 软件卡片，纯删除 13 行，commit 335eb74c 本地未推送）
-last_updated: "2026-08-27T07:52:50Z"
-state_head: 335eb74c3a47d21b2bfecd54f221686fd69cec0e
+stopped_at: Completed quick task 260827-u7s（SW-FIX-01 修正 software.md PDLLMs 卡片 Paper 链接：错误 PMID 39733335 → Molecular Plant 全文链接，1 行 1 文件，commit a6d140fb 本地未推送）
+last_updated: "2026-08-27T13:52:27.424Z"
+state_head: a6d140fb5cb3d0383befe83a285b1abe128bb3b0
 progress:
   total_phases: 3
   completed_phases: 2
@@ -90,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-08-27T07:52:50Z
-**Stopped at:** Completed quick task 260827-lwq（SW-DEL-01：删除 Software 页 MambaForSequenceClassification 卡片——单 Edit 纯删除 13 行，7 张兄弟卡 + 共享 style 块不动；live 页/validator/ci-smoke/再生成工件（index.html + search.json）全绿；commit 335eb74c 本地未推送，DEPLOY_ENABLED 生效期推送时机归用户）
+**Last session:** 2026-08-27T13:52:27.265Z
+**Stopped at:** Completed quick task 260827-u7s（SW-FIX-01 修正 software.md PDLLMs 卡片 Paper 链接：错误 PMID 39733335 → Molecular Plant 全文链接，1 行 1 文件，commit a6d140fb 本地未推送）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -135,3 +135,4 @@ milestone_name: milestone
 | 260827-f7z | BIB-01: volume/issue info for bao2026oryza (17:6877) + he2026trna (44(8):2446–2471) — ref.bib + publications.md (page is hand-curated markdown, plan assumption corrected) | 2026-08-27 | 8df20a2f | [260827-f7z-update-volume-issue-info-for-two-publish](./quick/260827-f7z-update-volume-issue-info-for-two-publish/) |
 | 260827-jvt | BIB-02: remove DOI placeholders from bao2026oryza + he2026trna — publications.md trailing suffixes + ref.bib doi fields (title hrefs retained, ci-smoke ② green; liao2026glycosylase/zheng2025larch placeholders kept, volume pending) | 2026-08-27 | 772d23c5 | [260827-jvt-remove-doi-placeholders-from-two-entries](./quick/260827-jvt-remove-doi-placeholders-from-two-entries/) |
 | 260827-lwq | SW-DEL-01: remove MambaForSequenceClassification card from _pages/software.md — pure 13-line deletion (blank + 12-line section-card block); 7 sibling cards + shared style block untouched; live page/index.html/search.json all drop the title; validate.sh + ci-smoke green | 2026-08-27 | 335eb74c | [260827-lwq-delete-mambaforsequenceclassification-so](./quick/260827-lwq-delete-mambaforsequenceclassification-so/) |
+| 260827-u7s | SW-FIX-01: fix wrong Paper link on PDLLMs card in _pages/software.md — line 50 href swapped from pubmed PMID 39733335 (unrelated paper) to Molecular Plant fulltext S1674-2052(24)00390-3 (byte-identical to publications.md entry #6, parentheses unencoded); CrisprStitch/Chorus2 links untouched; numstat 1/1 one file; live page + index.html flip old-PMID 1→0, search.json stays 0; validate.sh + ci-smoke green | 2026-08-27 | a6d140fb | [260827-u7s-fix-wrong-paper-link-on-pdllms-card-in-p](./quick/260827-u7s-fix-wrong-paper-link-on-pdllms-card-in-p/) |
