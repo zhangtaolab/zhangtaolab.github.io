@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-08-28T01:01:19.756Z",
+  "phase": 3,
+  "phase_name": "内容验证 (content-validation)",
+  "phase_dir": ".planning/phases/03-content-validation",
+  "plan": null,
+  "task": null,
+  "total_tasks": 0,
+  "status": "paused",
+  "completed_tasks": [
+    {"id": 1, "name": "quick-260827-f7z: volume/issue for bao2026oryza (17:6877) + he2026trna (44(8):2446--2471)", "status": "done", "commit": "8df20a2f"},
+    {"id": 2, "name": "quick-260827-jvt: remove DOI placeholders from the same two entries", "status": "done", "commit": "772d23c5"},
+    {"id": 3, "name": "quick-260827-k74: Science Bulletin liao2026glycosylase 71(12):3032--3045 + doi drop", "status": "done", "commit": "7924338d"},
+    {"id": 4, "name": "quick-260827-lwq: delete MambaForSequenceClassification software card", "status": "done", "commit": "335eb74c"},
+    {"id": 5, "name": "quick-260827-u7s: fix PDLLMs Paper link (wrong PMID 39733335 -> cell.com)", "status": "done", "commit": "a6d140fb"},
+    {"id": 6, "name": "quick-260827-uf8: switch PDLLMs Paper link to DOI 10.1016/j.molp.2024.12.006", "status": "done", "commit": "c052f229"}
+  ],
+  "remaining_tasks": [
+    {"id": 7, "name": "zheng2025larch (Horticultural Plant Journal): add volume/issue + drop DOI placeholder once published", "status": "not_started"},
+    {"id": 8, "name": "Phase 3 verify-work human UAT confirmation", "status": "not_started"}
+  ],
+  "blockers": [],
+  "async_jobs": [],
+  "human_actions_pending": [
+    {"action": "Confirm Phase 3 UAT items (see .planning/phases/03-content-validation/03-UAT.md)", "context": "Phase 3 plans are 3/3 complete; verification awaits human confirmation", "blocking": false}
+  ],
+  "decisions": [
+    {"decision": "publications page (_pages/publications.md) is hand-curated Markdown, NOT rendered from papers/ref.bib via jekyll-scholar", "rationale": "Proven by cold-cache rebuild in quick-260827-f7z; only empty @incollection bibliography tags exist (talks page). Content edits must always touch BOTH ref.bib and publications.md", "phase": 3},
+    {"decision": "Trailing 'DOI: https://...' suffix on publication lines is a placeholder used only while volume/issue is pending; dropped once volume info lands; title doi.org hyperlinks are kept", "rationale": "Matches existing page convention (Advanced Science / Plant Physiology entries have no suffix)", "phase": 3},
+    {"decision": "Bib article numbers go in the pages field (e.g. volume={17}, pages={6877}); complete entries carry no doi field", "rationale": "File convention of ref.bib (cf. yang2025rice, liu2025pdllms)", "phase": 3},
+    {"decision": "Software page Paper buttons use DOI links (https://doi.org/...)", "rationale": "User preference expressed 2026-08-27; PubMed links for CrisprStitch/Chorus2 left as-is (verified correct)", "phase": 3},
+    {"decision": "Commits carry no co-author trailers", "rationale": "User instruction on push (2026-08-27); existing GSD commits already clean", "phase": 3}
+  ],
+  "uncommitted_files": [],
+  "next_action": "Nothing in-flight. Either (a) wait for zheng2025larch volume info then run /gsd-quick to add it (mirror quick-260827-k74), or (b) resume Phase 3 verification via /gsd-verify-work for the pending human UAT confirmation.",
+  "context_notes": "Six quick tasks completed 2026-08-27, all pushed (1f16da02..7e1aef2b), Pages deploy run 33081133419 success, production verified via curl (three volume strings live on /publications/, Mamba card gone, PDLLMs DOI link live on /software/). The local 'bundle exec jekyll serve --livereload' background process stopped at session teardown (port 4000 verified free); restart with 'bundle exec jekyll serve --livereload' if a preview is needed. ci-smoke.sh DOI anchor greps s41467-026-73769-8 on /publications/; that substring survives via the bao2026oryza title href."
+}
