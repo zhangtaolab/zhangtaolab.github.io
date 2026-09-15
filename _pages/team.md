@@ -80,7 +80,7 @@ p, li, h1, h2, h3, h4 { max-width: none !important; }
 <i class="fa-solid fa-plus" style="font-size: 2.5rem;"></i>
 </div>
 <h4 class="team-name">Join Us!</h4>
-<p class="team-info">We are recruiting postdocs and students. <a href="{{ site.url }}{{ site.baseurl }}/contact/">Contact us!</a></p>
+<p class="team-info">We are recruiting postdocs and students. <a href="{{ site.url }}{{ site.baseurl }}/about/">Contact us!</a></p>
 </div>
 </div>
 {% endif %}
