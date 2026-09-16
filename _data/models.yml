@@ -10,7 +10,7 @@
 #   tasks       (optional)  list, rendered as one comma-joined line
 #   links       (optional)  map, keys github/huggingface/modelscope/docs/demo/paper — one button per present key, fixed display order
 #   note        (optional)  trailing italic line
-#   image       (optional)  absolute site path to the card thumbnail, rendered through the relative_url filter
+#   image       (optional)  absolute site path to the full-width card banner, rendered through the relative_url filter
 #   image_alt   (optional)  accessibility alt text for the thumbnail
 # =============================================================
 - name: "PlantHelixSeek"
@@ -36,8 +36,8 @@
     huggingface: "https://huggingface.co/zhangtaolab"
     modelscope: "https://modelscope.cn/organization/zhangtaolab"
   note: "Manuscript in preparation."
-  image: "/images/models/plantelixseek-architecture.png"
-  image_alt: "PlantHelixSeek architecture: single-nucleotide tokenizer, interleaved attention/MLA/Delta layers, sparse MoE"
+  image: "/images/models/plantelixseek-banner.png"
+  image_alt: "PlantHelixSeek: pretraining corpus, model architecture and AUROC benchmark"
 
 - name: "PDLLMs — Plant DNA Large Language Models"
   tag: "Model Suite"
@@ -47,5 +47,5 @@
     docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
-  image: "/images/models/pdllms-architecture.png"
-  image_alt: "Core promoter and terminator architecture analyzed by PDLLMs"
+  image: "/images/models/pdllms-banner.png"
+  image_alt: "PDLLMs: promoter architecture, model comparison and tokenizer"

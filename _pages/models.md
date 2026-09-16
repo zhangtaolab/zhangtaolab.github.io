@@ -9,17 +9,12 @@ permalink: /models/
 <p>We develop DNA language models for plant genomes — from large-scale foundation models to tailored model suites. This page collects the lab's model zoo. All model weights are openly available on <a href="https://huggingface.co/zhangtaolab" target="_blank">Hugging Face</a> and <a href="https://modelscope.cn/organization/zhangtaolab" target="_blank">ModelScope</a>.</p>
 
 <style>
-    .software-card { display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 0; }
-    .software-body { flex: 1; min-width: 0; }
-    .software-body h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
-    .software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f8f8f6; padding: 8px; }
-    .software-thumb img { width: 100%; height: auto; display: block; }
-    .software-thumb-placeholder { width: 260px; min-width: 260px; border-radius: 10px; border: 2px dashed var(--border); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.8rem; background: #f8f8f6; }
     .section-card { padding: 1.25rem !important; }
+    .model-banner { width: 100%; height: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); margin-bottom: var(--space-3); }
+    .model-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .section-card h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
     @media (max-width: 767px) {
-      .software-card { flex-direction: column-reverse; align-items: flex-start; }
-      .software-thumb { width: 100%; max-width: 300px; min-width: 0; height: auto; margin: 0 auto var(--space-3); }
-      .software-thumb-placeholder { width: 100%; min-width: 0; height: 200px; }
+      .model-banner { height: 190px; }
     }
     p, li, .pub-authors { max-width: none !important; }
 </style>
@@ -29,8 +24,7 @@ permalink: /models/
 {% if model.featured %}
 <div style="background: var(--accent); color: white; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 4px 12px; display: inline-block; border-radius: 0 0 8px 0;">Featured</div>
 {% endif %}
-<div class="software-card"{% if model.featured %} style="margin-top: var(--space-3);"{% endif %}>
-<div class="software-body">
+{% if model.image %}<div class="model-banner"{% if model.featured %} style="margin-top: var(--space-3);"{% endif %}><img src="{{ model.image | relative_url }}" alt="{{ model.image_alt }}" loading="lazy"></div>{% endif %}
 <h4>{{ model.name }}</h4>
 <div style="color: var(--accent); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: var(--space-2);">{{ model.tag }}</div>
 <div class="pub-actions" style="margin-bottom: var(--space-3);">
@@ -65,9 +59,6 @@ permalink: /models/
 {% if model.note %}
 <p class="pub-authors" style="font-size: 0.9rem;"><em>{{ model.note }}</em></p>
 {% endif %}
-</div>
-{% if model.image %}<div class="software-thumb"><img src="{{ model.image | relative_url }}" alt="{{ model.image_alt }}" loading="lazy"></div>{% else %}<div class="software-thumb-placeholder">Model</div>{% endif %}
-</div>
 </div>
 {% endfor %}
 
