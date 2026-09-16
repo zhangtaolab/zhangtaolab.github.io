@@ -36,8 +36,8 @@
     huggingface: "https://huggingface.co/zhangtaolab"
     modelscope: "https://modelscope.cn/organization/zhangtaolab"
   note: "Manuscript in preparation."
-  image: "/images/models/plantelixseek-fig1.png"
-  image_alt: "PlantHelixSeek overview: pretraining corpus, HelixSeek architecture and benchmarks"
+  image: "/images/models/plantelixseek-architecture.png"
+  image_alt: "PlantHelixSeek architecture: single-nucleotide tokenizer, interleaved attention/MLA/Delta layers, sparse MoE"
 
 - name: "PDLLMs — Plant DNA Large Language Models"
   tag: "Model Suite"
@@ -47,5 +47,5 @@
     docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
-  image: "/images/models/pdllms-fig1.png"
-  image_alt: "PDLLMs overview: promoter and terminator architecture, model comparison and pretraining corpus"
+  image: "/images/models/pdllms-architecture.png"
+  image_alt: "PDLLMs architecture comparison with other DNA language models"

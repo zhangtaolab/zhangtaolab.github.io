@@ -12,12 +12,12 @@ permalink: /models/
     .software-card { display: flex; gap: 1.25rem; align-items: stretch; margin-bottom: 0; }
     .software-body { flex: 1; min-width: 0; }
     .software-body h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
-    .software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f8f8f6; }
-    .software-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .software-thumb { width: 260px; min-width: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f8f8f6; padding: 8px; }
+    .software-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
     .software-thumb-placeholder { width: 260px; min-width: 260px; border-radius: 10px; border: 2px dashed var(--border); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.8rem; background: #f8f8f6; }
     .section-card { padding: 1.25rem !important; }
     @media (max-width: 767px) {
-      .software-card { flex-direction: column; align-items: flex-start; }
+      .software-card { flex-direction: column-reverse; align-items: flex-start; }
       .software-thumb, .software-thumb-placeholder { width: 100%; min-width: 0; height: 200px; }
     }
     p, li, .pub-authors { max-width: none !important; }
