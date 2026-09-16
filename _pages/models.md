@@ -10,10 +10,16 @@ permalink: /models/
 
 <style>
     .section-card { padding: 1.25rem !important; }
-    .model-banner { width: 100%; height: auto; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); margin-bottom: var(--space-3); }
-    .model-banner img { width: 100%; height: auto; display: block; }
+    .model-row { display: flex; gap: 22px; align-items: flex-start; margin-top: var(--space-3); }
+    .model-banner { flex: 0 0 56%; max-width: 56%; }
+    .model-banner img { width: 100%; height: auto; display: block; border: 1px solid var(--border); border-radius: 10px; }
+    .model-body { flex: 1; min-width: 0; }
     .section-card h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
     p, li, .pub-authors { max-width: none !important; }
+    @media (max-width: 767px) {
+        .model-row { flex-direction: column; gap: var(--space-3); }
+        .model-banner { flex: none; max-width: 100%; width: 100%; }
+    }
 </style>
 
 {% for model in site.data.models %}
@@ -21,7 +27,9 @@ permalink: /models/
 {% if model.featured %}
 <div style="background: var(--accent); color: white; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 4px 12px; display: inline-block; border-radius: 0 0 8px 0;">Featured</div>
 {% endif %}
-{% if model.image %}<div class="model-banner"{% if model.featured %} style="margin-top: var(--space-3);"{% endif %}><img src="{{ model.image | relative_url }}" alt="{{ model.image_alt }}" loading="lazy"></div>{% endif %}
+<div class="model-row">
+{% if model.image %}<div class="model-banner"><img src="{{ model.image | relative_url }}" alt="{{ model.image_alt }}" loading="lazy"></div>{% endif %}
+<div class="model-body">
 <h4>{{ model.name }}</h4>
 <div style="color: var(--accent); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: var(--space-2);">{{ model.tag }}</div>
 <div class="pub-actions" style="margin-bottom: var(--space-3);">
@@ -56,6 +64,8 @@ permalink: /models/
 {% if model.note %}
 <p class="pub-authors" style="font-size: 0.9rem;"><em>{{ model.note }}</em></p>
 {% endif %}
+</div>
+</div>
 </div>
 {% endfor %}
 
