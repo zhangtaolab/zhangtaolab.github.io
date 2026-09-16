@@ -1,12 +1,12 @@
 ---
-gsd_state_version: 1.0
+gsd_state_version: "1.0"
 milestone: v1.0
 current_phase: 3
 current_phase_name: 内容验证
 status: executing
-stopped_at: Completed quick task 260916-c21（MODELS-01 新增 /models/ 模型库页 + 导航条目：_data/models.yml 注册表 + _pages/models.md 复用 software 卡片解剖 + nav_pages 6→7；sitemap/搜索 10→11；3 文件 1 commit e8dfffa7 本地未推送）
-last_updated: "2026-09-16T00:57:17.000Z"
-state_head: e8dfffa7d3dd5975d1cfc5777f773cc391bcc8ef
+stopped_at: Completed quick task 260916-cs1（MODELS-02 /models/ 卡片缩略图：images/models/ 两论文图 byte-identical 入库 + models.yml image/image_alt schema + models.md 条件缩略图；validate/ci-smoke 绿 sitemap=11；4 文件 1 commit 7a79e5d6 本地未推送）
+last_updated: "2026-09-16T01:21:30.275Z"
+state_head: 7a79e5d64617547e6c5120abbe9d10f87499f531
 progress:
   total_phases: 3
   completed_phases: 2
@@ -90,8 +90,8 @@ milestone_name: milestone
 
 ## Session Continuity
 
-**Last session:** 2026-09-16T00:57:17.000Z
-**Stopped at:** Completed quick task 260916-c21（MODELS-01 /models/ 模型库页：PlantHelixSeek featured 卡（MoE·specs+8 tasks·github/huggingface/modelscope，无 paper 链接——投稿中）+ PDLLMs Model Suite 卡，More models 行 + dnallm pip-install callout；复用 software.md 卡片解剖与页内 style 块，零 SCSS 改动；nav_pages 6→7（models 居 software 与 team 之间，header/404 未动自动继承 8 锚点导航）；sitemap 10→11、search 10→11；Rule 1 偏差：Task 2 href 允许清单门按原文全页匹配误伤 head/footer 共享外链（fonts/CDN/Google Scholar）→ 收窄至内容区后零命中且与 software 页 chrome 一致；validate.sh + ci-smoke（PASS sitemap=11）绿；3 文件 1 commit e8dfffa7 本地未推送）
+**Last session:** 2026-09-16T01:21:30.072Z
+**Stopped at:** Completed quick task 260916-cs1（MODELS-02 /models/ 卡片缩略图：images/models/ 两论文图 byte-identical 入库 + models.yml image/image_alt schema + models.md 条件缩略图；validate/ci-smoke 绿 sitemap=11；4 文件 1 commit 7a79e5d6 本地未推送）
 **Resume file:** None
 
 **Last action:** Phase 2 验证/UAT 闭环结项 — Test 1 favicon 缺陷（G-02-1）修复随 push 36d23d5f 部署（run 32322876555 success）后线上字节级复核通过（favicon.ico = 旧站真图标 5430B、rel=icon → /images/logo.png、模板 favicon.svg 404）；Test 2 CR-01/CR-02 内容欠账用户裁定暂时接受（素材后补，见 02-UAT.md Deferred Follow-Ups）；Test 3 四条 prohibitions 人工背书成立；UAT 3/3 → verification 收编 passed → phase.complete 结项（6/6 plans）
@@ -139,3 +139,4 @@ milestone_name: milestone
 | 260827-uf8 | SW-FIX-02: switch PDLLMs card Paper link to DOI in _pages/software.md — line 50 href swapped from cell.com fulltext S1674-2052(24)00390-3 (u7s 遗留) to canonical DOI https://doi.org/10.1016/j.molp.2024.12.006（验证自 PMID 39659015 / Crossref，即卡片所示引用）；CrisprStitch/Chorus2 链接与 publications.md entry #6（保留 cell.com 标题链接）未动；numstat 1/1 一文件；live page + index.html 同步翻转 cell.com 1→0 / DOI 0→1，search.json 保持 0；validate.sh + ci-smoke 绿 | 2026-08-27 | c052f229 | [260827-uf8-switch-pdllms-paper-link-on-software-pag](./quick/260827-uf8-switch-pdllms-paper-link-on-software-pag/) |
 | 260915-k1b | NAV-01: 导航重排 About 收尾 + Contact 并页 — _config.yml nav_pages 7→6（research/publications/software/team/news/about，header.html/404.md 未动自动继承）；about.md 58→118 行并入 Contact 全节（Laboratory Address/Join the Lab/Links/地图，逐字复制保 G-1-3 column-0 模式，style 规则不重复）；contact.md 69→16 行重定向 stub（无 title/layout，meta refresh 0s + canonical → /about/，sitemap:false 出 sitemap、无 title 出搜索索引，sitemap 11→10、search 11→10）；team.md "Contact us!" 改指 /about/；Rule 1 修复：stub DOCTYPE 行被 kramdown 转义成可见文本 → 换成 robots noindex meta（16 行形状与全部断言保持）；validate.sh + ci-smoke（PASS sitemap=10）绿；4 文件 1 commit 本地未推送 | 2026-09-15 | 86021023 | [260915-k1b-nav-reorder-about-last-contact-removed-m](./quick/260915-k1b-nav-reorder-about-last-contact-removed-m/) |
 | 260916-c21 | MODELS-01: 新增 /models/ 模型库页 — _data/models.yml（NEW，2 条目注册表带 schema 注释：PlantHelixSeek featured·"Foundation Model · MoE"·specs 4 键·8 tasks·links 恰 github/huggingface/modelscope 无 paper（投稿中）；PDLLMs — Plant DNA Large Language Models·Model Suite·links 恰 github/docs/demo/paper）+ _pages/models.md（NEW，gridlay，G-1-3 column-0 + markdown="0"，复用 software.md 卡片解剖与页内 style 块逐字复制，6 条件按钮固定序 github/huggingface/modelscope/docs/demo/paper，hugging face 用 academicons ai ai-hugging-face；More models 行 Plant DNAGemma·DNAGPT·DNAMamba·CrossDNA 全链 DNALLM 文档；收尾 dnallm callout 含 pip install dnallm CTA）+ _config.yml nav_pages 6→7（models 居 software/team 间，header.html/404.md 未动自动继承）；sitemap 10→11、search 10→11、8 锚点导航含 Models；Rule 1 偏差：Task 2 href 允许清单门按原文全页匹配误伤 head/footer 共享外链 → 收窄至内容区后零命中（与 software 页 chrome 逐字一致，新增仅 3 条已验证 URL）；validate.sh + ci-smoke（PASS sitemap=11）绿；3 文件 1 commit 本地未推送 | 2026-09-16 | e8dfffa7 | [260916-c21-new-models-page-models-with-navbar-entry](./quick/260916-c21-new-models-page-models-with-navbar-entry/) |
+| 260916-cs1 | MODELS-02: /models/ 卡片缩略图 — 虚线 "Model" 占位框换为两论文 Fig 1 真图；images/models/（NEW，research/software/team 同级）入库 byte-identical 两 PNG（plantelixseek-fig1.png 306244B 800×647 · pdllms-fig1.png 66162B 660×990，cmp 对 /tmp/models_imgs/ 全过）；_data/models.yml 加可选 image/image_alt schema（header 注释文档化，两条目各 +2 键，双引号无内嵌引号保 alt 属性安全）；_pages/models.md L68 单行 column-0 条件渲染（image → .software-thumb img relative_url/alt/loading=lazy，else 分支与原占位 div byte-identical 保未来无图条目回退）；零 SCSS/零配置改动；线上 /models/ 恰 2 img + 2 lazy、元素形占位 0、两图 URL 200；validate.sh + ci-smoke（PASS sitemap=11 不变）绿；4 文件 1 commit 7a79e5d6 本地未推送 | 2026-09-16 | 7a79e5d6 | [260916-cs1-add-paper-figures-as-card-images-on-mode](./quick/260916-cs1-add-paper-figures-as-card-images-on-mode/) |
