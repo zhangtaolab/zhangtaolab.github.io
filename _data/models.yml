@@ -47,5 +47,5 @@
     docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
-  image: "/images/models/pdllms-banner-full.png"
-  image_alt: "PDLLMs: promoter and terminator architecture, model comparison and species phylogeny"
+  image: "/images/models/pdllms-figure1.png"
+  image_alt: "PDLLMs paper Figure 1: model overview"
