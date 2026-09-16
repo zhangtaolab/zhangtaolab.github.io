@@ -10,12 +10,9 @@ permalink: /models/
 
 <style>
     .section-card { padding: 1.25rem !important; }
-    .model-banner { width: 100%; height: 260px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); margin-bottom: var(--space-3); }
-    .model-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .model-banner { width: 100%; height: auto; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); margin-bottom: var(--space-3); }
+    .model-banner img { width: 100%; height: auto; display: block; }
     .section-card h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; }
-    @media (max-width: 767px) {
-      .model-banner { height: 190px; }
-    }
     p, li, .pub-authors { max-width: none !important; }
 </style>
 
