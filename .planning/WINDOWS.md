@@ -1,10 +1,10 @@
 ---
 schema_version: 1
-open_count: 2
+open_count: 3
 waived_count: 0
 fixed_count: 1
-total_count: 3
-last_updated: 2026-08-27T06:30:21.917Z
+total_count: 4
+last_updated: 2026-09-16T00:58:07.414Z
 ---
 
 # Broken Windows Ledger
@@ -18,6 +18,7 @@ last_updated: 2026-08-27T06:30:21.917Z
 | 1 | 02 | deviation | _includes/head.html | 44 | D-12 计划语法 allow_false: true 在 liquid-4.0.4 下构建失败（Liquid 5.4+ 参数），已改用显式 {% if site.dark_mode == false %} 等价实现并双侧构建验证；计划 must_haves 的 allow_false 字面检查因此有意不满足 | open |  | 2026-08-19T01:29:02.600Z |  |
 | 2 | quick-260827-f7z | deviation | _pages/publications.md | 16 | Plan assumed publications page renders from papers/ref.bib via jekyll-scholar; page is hand-curated markdown — citation lines for bao2026oryza/he2026trna synced there in same commit 8df20a2f (resolved) | fixed |  | 2026-08-27T03:13:50.076Z | 2026-08-27T03:14:13.711Z |
 | 3 | quick-260827-jvt | deviation | .planning/quick/260827-jvt-remove-doi-placeholders-from-two-entries/260827-jvt-PLAN.md |  | Task 1 verify one-liner added-line pattern ^+[^-] also matched the +++ diff header (counted 3 vs 2); corrected to ^+[^+] during execution, battery green | open |  | 2026-08-27T06:30:21.917Z |  |
+| 4 | quick-260916-c21 | stub | _pages/models.md | 68 | 2 software-thumb-placeholder divs labelled Model (plan-mandated, matches software page placeholder anatomy; screenshots are future content) | open |  | 2026-09-16T00:58:07.414Z |  |
 
 ````json
 [
@@ -55,6 +56,18 @@ last_updated: 2026-08-27T06:30:21.917Z
     "status": "open",
     "reason": "",
     "recorded_at": "2026-08-27T06:30:21.917Z",
+    "resolved_at": null
+  },
+  {
+    "id": 4,
+    "kind": "stub",
+    "phase": "quick-260916-c21",
+    "file": "_pages/models.md",
+    "line": 68,
+    "description": "2 software-thumb-placeholder divs labelled Model (plan-mandated, matches software page placeholder anatomy; screenshots are future content)",
+    "status": "open",
+    "reason": "",
+    "recorded_at": "2026-09-16T00:58:07.414Z",
     "resolved_at": null
   }
 ]
