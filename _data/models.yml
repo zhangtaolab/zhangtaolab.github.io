@@ -36,8 +36,8 @@
     huggingface: "https://huggingface.co/zhangtaolab"
     modelscope: "https://modelscope.cn/organization/zhangtaolab"
   note: "Manuscript in preparation."
-  image: "/images/models/plantelixseek-banner.png"
-  image_alt: "PlantHelixSeek: pretraining corpus, model architecture and AUROC benchmark"
+  image: "/images/models/plantelixseek-banner-full.png"
+  image_alt: "PlantHelixSeek: plant DNA assembly corpus, full model architecture and AUROC benchmark"
 
 - name: "PDLLMs — Plant DNA Large Language Models"
   tag: "Model Suite"
@@ -47,5 +47,5 @@
     docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
-  image: "/images/models/pdllms-banner.png"
-  image_alt: "PDLLMs: promoter architecture, model comparison and tokenizer"
+  image: "/images/models/pdllms-banner-full.png"
+  image_alt: "PDLLMs: promoter and terminator architecture, model comparison and species phylogeny"
