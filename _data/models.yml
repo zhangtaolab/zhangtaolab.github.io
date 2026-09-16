@@ -1,0 +1,45 @@
+# =============================================================
+# Model registry — drives the /models/ page (_pages/models.md).
+# Adding a model = appending an entry here; no template edits.
+# Schema (one line per field):
+#   name        (required)  card heading
+#   tag         (required)  type badge shown under the name
+#   featured    (optional)  boolean, true = accent border + Featured ribbon, render first
+#   description (required)  1-2 sentences
+#   specs       (optional)  map, rendered as small key:value lines
+#   tasks       (optional)  list, rendered as one comma-joined line
+#   links       (optional)  map, keys github/huggingface/modelscope/docs/demo/paper — one button per present key, fixed display order
+#   note        (optional)  trailing italic line
+# =============================================================
+- name: "PlantHelixSeek"
+  tag: "Foundation Model · MoE"
+  featured: true
+  description: "A plant DNA foundation model pretrained with bidirectional masked language modeling at single-nucleotide resolution, combining interleaved attention, Delta linear-attention, and MLA layers with a sparse Mixture-of-Experts feed-forward network."
+  specs:
+    params: "470M total / ~240M active"
+    context: "8,192 bp"
+    tokenizer: "1 nucleotide = 1 token"
+    zoo: "1 base + 11 fine-tuned + 2 validation models"
+  tasks:
+    - "promoter & terminator strength"
+    - "lncRNA"
+    - "open chromatin"
+    - "conservation"
+    - "H3K27ac/H3K27me3/H3K4me3"
+    - "translation on/off"
+    - "gene structure (BILOU)"
+    - "cis-regulatory elements"
+  links:
+    github: "https://github.com/zhangtaolab/PlantHelixSeek"
+    huggingface: "https://huggingface.co/zhangtaolab"
+    modelscope: "https://modelscope.cn/organization/zhangtaolab"
+  note: "Manuscript in preparation."
+
+- name: "PDLLMs — Plant DNA Large Language Models"
+  tag: "Model Suite"
+  description: "A group of tailored DNA large language models for analyzing plant genomes (Molecular Plant 2025, 18(2):175–178) — a suite of pretrained and fine-tuned checkpoints for regulatory element prediction and downstream tasks."
+  links:
+    github: "https://github.com/zhangtaolab/Plant_DNA_LLMs"
+    docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
+    demo: "https://finetune.plantllm.org"
+    paper: "https://doi.org/10.1016/j.molp.2024.12.006"
