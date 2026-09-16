@@ -65,7 +65,7 @@ permalink: /models/
 <p class="pub-authors" style="font-size: 0.9rem;"><em>{{ model.note }}</em></p>
 {% endif %}
 </div>
-<div class="software-thumb-placeholder">Model</div>
+{% if model.image %}<div class="software-thumb"><img src="{{ model.image | relative_url }}" alt="{{ model.image_alt }}" loading="lazy"></div>{% else %}<div class="software-thumb-placeholder">Model</div>{% endif %}
 </div>
 </div>
 {% endfor %}

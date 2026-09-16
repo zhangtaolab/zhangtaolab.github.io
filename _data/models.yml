@@ -10,6 +10,8 @@
 #   tasks       (optional)  list, rendered as one comma-joined line
 #   links       (optional)  map, keys github/huggingface/modelscope/docs/demo/paper — one button per present key, fixed display order
 #   note        (optional)  trailing italic line
+#   image       (optional)  absolute site path to the card thumbnail, rendered through the relative_url filter
+#   image_alt   (optional)  accessibility alt text for the thumbnail
 # =============================================================
 - name: "PlantHelixSeek"
   tag: "Foundation Model · MoE"
@@ -34,6 +36,8 @@
     huggingface: "https://huggingface.co/zhangtaolab"
     modelscope: "https://modelscope.cn/organization/zhangtaolab"
   note: "Manuscript in preparation."
+  image: "/images/models/plantelixseek-fig1.png"
+  image_alt: "PlantHelixSeek overview: pretraining corpus, HelixSeek architecture and benchmarks"
 
 - name: "PDLLMs — Plant DNA Large Language Models"
   tag: "Model Suite"
@@ -43,3 +47,5 @@
     docs: "https://zhangtaolab.org/Plant_DNA_LLMs/"
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
+  image: "/images/models/pdllms-fig1.png"
+  image_alt: "PDLLMs overview: promoter and terminator architecture, model comparison and pretraining corpus"
