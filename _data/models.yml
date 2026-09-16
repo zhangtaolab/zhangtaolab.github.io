@@ -36,8 +36,8 @@
     huggingface: "https://huggingface.co/zhangtaolab"
     modelscope: "https://modelscope.cn/organization/zhangtaolab"
   note: "Manuscript in preparation."
-  image: "/images/models/plantelixseek-banner-full.png"
-  image_alt: "PlantHelixSeek: plant DNA assembly corpus, full model architecture and AUROC benchmark"
+  image: "/images/models/plantelixseek-figure1.png"
+  image_alt: "PlantHelixSeek paper Figure 1: pretraining corpus, model architecture and benchmarks"
 
 - name: "PDLLMs — Plant DNA Large Language Models"
   tag: "Model Suite"
