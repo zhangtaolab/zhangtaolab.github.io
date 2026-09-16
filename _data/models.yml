@@ -48,4 +48,4 @@
     demo: "https://finetune.plantllm.org"
     paper: "https://doi.org/10.1016/j.molp.2024.12.006"
   image: "/images/models/pdllms-architecture.png"
-  image_alt: "PDLLMs architecture comparison with other DNA language models"
+  image_alt: "Core promoter and terminator architecture analyzed by PDLLMs"
